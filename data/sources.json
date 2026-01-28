@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-01-28",
+    "total_sources": 104,
+    "categories": 4
+  },
+  "pain_point_discovery": {
+    "description": "Sources for discovering startup pain points and user problems",
+    "count": 28,
+    "sources": [
+      {
+        "name": "r/Entrepreneur",
+        "url": "https://reddit.com/r/Entrepreneur",
+        "type": "reddit",
+        "pain_types": ["business operations", "marketing", "scaling", "hiring"],
+        "search_queries": ["frustrating", "looking for tool", "I wish", "waste of time"],
+        "extraction_method": "Search pain keywords, filter by upvotes > 50"
+      },
+      {
+        "name": "r/SaaS",
+        "url": "https://reddit.com/r/SaaS",
+        "type": "reddit",
+        "pain_types": ["product development", "pricing", "churn", "feature requests"],
+        "search_queries": ["feature request", "missing from", "alternative to", "competitor"],
+        "extraction_method": "Mine feature request threads, competitor complaints"
+      },
+      {
+        "name": "r/startups",
+        "url": "https://reddit.com/r/startups",
+        "type": "reddit",
+        "pain_types": ["fundraising", "team building", "product-market fit", "technical challenges"],
+        "search_queries": ["struggle with", "advice needed", "how do you handle"],
+        "extraction_method": "Look for recurring problems across multiple posts"
+      },
+      {
+        "name": "r/smallbusiness",
+        "url": "https://reddit.com/r/smallbusiness",
+        "type": "reddit",
+        "pain_types": ["operations", "accounting", "customer service", "local marketing"],
+        "search_queries": ["software for", "tool that", "automate", "spend hours"],
+        "extraction_method": "Focus on repetitive manual task complaints"
+      },
+      {
+        "name": "r/webdev",
+        "url": "https://reddit.com/r/webdev",
+        "type": "reddit",
+        "pain_types": ["developer tools", "workflow", "deployment", "testing"],
+        "search_queries": ["hate when", "better way to", "tool for", "wish there was"],
+        "extraction_method": "Mine tool frustrations and workflow gaps"
+      },
+      {
+        "name": "r/marketing",
+        "url": "https://reddit.com/r/marketing",
+        "type": "reddit",
+        "pain_types": ["analytics", "automation", "content creation", "social media"],
+        "search_queries": ["looking for", "alternative", "affordable", "better than"],
+        "extraction_method": "Track tool complaints and budget concerns"
+      },
+      {
+        "name": "r/freelance",
+        "url": "https://reddit.com/r/freelance",
+        "type": "reddit",
+        "pain_types": ["client management", "invoicing", "proposals", "contracts"],
+        "search_queries": ["how do you", "software for", "manage clients", "track time"],
+        "extraction_method": "Focus on workflow and client communication issues"
+      },
+      {
+        "name": "r/sideproject",
+        "url": "https://reddit.com/r/sideproject",
+        "type": "reddit",
+        "pain_types": ["building in public", "validation", "launch strategy", "first users"],
+        "search_queries": ["need feedback", "looking for", "built this"],
+        "extraction_method": "Identify gaps in existing side projects"
+      },
+      {
+        "name": "r/EntrepreneurRideAlong",
+        "url": "https://reddit.com/r/EntrepreneurRideAlong",
+        "type": "reddit",
+        "pain_types": ["execution", "validation", "monetization", "growth"],
+        "search_queries": ["stuck on", "need help with", "how did you"],
+        "extraction_method": "Learn from documented founder journeys"
+      },
+      {
+        "name": "r/microsaas",
+        "url": "https://reddit.com/r/microsaas",
+        "type": "reddit",
+        "pain_types": ["niche SaaS", "solo founder", "bootstrapping", "MRR growth"],
+        "search_queries": ["built", "revenue", "how I", "lessons learned"],
+        "extraction_method": "Study successful micro-SaaS patterns"
+      },
+      {
+        "name": "r/nocode",
+        "url": "https://reddit.com/r/nocode",
+        "type": "reddit",
+        "pain_types": ["no-code limitations", "tool selection", "integrations", "scaling"],
+        "search_queries": ["can I build", "best tool for", "limitation", "workaround"],
+        "extraction_method": "Identify no-code capability gaps"
+      },
+      {
+        "name": "r/indiehackers",
+        "url": "https://reddit.com/r/indiehackers",
+        "type": "reddit",
+        "pain_types": ["indie products", "marketing", "revenue", "solo building"],
+        "search_queries": ["launched", "MRR", "how I", "challenge"],
+        "extraction_method": "Learn from indie hacker experiences"
+      },
+      {
+        "name": "Indie Hackers Forum",
+        "url": "https://indiehackers.com",
+        "type": "forum",
+        "pain_types": ["product ideas", "validation", "marketing", "growth"],
+        "search_queries": ["looking for", "problem I have", "need a tool"],
+        "extraction_method": "Browse discussions and milestones posts"
+      },
+      {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com",
+        "type": "forum",
+        "pain_types": ["tech tools", "startup challenges", "engineering", "product"],
+        "search_queries": ["Show HN", "Ask HN", "wish there was", "alternative to"],
+        "extraction_method": "Search Ask HN threads for problems"
+      },
+      {
+        "name": "Quora - Entrepreneurship",
+        "url": "https://quora.com/topic/Entrepreneurship",
+        "type": "qa_platform",
+        "pain_types": ["business strategy", "startup advice", "tools", "processes"],
+        "search_queries": ["best tool for", "how do I", "software for"],
+        "extraction_method": "Find questions with many answers but no solution"
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com",
+        "type": "qa_platform",
+        "pain_types": ["developer tools", "APIs", "integrations", "debugging"],
+        "search_queries": ["is there a tool", "library for", "alternative to"],
+        "extraction_method": "Find bounty questions and recurring issues"
+      },
+      {
+        "name": "G2 Reviews",
+        "url": "https://g2.com",
+        "type": "review_platform",
+        "pain_types": ["software gaps", "feature requests", "UX issues", "pricing complaints"],
+        "search_queries": ["1 star", "2 star", "missing feature", "wish it had"],
+        "extraction_method": "Mine 1-3 star reviews for feature gaps"
+      },
+      {
+        "name": "Capterra Reviews",
+        "url": "https://capterra.com",
+        "type": "review_platform",
+        "pain_types": ["software comparisons", "SMB needs", "ease of use", "value"],
+        "search_queries": ["cons", "missing", "would be better if", "disappointed"],
+        "extraction_method": "Read negative reviews for competitor weaknesses"
+      },
+      {
+        "name": "TrustRadius",
+        "url": "https://trustradius.com",
+        "type": "review_platform",
+        "pain_types": ["enterprise software", "B2B tools", "integrations", "support"],
+        "search_queries": ["limitations", "cons", "missing", "needs improvement"],
+        "extraction_method": "Focus on enterprise pain points"
+      },
+      {
+        "name": "Product Hunt",
+        "url": "https://producthunt.com",
+        "type": "community",
+        "pain_types": ["new products", "feature requests", "alternatives", "trends"],
+        "search_queries": ["request", "need", "alternative", "vs"],
+        "extraction_method": "Read comments for feature requests"
+      },
+      {
+        "name": "Upwork Jobs",
+        "url": "https://upwork.com",
+        "type": "job_platform",
+        "pain_types": ["recurring tasks", "manual processes", "automation needs"],
+        "search_queries": ["need someone to", "weekly task", "ongoing", "automate"],
+        "extraction_method": "Find recurring job postings for automation opps"
+      },
+      {
+        "name": "Fiverr Gigs",
+        "url": "https://fiverr.com",
+        "type": "job_platform",
+        "pain_types": ["creative tasks", "data entry", "content", "design"],
+        "search_queries": ["most popular gigs", "trending services"],
+        "extraction_method": "Identify high-volume services to automate"
+      },
+      {
+        "name": "Twitter/X",
+        "url": "https://twitter.com",
+        "type": "social",
+        "pain_types": ["real-time complaints", "tool frustrations", "wish lists"],
+        "search_queries": ["I hate when", "why can't", "looking for", "anyone know"],
+        "extraction_method": "Search pain keywords in real-time"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "type": "social",
+        "pain_types": ["B2B problems", "professional tools", "workflow issues"],
+        "search_queries": ["struggling with", "looking for solution", "recommend a tool"],
+        "extraction_method": "Follow industry hashtags and groups"
+      },
+      {
+        "name": "YouTube Comments",
+        "url": "https://youtube.com",
+        "type": "social",
+        "pain_types": ["tutorial requests", "tool questions", "how-to gaps"],
+        "search_queries": ["how to", "tutorial", "best tool for"],
+        "extraction_method": "Mine comments on tutorial videos"
+      },
+      {
+        "name": "BigIdeasDB",
+        "url": "https://bigideasdb.com",
+        "type": "idea_database",
+        "pain_types": ["validated problems", "SaaS ideas", "market research"],
+        "search_queries": ["browse categories", "filter by pain point"],
+        "extraction_method": "Use pre-validated problem database"
+      },
+      {
+        "name": "StartupIdeasDB",
+        "url": "https://startupideasdb.com",
+        "type": "idea_database",
+        "pain_types": ["AI-scored ideas", "market validation", "revenue estimates"],
+        "search_queries": ["browse by category", "filter by score"],
+        "extraction_method": "Review AI-analyzed opportunities"
+      },
+      {
+        "name": "PainOnSocial",
+        "url": "https://painonsocial.com",
+        "type": "idea_database",
+        "pain_types": ["social pain points", "Reddit analytics", "trend tracking"],
+        "search_queries": ["trending pain points", "subreddit analysis"],
+        "extraction_method": "Use automated pain point extraction"
+      }
+    ]
+  },
+  "keyword_seo_research": {
+    "description": "Tools and resources for keyword research and SEO analysis",
+    "count": 26,
+    "sources": [
+      {
+        "name": "AnswerThePublic",
+        "url": "https://answerthepublic.com",
+        "type": "question_discovery",
+        "features": ["Question keywords", "Preposition queries", "Comparison keywords"],
+        "pricing": "$99/month or $9 per report",
+        "best_for": "Finding question-based keywords and content ideas",
+        "startup_use": "Discover what questions your audience is asking"
+      },
+      {
+        "name": "AlsoAsked",
+        "url": "https://alsoasked.com",
+        "type": "question_discovery",
+        "features": ["PAA chains", "Related questions", "Topic clusters"],
+        "pricing": "$12/month starter",
+        "best_for": "Mapping People Also Ask relationships",
+        "startup_use": "Build comprehensive FAQ and content strategy"
+      },
+      {
+        "name": "Semrush",
+        "url": "https://semrush.com",
+        "type": "full_seo_suite",
+        "features": ["Keyword research", "Competitor analysis", "Site audit", "Backlinks"],
+        "pricing": "$139/month Pro",
+        "best_for": "Comprehensive SEO and competitor research",
+        "startup_use": "Find competitor keyword gaps and opportunities"
+      },
+      {
+        "name": "Ahrefs",
+        "url": "https://ahrefs.com",
+        "type": "full_seo_suite",
+        "features": ["Keyword explorer", "Content gap", "Site explorer", "Rank tracker"],
+        "pricing": "$129/month Lite",
+        "best_for": "Backlink analysis and content research",
+        "startup_use": "Identify low-competition keywords"
+      },
+      {
+        "name": "Ubersuggest",
+        "url": "https://ubersuggest.com",
+        "type": "keyword_research",
+        "features": ["Keyword ideas", "Content ideas", "Competitor analysis"],
+        "pricing": "Free tier + $29/month paid",
+        "best_for": "Budget-friendly keyword research",
+        "startup_use": "Quick keyword validation on a budget"
+      },
+      {
+        "name": "Keywords Everywhere",
+        "url": "https://keywordseverywhere.com",
+        "type": "browser_extension",
+        "features": ["Inline keyword data", "Related keywords", "Trend data"],
+        "pricing": "Pay per credit ($10 for 100K credits)",
+        "best_for": "Quick keyword checks while browsing",
+        "startup_use": "Validate ideas on-the-fly"
+      },
+      {
+        "name": "Google Trends",
+        "url": "https://trends.google.com",
+        "type": "trend_analysis",
+        "features": ["Search trends", "Regional interest", "Related queries"],
+        "pricing": "Free",
+        "best_for": "Understanding trend direction",
+        "startup_use": "Validate market timing and growth"
+      },
+      {
+        "name": "Exploding Topics",
+        "url": "https://explodingtopics.com",
+        "type": "trend_discovery",
+        "features": ["Emerging trends", "Growth rate", "Category filtering"],
+        "pricing": "$39/month Pro",
+        "best_for": "Finding trends before they peak",
+        "startup_use": "Get early-mover advantage on emerging markets"
+      },
+      {
+        "name": "Glimpse",
+        "url": "https://meetglimpse.com",
+        "type": "trend_discovery",
+        "features": ["Trend prediction", "Growth forecasting", "Topic clustering"],
+        "pricing": "Free extension + paid plans",
+        "best_for": "Predicting which trends will grow",
+        "startup_use": "Time market entry for maximum impact"
+      },
+      {
+        "name": "SparkToro",
+        "url": "https://sparktoro.com",
+        "type": "audience_research",
+        "features": ["Audience insights", "Website discovery", "Social profiles"],
+        "pricing": "$50/month starter",
+        "best_for": "Understanding where your audience hangs out",
+        "startup_use": "Find marketing channels and influencers"
+      },
+      {
+        "name": "Google Search Console",
+        "url": "https://search.google.com/search-console",
+        "type": "search_analytics",
+        "features": ["Actual query data", "Click-through rates", "Position tracking"],
+        "pricing": "Free",
+        "best_for": "Understanding real search performance",
+        "startup_use": "Discover long-tail queries users actually type"
+      },
+      {
+        "name": "Google Keyword Planner",
+        "url": "https://ads.google.com/keyword-planner",
+        "type": "keyword_research",
+        "features": ["Search volume", "Competition", "Bid estimates"],
+        "pricing": "Free with Google Ads account",
+        "best_for": "Baseline keyword metrics",
+        "startup_use": "Validate commercial intent via CPC"
+      },
+      {
+        "name": "Moz Keyword Explorer",
+        "url": "https://moz.com/explorer",
+        "type": "keyword_research",
+        "features": ["Keyword difficulty", "SERP analysis", "Priority score"],
+        "pricing": "$99/month Standard",
+        "best_for": "Evaluating ranking difficulty",
+        "startup_use": "Find achievable ranking opportunities"
+      },
+      {
+        "name": "LowFruits",
+        "url": "https://lowfruits.io",
+        "type": "keyword_research",
+        "features": ["Low-competition keywords", "Weak spot finder", "Bulk analysis"],
+        "pricing": "Pay per credit",
+        "best_for": "Finding easy-to-rank keywords",
+        "startup_use": "Quick wins for SEO traffic"
+      },
+      {
+        "name": "Keyword Surfer",
+        "url": "https://surferseo.com/keyword-surfer",
+        "type": "browser_extension",
+        "features": ["Inline search volume", "Related keywords", "Content guidelines"],
+        "pricing": "Free",
+        "best_for": "Quick keyword checks in Google",
+        "startup_use": "Free keyword validation while searching"
+      },
+      {
+        "name": "SE Ranking",
+        "url": "https://seranking.com",
+        "type": "full_seo_suite",
+        "features": ["Rank tracking", "Competitor research", "On-page audit"],
+        "pricing": "$55/month Essential",
+        "best_for": "Affordable full SEO platform",
+        "startup_use": "Budget-friendly competitor tracking"
+      },
+      {
+        "name": "KWFinder",
+        "url": "https://kwfinder.com",
+        "type": "keyword_research",
+        "features": ["Long-tail keywords", "SERP analysis", "Keyword difficulty"],
+        "pricing": "$49/month Basic",
+        "best_for": "Finding long-tail opportunities",
+        "startup_use": "Niche keyword discovery"
+      },
+      {
+        "name": "Treendly",
+        "url": "https://treendly.com",
+        "type": "trend_discovery",
+        "features": ["Trend tracking", "Industry categorization", "Alerts"],
+        "pricing": "Free + paid tiers",
+        "best_for": "Monitoring emerging trends",
+        "startup_use": "Stay ahead of market shifts"
+      },
+      {
+        "name": "Reddit Keyword Tool",
+        "url": "https://keywordtool.io/reddit",
+        "type": "keyword_research",
+        "features": ["Reddit search volume", "Subreddit suggestions", "Question keywords"],
+        "pricing": "Free basic + paid",
+        "best_for": "Understanding Reddit search behavior",
+        "startup_use": "Find Reddit-specific opportunities"
+      },
+      {
+        "name": "GummySearch",
+        "url": "https://gummysearch.com",
+        "type": "reddit_analysis",
+        "features": ["Pain point discovery", "Community analysis", "Content ideas"],
+        "pricing": "$59/month",
+        "best_for": "Deep Reddit audience research",
+        "startup_use": "Automated pain point extraction from Reddit"
+      },
+      {
+        "name": "DataForSEO",
+        "url": "https://dataforseo.com",
+        "type": "api_service",
+        "features": ["Keyword data API", "SERP API", "Bulk lookups"],
+        "pricing": "Pay per API call",
+        "best_for": "Building custom keyword tools",
+        "startup_use": "Automate keyword research at scale"
+      },
+      {
+        "name": "Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters",
+        "type": "search_analytics",
+        "features": ["Bing search data", "Keyword insights", "Indexing"],
+        "pricing": "Free",
+        "best_for": "Alternative search engine data",
+        "startup_use": "Diversify search insights"
+      },
+      {
+        "name": "SERPstat",
+        "url": "https://serpstat.com",
+        "type": "full_seo_suite",
+        "features": ["Keyword research", "Competitor analysis", "Rank tracking"],
+        "pricing": "$69/month Lite",
+        "best_for": "All-in-one SEO on a budget",
+        "startup_use": "Comprehensive analysis at lower cost"
+      },
+      {
+        "name": "MarketMuse",
+        "url": "https://marketmuse.com",
+        "type": "content_intelligence",
+        "features": ["Topic modeling", "Content briefs", "Gap analysis"],
+        "pricing": "$149/month Standard",
+        "best_for": "AI-powered content strategy",
+        "startup_use": "Build topical authority systematically"
+      },
+      {
+        "name": "Clearscope",
+        "url": "https://clearscope.io",
+        "type": "content_optimization",
+        "features": ["Content grading", "Keyword suggestions", "Competitor analysis"],
+        "pricing": "$170/month",
+        "best_for": "Optimizing content for rankings",
+        "startup_use": "Ensure content comprehensiveness"
+      },
+      {
+        "name": "Surfer SEO",
+        "url": "https://surferseo.com",
+        "type": "content_optimization",
+        "features": ["Content editor", "SERP analyzer", "Keyword research"],
+        "pricing": "$89/month Essential",
+        "best_for": "Data-driven content creation",
+        "startup_use": "Optimize content before publishing"
+      }
+    ]
+  },
+  "market_intelligence": {
+    "description": "Startup databases, industry reports, and competitive intelligence",
+    "count": 25,
+    "sources": [
+      {
+        "name": "Crunchbase",
+        "url": "https://crunchbase.com",
+        "type": "startup_database",
+        "data_available": ["Funding rounds", "Founders", "Company info", "Investors"],
+        "cost": "Free basic + $49/month Pro",
+        "extraction_method": "Research competitors and funding trends"
+      },
+      {
+        "name": "AngelList / Wellfound",
+        "url": "https://wellfound.com",
+        "type": "startup_database",
+        "data_available": ["Startup jobs", "Funding", "Team info", "Company profiles"],
+        "cost": "Free",
+        "extraction_method": "Track startup trends and hiring patterns"
+      },
+      {
+        "name": "Product Hunt",
+        "url": "https://producthunt.com",
+        "type": "launch_platform",
+        "data_available": ["New products", "Upvotes", "Comments", "Categories"],
+        "cost": "Free",
+        "extraction_method": "Track successful launches and gaps"
+      },
+      {
+        "name": "IndieHackers",
+        "url": "https://indiehackers.com",
+        "type": "community",
+        "data_available": ["Revenue numbers", "Founder stories", "Product milestones"],
+        "cost": "Free",
+        "extraction_method": "Study successful solo founder patterns"
+      },
+      {
+        "name": "MicroAcquire",
+        "url": "https://microacquire.com",
+        "type": "acquisition_marketplace",
+        "data_available": ["SaaS valuations", "Revenue multiples", "Business types"],
+        "cost": "Free to browse",
+        "extraction_method": "Understand what sells and at what price"
+      },
+      {
+        "name": "Statista",
+        "url": "https://statista.com",
+        "type": "market_research",
+        "data_available": ["Market sizes", "Industry statistics", "Forecasts"],
+        "cost": "Free basic + $199/month premium",
+        "extraction_method": "Validate TAM/SAM/SOM estimates"
+      },
+      {
+        "name": "IBISWorld",
+        "url": "https://ibisworld.com",
+        "type": "industry_reports",
+        "data_available": ["Industry reports", "Market analysis", "Forecasts"],
+        "cost": "Subscription-based (enterprise)",
+        "extraction_method": "Deep industry research"
+      },
+      {
+        "name": "CB Insights",
+        "url": "https://cbinsights.com",
+        "type": "market_intelligence",
+        "data_available": ["Tech trends", "Startup data", "Investment patterns"],
+        "cost": "Free newsletter + paid platform",
+        "extraction_method": "Track emerging tech trends"
+      },
+      {
+        "name": "Gartner",
+        "url": "https://gartner.com",
+        "type": "analyst_firm",
+        "data_available": ["Magic Quadrants", "Hype Cycles", "Industry analysis"],
+        "cost": "Enterprise subscription",
+        "extraction_method": "Understand enterprise tech trends"
+      },
+      {
+        "name": "Forrester",
+        "url": "https://forrester.com",
+        "type": "analyst_firm",
+        "data_available": ["Wave reports", "Market forecasts", "Best practices"],
+        "cost": "Enterprise subscription",
+        "extraction_method": "B2B market intelligence"
+      },
+      {
+        "name": "F6S",
+        "url": "https://f6s.com",
+        "type": "startup_database",
+        "data_available": ["Startup profiles", "Accelerators", "Grants"],
+        "cost": "Free",
+        "extraction_method": "Track early-stage startups"
+      },
+      {
+        "name": "Gust",
+        "url": "https://gust.com",
+        "type": "startup_platform",
+        "data_available": ["Startup profiles", "Investor matching", "Accelerators"],
+        "cost": "Free for startups",
+        "extraction_method": "Research early-stage landscape"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com",
+        "type": "news",
+        "data_available": ["Funding news", "Product launches", "Trend analysis"],
+        "cost": "Free + TechCrunch+ subscription",
+        "extraction_method": "Stay current on tech news"
+      },
+      {
+        "name": "The Hustle",
+        "url": "https://thehustle.co",
+        "type": "newsletter",
+        "data_available": ["Business trends", "Startup stories", "Market insights"],
+        "cost": "Free newsletter",
+        "extraction_method": "Daily business trend digest"
+      },
+      {
+        "name": "Morning Brew",
+        "url": "https://morningbrew.com",
+        "type": "newsletter",
+        "data_available": ["Business news", "Market trends", "Industry updates"],
+        "cost": "Free newsletter",
+        "extraction_method": "Business news aggregation"
+      },
+      {
+        "name": "TLDR Newsletter",
+        "url": "https://tldr.tech",
+        "type": "newsletter",
+        "data_available": ["Tech news", "Startup launches", "Developer trends"],
+        "cost": "Free",
+        "extraction_method": "Quick tech news digest"
+      },
+      {
+        "name": "First Round Review",
+        "url": "https://review.firstround.com",
+        "type": "content",
+        "data_available": ["Founder advice", "Best practices", "Case studies"],
+        "cost": "Free",
+        "extraction_method": "Learn from successful founders"
+      },
+      {
+        "name": "a16z Blog",
+        "url": "https://a16z.com/blog",
+        "type": "content",
+        "data_available": ["Tech trends", "Market analysis", "Founder resources"],
+        "cost": "Free",
+        "extraction_method": "VC perspective on markets"
+      },
+      {
+        "name": "IdeaBrowser",
+        "url": "https://ideabrowser.com",
+        "type": "idea_database",
+        "data_available": ["Validated ideas", "Market analysis", "Execution plans"],
+        "cost": "Varies",
+        "extraction_method": "Browse pre-researched opportunities"
+      },
+      {
+        "name": "SimilarWeb",
+        "url": "https://similarweb.com",
+        "type": "web_analytics",
+        "data_available": ["Traffic estimates", "Competitor analysis", "Industry benchmarks"],
+        "cost": "Free basic + paid plans",
+        "extraction_method": "Analyze competitor traffic"
+      },
+      {
+        "name": "BuiltWith",
+        "url": "https://builtwith.com",
+        "type": "technology_lookup",
+        "data_available": ["Tech stacks", "Market share", "Technology trends"],
+        "cost": "Free basic + paid",
+        "extraction_method": "Understand technology adoption"
+      },
+      {
+        "name": "LinkedIn Sales Navigator",
+        "url": "https://linkedin.com/sales",
+        "type": "b2b_intelligence",
+        "data_available": ["Company data", "Decision makers", "Lead insights"],
+        "cost": "$99/month",
+        "extraction_method": "B2B market research"
+      },
+      {
+        "name": "Apollo.io",
+        "url": "https://apollo.io",
+        "type": "b2b_database",
+        "data_available": ["Company data", "Contact info", "Enrichment"],
+        "cost": "Free tier + paid",
+        "extraction_method": "Market sizing and lead research"
+      },
+      {
+        "name": "ZoomInfo",
+        "url": "https://zoominfo.com",
+        "type": "b2b_intelligence",
+        "data_available": ["Company data", "Intent signals", "Contact info"],
+        "cost": "Enterprise pricing",
+        "extraction_method": "Enterprise market research"
+      },
+      {
+        "name": "PitchBook",
+        "url": "https://pitchbook.com",
+        "type": "financial_data",
+        "data_available": ["VC deals", "Valuations", "M&A data"],
+        "cost": "Enterprise subscription",
+        "extraction_method": "Investment trend analysis"
+      }
+    ]
+  },
+  "platform_vibe_coding": {
+    "description": "Platform marketplaces and AI development tools for solo founders",
+    "count": 25,
+    "sources": [
+      {
+        "name": "ChatGPT App Store",
+        "url": "https://chat.openai.com",
+        "type": "platform_marketplace",
+        "audience_size": "800M+ weekly users",
+        "platform_multiplier": "Very High",
+        "best_for": "AI-powered apps integrated into ChatGPT",
+        "mvp_time": "1-2 weeks"
+      },
+      {
+        "name": "OpenAI GPT Store",
+        "url": "https://chat.openai.com/gpts",
+        "type": "platform_marketplace",
+        "audience_size": "200M+ ChatGPT users",
+        "platform_multiplier": "High",
+        "best_for": "Custom GPTs for specific use cases",
+        "mvp_time": "Days to 1 week"
+      },
+      {
+        "name": "Chrome Web Store",
+        "url": "https://chrome.google.com/webstore",
+        "type": "platform_marketplace",
+        "audience_size": "3B+ Chrome users",
+        "platform_multiplier": "Very High",
+        "best_for": "Browser extensions and productivity tools",
+        "mvp_time": "1-2 weeks"
+      },
+      {
+        "name": "Slack App Directory",
+        "url": "https://slack.com/apps",
+        "type": "platform_marketplace",
+        "audience_size": "30M+ daily users",
+        "platform_multiplier": "High",
+        "best_for": "B2B integrations and team tools",
+        "mvp_time": "2-4 weeks"
+      },
+      {
+        "name": "Shopify App Store",
+        "url": "https://apps.shopify.com",
+        "type": "platform_marketplace",
+        "audience_size": "4M+ merchants",
+        "platform_multiplier": "High",
+        "best_for": "E-commerce tools and integrations",
+        "mvp_time": "2-4 weeks"
+      },
+      {
+        "name": "Notion Templates",
+        "url": "https://notion.so/templates",
+        "type": "marketplace",
+        "audience_size": "100M+ users",
+        "platform_multiplier": "Medium",
+        "best_for": "Productivity templates and workflows",
+        "mvp_time": "Days"
+      },
+      {
+        "name": "Figma Community",
+        "url": "https://figma.com/community",
+        "type": "marketplace",
+        "audience_size": "4M+ designers",
+        "platform_multiplier": "Medium",
+        "best_for": "Design resources and plugins",
+        "mvp_time": "1-2 weeks"
+      },
+      {
+        "name": "Zapier App Directory",
+        "url": "https://zapier.com/apps",
+        "type": "integration_platform",
+        "audience_size": "10M+ users",
+        "platform_multiplier": "High",
+        "best_for": "Integration connectors",
+        "mvp_time": "1-2 weeks"
+      },
+      {
+        "name": "Claude Code",
+        "url": "https://docs.anthropic.com",
+        "type": "vibe_coding_tool",
+        "pricing": "Included in Claude subscription",
+        "best_for": "Full-stack development with AI assistance",
+        "mvp_time": "Days to 2 weeks",
+        "features": ["Architecture design", "Code generation", "Debugging", "Testing"]
+      },
+      {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "type": "vibe_coding_tool",
+        "pricing": "$20/month Pro",
+        "best_for": "AI-powered IDE for rapid development",
+        "mvp_time": "Days to 2 weeks",
+        "features": ["Code completion", "Multi-file editing", "Chat interface", "Codebase awareness"]
+      },
+      {
+        "name": "Lovable",
+        "url": "https://lovable.dev",
+        "type": "no_code_platform",
+        "pricing": "Free tier + paid plans",
+        "best_for": "AI-generated full-stack apps",
+        "mvp_time": "Hours to days",
+        "features": ["Natural language to code", "Full-stack generation", "Deployment"]
+      },
+      {
+        "name": "Replit",
+        "url": "https://replit.com",
+        "type": "development_platform",
+        "pricing": "Free tier + $25/month Pro",
+        "best_for": "Quick prototyping and deployment",
+        "mvp_time": "Days",
+        "features": ["Online IDE", "AI assistant", "Instant deployment", "Collaboration"]
+      },
+      {
+        "name": "v0 by Vercel",
+        "url": "https://v0.dev",
+        "type": "ui_generation",
+        "pricing": "Free tier + paid",
+        "best_for": "AI-generated React UI components",
+        "mvp_time": "Hours to days",
+        "features": ["Natural language UI generation", "Shadcn/Tailwind output", "Code export"]
+      },
+      {
+        "name": "Bolt.new",
+        "url": "https://bolt.new",
+        "type": "full_stack_generation",
+        "pricing": "Pay per generation",
+        "best_for": "Instant full-stack app generation",
+        "mvp_time": "Hours",
+        "features": ["One-click apps", "Full-stack generation", "Instant preview"]
+      },
+      {
+        "name": "Bubble",
+        "url": "https://bubble.io",
+        "type": "no_code_platform",
+        "pricing": "Free tier + $32/month Personal",
+        "best_for": "Complex web apps without code",
+        "mvp_time": "1-2 weeks",
+        "features": ["Visual editor", "Database", "Workflows", "Plugins"]
+      },
+      {
+        "name": "Webflow",
+        "url": "https://webflow.com",
+        "type": "no_code_platform",
+        "pricing": "$23/month Site plan",
+        "best_for": "Marketing sites and landing pages",
+        "mvp_time": "Days",
+        "features": ["Visual design", "CMS", "Hosting", "Interactions"]
+      },
+      {
+        "name": "Softr",
+        "url": "https://softr.io",
+        "type": "no_code_platform",
+        "pricing": "Free tier + paid",
+        "best_for": "Airtable-backed apps",
+        "mvp_time": "Days",
+        "features": ["Airtable integration", "Templates", "User auth"]
+      },
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "type": "ai_assistant",
+        "pricing": "$19/month Individual",
+        "best_for": "Code completion and suggestions",
+        "mvp_time": "Speeds up development",
+        "features": ["Inline suggestions", "Chat", "Multi-language support"]
+      },
+      {
+        "name": "Supabase",
+        "url": "https://supabase.com",
+        "type": "backend_platform",
+        "pricing": "Free tier + $25/month Pro",
+        "best_for": "Backend and database for apps",
+        "mvp_time": "Accelerates backend development",
+        "features": ["PostgreSQL", "Auth", "Storage", "Edge functions", "Real-time"]
+      },
+      {
+        "name": "Firebase",
+        "url": "https://firebase.google.com",
+        "type": "backend_platform",
+        "pricing": "Free tier + pay as you go",
+        "best_for": "Mobile and web app backend",
+        "mvp_time": "Accelerates backend development",
+        "features": ["Firestore", "Auth", "Hosting", "Cloud functions"]
+      },
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "type": "deployment_platform",
+        "pricing": "Free tier + $20/month Pro",
+        "best_for": "Frontend deployment",
+        "mvp_time": "Minutes to deploy",
+        "features": ["Git integration", "Edge functions", "Analytics", "Previews"]
+      },
+      {
+        "name": "Railway",
+        "url": "https://railway.app",
+        "type": "deployment_platform",
+        "pricing": "Usage-based + $5/month starter",
+        "best_for": "Backend deployment",
+        "mvp_time": "Minutes to deploy",
+        "features": ["Database hosting", "Easy scaling", "Templates"]
+      },
+      {
+        "name": "Windsurf",
+        "url": "https://codeium.com/windsurf",
+        "type": "vibe_coding_tool",
+        "pricing": "Free tier + paid",
+        "best_for": "Full codebase awareness",
+        "mvp_time": "Days to 2 weeks",
+        "features": ["Codebase understanding", "Multi-file editing", "AI chat"]
+      },
+      {
+        "name": "CodeConductor",
+        "url": "https://codeconductor.ai",
+        "type": "vibe_coding_tool",
+        "pricing": "Varies",
+        "best_for": "Enterprise vibe coding",
+        "mvp_time": "1-2 weeks",
+        "features": ["Project scaffolding", "AI code review", "Team features"]
+      },
+      {
+        "name": "Codeium",
+        "url": "https://codeium.com",
+        "type": "ai_assistant",
+        "pricing": "Free for individuals",
+        "best_for": "Free AI code completion",
+        "mvp_time": "Speeds up development",
+        "features": ["Code completion", "Chat", "IDE integrations"]
+      }
+    ]
+  }
+}
