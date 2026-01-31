@@ -212,3 +212,137 @@ Each startup idea includes:
 - Focus on problems people are ALREADY paying to solve
 - Prioritize platform multipliers (ChatGPT Store, Chrome, etc.)
 - Solo founder feasibility is mandatory
+
+---
+
+## Key Learnings & Constraints (Updated Phase 3+)
+
+### Solopreneur Feasibility Requirements
+
+Every idea MUST be achievable by a normal solopreneur with:
+- **Time**: Can build MVP in evenings/weekends over 1-2 weeks
+- **Skills**: Basic web dev or willingness to learn vibe coding
+- **Budget**: < $100/month in tools and hosting
+- **No specialized knowledge**: Shouldn't require domain expertise (medical, legal licenses, etc.)
+
+### Ease Score Requirements (CRITICAL)
+
+**All ideas must have Ease score of 4-5:**
+
+| Score | Meaning | Acceptable? |
+|-------|---------|-------------|
+| 5 | Build in 1-3 days | ✅ Yes |
+| 4 | Build in 1 week | ✅ Yes |
+| 3 | Build in 2 weeks | ⚠️ Only if exceptional |
+| 2 | Build in 1 month | ❌ No |
+| 1 | Build in 2+ months | ❌ No |
+
+### Tech Stack Constraints
+
+**ALLOWED (vibe-codeable):**
+- Next.js + Supabase + Vercel (standard stack)
+- Chrome extensions with Plasmo/WXT
+- Shopify/Slack apps with their SDKs
+- Claude/OpenAI API for AI features
+- Simple mobile with Expo/React Native
+- No-code: Bubble, Lovable, Softr + Airtable
+
+**NOT ALLOWED:**
+- Custom ML model training
+- Complex infrastructure (Kubernetes, microservices)
+- Hardware or IoT components
+- Blockchain/Web3 (complex and regulated)
+- Anything requiring enterprise sales cycle
+- Regulated industries requiring licenses
+
+### Duplicate Prevention Rules
+
+**Before adding any idea, verify it doesn't overlap with existing ideas:**
+
+1. Check title isn't similar to existing idea
+2. Check core problem/solution isn't already covered
+3. If similar niche, ensure differentiation is substantial
+4. Different audience for same tool = OK (e.g., CRM for realtors vs CRM for coaches)
+5. Same audience with different tool = OK (e.g., email tool vs social tool for creators)
+
+### Ideas Already Covered (DO NOT DUPLICATE)
+
+**AI Tools (covered):**
+- Meeting transcription/notes (MeetingMind)
+- Email summarization (InboxDigest)
+- Email reply writing (ReplyGPT)
+- Webpage summarization (SummaryTab)
+- Code review automation (CodeReviewBot)
+- ChatGPT history export (ChatExport)
+- Meeting prep/briefing (MeetingPrep)
+- Screenshot data extraction (ScreenshotAI)
+- Brand voice content (BrandVoice)
+- Competitor monitoring (CompetitorWatch)
+
+**SaaS/Productivity (covered):**
+- Data insights from spreadsheets (DataStory)
+- Form building (FormGenius)
+- HR policy generation (PolicyWriter)
+- AI invoicing (InvoiceMagic)
+- Meeting scheduling (ScheduleGenius)
+- Customer feedback aggregation (FeedbackLoop)
+- Employee onboarding (OnboardFlow)
+- Pitch deck review (PitchPolish)
+
+**Creator Economy (covered):**
+- Podcast repurposing (ClipGenius)
+- Testimonial collection (ProofPilot)
+- Content calendar planning (ContentCal)
+- Twitter thread generation (ThreadMaster)
+- YouTube thumbnail testing (ThumbnailTest)
+- Newsletter writing (NewsletterGrow)
+- LinkedIn content (LinkedInGhost)
+- Quote graphics (QuoteGraphic)
+
+**B2B Services (covered):**
+- SOC 2 compliance (ComplianceBot)
+- Accountant client portal (ClientSync)
+- Review response writing (ReviewReply)
+- Job description writing (JobDescAI)
+- SOP generation (SOPWriter)
+- Cold email writing (ColdEmailAI)
+
+**Developer Tools (covered):**
+- API documentation (DocuAPI)
+- Freelancer proposals (ProposalPro)
+- Bug report formatting (BugReportAI)
+- Changelog generation (ChangelogAI)
+- Error message explanation (ErrorExplain)
+- Regex generation (RegexHelper)
+
+**E-commerce (covered):**
+- Product descriptions Shopify (ShopifyDescribe)
+- Review request automation (ReviewBoost)
+- Abandoned cart recovery (AbandonedWin)
+- Inventory prediction (InventoryAlert)
+
+**Vertical SaaS (covered):**
+- Real estate CRM (AgentCRM)
+- Freelancer contracts (LegalDraft)
+- AI tutoring (TutorBot)
+- Restaurant menus (MenuMaker)
+- Workout planning (GymPlan)
+- Pet health triage (PetCareAI)
+- Lease review for renters (RentalReview)
+- Wedding planning (WeddingPlan)
+
+---
+
+## Progress Tracking
+
+### Completed
+- [x] Phase 1: Research & Setup (104 sources)
+- [x] Phase 2: Ideas 1-10 (10 ideas, avg LEAP 4.125)
+- [x] Phase 3: Ideas 11-50 (40 ideas, all Ease 4-5)
+
+### In Progress
+- [ ] Phase 4: Ideas 51-100 (50 ideas)
+
+### Pending
+- [ ] Phase 5: Ideas 101-150 (50 ideas)
+- [ ] Phase 6: Ideas 151-300 (150 ideas)
