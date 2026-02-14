@@ -36,17 +36,25 @@ def enrich_csv(input_path, output_path, enrichments):
     enriched_count = 0
     fields_filled = 0
 
+    # Fields that should always be overwritten with enrichment data
+    always_overwrite = {'tam', 'platform', 'business_model'}
+
     for row in rows:
         idea_id = row['id']
         if idea_id in enrichments:
             enriched_count += 1
             updates = enrichments[idea_id]
             for field, value in updates.items():
-                if field in row:
+                if field in row and value:
                     current = row[field].strip() if row[field] else ''
+
+                    # Always overwrite certain fields
+                    if field in always_overwrite:
+                        row[field] = value
+                        fields_filled += 1
                     # Only fill if empty or if the current value is clearly wrong
                     # (e.g., it's a duplicate of another field)
-                    if not current or current == row.get('tagline', '').strip() or current == row.get('title', '').strip() or len(current) < 10:
+                    elif not current or current == row.get('tagline', '').strip() or current == row.get('title', '').strip() or len(current) < 10:
                         row[field] = value
                         fields_filled += 1
                     elif field == 'solution' and len(current) < 80:
@@ -77,9 +85,13 @@ def validate_csv(path):
     print(f"\nValidation of {path}:")
     print(f"  Total rows: {len(rows)}")
 
-    fields_to_check = ['solution', 'target_audience', 'platform', 'pricing', 'tam', 'business_model', 'pain_points', 'mvp_features']
-    for field in fields_to_check:
-        empty = sum(1 for r in rows if not r.get(field, '').strip() or len(r.get(field, '').strip()) < 10)
+    # Different thresholds for different fields
+    field_thresholds = {
+        'solution': 50, 'target_audience': 10, 'platform': 2, 'pricing': 2,
+        'tam': 2, 'business_model': 2, 'pain_points': 10, 'mvp_features': 10
+    }
+    for field, threshold in field_thresholds.items():
+        empty = sum(1 for r in rows if not r.get(field, '').strip() or len(r.get(field, '').strip()) < threshold)
         pct = empty / len(rows) * 100
         print(f"  {field}: {len(rows)-empty}/{len(rows)} filled ({100-pct:.0f}%)")
 
