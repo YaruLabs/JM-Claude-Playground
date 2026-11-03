@@ -364,7 +364,7 @@
     "mvp_features": "Bulk catalogue upload; Thai keyword-aware rewriting; FDA/TISI claim checker; image text translation; platform bulk-file export; English buyer version",
     "tech_stack": "Next.js + Supabase + LLM API (Claude/GPT) + OCR/image inpainting",
     "status": "RECOMMENDED",
-    "review_notes": "Partly overlaps CLAUDE-201 Shopee Lazada Seller; this version is narrowed to Thai-market localisation and claims compliance for foreign sellers.",
+    "review_notes": "Partly overlaps CLAUDE-201 Shopee Lazada Seller; this version is narrowed to Thai-market localisation and claims compliance for foreign sellers, and could later add Vietnamese and Bahasa.",
     "created_date": "2026-11-03",
     "last_verified": "2026-11-03"
   },
@@ -446,7 +446,7 @@
     "mvp_features": "Barcode-triggered recording with overlay; order-indexed storage; dispute alert with deadline countdown; evidence sheet and Thai appeal draft; return unboxing mode; recovered-money dashboard",
     "tech_stack": "React Native or PWA + cloud video storage + marketplace APIs + OCR + LLM API (Claude/GPT)",
     "status": "RECOMMENDED",
-    "review_notes": "Cross-seller buyer blacklist is valuable but legally sensitive under PDPA; launch without it.",
+    "review_notes": "Cross-seller buyer blacklist is valuable but legally sensitive under PDPA, so launch without it; the product also ports to Shopee/TikTok sellers in Vietnam, Malaysia and the Philippines.",
     "created_date": "2026-11-03",
     "last_verified": "2026-11-03"
   },
@@ -528,7 +528,7 @@
     "mvp_features": "Payout report import for 4 apps; per-dish true margin; platform-specific price recommendations; campaign/switch simulator; GP deduction audit; daily LINE profit summary",
     "tech_stack": "Next.js + Supabase + report parsers + LLM API (Claude/GPT) for unknown formats",
     "status": "RECOMMENDED",
-    "review_notes": "Overlaps CLAUDE-210/CLAUDE-220 at concept level; differentiated as multi-platform reconciliation; Robinhood's current status is unclear (shutdown then relaunch reports).",
+    "review_notes": "Overlaps CLAUDE-210/CLAUDE-220 at concept level; differentiated as multi-platform reconciliation; Robinhood's current status is unclear (shutdown then relaunch reports); the model also ports to GrabFood markets elsewhere in SEA.",
     "created_date": "2026-11-03",
     "last_verified": "2026-11-03"
   },
@@ -856,7 +856,7 @@
     "mvp_features": "LINE slip upload; QR reference verification; receiving-account check; cross-merchant duplicate detection; image-forensic edit score; landed-funds confirmation",
     "tech_stack": "LINE Messaging API + slip verification API + image forensics model + Supabase",
     "status": "RECOMMENDED",
-    "review_notes": "Partly overlaps TH-052 reconciliation; must prove forensics beats existing slip bots on edited-but-valid-QR cases.",
+    "review_notes": "Partly overlaps TH-052 reconciliation; must prove forensics beats existing slip bots on edited-but-valid-QR cases; a similar fake-receipt problem exists with QRIS (Indonesia) and DuitNow (Malaysia).",
     "created_date": "2026-11-03",
     "last_verified": "2026-11-03"
   },
@@ -897,7 +897,7 @@
     "mvp_features": "Gateway dispute webhook integration; booking terms and waiver e-sign; trip manifest with photo/GPS; reason-code evidence pack generator; risky-booking rules; recovery dashboard",
     "tech_stack": "Next.js + Supabase + Omise/2C2P/Stripe APIs + LLM API (Claude/GPT) for evidence narratives",
     "status": "CAUTION",
-    "review_notes": "Chargeback rates for Thai tourism SMEs were not verified directly; validate with 10 operators before building.",
+    "review_notes": "Chargeback rates for Thai tourism SMEs were not verified directly, so validate with 10 operators first; it also fits Bali and Vietnam tour operators.",
     "created_date": "2026-11-03",
     "last_verified": "2026-11-03"
   },
