@@ -139,8 +139,11 @@ def main():
     dirs += [normalize_new(r) for r in load("dir_226_250.json")]
     write("data/ideas-directories.csv", dirs)
 
-    write("data/ideas-thailand.csv", [normalize_new(r) for r in load_many("th_*.json")])
-    write("data/ideas-global-2026.csv", [normalize_new(r) for r in load_many("gl_*.json")])
+    # replacements.json overrides ids that duplicated another new idea (see docs/AUDIT-2026-11.md)
+    repl = {r["id"]: r for r in (load("replacements.json") if (STAGING / "replacements.json").exists() else [])}
+    for prefix, out in (("th", "data/ideas-thailand.csv"), ("gl", "data/ideas-global-2026.csv")):
+        rows = [repl.get(r["id"], r) for r in load_many(f"{prefix}_*.json")]
+        write(out, [normalize_new(r) for r in rows])
 
 
 if __name__ == "__main__":
