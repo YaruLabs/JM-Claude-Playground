@@ -69,7 +69,9 @@ def check_file(rel, errors, warnings, all_titles):
             msgs.append(f"{rel}:{i} problem {len(r['problem'])} chars < {MIN_PROBLEM}")
         if len(r["solution"]) < MIN_SOLUTION:
             msgs.append(f"{rel}:{i} solution {len(r['solution'])} chars < {MIN_SOLUTION}")
-        if len(urls(r["source_urls"])) < MIN_URLS:
+        # New ideas need >=3 sources; re-reviewed legacy ideas need >=1 supporting the verdict (IDEA-SPEC-v2 review mode).
+        min_urls = MIN_URLS if strict else 1
+        if len(urls(r["source_urls"])) < min_urls:
             msgs.append(f"{rel}:{i} only {len(urls(r['source_urls']))} source URLs")
         if strict:
             for k in ("competitors", "founder_feasibility", "unique_data_capture", "pricing", "tam_source"):
