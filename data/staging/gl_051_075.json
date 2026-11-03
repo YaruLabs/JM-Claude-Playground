@@ -84,7 +84,7 @@
   {
     "id": "GL-053",
     "title": "1099 Reconciler",
-    "tagline": "Matches every 1099-NEC, 1099-K and 1099-MISC to your bank deposits so freelancers neither double-report nor miss income",
+    "tagline": "Matches every 1099-NEC, 1099-K and 1099-MISC to your deposits so you never double-report or miss income",
     "market": "US",
     "target_segment": "US freelancers",
     "category": "Personal Finance",
@@ -125,7 +125,7 @@
   {
     "id": "GL-054",
     "title": "Parent Paperwork Inbox",
-    "tagline": "One shared inbox that reads an aging parent's Medicare notices, bills and pharmacy letters and tells siblings what needs action",
+    "tagline": "A shared inbox that reads a parent's Medicare notices and bills and tells siblings what needs action",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Family & Caregiving",
@@ -166,7 +166,7 @@
   {
     "id": "GL-055",
     "title": "IEP Progress Binder",
-    "tagline": "Turns a stack of IEPs, evaluations and progress reports into a goal-by-goal timeline parents can bring to meetings",
+    "tagline": "Turns years of IEPs and progress reports into a goal-by-goal timeline parents bring to meetings",
     "market": "US",
     "target_segment": "US parents",
     "category": "Family & Education",
@@ -289,7 +289,7 @@
   {
     "id": "GL-058",
     "title": "Creator Deal Desk",
-    "tagline": "Forward any brand email or contract and get deliverables, usage rights, FTC disclosure and payment chasing tracked automatically",
+    "tagline": "Forward a brand contract; deliverables, usage rights, FTC disclosure and payment chasing are tracked",
     "market": "US",
     "target_segment": "US creators",
     "category": "Creator Economy",
@@ -330,7 +330,7 @@
   {
     "id": "GL-059",
     "title": "Sponsor Invoice Autopilot",
-    "tagline": "Pulls delivered downloads and opens from your podcast or newsletter host and auto-builds invoices, proof reports and make-goods",
+    "tagline": "Pulls delivered downloads and opens from your host and auto-builds sponsor invoices and proof reports",
     "market": "US",
     "target_segment": "US podcasters & newsletter publishers",
     "category": "Creator Economy",
@@ -371,7 +371,7 @@
   {
     "id": "GL-060",
     "title": "Home History File",
-    "tagline": "A verified service history for your house, like a vehicle history report, built from receipts and handed to buyers at sale",
+    "tagline": "A verified service history for your house, built from receipts and handed to buyers at sale",
     "market": "US",
     "target_segment": "US homeowners",
     "category": "Home",
@@ -453,7 +453,7 @@
   {
     "id": "GL-062",
     "title": "Prior Auth Tracker",
-    "tagline": "Tracks your insurer's prior-authorization clock against the new CMS 72-hour/7-day rules and tells you when to escalate",
+    "tagline": "Tracks your prior-auth clock against the CMS 72-hour/7-day rules and tells you when to escalate",
     "market": "US",
     "target_segment": "US patients",
     "category": "Health Admin",
@@ -494,7 +494,7 @@
   {
     "id": "GL-063",
     "title": "Trial Shortlist",
-    "tagline": "Reads your own records against ClinicalTrials.gov eligibility criteria and gives you a short list of trials you might qualify for",
+    "tagline": "Checks your own records against ClinicalTrials.gov criteria and lists trials you may qualify for",
     "market": "US",
     "target_segment": "US patients",
     "category": "Health Admin",
@@ -576,7 +576,7 @@
   {
     "id": "GL-065",
     "title": "Ghost Job Score",
-    "tagline": "A browser badge on every job post showing how likely it is to be a ghost job, based on repost history and real applicant outcomes",
+    "tagline": "A badge on every job post scoring ghost-job risk from repost history and real applicant outcomes",
     "market": "US",
     "target_segment": "US job seekers",
     "category": "Careers",
@@ -617,7 +617,7 @@
   {
     "id": "GL-066",
     "title": "HSA Receipt Vault",
-    "tagline": "Captures every out-of-pocket medical receipt and tracks the tax-free amount you can reimburse yourself from your HSA, years later",
+    "tagline": "Captures medical receipts and tracks how much you can reimburse yourself tax-free from your HSA later",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Health Admin",
@@ -658,7 +658,7 @@
   {
     "id": "GL-067",
     "title": "SSDI Evidence Binder",
-    "tagline": "Organizes medical records into the function-by-function evidence SSA disability examiners look for, with every appeal deadline tracked",
+    "tagline": "Organizes medical records into the functional evidence SSA examiners want, with appeal deadlines tracked",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Health Admin",
@@ -699,7 +699,7 @@
   {
     "id": "GL-068",
     "title": "Records Request Tracker",
-    "tagline": "Files HIPAA right-of-access requests to every provider you've seen and tracks each one until your records arrive",
+    "tagline": "Files HIPAA records requests to every provider you've seen and chases each one until records arrive",
     "market": "US",
     "target_segment": "US patients",
     "category": "Health Admin",
@@ -740,7 +740,7 @@
   {
     "id": "GL-069",
     "title": "Payer Denial Index",
-    "tagline": "Normalizes every insurer's newly mandated prior-authorization approval and timing stats into one comparable benchmark",
+    "tagline": "Normalizes insurers' newly mandated prior-auth approval and timing stats into one benchmark",
     "market": "US",
     "target_segment": "US benefits brokers & provider groups",
     "category": "B2B Health Data",
@@ -781,7 +781,7 @@
   {
     "id": "GL-070",
     "title": "Client Pay Score",
-    "tagline": "A shared payment-reputation score for clients, so freelancers and small agencies know who pays late before they take the job",
+    "tagline": "A shared payment score for clients, so freelancers know who pays late before taking the job",
     "market": "US",
     "target_segment": "US freelancers & micro-agencies",
     "category": "B2B Data",
@@ -822,7 +822,7 @@
   {
     "id": "GL-071",
     "title": "Service Charge Challenger",
-    "tagline": "Checks a leaseholder's service charge demand against the lease and block benchmarks, then drafts the document requests",
+    "tagline": "Checks a service charge demand against your lease and similar blocks, then drafts statutory requests",
     "market": "UK_EU",
     "target_segment": "UK leaseholders",
     "category": "Property",
@@ -863,7 +863,7 @@
   {
     "id": "GL-072",
     "title": "Renters Rights Switchover",
-    "tagline": "Walks small landlords through Renters' Rights Act duties: periodic tenancies, section 13 rent rises, new section 8 grounds and registration",
+    "tagline": "Maps each tenancy to Renters' Rights Act duties: periodic terms, section 13 rent rises and registration",
     "market": "UK_EU",
     "target_segment": "UK small landlords",
     "category": "Property",
@@ -904,7 +904,7 @@
   {
     "id": "GL-073",
     "title": "Council Tax Band Check",
-    "tagline": "Compares your home to similar neighbours' bands and 1991-era values, and warns you if a challenge could push your band up",
+    "tagline": "Compares your band with similar neighbours' and warns if a challenge could push your band up",
     "market": "UK_EU",
     "target_segment": "UK homeowners & renters",
     "category": "Personal Finance",
@@ -945,7 +945,7 @@
   {
     "id": "GL-074",
     "title": "Parking Charge Appeal UK",
-    "tagline": "Reads your private parking charge notice, checks it against POFA and the new 2026 Code, and drafts the operator and POPLA/IAS appeals",
+    "tagline": "Checks a private parking charge against POFA and the 2026 Code, then drafts operator and POPLA/IAS appeals",
     "market": "UK_EU",
     "target_segment": "UK drivers",
     "category": "Consumer Rights",
@@ -986,7 +986,7 @@
   {
     "id": "GL-075",
     "title": "MTD Landlord Bridge",
-    "tagline": "Turns landlords' spreadsheets and bank feeds into HMRC Making Tax Digital quarterly updates, with AI categorising every line",
+    "tagline": "Turns landlords' spreadsheets and bank feeds into HMRC Making Tax Digital quarterly updates",
     "market": "UK_EU",
     "target_segment": "UK landlords & sole traders",
     "category": "Tax",
