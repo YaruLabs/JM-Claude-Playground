@@ -1,5 +1,24 @@
 # LEAP Framework - Startup Idea Evaluation Guide
 
+> **v2 (2026-11-03).** Read this box first. The v1 text below still defines L, E, A and P.
+>
+> - **Six scores, not four.** All are integers from 1 to 5. Two are new:
+>   - **M (Moat):** does the product build up proprietary data that compounds?
+>   - **W (Willingness to pay):** is there evidence that buyers already pay for something nearby?
+> - **`score_total` is the mean of the six.** v1 sums (out of 400, or 1–100 per pillar) are retired.
+> - **RECOMMENDED gate:** a mean of at least 3.5, E at least 3, and commoditization risk not High.
+> - **Evidence gate:** at least 3 real source URLs, one of which is a demand signal. Also at least 2 named competitors, and "est." on any number that wasn't verified.
+> - **2026 kill checks:**
+>   - Could a general AI assistant, an OS feature, a bank app or a free incumbent do this?
+>   - Does it carry regulatory exposure (unauthorized practice of law, medical advice, licensing, PDPA/GDPR/HIPAA)?
+>   - For Thailand: can a foreign founder run it legally (Foreign Business Act, BOI, Thai partner, or offshore SaaS)?
+> - **Statuses:** RECOMMENDED, CAUTION, OUTDATED (the premise is gone) and SKIP (a duplicate or a bad idea).
+> - **Where these rules live:**
+>   - Schema and constants: `scripts/schema_v2.py`
+>   - Field rules for agents: `docs/IDEA-SPEC-v2.md`
+>   - Automated checks: `scripts/validate_ideas.py`
+>   - Audit record: `docs/AUDIT-2026-11.md`
+
 ## Overview
 
 The LEAP framework is a systematic approach to evaluating startup ideas specifically designed for solo founders building AI-powered products. It emphasizes speed-to-market, AI leverage, and platform distribution.
