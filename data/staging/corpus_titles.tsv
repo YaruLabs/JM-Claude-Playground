@@ -1,0 +1,926 @@
+id	title	tagline
+CLAUDE-001	Medical Bill Audit	AI that finds errors and overcharges in hospital bills - 80% have mistakes
+CLAUDE-002	Insurance Claim Max	Never leave money on the table - AI coach for insurance claims that knows what adjusters know
+CLAUDE-003	Contractor Bid Check	Know if youre getting ripped off before you sign - AI analysis of home improvement quotes
+CLAUDE-004	Warranty Enforcer	Companies hope you wont fight back - AI that knows consumer protection law and makes them honor warranties
+CLAUDE-005	Vet Bill Audit	Love your pet but not the bill - AI that spots unnecessary vet charges and finds alternatives
+CLAUDE-006	Moving Quote Guard	Dont get held hostage - AI that spots moving scam red flags before you sign
+CLAUDE-007	Gym Cancel Bot	They make it hard on purpose - AI that knows every gyms cancellation tricks and beats them
+CLAUDE-008	Subscription Audit	Find the money leaks - AI that finds forgotten subscriptions and generates cancellation scripts
+CLAUDE-009	Price Error Hunter	Stores overcharge constantly - AI that monitors your receipts and files claims automatically
+CLAUDE-010	Airline Compensation Bot	Airlines owe you money they hope youll forget - AI that calculates and claims flight compensation
+CLAUDE-011	Salary Negotiator	Companies have the playbook - now you do too. AI salary negotiation coach with real data
+CLAUDE-012	Freelance Rate Coach	Stop leaving money on the table - AI that helps freelancers price projects like pros
+CLAUDE-013	Debt Settlement Coach	Creditors have playbooks - now you do too. AI guide to settling debt for less
+CLAUDE-014	Property Tax Appeal	Your home is overassessed - AI that finds the proof and writes the appeal
+CLAUDE-015	Severance Max	Youre not out of leverage - AI coach for negotiating severance packages
+CLAUDE-016	Commission Negotiator	Agents assume you wont push back - AI that helps sellers negotiate real estate commissions
+CLAUDE-017	Wedding Vendor Nego	Its not a wedding - its an event. AI that helps couples avoid the wedding markup
+CLAUDE-018	Influencer Rate Card	Brands have budgets - now you know them. AI that helps creators price brand deals correctly
+CLAUDE-019	B2B Price Intel	Stop overpaying vendors - AI that tells small businesses if theyre getting ripped off
+CLAUDE-020	Appeal Letter Pro	Every denial has a counter - AI that writes appeals that actually work
+CLAUDE-021	Tenant Rights Bot	Landlords count on you not knowing the law - AI that knows your rights by state and city
+CLAUDE-022	Small Claims Coach	Lawyers wont take your case - AI that helps you win it yourself
+CLAUDE-023	Credit Dispute Wizard	Credit bureaus make money on your data - AI that makes them fix their mistakes
+CLAUDE-024	Eviction Defender	Landlords make mistakes - AI that finds procedural errors and helps you fight back
+CLAUDE-025	DIY Legal Check	Before you file it - AI that spots fatal errors in your legal documents
+CLAUDE-026	Data Broker Removal	Your data is being sold - AI that finds where and sends removal requests
+CLAUDE-027	Unemployment Appeal	States deny claims they shouldnt - AI that helps you win your appeal
+CLAUDE-028	Security Deposit Max	Landlords steal deposits - AI that knows the law and gets your money back
+CLAUDE-029	Lease Review Bot	Landlords write leases to protect landlords - AI that spots unfair and illegal clauses
+CLAUDE-030	Fine Print Decoder	Terms of service are designed to confuse you - AI that explains what youre actually agreeing to
+CLAUDE-031	Franchise Due Diligence	Franchisors have sales teams - you have this. AI that analyzes FDD documents for red flags
+CLAUDE-032	Commercial Lease Review	Commercial landlords have attorneys - small businesses dont. AI that levels the playing field
+CLAUDE-033	Startup Term Sheet Decoder	VCs do 100 deals - you do one. AI that explains what youre really agreeing to
+CLAUDE-034	Co Founder Agreement	50% of startups fail from cofounder disputes - AI that writes the agreement you need before its too late
+CLAUDE-035	Consulting Proposal Pro	Clients know their budgets - you dont. AI that helps consultants price and propose correctly
+CLAUDE-036	Patent Prelim Search	Patent attorneys charge $5K before you know if its even patentable. AI does the research first
+CLAUDE-037	Small Biz Insurance Audit	Youre probably over-insured or under-insured - AI that finds out which
+CLAUDE-038	SaaS Contract Review	Enterprise sales have negotiation playbooks - you have this. AI that reviews your SaaS contracts
+CLAUDE-039	RestaurantPOS Negotiator	POS companies have sales teams - you have this. AI that helps restaurants negotiate payment processing
+CLAUDE-040	Wholesale Negotiator	Suppliers assume you wont push back - AI that helps small retailers negotiate better terms
+CLAUDE-041	Divorce Prep Tool	Divorce attorneys charge $300/hr for intake. AI that helps you prepare before the meter starts
+CLAUDE-042	Elder Care Navigator	Facilities have marketing teams - families have this. AI that helps navigate senior care options
+CLAUDE-043	Inheritance Navigator	Probate attorneys charge by the hour to explain basics. AI that helps beneficiaries understand their rights
+CLAUDE-044	College App Coach	Admissions consultants charge $5K-50K. AI that provides the same guidance for everyone
+CLAUDE-045	Time Share Exit	The resale market is full of scams - AI that knows the legitimate exit strategies
+CLAUDE-046	Home Inspection Buddy	Inspectors miss things - AI companion that knows what to look for and ask
+CLAUDE-047	New Parent Navigator	The baby industry profits from fear - AI that separates needs from marketing
+CLAUDE-048	Grief Estate Helper	Youre grieving and have to make decisions - AI that helps handle practical matters after loss
+CLAUDE-049	Used Car Buyer Kit	Dealers know everything - you know nothing. AI that evens the odds in used car buying
+CLAUDE-050	School District Decoder	Zillow shows ratings - AI shows what actually matters for YOUR kid
+CLAUDE-051	New City Connector	Moving somewhere new shouldnt mean starting from zero - AI that builds your social life in a new city
+CLAUDE-052	Dad Friend Finder	Men dont know how to make friends as adults - AI that helps dads find their people
+CLAUDE-053	Widow Connection	After losing a spouse no one knows what to say - AI that connects widows to others who understand
+CLAUDE-054	Remote Worker Hub	Working from home means working alone - AI that builds your local remote worker community
+CLAUDE-055	Empty Nest Reconnect	Kids left and you forgot how to have a life - AI that helps empty nesters rediscover themselves
+CLAUDE-056	Introvert Connector	You want friends you just hate the process - AI that helps introverts build friendships their way
+CLAUDE-057	New Mom Circle	Everyone has advice but no one has time for you - AI that connects new moms who get it
+CLAUDE-058	Divorce Rebuild	Your social life was couple friends - AI that helps rebuild after divorce
+CLAUDE-059	Retiree Tribe	Retirement shouldnt mean disappearing - AI that helps retirees build their next chapter community
+CLAUDE-060	Grief Companion	Everyone disappeared after the funeral - AI that connects you with others who understand loss
+CLAUDE-061	Sober Social Guide	Sobriety shouldnt mean isolation - AI that helps you build a social life without alcohol
+CLAUDE-062	Neighborhood Bridge	Your neighbors are strangers - AI that helps you actually know the people on your street
+CLAUDE-063	Hobby Mentor	You want to start something new but dont know anyone who does it - AI that connects learners with communities
+CLAUDE-064	Mens Circle Finder	Men dont have spaces to be real - AI that connects men with groups where vulnerability is welcome
+CLAUDE-065	Travel CompanionAI	Solo travel is great until youre eating alone again - AI that finds compatible travel companions
+CLAUDE-066	Career Pivot Crew	Changing careers alone is terrifying - AI that connects you with others making the same leap
+CLAUDE-067	Chronic Illness Connect	Healthy people dont get it - AI that connects you with others who truly understand your condition
+CLAUDE-068	Post College Compass	College ended and so did your social life - AI that helps graduates build adult friendships
+CLAUDE-069	Expats Connect	Living abroad means constant goodbyes - AI that connects expats who understand the unique loneliness
+CLAUDE-070	Senior Tech Buddy	Your family is too busy to teach you - AI that connects seniors with patient tech helpers for real relationship
+CLAUDE-071	IEP Advocate	School districts have lawyers - parents have this. AI that helps parents navigate special education rights
+CLAUDE-072	Medicare Maze Guide	Medicare has 48 million options and they all sound the same - AI that finds your actual best plan
+CLAUDE-073	Gov Benefits Finder	Billions go unclaimed because no one knows they qualify - AI that finds every benefit you're owed
+CLAUDE-074	Home Closing Review	Everyone at the closing table profits from your confusion - AI that reviews closing docs before you sign
+CLAUDE-075	Immigration Form Checker	One wrong box can delay you years - AI that reviews immigration forms before filing
+CLAUDE-076	Tax Audit Shield	The IRS has unlimited resources - you have this. AI that helps you respond to IRS notices correctly
+CLAUDE-077	Nursing Home Bill Audit	They charge for services never rendered - AI that audits nursing home bills for families
+CLAUDE-078	Child Support Calculator	Your ex's attorney did the math - now you can too. AI that calculates fair child support
+CLAUDE-079	Student Loan Optimizer	Servicers profit from your confusion - AI that finds your best repayment path and catches errors
+CLAUDE-080	Roommate Agreement Pro	Living together without talking about money ends badly - AI that creates bulletproof roommate agreements
+CLAUDE-081	Financial Advisor Vetter	Advisors have designations you don't understand - AI that vets them before you trust your money
+CLAUDE-082	Daycare Inspector	They show you the shiny tour - AI that finds what's really happening at daycares
+CLAUDE-083	HOADoc Decoder	You're buying into rules you haven't read - AI that analyzes HOA documents before you buy
+CLAUDE-084	Unfair Dismissal Check	Your employer has HR and lawyers - you have this. AI that evaluates if your termination was legal
+CLAUDE-085	Private School Evaluator	Marketing hides the real story - AI that uncovers what private schools don't advertise
+CLAUDE-086	Pre Nup Fairness	Lawyers protect who pays them - AI that helps both parties understand prenup implications
+CLAUDE-087	Lab Test Decoder	Doctors have 15 minutes - AI that explains what your lab results actually mean for YOU
+CLAUDE-088	Auto Repair Verifier	Mechanics know you don't know - AI that verifies if recommended repairs are actually needed
+CLAUDE-089	Surgery Second Opinion	Surgeons make money operating - AI that helps you evaluate if surgery is really necessary
+CLAUDE-090	Tax Prep Compare	Tax preparers charge based on vibes - AI that tells you what you should actually pay
+CLAUDE-091	Apprenticeship Finder	College isn't the only path but no one tells you how - AI that finds paid training opportunities
+CLAUDE-092	Pet Insurance Decoder	Pet insurance is designed to confuse - AI that finds what actually covers your pet
+CLAUDE-093	Utility Bill Auditor	Utilities overcharge and hope you won't notice - AI that finds errors and savings in utility bills
+CLAUDE-094	Gig Worker Tax Coach	You're self-employed but no one told you the tax rules - AI that prevents costly gig worker mistakes
+CLAUDE-095	Summer Camp Vetter	Marketing shows the highlights - AI that uncovers what summer camps don't advertise
+CLAUDE-096	Rent To Own Decoder	Rent-to-own is designed to trap you - AI that exposes the true cost and finds alternatives
+CLAUDE-097	Cruise Fee Exposer	The $499 cruise costs $2000 - AI that calculates the true all-in cost before you book
+CLAUDE-098	College Savings Optimizer	529 plans are not all equal - AI that finds the best plan for YOUR state and situation
+CLAUDE-099	Buyer Agent Evaluator	Buyer's agents work for commissions not you - AI that helps you evaluate and negotiate representation
+CLAUDE-100	Life Insurance Right	Agents sell what pays them most - AI that calculates what coverage you actually need
+CLAUDE-101	Dividend Tracker	Content empire teaching dividend investing + AI portfolio analyzer that keeps them coming back
+CLAUDE-102	FIRECalculator Pro	FIRE movement content + the calculator everyone actually wants to use and share
+CLAUDE-103	Credit Card Optimizer	Points and miles content + AI that tells you exactly which cards to get for YOUR spending
+CLAUDE-104	Tax Loss Harvesting	Tax optimization content for investors + AI that monitors portfolios and finds harvesting opportunities
+CLAUDE-105	Options Income Academy	Options education content + AI that generates and tracks income strategies for your portfolio
+CLAUDE-106	Real Estate Analyzer	Real estate investing content + AI that analyzes deals faster than any investor can manually
+CLAUDE-107	Side Hustle Taxes	Side hustle/gig economy content + AI that handles the tax complexity most tutorials ignore
+CLAUDE-108	Net Worth Journey	Personal finance content documenting wealth building + AI tracker that viewers use for their own journey
+CLAUDE-109	Debt Payoff Coach	Debt freedom content journey + AI that creates and tracks personalized payoff plans
+CLAUDE-110	Index Fund Educator	Passive investing education empire + AI portfolio builder that implements what you teach
+CLAUDE-111	Meal Prep Master	Meal prep content empire + AI that generates weekly plans based on YOUR diet goals and preferences
+CLAUDE-112	Strength Progress Tracker	Strength training content + AI that tracks lifts and programs progressive overload automatically
+CLAUDE-113	Sleep Optimizer	Sleep content backed by science + AI that analyzes YOUR patterns and gives personalized protocols
+CLAUDE-114	Running CoachAI	Running content for all levels + AI coach that builds personalized training plans that adapt
+CLAUDE-115	Supplement Navigator	Evidence-based supplement content + AI that recommends only what's actually proven for YOUR goals
+CLAUDE-116	Gut Health Guide	Gut health content + AI that analyzes symptoms and creates personalized elimination/reintroduction protocols
+CLAUDE-117	Mobility Routine Builder	Mobility/stretching content + AI that builds daily routines based on YOUR tight spots and activities
+CLAUDE-118	Hormone Health Hub	Hormone optimization content + AI that interprets labs and suggests lifestyle protocols
+CLAUDE-119	Female Athlete	Female-specific training content + AI that programs around cycles and female physiology
+CLAUDE-120	Longevity Protocol	Longevity/anti-aging content + AI that creates personalized protocols based on age and biomarkers
+CLAUDE-121	Resume Roaster	Career content that tells hard truths + AI that brutally reviews resumes and actually fixes them
+CLAUDE-122	Interview Simulator	Interview prep content + AI that conducts realistic practice interviews with feedback
+CLAUDE-123	Linked In Optimizer	LinkedIn strategy content + AI that rewrites profiles and posts to actually get engagement
+CLAUDE-124	Cold Email Master	Outreach/sales content + AI that writes cold emails that actually get responses
+CLAUDE-125	Promotion Playbook	Career advancement content + AI that builds personalized promotion strategy with documentation
+CLAUDE-126	Salary Data Decoder	Compensation transparency content + AI that tells you your exact market value with negotiation playbook
+CLAUDE-127	Remote Job Navigator	Remote work content + AI that matches skills to remote opportunities and optimizes applications
+CLAUDE-128	Freelance Academy	Freelancing content for specific skills + AI that handles the business side freelancers hate
+CLAUDE-129	Management Unlocked	New manager content + AI coach that guides through specific team situations in real-time
+CLAUDE-130	Tech Break In	Breaking into tech content + AI that creates personalized learning and application roadmaps
+CLAUDE-131	Baby Milestones	Child development content + AI that tracks milestones and catches potential delays early
+CLAUDE-132	Budget Baby	Budget parenting content + AI that finds deals and tracks spending so you dont go broke
+CLAUDE-133	Homeschool Curriculum	Homeschool content + AI that builds personalized curriculum matching learning style and state requirements
+CLAUDE-134	Potty Training Pro	Potty training content + AI coach that creates personalized plans and guides parents through the chaos
+CLAUDE-135	Sleep Training Solutions	Baby sleep content + AI that creates personalized sleep training plans for exhausted parents
+CLAUDE-136	Picky Eater Solver	Picky eating content + AI that creates personalized strategies based on your childs specific aversions
+CLAUDE-137	Teen Parent Guide	Parenting teens content + AI coach for navigating specific difficult conversations and situations
+CLAUDE-138	Activities Generator	Kids activities content + AI that generates age-appropriate activities based on supplies you have
+CLAUDE-139	College Prep Parent	College prep content for parents + AI that plans timeline and manages the overwhelm
+CLAUDE-140	Parent CoachAI	General parenting content + AI that coaches through any specific situation with evidence-based approaches
+CLAUDE-141	First Time Home Buyer Guide	First-time buyer content + AI that creates personalized buying roadmap and keeps you from mistakes
+CLAUDE-142	DIY Home Repair	Home repair content + AI that diagnoses issues and provides step-by-step repair guides for YOUR specific problem
+CLAUDE-143	Renovation Cost Estimator	Renovation content + AI that estimates costs and scope before you call contractors
+CLAUDE-144	Rental Property Educator	Rental property content + AI that helps landlords handle any situation legally and effectively
+CLAUDE-145	Smart Home Setup	Smart home content + AI that designs systems based on your home and priorities and makes it actually work
+CLAUDE-146	Mortgage Optimizer	Mortgage content + AI that analyzes rates and tells you exactly when refinancing makes sense
+CLAUDE-147	Home Maintenance Calendar	Home maintenance content + AI that creates personalized maintenance schedules preventing expensive problems
+CLAUDE-148	Moving Made Simple	Moving content + AI that creates personalized moving plans and coordinates the chaos
+CLAUDE-149	Airbnb Hosting	Airbnb hosting content + AI that optimizes listings and manages guest communications automatically
+CLAUDE-150	Energy Efficiency Planner	Energy efficiency content + AI that audits your home and creates ROI-prioritized upgrade plan
+CLAUDE-151	Small Biz Bookkeeper	Small business finance content + AI that handles bookkeeping and explains what the numbers mean
+CLAUDE-152	Content To Customers	Content marketing for local business + AI that creates and schedules content that actually drives customers
+CLAUDE-153	Service Business Pricing	Service business content + AI that helps price services profitably instead of leaving money on table
+CLAUDE-154	Hiring First Employee	First employee content + AI that handles all the compliance so you dont get sued
+CLAUDE-155	Customer Review Booster	Reputation management content + AI that generates review requests and responds to reviews automatically
+CLAUDE-156	Small Biz Legal Shield	Small business legal content + AI that identifies legal risks and generates protective documents
+CLAUDE-157	Cash Flow Forecaster	Cash flow content + AI that predicts cash shortfalls before they kill your business
+CLAUDE-158	Ecommerce Operator	E-commerce content + AI that handles the operational chaos (inventory
+CLAUDE-159	Restaurant Profitizer	Restaurant business content + AI that finds profit leaks and optimizes menu pricing
+CLAUDE-160	Client Proposal Pro	Proposal/pitch content + AI that creates winning proposals in your voice from scratch
+CLAUDE-161	Garden PlannerAI	Gardening content + AI that designs gardens and tells you exactly what to plant when for YOUR zone
+CLAUDE-162	Pet Training Academy	Pet training content + AI coach that creates personalized training plans for YOUR dogs specific issues
+CLAUDE-163	Photography Mentor	Photography content + AI that analyzes YOUR photos and tells you specifically how to improve
+CLAUDE-164	Guitar Progress Tracker	Guitar learning content + AI that assesses your playing and creates personalized practice plans
+CLAUDE-165	Cooking Confidence	Cooking education content + AI that teaches technique and adjusts recipes to what you actually have
+CLAUDE-166	Fishkeeping Expert	Aquarium content + AI that diagnoses tank problems and creates maintenance schedules for YOUR setup
+CLAUDE-167	Home Brew Master	Homebrewing content + AI that helps design recipes and troubleshoots batches
+CLAUDE-168	Sewing Pattern Helper	Sewing content + AI that adjusts patterns for YOUR measurements and skill level
+CLAUDE-169	Woodworking Planner	Woodworking content + AI that designs projects for YOUR skill level and available tools
+CLAUDE-170	Language Learning Buddy	Language learning content + AI conversation partner that adapts to YOUR level and interests
+CLAUDE-171	SaaS Metrics Decoder	SaaS industry content + AI that calculates YOUR metrics and benchmarks against industry
+CLAUDE-172	Agency Profit Formula	Agency business content + AI that optimizes pricing and scoping to actually make money
+CLAUDE-173	Recruiting Insider	Recruiting/HR content + AI that writes job descriptions and screens candidates effectively
+CLAUDE-174	Dental Practice Growth	Dental practice business content + AI that optimizes scheduling and patient communication
+CLAUDE-175	Law Firm Efficiency	Law firm business content + AI that handles client intake and document preparation
+CLAUDE-176	Contractor Business Pro	Contractor business content + AI that handles estimates and job scheduling profitably
+CLAUDE-177	Real Estate Agent Tools	Real estate agent content + AI that writes listings and nurtures leads automatically
+CLAUDE-178	Fitness Business Builder	Fitness business content + AI that handles programming and client management for trainers
+CLAUDE-179	Accounting Firm Growth	Accounting firm content + AI that automates tax prep and client communication
+CLAUDE-180	Consultant Scaler	Consulting business content + AI that creates deliverables and scales your expertise
+CLAUDE-181	Thumbnail Split Test	YouTube growth content + AI that A/B tests thumbnails and predicts which will win
+CLAUDE-182	Content Repurposer	Content strategy content + AI that turns one piece of content into 10 for all platforms
+CLAUDE-183	Newsletter Growth Engine	Newsletter content + AI that writes growth experiments and optimizes for conversions
+CLAUDE-184	Podcast Growth Tool	Podcast content + AI that creates show notes clips and growth strategy automatically
+CLAUDE-185	Sponsorship Pitcher	Creator monetization content + AI that finds sponsors and writes pitches that convert
+CLAUDE-186	Course Creator Studio	Course creation content + AI that builds course curriculum and content from your expertise
+CLAUDE-187	Community ManagerAI	Community building content + AI that moderates and engages your community automatically
+CLAUDE-188	SEO Content Writer	SEO content strategy + AI that writes articles optimized for search that actually rank
+CLAUDE-189	Creator Analytics Dashboard	Analytics content + AI that interprets YOUR metrics and tells you what to do next
+CLAUDE-190	CreatorCRM Pro	Creator business content + AI CRM that manages your audience relationships at scale
+CLAUDE-191	Senior Tech Teacher	Senior technology content + AI that explains tech in terms they understand with infinite patience
+CLAUDE-192	Truck Driver Business	Trucking business content + AI that optimizes routes and handles paperwork for owner-operators
+CLAUDE-193	Church Admin Helper	Church/nonprofit content + AI that handles administrative burden for volunteer-run organizations
+CLAUDE-194	Wedding PlannerAI	Wedding planning content + AI that coordinates everything and prevents the balls from dropping
+CLAUDE-195	Farm Business Planner	Small farm content + AI that plans rotations and handles business side of farming
+CLAUDE-196	Military Transition Coach	Military transition content + AI that translates skills and coaches through civilian job search
+CLAUDE-197	Pet Sitting Business	Pet sitting/dog walking content + AI that handles scheduling and client management professionally
+CLAUDE-198	Autism Parent Guide	Autism parenting content + AI that helps navigate services and advocate for your child
+CLAUDE-199	Van Life Business Guide	Van life content + AI that handles the logistics of working while living on the road
+CLAUDE-200	Disaster Prep Planner	Emergency preparedness content + AI that creates personalized prep plans for YOUR specific risks
+CLAUDE-201	Shopee Lazada Seller	SEA e-commerce seller content + AI that optimizes listings and manages multi-platform inventory
+CLAUDE-202	Facebook Live Seller Pro	FB/IG Live selling content + AI that manages orders from chaotic comment streams
+CLAUDE-203	Cross BorderSEA	Cross-border e-commerce content + AI that navigates customs and taxes for SEA inter-country trade
+CLAUDE-204	COD Collection Helper	Cash-on-delivery content + AI that reduces failed deliveries and improves collection rates
+CLAUDE-205	Product Sourcing China	China sourcing content + AI that helps SEA sellers find suppliers and negotiate in Chinese
+CLAUDE-206	Whats App Storefront	WhatsApp selling content + AI that turns WhatsApp into a proper storefront with catalog and orders
+CLAUDE-207	Tik Tok ShopSEA	TikTok Shop content + AI that creates viral product videos and optimizes for SEA markets
+CLAUDE-208	Carousell Pro	Carousell selling content + AI that optimizes listings and automates responses for secondhand selling
+CLAUDE-209	DropshipSEA	SEA dropshipping content + AI that finds local suppliers to avoid long China shipping times
+CLAUDE-210	Grab Mart Seller	Grab ecosystem content + AI that helps sellers optimize for GrabMart/GrabFood platforms
+CLAUDE-211	OFW Money Manager	OFW content + AI that helps overseas Filipino workers budget and send money home efficiently
+CLAUDE-212	Migrant Worker Rights	Migrant worker content + AI that explains rights and helps document issues in workers home language
+CLAUDE-213	Indonesian Worker Abroad	Indonesian migrant worker content + AI that helps with contracts and pre-departure preparation
+CLAUDE-214	Remittance Optimizer	Regional remittance content + AI that finds best rates across all corridors within SEA
+CLAUDE-215	Family Back Home	Content for OFW families + AI that helps manage remittances and coordinate with worker abroad
+CLAUDE-216	Go Home Well	Return migration content + AI that helps migrant workers plan successful return and reintegration
+CLAUDE-217	Singapore FDWHelper	Singapore domestic worker content + AI that helps FDWs navigate rules and manage finances wisely
+CLAUDE-218	Malaysia Worker Guide	Malaysia foreign worker content + AI that helps navigate complex Malaysian employment and levy system
+CLAUDE-219	Warung Digital	Warung and sari-sari store content + AI that helps micro-retailers manage inventory and profits without complex software
+CLAUDE-220	Grab Food Merchant Pro	Food stall content + AI that helps small F&B merchants optimize their GrabFood/Gojek listings and operations
+CLAUDE-221	SEA SMELoan Finder	SME financing content + AI that matches small businesses with appropriate lenders across SEA markets
+CLAUDE-222	DTIBIR Helper	Philippine business registration content + AI that guides entrepreneurs through DTI/BIR/Mayor's permit maze
+CLAUDE-223	IndonesiaOSS Helper	Indonesian OSS business licensing content + AI that navigates the complex NIB and KBLI system
+CLAUDE-224	SEA Freelancer Tax	SEA freelancer content + AI that helps gig workers and freelancers handle taxes across different SEA countries
+CLAUDE-225	SSS SPhil HealthPag-IBIG	Philippine mandatory contributions content + AI that helps employers and self-employed manage SSS/PhilHealth/Pag-IBIG
+CLAUDE-226	MY EPF SOCSO Helper	Malaysian employer content + AI that helps SMEs manage EPF/SOCSO/EIS and PCB tax deductions correctly
+CLAUDE-227	Virtual AssistantSEA	VA training content + AI that helps Filipinos land and excel at virtual assistant jobs for international clients
+CLAUDE-228	Bahasa InggrisAI	English learning content + AI tutor for Indonesian professionals wanting to improve English for career growth
+CLAUDE-229	ReviewerPH	Philippine board exam content + AI that creates personalized review materials for licensure exams
+CLAUDE-230	TESDA Skills Match	TESDA content + AI that matches Filipinos with in-demand TESDA courses and tracks certification to jobs
+CLAUDE-231	Thai English Pro	Thai professional English content + AI that helps Thai workers improve English for better job opportunities
+CLAUDE-232	Viet Tech English	Vietnamese tech English content + AI that helps Vietnamese developers communicate better with international teams
+CLAUDE-233	PAG-IBIG Housing Helper	Pag-IBIG housing content + AI that helps Filipinos navigate Pag-IBIG housing loans and find affordable properties
+CLAUDE-234	KPR Indonesia Guide	Indonesian mortgage content + AI that helps first-time homebuyers navigate KPR and property purchase process
+CLAUDE-235	SG HDB Helper	Singapore HDB content + AI that helps Singaporeans and PRs navigate BTO/resale HDB purchase process
+CLAUDE-236	MY Property Legal Check	Malaysian property content + AI that helps buyers verify property legal status and avoid common pitfalls
+CLAUDE-237	Condo RentalSEA	SEA condo rental content + AI that helps tenants understand rights and negotiate fair rental terms
+CLAUDE-238	Hawker Stall Helper	Hawker/street food content + AI that helps food stall owners optimize menu
+CLAUDE-239	Cloud KitchenSEA	Cloud kitchen content + AI that helps home cooks and small F&B start and optimize cloud kitchen businesses
+CLAUDE-240	Food CostSEA	F&B costing content + AI that helps restaurant and food stall owners calculate true food costs and price correctly
+CLAUDE-241	Halal CertSEA	Halal certification content + AI that guides F&B businesses through halal certification process in Malaysia/Indonesia
+CLAUDE-242	Kopitiam Menu Optimizer	Kopitiam/coffee shop content + AI that helps traditional coffee shops modernize menu and operations
+CLAUDE-243	Phil Health Navigator	PhilHealth content + AI that helps Filipinos understand and maximize their PhilHealth benefits
+CLAUDE-244	BPJSKesehatan	BPJS Kesehatan content + AI that helps Indonesians navigate the national health insurance system
+CLAUDE-245	Med TourismSEA	Medical tourism content + AI that helps international patients plan medical procedures in Thailand/Malaysia/Singapore
+CLAUDE-246	Elder CareSEA	Elder care content + AI that helps adult children find and manage care for aging parents across SEA
+CLAUDE-247	Maid AgencySEA	Domestic helper content + AI that helps families find and manage relationship with domestic helpers across SEA
+CLAUDE-248	Aircon ServiceSEA	Aircon maintenance content + AI that helps homeowners in tropical SEA manage aircon servicing and avoid scams
+CLAUDE-249	RenovationSEA	Home renovation content + AI that helps homeowners plan and manage renovation projects without getting cheated
+CLAUDE-250	Moving DaySEA	Moving services content + AI that helps people plan relocations within and across SEA countries
+CLAUDE-251	Mech Keyboard Builder	Mechanical keyboard content + AI that helps enthusiasts plan custom builds and find compatible parts
+CLAUDE-252	Sourdough Starter	Sourdough baking content + AI that helps home bakers troubleshoot and perfect their sourdough
+CLAUDE-253	AquascapeAI	Aquascaping content + AI that helps planted tank hobbyists design and maintain beautiful aquascapes
+CLAUDE-254	Resin Art Helper	Resin art content + AI that helps crafters troubleshoot pours and create stunning pieces
+CLAUDE-255	3D Print Helper	3D printing content + AI that helps hobbyists troubleshoot print failures and optimize settings
+CLAUDE-256	Home Brew Coach	Homebrewing content + AI that helps beer brewers perfect recipes and troubleshoot batches
+CLAUDE-257	Crochet PatternAI	Crochet content + AI that helps crafters read patterns
+CLAUDE-258	Whittling Guide	Wood carving content + AI that helps beginners learn whittling and progress to advanced techniques
+CLAUDE-259	Mushroom Grower	Mushroom cultivation content + AI that helps home growers troubleshoot grows and maximize yields
+CLAUDE-260	Board Game Organizer	Board game content + AI that helps collectors organize
+CLAUDE-261	Travel Nurse Helper	Travel nursing content + AI that helps travel nurses find contracts and manage multi-state licensing
+CLAUDE-262	Mobile Notary Pro	Mobile notary content + AI that helps notaries build businesses and optimize signing appointments
+CLAUDE-263	REPhotographerAI	Real estate photography content + AI that helps photographers edit consistently and manage high-volume shoots
+CLAUDE-264	Wedding Officiant Helper	Wedding officiant content + AI that helps officiants write custom ceremonies and manage wedding day logistics
+CLAUDE-265	Courier Driver Pro	Delivery driver content + AI that helps multi-app drivers optimize earnings across platforms
+CLAUDE-266	Estate Sale Runner	Estate sale content + AI that helps estate sale companies price items and manage sales efficiently
+CLAUDE-267	Court ReporterAI	Court reporter content + AI that helps stenographers with scopist work and transcript production
+CLAUDE-268	Pet Sitter Pro	Pet sitting content + AI that helps pet sitters manage bookings
+CLAUDE-269	TranscriptionistAI	Transcription content + AI that helps freelance transcriptionists work faster and earn more per hour
+CLAUDE-270	Appraisal Assistant	Property appraiser content + AI that helps appraisers find comparables and write reports faster
+CLAUDE-271	Empty Nester Downsize	Empty nester content + AI that helps parents downsize homes when kids leave
+CLAUDE-272	New Stepmom Guide	Stepmom content + AI that helps new stepmothers navigate blended family dynamics
+CLAUDE-273	Hoarder Family Help	Hoarding support content + AI that helps adult children of hoarders cope and potentially help parents
+CLAUDE-274	Military Spouse Career	Military spouse content + AI that helps military spouses build portable careers despite frequent moves
+CLAUDE-275	Sandwich Generation	Sandwich generation content + AI that helps adults caring for both kids and aging parents
+CLAUDE-276	First Gen College Guide	First-generation college content + AI that helps first-gen students navigate college applications and life
+CLAUDE-277	Widow Year One	New widow/widower content + AI that helps people navigate the overwhelming first year after spouse death
+CLAUDE-278	Adult Autism Discovery	Late autism discovery content + AI that helps adults who discover they're autistic later in life
+CLAUDE-279	Postpartum Work Return	Return to work content + AI that helps new mothers navigate going back to work after baby
+CLAUDE-280	Midlife Pivot	Midlife career change content + AI that helps people pivot careers after 40 without starting over
+CLAUDE-281	PCOS Meal Planner	PCOS nutrition content + AI that creates personalized meal plans for managing PCOS symptoms
+CLAUDE-282	ADHD Freelancer	ADHD freelancer content + AI that helps freelancers with ADHD manage inconsistent productivity
+CLAUDE-283	Chronic Fatigue Work	CFS/ME content + AI that helps people with chronic fatigue manage energy for work
+CLAUDE-284	Diabetes Date Night	Diabetes lifestyle content + AI that helps diabetics navigate social eating and dating
+CLAUDE-285	Endometriosis Tracker	Endometriosis content + AI that helps track symptoms and prepare for doctor appointments
+CLAUDE-286	Migraine Work Helper	Migraine content + AI that helps chronic migraine sufferers manage work around unpredictable attacks
+CLAUDE-287	IBS Food Diary	IBS content + AI that helps identify trigger foods through systematic elimination and testing
+CLAUDE-288	Anxiety Meeting Prep	Social anxiety content + AI that helps people prepare for and recover from anxiety-inducing work situations
+CLAUDE-289	Thyroid Balance	Hypothyroid content + AI that helps manage energy
+CLAUDE-290	Tinnitus Cope Helper	Tinnitus content + AI that helps people habituate and cope with chronic tinnitus
+CLAUDE-291	Senior Dog Care	Senior dog content + AI that helps owners manage health
+CLAUDE-292	Reptile Breeder	Reptile breeding content + AI that helps breeders track genetics
+CLAUDE-293	Backyard Chickens	Backyard chicken content + AI that helps new flock owners raise healthy and productive birds
+CLAUDE-294	Aquarium Fish Health	Fish keeping content + AI that helps aquarists diagnose and treat fish diseases
+CLAUDE-295	Cat Diabetes Helper	Diabetic cat content + AI that helps owners manage feline diabetes including home testing
+CLAUDE-296	Dog Reactivity	Reactive dog content + AI that helps owners manage and train dogs with reactivity issues
+CLAUDE-297	Horse Owner Helper	Horse ownership content + AI that helps first-time horse owners manage care
+CLAUDE-298	Bee Keeping101	Beekeeping content + AI that helps new beekeepers manage hives and troubleshoot problems
+CLAUDE-299	Exotic Pet Care	Exotic pet content + AI that helps owners of uncommon pets find proper care information
+CLAUDE-300	Puppy First Year	New puppy content + AI that helps first-time puppy owners navigate the crucial first year
+CLAUDE-301	EtsyPOD Helper	Etsy POD content + AI that helps print-on-demand sellers optimize listings and find trending niches
+CLAUDE-302	Substack Growth	Substack content + AI that helps newsletter writers grow subscribers and improve engagement
+CLAUDE-303	Twitch Affiliate Helper	Twitch affiliate content + AI that helps small streamers reach and optimize for affiliate status
+CLAUDE-304	KDP Publisher	Amazon KDP content + AI that helps self-publishers optimize books and find profitable niches
+CLAUDE-305	Patreon Creator Pro	Patreon content + AI that helps creators structure tiers and retain subscribers
+CLAUDE-306	Udemy InstructorAI	Udemy instructor content + AI that helps course creators optimize courses and improve reviews
+CLAUDE-307	Podcast GrowthAI	Podcast content + AI that helps small podcasters grow audience and monetize
+CLAUDE-308	Tik Tok Shop Seller	TikTok Shop content + AI that helps creators build and optimize TikTok Shop businesses
+CLAUDE-309	Gumroad Creator Helper	Gumroad content + AI that helps creators optimize digital product sales and pricing
+CLAUDE-310	Fiverr Freelancer Pro	Fiverr content + AI that helps sellers optimize gigs and increase order volume
+CLAUDE-311	Junk Removal Biz	Junk removal content + AI that helps operators price jobs and optimize routes
+CLAUDE-312	Professional Organizer	Professional organizing content + AI that helps organizers run efficient businesses and serve clients
+CLAUDE-313	Senior Movers	Senior moving content + AI that helps moving companies specialize in senior relocations
+CLAUDE-314	Dog Walker Pro	Dog walking content + AI that helps dog walkers manage multi-dog businesses efficiently
+CLAUDE-315	Pool Service Pro	Pool service content + AI that helps pool techs diagnose problems and manage routes
+CLAUDE-316	Lawn Care Biz	Lawn care content + AI that helps small operators optimize pricing and route efficiency
+CLAUDE-317	House Cleaner Biz	House cleaning content + AI that helps cleaners price jobs and manage recurring clients
+CLAUDE-318	Handyman Helper	Handyman content + AI that helps handymen price diverse jobs and manage small projects
+CLAUDE-319	Pressure Wash Biz	Pressure washing content + AI that helps operators price jobs and build recurring revenue
+CLAUDE-320	Personal Chef Biz	Personal chef content + AI that helps private chefs manage clients
+CLAUDE-321	Vinyl Collector	Vinyl record content + AI that helps collectors track
+CLAUDE-322	Watch CollectorAI	Watch collecting content + AI that helps collectors track
+CLAUDE-323	Sports Card Trader	Sports card content + AI that helps collectors grade
+CLAUDE-324	Comic Book Collector	Comic book content + AI that helps collectors track
+CLAUDE-325	Coin CollectorAI	Coin collecting content + AI that helps numismatists identify
+CLAUDE-326	Lego Investor	LEGO investment content + AI that helps collectors track sets and identify investment opportunities
+CLAUDE-327	Sneaker Reseller	Sneaker resale content + AI that helps resellers track inventory and identify profitable releases
+CLAUDE-328	Funko Price Tracker	Funko collecting content + AI that helps collectors track value and identify chase opportunities
+CLAUDE-329	Book Collector	Rare book content + AI that helps collectors identify first editions and assess value
+CLAUDE-330	Pokemon Card Collector	Pokemon card content + AI that helps collectors track
+CLAUDE-331	Kosher Meal Planner	Kosher cooking content + AI that creates meal plans following kosher dietary laws
+CLAUDE-332	Homeschool Co Op	Homeschool content + AI that helps co-op organizers coordinate classes and families
+CLAUDE-333	Minimalist Family	Family minimalism content + AI that helps families declutter and maintain minimalist homes with kids
+CLAUDE-334	Vegan Newbie	Vegan transition content + AI that helps new vegans navigate food
+CLAUDE-335	Church Volunteer Mgr	Church ministry content + AI that helps coordinators manage volunteer schedules and ministry teams
+CLAUDE-336	Muslim Prayer Helper	Islamic practice content + AI that helps Muslims maintain prayer and religious obligations
+CLAUDE-337	Gluten Free Family	Gluten-free family content + AI that helps families manage celiac and gluten-free diets
+CLAUDE-338	Van Life Planner	Van life content + AI that helps nomads plan routes
+CLAUDE-339	Large Family	Large family content + AI that helps parents of many kids manage logistics and sanity
+CLAUDE-340	Sober Curious	Sobriety content + AI that helps people explore alcohol-free living and social alternatives
+CLAUDE-341	Destination Wedding	Destination wedding content + AI that helps couples plan weddings in locations they've never visited
+CLAUDE-342	Christmas Lights Biz	Christmas lights content + AI that helps installers price jobs and manage seasonal business
+CLAUDE-343	Tax Prep Helper	Tax season content + AI that helps independent tax preparers manage client flow and stay current
+CLAUDE-344	Graduation Party	Graduation party content + AI that helps parents plan milestone celebrations
+CLAUDE-345	Halloween Yard	Halloween decoration content + AI that helps enthusiasts plan and execute elaborate yard displays
+CLAUDE-346	Baby Shower Host	Baby shower content + AI that helps hosts plan memorable showers without stress
+CLAUDE-347	Back To School Prep	Back to school content + AI that helps parents prepare kids for new school year
+CLAUDE-348	Pool Open Close	Pool season content + AI that helps pool owners handle spring opening and fall closing
+CLAUDE-349	Hosting Holidays	Holiday hosting content + AI that helps hosts manage family gatherings without stress
+CLAUDE-350	Black Friday Tracker	Black Friday content + AI that helps shoppers find best deals and plan shopping strategy
+IDEA-001	MeetingMind	AI meeting summarizer that works without bots joining your calls
+IDEA-002	InboxDigest	Summarize any email thread with one click - Chrome extension
+IDEA-003	ComplianceBot	SOC 2 and ISO 27001 compliance automation for small SaaS teams
+IDEA-004	ClientSync	Unified communication portal for accountants and bookkeepers
+IDEA-005	ClipGenius	Turn one podcast episode into 30 pieces of social content automatically
+IDEA-006	ProofPilot	Collect and display customer testimonials on autopilot
+IDEA-007	DocuAPI	Generate beautiful API documentation from your codebase automatically
+IDEA-008	ProposalPro	AI-powered proposal generator for freelancers - close more gigs faster
+IDEA-009	AgentCRM	Dead-simple CRM for solo real estate agents - not another Salesforce
+IDEA-010	LegalDraft	AI contract generator for freelancers and small agencies
+IDEA-011	ReplyGPT	AI that writes perfect email replies in your tone - Chrome extension
+IDEA-012	SummaryTab	Summarize any webpage or article with one click - Chrome extension
+IDEA-013	CodeReviewBot	AI code reviewer that catches bugs before your PR - GitHub App
+IDEA-014	ChatExport	Export and search your ChatGPT history - Chrome extension
+IDEA-015	MeetingPrep	AI meeting prep assistant - know everything before every call
+IDEA-016	ScreenshotAI	Turn screenshots into actionable data - extract text tables and more
+IDEA-017	BrandVoice	Train AI on your brand voice then generate on-brand content
+IDEA-018	CompetitorWatch	AI monitors competitors and alerts you to changes - pricing features content
+IDEA-019	DataStory	Turn spreadsheet data into written insights automatically
+IDEA-020	FormGenius	AI builds forms that convert - surveys sign-ups applications
+IDEA-021	PolicyWriter	Generate HR policies and employee handbook sections instantly
+IDEA-022	InvoiceMagic	AI invoicing that chases payments for you - get paid faster
+IDEA-023	ScheduleGenius	AI scheduling assistant that finds meeting times without the back-and-forth
+IDEA-024	FeedbackLoop	Collect and analyze customer feedback in one place - AI finds patterns
+IDEA-025	OnboardFlow	AI creates employee onboarding checklists and tracks completion
+IDEA-026	PitchPolish	AI pitch deck reviewer - get investor-ready feedback instantly
+IDEA-027	ContentCal	AI content calendar that plans your social media month
+IDEA-028	ThreadMaster	Turn any content into viral Twitter/X threads automatically
+IDEA-029	ThumbnailTest	AI predicts which YouTube thumbnail will get more clicks
+IDEA-030	NewsletterGrow	AI writes your newsletter from your content - be consistent effortlessly
+IDEA-031	LinkedInGhost	AI LinkedIn content writer - posts that sound like you and get engagement
+IDEA-032	QuoteGraphic	Turn quotes and text into beautiful social graphics instantly
+IDEA-033	ReviewReply	AI writes perfect responses to customer reviews - Google Yelp etc
+IDEA-034	JobDescAI	Write job descriptions that attract the right candidates
+IDEA-035	SOPWriter	Generate standard operating procedures from rough descriptions
+IDEA-036	ColdEmailAI	AI writes personalized cold emails that get responses
+IDEA-037	BugReportAI	Turn vague bug reports into actionable tickets automatically
+IDEA-038	ChangelogAI	Generate changelog entries from git commits automatically
+IDEA-039	ErrorExplain	Paste any error message and get plain English explanation + fix
+IDEA-040	RegexHelper	Describe what you want to match and AI writes the regex
+IDEA-041	ShopifyDescribe	AI product descriptions for Shopify stores - SEO optimized
+IDEA-042	ReviewBoost	Automated review request emails for Shopify - get more reviews
+IDEA-043	AbandonedWin	AI-powered abandoned cart recovery emails that convert
+IDEA-044	InventoryAlert	AI predicts stockouts and sends reorder alerts - never run out
+IDEA-045	TutorBot	AI tutor for any subject - personalized learning chat
+IDEA-046	MenuMaker	AI menu descriptions and pricing suggestions for restaurants
+IDEA-047	GymPlan	AI personal trainer - custom workout plans that adapt
+IDEA-048	PetCareAI	AI vet assistant - get quick answers about pet health concerns
+IDEA-049	RentalReview	AI reviews lease agreements and highlights red flags - for renters
+IDEA-050	WeddingPlan	AI wedding planning assistant - budget timeline and vendor help
+IDEA-051	ReceiptSnap	Snap receipts and auto-categorize expenses for tax time
+IDEA-052	CoachCRM	Simple client management for life coaches and consultants
+IDEA-053	BookingBuddy	Simple appointment booking for service businesses - no complexity
+IDEA-054	DripEmail	Simple email sequences for solopreneurs - not Mailchimp complexity
+IDEA-055	HabitScore	Simple habit tracker with accountability - daily check-ins
+IDEA-056	LocalRank	Track your Google local ranking for multiple keywords - simple and cheap
+IDEA-057	TestimonialVideo	Collect video testimonials from customers with zero friction
+IDEA-058	WaitlistPro	Beautiful waitlist pages with referral program built in
+IDEA-059	PriceTrack	Track competitor prices and get alerts when they change
+IDEA-060	AffiliateHub	Simple affiliate program management for small SaaS
+IDEA-061	DemoBook	Let prospects book and watch product demos on their schedule
+IDEA-062	SurveyQuick	One-question surveys that actually get responses
+IDEA-063	RefundGuard	Reduce SaaS churn with AI-powered cancel flow optimization
+IDEA-064	FounderMatch	Find co-founders and collaborators with complementary skills
+IDEA-065	LaunchList	Curated list of places to launch your product - with tracking
+IDEA-066	SpamScore	Check if your email will land in spam before sending
+IDEA-067	MeetingCost	Show the cost of meetings in real-time - encourage efficiency
+IDEA-068	PrivacyPolicy	Generate privacy policy and terms of service for your website
+IDEA-069	BacklinkWatch	Monitor your backlinks and get alerts when you gain or lose them
+IDEA-070	FontPair	AI suggests perfect font pairings for your design project
+IDEA-071	ColorExtract	Extract color palette from any image instantly
+IDEA-072	MockupMagic	Generate product mockups from screenshots instantly
+IDEA-073	CopyCheck	AI copy editor for marketing content - catch errors and improve clarity
+IDEA-074	SiteDown	Monitor your website uptime and get instant alerts when it goes down
+IDEA-075	QRMenu	Digital menu for restaurants via QR code - simple and cheap
+IDEA-076	InvoiceRemind	Automated invoice reminder sequences - get paid faster
+IDEA-077	GlossaryAI	Generate glossary and definitions for your documentation
+IDEA-078	TestimonialWall	Beautiful testimonial display pages - Wall of Love in minutes
+IDEA-079	NameScore	AI evaluates your business or product name - get feedback before committing
+IDEA-080	OneLiner	AI generates positioning statements and taglines for your product
+IDEA-081	FAQBuilder	AI generates FAQ page from your product documentation
+IDEA-082	StartupStack	Browse and share tech stacks of real startups - with explanations
+IDEA-083	Notifyr	Send push notifications to your web app users - simple setup
+IDEA-084	AuditLog	Add audit logging to your app in minutes - compliance made easy
+IDEA-085	InterviewPrep	AI mock interviews for job seekers - practice with feedback
+IDEA-086	ResumeATS	Check if your resume passes ATS systems before applying
+IDEA-087	SalaryCheck	Know your market rate before negotiating - salary data by role and location
+IDEA-088	DailyDigest	AI summarizes Slack or Discord channels daily - never miss important stuff
+IDEA-089	BookmarkBrain	AI organizes your bookmarks and makes them searchable
+IDEA-090	GitBranch	Visual git branch management - see your branches clearly
+IDEA-091	EmailWarmup	Warm up new email domains to improve deliverability
+IDEA-092	PortfolioAI	Generate developer portfolio from GitHub profile
+IDEA-093	CancelFlow	Know exactly how to cancel any subscription - step by step guides
+IDEA-094	ParkingSpot	Find and compare parking before you go - prices and availability
+IDEA-095	GiftIdea	AI suggests personalized gift ideas based on recipient details
+IDEA-096	PlantCare	AI plant care assistant - know exactly how to care for your plants
+IDEA-097	MealPlan	AI weekly meal planning based on your preferences and budget
+IDEA-098	MovingList	Moving checklist and task manager - never forget anything when moving
+IDEA-099	BabyTrack	Simple baby feeding sleep and diaper tracking for new parents
+IDEA-100	DogWalk	Find and book trusted dog walkers in your neighborhood
+IDEA-101	ContractAlert	B2B Services
+IDEA-102	EventBrief	SaaS/Productivity
+IDEA-103	ChurnPredict	SaaS/Productivity
+IDEA-104	GrantFinder	Vertical SaaS
+IDEA-105	PodPitch	Creator Economy
+IDEA-106	RetainerTrack	B2B Services
+IDEA-107	TestimonialPrompt	Creator Economy
+IDEA-108	WebinarClip	Creator Economy
+IDEA-109	AgencyBrief	B2B Services
+IDEA-110	ExitInterview	SaaS/Productivity
+IDEA-111	MeetingAction	SaaS/Productivity
+IDEA-112	SpeakerOne	Creator Economy
+IDEA-113	TermsSimple	B2B Services
+IDEA-114	InvoiceDispute	B2B Services
+IDEA-115	CourseOutline	Creator Economy
+IDEA-116	ReferralAsk	SaaS/Productivity
+IDEA-117	PricingPage	SaaS/Productivity
+IDEA-118	WinLoss	SaaS/Productivity
+IDEA-119	FeatureVote	SaaS/Productivity
+IDEA-120	CaseStudy	B2B Services
+IDEA-121	AudienceFind	Creator Economy
+IDEA-122	ReturnLabel	E-commerce
+IDEA-123	PartnerPitch	B2B Services
+IDEA-124	QuoteFollow	B2B Services
+IDEA-125	TeamRetro	SaaS/Productivity
+IDEA-126	VideoChapter	Creator Economy
+IDEA-127	JobBoard	Vertical SaaS
+IDEA-128	MeetingSumm	SaaS/Productivity
+IDEA-129	SurveySum	SaaS/Productivity
+IDEA-130	StartupName	SaaS/Productivity
+IDEA-131	EmailSubject	Creator Economy
+IDEA-132	CompetitorAd	SaaS/Productivity
+IDEA-133	KnowledgeQ	SaaS/Productivity
+IDEA-134	PodcastGuest	Creator Economy
+IDEA-135	LaunchEmail	Creator Economy
+IDEA-136	SocialProof	SaaS/Productivity
+IDEA-137	ReviewRequest	E-commerce
+IDEA-138	DemoScript	B2B Services
+IDEA-139	BlogOutline	Creator Economy
+IDEA-140	MeetingPoll	SaaS/Productivity
+IDEA-141	VCIntro	B2B Services
+IDEA-142	TechDebt	Developer Tools
+IDEA-143	CustomerWin	SaaS/Productivity
+IDEA-144	SkillGap	SaaS/Productivity
+IDEA-145	StatusPage	SaaS/Productivity
+IDEA-146	UserPersona	SaaS/Productivity
+IDEA-147	MetricAlert	SaaS/Productivity
+IDEA-148	OfferLetter	B2B Services
+IDEA-149	APIStatus	Developer Tools
+IDEA-150	CommitMsg	Developer Tools
+IDEA-151	InvoiceScan	B2B Services
+IDEA-152	SocialBio	Creator Economy
+IDEA-153	RefundEmail	E-commerce
+IDEA-154	MeetingNo	SaaS/Productivity
+IDEA-155	AppStoreCopy	Creator Economy
+IDEA-156	UpworkBid	B2B Services
+IDEA-157	SlackDigest	SaaS/Productivity
+IDEA-158	FounderUpdate	SaaS/Productivity
+IDEA-159	BioLink	Creator Economy
+IDEA-160	HelpDocAI	SaaS/Productivity
+IDEA-161	SalesEmail	B2B Services
+IDEA-162	PRHeadline	Creator Economy
+IDEA-163	ReadmeGen	Developer Tools
+IDEA-164	ContentIdea	Creator Economy
+IDEA-165	MeetingCost2	SaaS/Productivity
+IDEA-166	CustomerQuote	B2B Services
+IDEA-167	ShippingCalc	E-commerce
+IDEA-168	InterviewQ	SaaS/Productivity
+IDEA-169	UGCBrief	Creator Economy
+IDEA-170	PaywallCopy	Creator Economy
+IDEA-171	DebugLog	Developer Tools
+IDEA-172	AgendaAI	SaaS/Productivity
+IDEA-173	RepoDoc	Developer Tools
+IDEA-174	ColdDM	B2B Services
+IDEA-175	PortfolioFix	Creator Economy
+IDEA-176	ComparePrice	E-commerce
+IDEA-177	TestimonialAsk	SaaS/Productivity
+IDEA-178	SpeechToPost	Creator Economy
+IDEA-179	WelcomeEmail	SaaS/Productivity
+IDEA-180	ClientUpdate	B2B Services
+IDEA-181	StartupPitch	B2B Services
+IDEA-182	CancelSave	SaaS/Productivity
+IDEA-183	ProductFAQ	E-commerce
+IDEA-184	MeetingNote	SaaS/Productivity
+IDEA-185	HashtagGen	Creator Economy
+IDEA-186	VoiceClone	Creator Economy
+IDEA-187	ABTestCopy	SaaS/Productivity
+IDEA-188	SurveyQ	SaaS/Productivity
+IDEA-189	ExpenseTag	B2B Services
+IDEA-190	DiscordBot	Vertical SaaS
+IDEA-191	LandingCopy	SaaS/Productivity
+IDEA-192	ProductRoad	SaaS/Productivity
+IDEA-193	EmailClean	SaaS/Productivity
+IDEA-194	FeatureAnnounce	SaaS/Productivity
+IDEA-195	SlideSum	SaaS/Productivity
+IDEA-196	LeadScore	B2B Services
+IDEA-197	CommentReply	Creator Economy
+IDEA-198	APIKey	Developer Tools
+IDEA-199	JobMatch	Vertical SaaS
+IDEA-200	Onboarding	SaaS/Productivity
+IDEA-201	TweetThread	Creator Economy
+IDEA-202	SOWGen	B2B Services
+IDEA-203	BookingRemind	Vertical SaaS
+IDEA-204	GlossaryGen	SaaS/Productivity
+IDEA-205	InfluencerBrief	Creator Economy
+IDEA-206	BugPriority	Developer Tools
+IDEA-207	CustomerTag	SaaS/Productivity
+IDEA-208	VideoTitle	Creator Economy
+IDEA-209	SiteAudit	Developer Tools
+IDEA-210	TranscriptClean	Creator Economy
+IDEA-211	ContractRenew	B2B Services
+IDEA-212	ErrorPage	Developer Tools
+IDEA-213	PodQuestion	Creator Economy
+IDEA-214	SkillBadge	SaaS/Productivity
+IDEA-215	ChatbotFAQ	SaaS/Productivity
+IDEA-216	RiskFlag	B2B Services
+IDEA-217	TeamPulse	SaaS/Productivity
+IDEA-218	PromptLib	Developer Tools
+IDEA-219	RecipeScale	Vertical SaaS
+IDEA-220	NDAGen	B2B Services
+IDEA-221	CustomerInt	SaaS/Productivity
+IDEA-222	ChangeReq	SaaS/Productivity
+IDEA-223	VideoHook	Creator Economy
+IDEA-224	SkillTree	SaaS/Productivity
+IDEA-225	WebinarQ	SaaS/Productivity
+IDEA-226	EventFollow	SaaS/Productivity
+IDEA-227	SprintPlan	Developer Tools
+IDEA-228	YouTubeDesc	Creator Economy
+IDEA-229	ReviewSum	E-commerce
+IDEA-230	SlideNote	SaaS/Productivity
+IDEA-231	SOCReport	B2B Services
+IDEA-232	LocalEvent	Vertical SaaS
+IDEA-233	AppReview	Developer Tools
+IDEA-234	TeamRetro2	SaaS/Productivity
+IDEA-235	CRMClean	B2B Services
+IDEA-236	PressKit	Creator Economy
+IDEA-237	CodeSnippet	Developer Tools
+IDEA-238	GrantWrite	Vertical SaaS
+IDEA-239	ProductComp	SaaS/Productivity
+IDEA-240	EmailCleanup	SaaS/Productivity
+IDEA-241	ClientQuestionnaire	B2B Services
+IDEA-242	GitPR	Developer Tools
+IDEA-243	PodcastSEO	Creator Economy
+IDEA-244	InvoiceChase	B2B Services
+IDEA-245	TeamWiki	SaaS/Productivity
+IDEA-246	ReleaseNote	SaaS/Productivity
+IDEA-247	MeetAgenda	SaaS/Productivity
+IDEA-248	CustomerJourney	SaaS/Productivity
+IDEA-249	BrandGuide	Creator Economy
+IDEA-250	OnboardEmail	SaaS/Productivity
+IDEA-251	AffiliateTrack	E-commerce
+IDEA-252	SiteStatus	Developer Tools
+IDEA-253	CareerPath	Vertical SaaS
+IDEA-254	PRPitch	Creator Economy
+IDEA-255	DataClean	SaaS/Productivity
+IDEA-256	ReferenceCheck	B2B Services
+IDEA-257	AIChat	SaaS/Productivity
+IDEA-258	ContentAudit	Creator Economy
+IDEA-259	SaaSMetric	SaaS/Productivity
+IDEA-260	EventName	Vertical SaaS
+IDEA-261	PostSchedule	Creator Economy
+IDEA-262	TaskDelegate	SaaS/Productivity
+IDEA-263	FeatureSpec	Developer Tools
+IDEA-264	CoursePrice	Creator Economy
+IDEA-265	BugReport2	Developer Tools
+IDEA-266	QuizMaker	Creator Economy
+IDEA-267	LeadMagnet	Creator Economy
+IDEA-268	MeetingType	SaaS/Productivity
+IDEA-269	DesignFeedback	Developer Tools
+IDEA-270	APIPrice	Developer Tools
+IDEA-271	SocialProof2	E-commerce
+IDEA-272	StartupCost	Vertical SaaS
+IDEA-273	PartnerTrack	B2B Services
+IDEA-274	CopyrightCheck	Creator Economy
+IDEA-275	EmailTemplate	SaaS/Productivity
+IDEA-276	MeetingSched	SaaS/Productivity
+IDEA-277	CRMRemind	B2B Services
+IDEA-278	ScreenRecord	SaaS/Productivity
+IDEA-279	FunnelCopy	SaaS/Productivity
+IDEA-280	TeamUpdate	SaaS/Productivity
+IDEA-281	BlogTitle	Creator Economy
+IDEA-282	FormResponse	SaaS/Productivity
+IDEA-283	DevPortfolio	Developer Tools
+IDEA-284	ContractSign	B2B Services
+IDEA-285	SurveyReward	SaaS/Productivity
+IDEA-286	ShipUpdate	E-commerce
+IDEA-287	ReviewAnalyze	SaaS/Productivity
+IDEA-288	SlackBot	Vertical SaaS
+IDEA-289	MeetingRec	SaaS/Productivity
+IDEA-290	ContentRefresh	Creator Economy
+IDEA-291	JobPost	B2B Services
+IDEA-292	WebsiteCopy	SaaS/Productivity
+IDEA-293	SlideDesign	SaaS/Productivity
+IDEA-294	CustomerNote	SaaS/Productivity
+IDEA-295	FeaturePrio	SaaS/Productivity
+IDEA-296	RetailPrice	E-commerce
+IDEA-297	TeamGoal	SaaS/Productivity
+IDEA-298	APIDoc2	Developer Tools
+IDEA-299	TaxEstimate	Vertical SaaS
+IDEA-300	FinishLine	SaaS/Productivity
+DIR-001	Landlord Reviews	Rate your landlord before you sign - the Glassdoor for renters
+DIR-002	Vet Price Compare	Compare vet prices before your pet gets sick - transparency for pet healthcare
+DIR-003	Tradesmen Reviews	Find trusted contractors with verified project photos - not just stars
+DIR-004	Mobile Notary Finder	Find a notary who comes to you - searchable by availability and specialty
+DIR-005	Daycare Inspector	Daycare reviews with violation history - what parents actually need to know
+DIR-006	Senior Care Match	Find senior care with real family reviews and inspection scores
+DIR-007	Wedding Vendor Real	Wedding vendor reviews from verified brides - not sponsored content
+DIR-008	Funeral Price Compare	Compare funeral home prices - transparency when families need it most
+DIR-009	Plumber Right Now	Emergency plumbers with real-time availability and upfront pricing
+DIR-010	Dog Groomer Finder	Find dog groomers by breed specialty - because not all groomers know your dog
+DIR-011	Therapist Match	Find therapists by specialty and approach - beyond Psychology Today
+DIR-012	Lawyer Specialist	Find lawyers by exact specialty - not just practice area
+DIR-013	Accountant Finder	Find accountants by industry specialty - because every business is different
+DIR-014	Doctor Ratings	Doctor reviews that focus on what matters - communication, time, outcomes
+DIR-015	Financial Advisor Check	Find fiduciary advisors with transparent fee disclosure
+DIR-016	AI Tools Directory	Find AI tools by specific use case - not just another AI tool list
+DIR-017	SaaS Boilerplates	Find SaaS boilerplates and starter kits by tech stack
+DIR-018	No Code Tool Stack	Find no-code tools that actually work together - integration-first directory
+DIR-019	API Directory	Find APIs by what you're building - not just category
+DIR-020	Remote Job Board	Remote jobs verified as actually remote - not hybrid bait and switch
+DIR-021	Dev Tools Stack	Developer tools organized by workflow stage - discover your perfect stack
+DIR-022	Word Press Plugin Reviews	WordPress plugin reviews from real sites - not fake 5-star ratings
+DIR-023	Shopify App Reviews	Shopify app reviews focused on ROI - did it actually increase sales?
+DIR-024	MicroSaaS Marketplace	Buy and sell micro-SaaS businesses - the directory for tiny acquisitions
+DIR-025	Chrome Extension Directory	Chrome extensions with privacy ratings - know what you're installing
+DIR-026	Fitness Trainer Finder	Find personal trainers by specialty and certification - not just location
+DIR-027	Nutritionist Directory	Find dietitians by condition specialty - IBS, PCOS, diabetes, and more
+DIR-028	Sleep Clinic Finder	Find sleep specialists and clinics - home study vs in-lab options
+DIR-029	Mental Health Apps	Mental health apps with clinical evidence - not just pretty interfaces
+DIR-030	Physical Therapy Finder	Find physical therapists by injury type and treatment approach
+DIR-031	Addiction Treatment Real	Find addiction treatment with real outcome data - not marketing claims
+DIR-032	Medspa Reviews	Med spa reviews with before/after photos and provider credentials
+DIR-033	Freelancer Stack	Find freelancers by tool proficiency - not just skill category
+DIR-034	Content Creator Rates	Influencer rate directory - know what to pay before you negotiate
+DIR-035	Podcast Guest Directory	Find podcast guests and hosts - matchmaking for podcast interviews
+DIR-036	Newsletter Directory	Find newsletters by niche - subscribe to what you actually want
+DIR-037	Course Platform Reviews	Online course platform reviews - Teachable vs Kajabi vs Thinkific
+DIR-038	Video Editor Directory	Find video editors by style - talking head vs cinematic vs short-form
+DIR-039	Ghostwriter Finder	Find ghostwriters by industry and content type
+DIR-040	Voice Over Directory	Find voice over artists by voice characteristics - not just language
+DIR-041	Coliving Directory	Find coliving spaces worldwide - for remote workers and digital nomads
+DIR-042	ADU Contractors	Find contractors who specialize in ADUs - backyard homes and granny flats
+DIR-043	Property Management Reviews	Rate your property manager - accountability for PM companies
+DIR-044	STR Property Managers	Find short-term rental managers - Airbnb management with real results
+DIR-045	Tiny Home Builders	Find tiny home builders - from shells to turnkey
+DIR-046	Commercial Real Estate Brokers	Find CRE brokers by property type specialty - not all brokers know your asset class
+DIR-047	Homeschool Curriculum	Find homeschool curriculum by teaching style and learning differences
+DIR-048	Tutoring Directory	Find tutors by subject and teaching style - beyond generic matching
+DIR-049	Bootcamp Reviews	Coding bootcamp reviews with actual job outcome data
+DIR-050	Online Degree Reviews	Online degree programs with employment outcome data - not just rankings
+DIR-051	Certification Directory	Professional certifications ranked by career ROI - which are worth it
+DIR-052	Apprenticeship Finder	Find apprenticeships and paid training - the alternative to college debt
+DIR-053	Restaurant Supplier Directory	Find restaurant suppliers - not just Sysco and US Foods
+DIR-054	Craft Beer Finder	Find craft breweries and taprooms - by beer style not just location
+DIR-055	Farmers Market Directory	Find farmers markets and vendors - know what's there before you go
+DIR-056	Escape Room Directory	Find escape rooms by theme and difficulty - with real completion rates
+DIR-057	Board Game Cafes	Find board game cafes and bars - with game library info
+DIR-058	Dog Friendly Directory	Find truly dog-friendly places - not just allows dogs outside
+DIR-059	Pickleball Courts	Find pickleball courts - with real-time availability and skill levels
+DIR-060	Community Gardens	Find community garden plots - availability and waitlist info
+DIR-061	Repair Cafe Finder	Find repair cafes and fixers - stop throwing things away
+DIR-062	EWaste Recyclers	Find e-waste recyclers - certified and actually responsible
+DIR-063	Church Finder	Find churches by worship style and theology - beyond denomination
+DIR-064	Support Group Directory	Find support groups by specific situation - in-person and online
+DIR-065	Volunteer Match	Find volunteer opportunities by skills and schedule - not just cause
+DIR-066	GPTs Directory	Find custom GPTs by use case - the App Store for GPTs
+DIR-067	MCP Servers	Find MCP servers and tools - directory for AI agent builders
+DIR-068	Indie Hacker Products	Find products built by indie hackers - support small creators
+DIR-069	Prompt Library	Find AI prompts by task - searchable prompt templates that actually work
+DIR-070	Dataset Directory	Find datasets for ML projects - organized by use case
+DIR-071	Buy For Life Directory	Products that last forever - the directory for BIFL purchases
+DIR-072	Vintage Seller Directory	Find vintage and antique dealers by specialty - not just location
+DIR-073	Privacy Tool Directory	Find privacy tools and alternatives - escape surveillance capitalism
+DIR-074	Black Owned Directory	Find Black-owned businesses - verified and searchable
+DIR-075	Women Owned Directory	Find women-owned businesses - verified for certification and support
+DIR-076	Veteran Owned Directory	Find veteran-owned businesses - support those who served
+DIR-077	Accessible Places Directory	Find wheelchair accessible places - real accessibility info
+DIR-078	Queer Friendly Directory	Find LGBTQ+ friendly businesses and services - safety and welcome
+DIR-079	Neurodivergent Friendly	Find neurodivergent-friendly businesses - sensory and accommodation info
+DIR-080	Sober Venues Directory	Find alcohol-free venues and events - socializing without alcohol
+DIR-081	Cannabis Dispensary	Find dispensaries with detailed menu and effects info - beyond basic listings
+DIR-082	Psychedelic Therapy	Find psychedelic-assisted therapy providers - ketamine, psilocybin, MDMA
+DIR-083	Concierge Doctors	Find concierge and direct primary care doctors - escape insurance medicine
+DIR-084	Midwife Directory	Find midwives by birth philosophy and setting - home, birth center, hospital
+DIR-085	Functional Medicine	Find functional medicine practitioners - with specialty and approach info
+DIR-086	Manufacturer Directory	Find US manufacturers by capability - for product creators
+DIR-087	Co Packer Directory	Find co-packers for food products - searchable by capability and minimums
+DIR-088	White LabelSaaS	Find white-label SaaS products to resell - build agency services
+DIR-089	Startup Service Providers	Find startup service providers - lawyers, accountants, HR vetted by founders
+DIR-090	Fractional Executives	Find fractional executives - part-time C-suite for growing companies
+DIR-091	Community Centers	Find community centers and their programs - one searchable directory
+DIR-092	Library Of Things	Find library tool and equipment lending - borrow instead of buy
+DIR-093	Makerspace Finder	Find makerspaces and their equipment - CNC, 3D printing, laser cutters
+DIR-094	Coworking Finder	Find coworking spaces by amenities and vibe - beyond WeWork
+DIR-095	Podcast Studio Directory	Find podcast recording studios - rentable spaces with equipment
+DIR-096	Video Production Spaces	Find video production studios and spaces - rentable for creators
+DIR-097	Photography Locations	Find photography locations and permits - scouting made easy
+DIR-098	Event Venues By Capacity	Find event venues with real capacity and layouts - not just max numbers
+DIR-099	Retreat Centers	Find retreat centers by type and capacity - for groups and offsites
+DIR-100	Wholesale Buyers	Find wholesale buyers for your products - connect makers with retailers
+DIR-126	Classic Car Mechanics	Find mechanics who actually understand your vintage ride - specialists for cars with soul
+DIR-127	Mobile Auto Detailing	Professional detailing that comes to you - find mobile detailers by service and availability
+DIR-128	EV Charging Reviews	Find EV chargers that actually work - real-time status and honest reviews
+DIR-129	Custom Motorcycle Builders	Find builders who turn motorcycles into art - custom, cafe racers, choppers, and more
+DIR-130	Auto Body Paint Specialists	Find auto paint shops by specialty - collision, custom, restoration, or color matching
+DIR-131	Food Truck Tracker	Find food trucks in real-time - know where your favorites are parked right now
+DIR-132	Private Chef Directory	Find private chefs for dinner parties, meal prep, and special occasions
+DIR-133	Specialty Caterers	Find caterers by dietary specialty - kosher, halal, vegan, allergen-free and more
+DIR-134	Artisan Ice Cream Map	Find craft ice cream, gelato, and frozen treats - discover flavors worth traveling for
+DIR-135	Local Coffee Roasters	Find local coffee roasters and their beans - skip the big chains, support local craft
+DIR-136	Climbing Gym Finder	Find climbing gyms by style - bouldering, lead, auto-belay, and outdoor training
+DIR-137	Public Pool Directory	Find public and community pools - lap swim times, lessons, and real conditions
+DIR-138	Golf Course Reviews	Find golf courses with real player reviews - conditions, pace, and value
+DIR-139	Adult Sports Leagues	Find recreational sports leagues for adults - from kickball to competitive basketball
+DIR-140	Martial Arts Schools	Find martial arts schools by style and teaching philosophy - from self-defense to competition
+DIR-141	Music Recording Studios	Find recording studios by genre expertise and equipment - from bedroom to professional
+DIR-142	Music Teacher Directory	Find music teachers by instrument, style, and teaching approach - learn what you actually want
+DIR-143	Art Studios And Classes	Find art studios and classes by medium - painting, ceramics, sculpture, and beyond
+DIR-144	Custom Print Shops	Find print shops by specialty - screen printing, DTG, embroidery, large format and more
+DIR-145	Translator Directory	Find professional translators by language pair and specialty - legal, medical, technical, literary
+DIR-146	Patent Professionals	Find patent agents and attorneys by technology specialty - inventors need experts who understand their field
+DIR-147	Business Sign Companies	Find sign companies by type and capability - from storefront to vehicle wraps to digital displays
+DIR-148	Mobile Mechanic Finder	Find mobile mechanics who come to you - car repair without the shop visit
+DIR-149	Locksmith Verified	Find verified, fair-price locksmiths - avoid the scams when you're locked out
+DIR-150	Appliance Repair Pros	Find appliance repair techs with upfront pricing - know the cost before they arrive
+DIR-151	Babysitter Reviews	Find vetted babysitters with real parent reviews - because your kids deserve better than a stranger
+DIR-152	Indoor Play Space Finder	Find the perfect play space for your kids - filtered by age, chaos level, and coffee quality
+DIR-153	Family Photographer Finder	Find photographers who actually know how to work with kids - not just point and shoot
+DIR-154	Parent Group Finder	Find your parenting tribe - mom groups, dad meetups, and parent communities by stage and interest
+DIR-155	Kids Activity Finder	Find the perfect class for your kid - from tumbling to robotics, with honest parent reviews
+DIR-156	Cat Sitter Specialists	Find sitters who actually understand cats - not dog people doing cats on the side
+DIR-157	Exotic Pet Vet Finder	Find vets who actually know your reptile, bird, or pocket pet - not just cats and dogs
+DIR-158	Horse Services Directory	Find farriers, equine vets, and trainers - vetted by horse people for horse people
+DIR-159	Aquarium Services Finder	Find aquarium experts for setup, maintenance, and emergencies - freshwater and saltwater
+DIR-160	Bird Breeder Directory	Find reputable bird breeders with health guarantees - avoid bird mills and scams
+DIR-161	Trail Conditions Live	Real-time hiking trail conditions from people who were just there - not 6-month-old reviews
+DIR-162	Fishing Spot Reports	Find fishing spots with current catches - what's biting where right now
+DIR-163	Campsite Real Reviews	Find campsites with honest reviews about noise, neighbors, and what they don't show online
+DIR-164	Paddle Launch Finder	Find kayak and canoe launch spots with real access info - parking, conditions, and paddle routes
+DIR-165	Climbing Gym Finder	Find climbing gyms by style and community - bouldering, lead, auto-belay, and vibe
+DIR-166	House Cleaner Reviews	Find house cleaners with real cleanliness standards - reviews that actually describe cleaning quality
+DIR-167	Handyman Finder	Find handymen for small jobs - the stuff contractors won't bother with
+DIR-168	Pool Service Directory	Find pool service with real reviews on chemistry, reliability, and equipment care
+DIR-169	Landscaper Directory	Find landscapers by what you actually need - mow and blow vs design vs specialty care
+DIR-170	Electrician Finder	Find electricians by specialty - panel upgrades, EV chargers, smart home, and more
+DIR-171	Roofer Reviews	Find roofers with verified work photos and material expertise - before the storm hits
+DIR-172	Welder Directory	Find welders for custom fabrication, repairs, and artistic metalwork - by specialty and capability
+DIR-173	Auto Mechanic Finder	Find honest mechanics by vehicle specialty - reviews from people who drive what you drive
+DIR-174	Upholstery Directory	Find furniture upholsterers and restoration specialists - reviews with before and after photos
+DIR-175	Yarn Shop Directory	Find yarn shops with the fibers, classes, and community that knitters and crocheters crave
+DIR-176	Senior Travel Companions	Find verified travel companions for seniors who want to explore the world safely
+DIR-177	Estate Sale Organizers	Find trusted estate sale companies to handle life's transitions with dignity
+DIR-178	Film Location Tours	Visit the real places from your favorite movies and TV shows
+DIR-179	Dark Tourism Directory	Explore history's most significant and somber sites with respect and context
+DIR-180	Hot Springs Finder	Discover natural hot springs from wild soaks to luxury resorts worldwide
+DIR-181	Stargazing Spots	Find the darkest skies and best astronomy viewing locations near you
+DIR-182	Zero Waste Event Planners	Plan celebrations that are memorable for guests, not landfills
+DIR-183	Green Burial Directory	Find eco-friendly end-of-life options that return you to the earth
+DIR-184	Artist Residency Programs	Find the perfect residency to create, connect, and grow your artistic practice
+DIR-185	Public Art Directory	Discover murals, sculptures, and installations in any city
+DIR-186	Muralists For Hire	Find mural artists who can transform any wall into a masterpiece
+DIR-187	Art Appraisers Directory	Find certified art appraisers for insurance, estates, and sales
+DIR-188	Session Musicians Hub	Hire professional session musicians for your recordings and productions
+DIR-189	Rehearsal Space Finder	Find band rehearsal rooms with real availability and honest reviews
+DIR-190	Live Sound Engineers	Find skilled audio engineers for concerts, events, and productions
+DIR-191	Instrument Repair Specialists	Find expert repairs for guitars, violins, brass, woodwinds, and more
+DIR-192	Expert Witness Directory	Find qualified expert witnesses by precise specialty for litigation success
+DIR-193	Court Reporter Directory	Find certified court reporters and stenographers when you need them
+DIR-194	Professional Genealogists	Find expert genealogists to uncover your family history and solve brick walls
+DIR-195	Sign Language Interpreters	Find qualified ASL and sign language interpreters for any setting
+DIR-196	Senior Tech Tutors	Patient technology help for seniors from tutors who understand
+DIR-197	Literary Tourism Guide	Visit the places that inspired great books and the homes of beloved authors
+DIR-198	Carbon Offset Providers	Find verified carbon offset programs that actually make a difference
+DIR-199	Art Restoration Specialists	Find expert conservators to preserve and restore your treasured artworks
+DIR-200	Concert Photographers	Find photographers who capture the energy and emotion of live music
+DIR-251	Penetration Testing Firms	Find ethical hackers who break in before the bad guys do
+DIR-252	Bug Bounty Platforms Compared	Choose the right bug bounty platform before hackers choose you
+DIR-253	Managed Security Providers	Find MSSPs that actually detect threats - not just collect logs
+DIR-254	Incident Response Teams	Find breach response experts before you desperately need them
+DIR-255	Data Labeling Services	Find the right data labelers for your ML models - quality over quantity
+DIR-256	Privacy Compliance Consultants	Find GDPR and CCPA experts before the regulators find you
+DIR-257	Data Pipeline Engineers	Find ETL and data engineering contractors who won't wreck your warehouse
+DIR-258	Custom Gaming PC Builders	Find local PC builders who won't fry your components or your wallet
+DIR-259	Esports Coaches Directory	Find coaches who've actually climbed the ranks in your game
+DIR-260	Game Server Hosting Compare	Find game server hosts that won't lag out your squad
+DIR-261	Gaming Cafes And LAN Centers	Find places to game together IRL - high-end PCs and good vibes
+DIR-262	Esports Casters And Commentators	Find the voice that brings your tournament to life
+DIR-263	Stream Overlay Designers	Find designers who make your stream look professional - not like 2015
+DIR-264	Stream Moderators For Hire	Find mods who keep chat healthy without killing the vibe
+DIR-265	VTuber Avatar Artists	Find artists who bring your virtual persona to life
+DIR-266	YouTube Thumbnail Designers	Find thumbnail artists who know what makes people click
+DIR-267	Creator Growth Consultants	Find strategists who've actually grown channels - not just talk about it
+DIR-268	Creator Brand Deal Platforms	Find where the sponsorship money actually flows for your size
+DIR-269	Digital Forensics Experts	Find investigators who recover evidence courts will actually accept
+DIR-270	Cloud Cost Optimization	Find consultants who cut your AWS bill without breaking your app
+DIR-271	Retro Gaming Stores	Find shops with real retro inventory - not just eBay resellers
+DIR-272	Esports Tournament Organizers	Find production teams that run smooth brackets and epic broadcasts
+DIR-273	DMCA Safe Stream Music	Find music you can actually stream without getting struck
+DIR-274	Gaming Tournament Venues	Find spaces built for competitive play - not adapted hotel ballrooms
+DIR-275	Game Localization Services	Find translators who speak gamer in every language
+DIR-101	Immigration Attorney Finder	Find immigration lawyers by visa type - not all lawyers know your case
+DIR-102	Fertility Clinic Reviews	IVF clinic reviews with real success rates by age and diagnosis
+DIR-103	Pediatric Subspecialist Finder	Find pediatric specialists who treat exactly what your child has
+DIR-104	Speech Therapist Directory	Find speech therapists by specialty - articulation, stuttering, stroke, accent
+DIR-105	Occupational Therapist Finder	Find OTs by specialty - pediatric, hands, driving, mental health
+DIR-106	Home Inspector Reviews	Find home inspectors with sample reports - know what you're paying for
+DIR-107	Land Surveyor Directory	Find land surveyors by specialty - boundary, topographic, construction
+DIR-108	Expert Witness Directory	Find expert witnesses by specialty - vetted for litigation experience
+DIR-109	Certified Translator Directory	Find certified translators by language pair and document type
+DIR-110	Sign Language Interpreter Finder	Find ASL interpreters by setting - medical, legal, educational, events
+DIR-111	Watch Repair Directory	Find watchmakers by brand specialty - your Rolex deserves an expert
+DIR-112	Piano Technician Finder	Find piano tuners and technicians - from basic tuning to concert prep
+DIR-113	Climbing Gym Directory	Find climbing gyms with route grades, setting schedules, and real reviews
+DIR-114	Dive Shop Finder	Find scuba shops by certification agency, trip offerings, and diver reviews
+DIR-115	Flight School Directory	Find flight schools with real completion rates and student reviews
+DIR-116	Equestrian Center Finder	Find riding stables by discipline, lesson quality, and horse care standards
+DIR-117	Ceramics Studio Directory	Find pottery studios with open studio time, classes, and kiln access
+DIR-118	Golf Simulator Venues	Find indoor golf simulators - by simulator brand, pricing, and availability
+DIR-119	Adult Sports League Finder	Find recreational sports leagues by skill level - from beginner to competitive
+DIR-120	Aquarium Store Directory	Find fish stores by specialty - freshwater, saltwater, coral, rare species
+DIR-121	AI Agent Platform Directory	Find tools for building AI agents - the emerging agent builder ecosystem
+DIR-122	LLM Fine Tuning Services	Find LLM customization services - fine-tuning, RAG, and deployment experts
+DIR-123	Background Check Services	Compare background check providers - cost, speed, and compliance features
+DIR-124	Environmental Consultant Directory	Find environmental consultants by service type - Phase I, remediation, compliance
+DIR-125	Pain Management Specialist Directory	Find pain management doctors by condition and treatment approach
+DIR-201	Pinball Arcade Locator	Find pinball machines near you - search by game title, not just location
+DIR-202	Vintage Synth Dealers	Find vintage synthesizer sellers and repair techs - the Reverb for analog nerds
+DIR-203	Fountain Pen Shops	Find fountain pen retailers and nib specialists - ink enthusiasts unite
+DIR-204	Mechanical Keyboard Builders	Find custom keyboard builders and vendors - your endgame starts here
+DIR-205	Artisan Cheese Makers	Find farmstead cheese makers and aging caves - beyond the supermarket
+DIR-206	Small Batch Hot Sauce	Find craft hot sauce makers - the good stuff your store doesn't carry
+DIR-207	Foraging Guides	Find foraging guides and wild food walks - nature's grocery store awaits
+DIR-208	Float Tank Centers	Find sensory deprivation tanks near you - float your stress away
+DIR-209	Sound Bath Venues	Find sound healing experiences and practitioners - vibrate at a higher frequency
+DIR-210	Cold Plunge Locations	Find ice baths and cold plunge facilities - embrace the chill
+DIR-211	Dark Sky Sites	Find stargazing locations with light pollution data - see the Milky Way again
+DIR-212	Natural Hot Springs	Find natural hot springs - wild soaking spots beyond the resorts
+DIR-213	Bioluminescence Tours	Find bioluminescent bays and dinoflagellate experiences - nature's light show
+DIR-214	Urban Beekeeping Mentors	Find beekeeping mentors and hive hosts - start your colony with guidance
+DIR-215	Seed Library Network	Find seed libraries and exchanges - free seeds, genetic diversity, community
+DIR-216	Time Bank Directory	Find time banks and skill exchanges - trade hours, not dollars
+DIR-217	Red Light Therapy Studios	Find red light therapy and photobiomodulation near you - evidence-based light healing
+DIR-218	Breathwork Facilitators	Find breathwork practitioners and experiences - unlock through breath
+DIR-219	Mobile Knife Sharpening	Find knife sharpening services that come to you - sharp knives, no hassle
+DIR-220	Chimney Sweep Finder	Find certified chimney sweeps with inspection reports - fireplace safety made easy
+DIR-221	Vintage Camera Repair	Find film camera repair specialists - keep your analog dreams alive
+DIR-222	Estate Sale Companies	Find estate sale companies with reviews and upcoming sales - treasures await
+DIR-223	Typewriter Repair Shops	Find typewriter repair and restoration - clickety-clack is back
+DIR-224	Artisan Pickle Makers	Find small-batch pickle and ferment makers - beyond the supermarket jar
+DIR-225	Rage Room Directory	Find rage rooms and smash therapy near you - break stuff, feel better
+DIR-276	Farm Equipment Sharing Network	The Airbnb for tractors and combines
+DIR-277	Fishing Charter Captain Directory	Find your perfect catch with the right captain
+DIR-278	Flight School Finder	Your runway to becoming a pilot starts here
+DIR-279	Solar Installer Ratings Hub	Transparent reviews for your sunshine investment
+DIR-280	Marina and Boat Slip Directory	Find your perfect berth, anywhere on the water
+DIR-281	Agricultural Drone Service Providers	Precision agriculture takes flight
+DIR-282	Aircraft Mechanic Locator	Keep your wings airworthy with trusted A&Ps
+DIR-283	Marine Engine Mechanic Directory	Get back on the water with the right wrench
+DIR-284	Agritourism Experience Finder	Discover farm life beyond the farmers market
+DIR-285	EV Charging Station Reviews	Charge with confidence, not crossed fingers
+DIR-286	Sailing Instructor Network	Learn to sail from certified captains
+DIR-287	Wind Turbine Technician Directory	Connecting wind farms with skilled techs
+DIR-288	Livestock Auction Marketplace	Every sale day, every sale barn, one platform
+DIR-289	Private Hangar Rental Hub	Shelter for your aircraft, anywhere you fly
+DIR-290	Marine Surveyor Network	Trust but verify before you buy that boat
+DIR-291	Farrier and Horseshoer Directory	Healthy hooves start with the right farrier
+DIR-292	Water Well Driller Directory	Finding water where you need it
+DIR-293	Certified Arborist Finder	Expert tree care from root to crown
+DIR-294	Helicopter Tour Operators	See the world from a different altitude
+DIR-295	Grain Storage Facility Finder	Maximize your harvest value with the right storage
+DIR-296	Aquaculture Equipment Suppliers	Everything for farming the waters
+DIR-297	Beekeeping Supplier Directory	Your hive for beekeeping supplies and services
+DIR-298	Geothermal Contractor Network	Tap into the earth's free heating and cooling
+DIR-299	Land Surveyor Directory	Know exactly where you stand
+DIR-300	RV and Camper Mechanic Finder	Keep your home on wheels rolling
