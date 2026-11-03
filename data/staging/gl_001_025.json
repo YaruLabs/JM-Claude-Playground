@@ -2,7 +2,7 @@
   {
     "id": "GL-001",
     "title": "BNPL Stack Tracker",
-    "tagline": "One calendar for every Affirm, Klarna, Afterpay and PayPal Pay-in-4 plan, with dispute help when a plan goes wrong",
+    "tagline": "One calendar for every Affirm, Klarna, Afterpay and PayPal Pay-in-4 plan, plus dispute help",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Personal Finance",
@@ -43,7 +43,7 @@
   {
     "id": "GL-002",
     "title": "Auto Add-On Refund Finder",
-    "tagline": "Paid off, traded in or totaled your car? Get back the unused GAP, service-contract and add-on premiums you are owed",
+    "tagline": "Paid off, traded in or totaled your car? Recover unused GAP and service-contract premiums",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Consumer Rights",
@@ -84,7 +84,7 @@
   {
     "id": "GL-003",
     "title": "Dealer Add-On Check",
-    "tagline": "Snap the buyer's order at the dealership and see in 60 seconds which add-ons are optional, overpriced or unrequested",
+    "tagline": "Snap the buyer's order at the dealer and see in 60 seconds which add-ons are optional or overpriced",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Consumer Rights",
@@ -289,7 +289,7 @@
   {
     "id": "GL-008",
     "title": "Subsidy Cliff Guard",
-    "tagline": "Keep your MAGI under the ACA 400% cliff all year, so you don't owe back thousands in premium credits at tax time",
+    "tagline": "Keep your MAGI under the ACA 400% cliff all year so you don't repay thousands in premium credits",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Health Insurance",
@@ -412,7 +412,7 @@
   {
     "id": "GL-011",
     "title": "Work Rule Exemption Kit",
-    "tagline": "Prove a medical-frailty, caregiver or disability exemption from Medicaid work rules with a doctor-ready packet",
+    "tagline": "Prove a medical-frailty, caregiver or disability exemption from Medicaid work rules",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Public Benefits",
@@ -453,7 +453,7 @@
   {
     "id": "GL-012",
     "title": "Medicare Plan Exit Navigator",
-    "tagline": "Your Medicare Advantage or Part D plan is ending: keep your doctors, drugs and Medigap rights before the window closes",
+    "tagline": "Your Medicare Advantage or Part D plan is ending: keep your doctors, drugs and Medigap rights",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Health Insurance",
@@ -535,7 +535,7 @@
   {
     "id": "GL-014",
     "title": "Total Price Watchdog",
-    "tagline": "Browser extension that checks ticket and hotel sites for hidden fees the FTC rule now bans, and files the complaint",
+    "tagline": "Browser extension that flags ticket and hotel fees the FTC rule now bans and files the complaint",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Consumer Rights",
@@ -576,7 +576,7 @@
   {
     "id": "GL-015",
     "title": "Loan Servicer Error Audit",
-    "tagline": "Compare your student-loan servicer's records with your own and fix wrong payment counts, plan placements and false delinquencies",
+    "tagline": "Check your student-loan servicer's records and fix wrong payment counts and false delinquencies",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Student Loans",
@@ -658,7 +658,7 @@
   {
     "id": "GL-017",
     "title": "Scam Transfer Claim Kit",
-    "tagline": "Money left your account through Zelle, Cash App or a bank transfer? File the dispute that gives your bank a legal duty to investigate",
+    "tagline": "Money stolen via Zelle, Cash App or bank transfer? File the dispute your bank must investigate",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Consumer Rights",
@@ -781,7 +781,7 @@
   {
     "id": "GL-020",
     "title": "Immigrant Coverage Change Checker",
-    "tagline": "Find out whether the 2025 law ended your family's Medicaid, ACA or SNAP eligibility because of immigration status, and what replaces it",
+    "tagline": "See if the 2025 law ended your family's Medicaid, ACA or SNAP eligibility, and what replaces it",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Public Benefits",
@@ -863,7 +863,7 @@
   {
     "id": "GL-022",
     "title": "Closed Account Fund Recovery",
-    "tagline": "Bank or payment app closed your account and kept your money? Get your balance back with the right demand and escalation",
+    "tagline": "Bank or payment app closed your account and kept your money? Get your balance back",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Consumer Rights",
@@ -986,7 +986,7 @@
   {
     "id": "GL-025",
     "title": "Tenant Screening Fix",
-    "tagline": "Rejected for an apartment? Get the screening report, find the errors and dispute them before your next application",
+    "tagline": "Rejected for an apartment? Get the screening report, find the errors and dispute them",
     "market": "US",
     "target_segment": "US consumers",
     "category": "Housing",
