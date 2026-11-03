@@ -70,6 +70,11 @@ def legacy_to_v2(old, rev, kind):
         "mvp_features": old.get("mvp_features", ""),
         "created_date": fix_date(old.get("created_date", "")), "last_verified": TODAY,
     })
+    if old.get("category", "").startswith("SEA") or re.search(r"SEA$", old["title"]):
+        row["market"] = "GLOBAL"  # v1 South-East Asia batch (SG/MY/ID/PH pricing)
+        row["payment_rails"] = "Stripe + local wallets (PayNow/DuitNow/GoPay/GCash)"
+    # v1 camelCase artefacts: "Cloud KitchenSEA" -> "Cloud Kitchen SEA", "AquascapeAI" -> "Aquascape AI"
+    row["title"] = re.sub(r"(?<=[a-z])(SEA|AI)$", r" \1", row["title"])
     row["target_segment"] = (row["target_audience"].split(";")[0].strip() or "US consumers")[:80]
     if kind == "DIR":
         if old.get("monetization") and "monetization" not in row["business_model"].lower():
