@@ -641,7 +641,7 @@
     "competitors": "NFDA compliance resources; Passare; Osiris; FrontRunner; funeral-law consultants",
     "competitor_gap": "Software and associations provide templates; nobody continuously audits a home's actual price documents and phone behavior against the rule",
     "demand_evidence": "The FTC's undercover phone sweep warned 39 of 250+ funeral homes, widely covered by Fox stations and KSL. The FTC told press a rule update is 'still in progress'.",
-    "source_urls": "https://www.ftc.gov/node/82482 | https://www.fox5ny.com/news/ftc-funeral-homes-stop-misleading-customers-pricing | https://www.ksl.com/article/50856885/government-warns-funeral-homes-to-stop-misleading-bereaved-customers-about-pricing",
+    "source_urls": "https://www.ftc.gov/legal-library/browse/rules/funeral-industry-practices-rule | https://www.fox5ny.com/news/ftc-funeral-homes-stop-misleading-customers-pricing | https://www.ksl.com/article/50856885/government-warns-funeral-homes-to-stop-misleading-bereaved-customers-about-pricing",
     "unique_data_capture": "Structured GPL prices across homes, a local price benchmark that could later power pricing insights, plus phone-quote compliance patterns.",
     "commoditization_risk": "Medium: a general AI assistant can check a GPL against the rule if given the text; the value lies in workflow and call review",
     "regulatory_notes": "FTC Funeral Rule (16 CFR 453); state funeral boards add disclosure rules. Call recording requires state consent compliance (two-party states). Not legal advice.",

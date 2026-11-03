@@ -24,6 +24,8 @@ from schema_v2 import FIELDS, SCORE_FIELDS, score_total
 ROOT = Path(__file__).resolve().parent.parent
 STAGING = ROOT / "data" / "staging"
 TODAY = "2026-11-03"
+# Same title as a different product elsewhere in the corpus; renamed to say what it is.
+TITLE_OVERRIDES = {"CLAUDE-133": "Homeschool Compliance Planner"}  # vs DIR-047 Homeschool Curriculum (directory)
 FIX_KEYS = {"tagline", "problem", "solution", "target_audience", "business_model", "pricing"}
 
 
@@ -73,6 +75,7 @@ def legacy_to_v2(old, rev, kind):
     if old.get("category", "").startswith("SEA") or re.search(r"SEA$", old["title"]):
         row["market"] = "GLOBAL"  # v1 South-East Asia batch (SG/MY/ID/PH pricing)
         row["payment_rails"] = "Stripe + local wallets (PayNow/DuitNow/GoPay/GCash)"
+    row["title"] = TITLE_OVERRIDES.get(row["id"], row["title"])
     # v1 camelCase artefacts: "Cloud KitchenSEA" -> "Cloud Kitchen SEA", "AquascapeAI" -> "Aquascape AI"
     row["title"] = re.sub(r"(?<=[a-z])(SEA|AI)$", r" \1", row["title"])
     row["target_segment"] = (row["target_audience"].split(";")[0].strip() or "US consumers")[:80]
