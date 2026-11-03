@@ -222,7 +222,7 @@ For each idea, analyze 3-5 existing solutions:
 | CB Insights | Research | cbinsights.com | Trend analysis |
 | BigIdeasDB | Ideas | bigideasdb.com | Validated problems |
 | StartupIdeasDB | Ideas | startupideasdb.com | AI-scored ideas |
-| GummySearch | Reddit | gummysearch.com | Reddit analysis |
+| ~~GummySearch~~ (shut down Nov 2025; use PainOnSocial/F5Bot/Syften, see data/sources.json v2) | Reddit | gummysearch.com | Reddit analysis |
 | PainOnSocial | Pain points | painonsocial.com | Social pain mining |
 | TechCrunch | News | techcrunch.com | Funding trends |
 | The Hustle | Newsletter | thehustle.co | Business trends |
