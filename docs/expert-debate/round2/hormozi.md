@@ -1,0 +1,24 @@
+# Round 2: Hormozi lens (Offer and Money)
+
+_A lens on Hormozi's public frameworks, not his words._
+
+## 1. Where I've been persuaded
+- **Walling, on churn.** My round-1 LTV used 12-month gross revenue, as if every buyer stays. A one-shot rescue at ฿199 has an LTV of ฿199. LTV now comes from a churn bucket, and the real test is still paying at day 90. He's also right that service-heavy bonus stacks push up human minutes per customer. Every bonus in an offer must be something an agent can deliver.
+- **Levels, on my offer polishing.** "Offer engineering before a single visit" is a fair hit. S2 becomes one line, one price and one guarantee, done in 10 minutes. Order the queue by cheapest test. A payment link is the interview.
+- **Godin and Isenberg, on warm outreach.** Warm outreach is the first of my own core four, and I skipped it. The founder's students and the expat groups he already reaches give a CAC near ฿0. Test there before paying Meta.
+- **Graham and Sanchez, on existing spend.** Paid workarounds and incumbent revenue are better signals than my CPC alone. CPC shows that advertisers bid. A competitor's price list shows that buyers pay.
+- **Four of you, on Perplexity.** Graham, Isenberg, Levels and Walling all cut it, and you're right. It overlaps Tavily and invites brainstorming.
+
+## 2. Where I still disagree, and why
+- **Godin: "cold outreach is fake trust."** Blasts are spam, I agree. But 50 hand-picked cold messages to people who complained in public are a legitimate channel. There's a bigger problem too. If a business grows only through the founder's personal trust, it fails the brief's goal of 80–90% agent operation. Paid ads are the most agent-operable channel there is, so the system has to test them.
+- **Graham, Godin and Isenberg: evidence ladders with free rungs.** "15 pain cards" is people complaining for free. I accept a ladder, but no idea gets ranked above another until a rung costs someone money. Below that rung, the cards are only a queue.
+- **Levels: bot-posting to Pantip and subreddits.** Isenberg already noted that bots get banned from FB groups and Pantip. You'll burn the accounts and the founder's name with them. Bots can buy ads, but a human posts in communities.
+- **Sanchez: the buy track.** A ฿1–5M acquisition for a founder with a "modest budget", under Foreign Business Act limits, is not a test you can run 8 times a month. Keep it as a phase-2 option once one business is throwing off cash.
+- **Walling: SaaS-later purity.** I agree on staging. But don't kill one-time products that collect cash up front. Front-loaded cash pays for the next test. Churn should be a reason to price the product differently, not an automatic kill.
+
+## 3. The one thing the final system must not lose
+**A stranger pays before anything gets built.** Every promotion needs a deposit, a pre-sale or a paid concierge job. Rank by cost per paying customer against measured LTV. A system that puts out better-researched opinions has only rebuilt LEAP at higher cost. The ad budget (about $1,200/mo, est.) buys more truth than any API.
+
+```json
+{"apis_ranked": ["Stripe/Opn", "DataForSEO", "Tavily", "Apify", "LINE OA", "Meta Ad Library"], "apis_cut": ["Perplexity", "Google Trends", "Reddit API", "paid SEO/social-listening suites"], "max_monthly_api_budget_usd": 75, "stages": ["Problem mining for existing spend", "Money check: CPC, competitor prices, ad presence, churn bucket", "Kill gate as code", "Founder pick", "One-line offer and deposit smoke test (warm, then paid)", "Concierge delivery with ops ledger", "Day-90 retention check", "Learn: calibrate conversion and churn priors"], "ranking_method": "Before testing, gate and order by implied LTV:CAC from real CPC, competitor prices and churn bucket; after testing, rank by verified cost per deposit relative to measured LTV, then day-90 revenue per human hour.", "agent_operable_metric": "Founder minutes per $1,000 MRR per month from the ops ledger, counting rework as human time, with a target of 30 or less by customer 20.", "kill_rules": ["No existing spend: nobody pays a competitor, fixer or employee for this today", "CAC math fails on paper: implied CAC above one-third of churn-adjusted 12-month gross LTV", "Smoke test fails: fewer than 3 deposits after 300+ targeted visits or ฿5,000 of spend within 14 days, with one offer rewrite allowed", "A human is required at the sale or for regulated sign-off", "Payback over 3 months without cash up front"], "human_checkpoints": ["Founder picks up to 10 offers a week (15 min) with a founder-fit veto", "Founder approves price, guarantee, claims and ad spend", "Founder sends warm outreach and community posts as himself", "Founder handles refunds and disputes", "Founder confirms keep or kill at day 14 and day 90"], "ideas_tested_per_month": 8}
+```
