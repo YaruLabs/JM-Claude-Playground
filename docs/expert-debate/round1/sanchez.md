@@ -17,7 +17,7 @@ Stop generating ideas. Find businesses that already make money and do it badly, 
 | 5. Reality contact | Buy track: agent sends outreach to brokers and owners, requests P&Ls, and books calls. Build track: LINE OA or landing-page pre-sale, plus 10 incumbent customers reached via review authors and FB groups | Reply rates, real P&Ls, deposits | **Yes: calls and any money moving** |
 | 6. Learning log | Every outcome (ask multiple, reply rate, price objection, deposit or none) is written back. Monthly, the agent re-weights which signal streams predicted real traction | `outcomes.csv` that feeds stage 1 | No |
 
-The key difference from LEAP is that **no stage creates an idea from nothing**. Every row is anchored to an existing business with cash flow.
+Unlike LEAP, **no stage invents an idea**. Every row is anchored to an existing business with cash flow.
 
 ## 3. Minimum APIs
 
@@ -31,18 +31,18 @@ The key difference from LEAP is that **no stage creates an idea from nothing**. 
 | Google Trends (unofficial pytrends) | Thai-language demand direction | Free, brittle | Keep, low weight |
 | HN Algolia / Reddit | What builders are excited about | Free | **Use as an anti-signal.** Crowded on HN means skip |
 
-Total new spend is **about $30–50/mo**. I would not buy SEO suites, TikTok APIs or paid social listening until a shortlist exists.
+New spend is **about $30–50/mo**. No SEO suites or social listening until a shortlist exists.
 
 ## 4. Measuring "80–90% agent-operable"
-A percentage of tasks is the wrong unit. Measure **owner-hours per week, weighted by dollars**.
-1. **Task inventory from a real business**, not imagination. Build it from seller interviews, job posts and the incumbent's SOPs: every recurring task, hours per week and the cost of the person doing it.
-2. Classify each task: agent-now, agent-plus-human-approval, contractor (physical), or owner-only.
-3. **Score** = 1 minus (owner-only hours divided by total hours), weighted by labour cost. The target is **≤5 owner-hours per week per business**.
-4. **Verify with a 2-week shadow run.** Agents perform the tasks in parallel with the current operator, and we log every intervention. The claim is only accepted if the logged interventions fit inside 5 hours.
+A percentage of tasks is the wrong unit. Measure **owner-hours per week**.
+1. **Task inventory from a real business** (seller interviews, job posts, incumbent SOPs): each recurring task, its hours and its labour cost.
+2. Classify each task: agent-now, agent-plus-approval, contractor (physical), or owner-only.
+3. **Score** = 1 minus owner-only share of hours, weighted by labour cost. Target: **≤5 owner-hours per week per business**.
+4. **Verify with a 2-week shadow run.** Agents run the tasks alongside the current operator and every intervention is logged. The claim passes only if interventions fit inside 5 hours.
 
-These remain human-only today: physical delivery (repairs, cleaning, inspections), licensed sign-offs, Thai government counter visits and bank KYC, cash handling, large-account relationship sales, and escalated disputes and refunds.
+Human-only today: physical delivery, licensed sign-offs, Thai government counters and bank KYC, cash handling, large-account sales, and escalated disputes.
 
-The contrarian point is that physical businesses with agent-run back offices (booking, quoting, billing, reviews, LINE support) and contractor-run delivery can reach the 5-hour target. Pure software clones of incumbents rarely build a moat.
+Contrarian point: a physical business with an agent-run back office (booking, billing, reviews, LINE support) and contractor delivery can hit 5 hours, and it has a moat that software clones lack.
 
 ## 5. Kill rules
 1. **No incumbent making money.** If we can't name 3 paying competitors with revenue evidence, kill.
@@ -52,18 +52,11 @@ The contrarian point is that physical businesses with agent-run back offices (bo
 5. **Crowd rule.** Kill if 5 or more launches in the last 90 days appear on Product Hunt, HN or X. Someone smarter and better funded is already there.
 
 ## 6. Ranking
-Retire the 1–5 scores. Rank on **three real numbers**, each with a cited source:
-- projected month-12 owner earnings;
-- payback in months;
-- owner-hours per week.
-
-A field without a source stays blank, and blank rows sort last. That is the anti-theatre rule. Once stage 5 runs, real data such as reply rates, actual P&Ls and deposits **overwrite the estimates**. A model can't give a 4/5 to a number that came off a seller's bank statement.
+Retire the 1–5 scores. Rank on **three real numbers**, each with a cited source: month-12 owner earnings, payback months, and owner-hours per week. A field without a source stays blank, and blank rows sort last. Once stage 5 runs, real reply rates, P&Ls and deposits **overwrite the estimates**. A model can't inflate a number that came off a seller's bank statement.
 
 ## 7. What I expect the other panelists to get wrong
-- **They'll still start from ideas.** The brainstorming will be better sourced, but it is still building from zero while ageing owners sell cash-flowing businesses at 2–3x SDE (seller's discretionary earnings, unverified range for small Main Street deals).
-- **They'll measure pain instead of payment.** Reddit and Pantip complaints show where people are angry. Incumbent revenue shows where people pay.
-- **They'll over-buy APIs.** Social listening and SEO tools add cost before there is any signal worth listening to.
-- **They'll read "80–90%" as a software metric.** The founder's constraint is his own hours, not a percentage of automated tasks.
-- **They'll never price the buy option.** That is the most underpriced move a solo founder with agents has.
-
-Sources checked: Apify Store listings for the Compass Google Maps reviews actor and BizBuySell scrapers (prices vary by actor); DBD DataWarehouse+ references, which disagree on whether an official free API exists.
+- **Still idea-first.** Better-sourced brainstorming is still building from zero, while ageing owners sell cash-flowing businesses at 2–3x SDE (seller's discretionary earnings; unverified range).
+- **Pain, not payment.** Reddit and Pantip show anger. Incumbent revenue shows payment.
+- **Over-buying APIs** before any signal is worth listening to.
+- **"80–90%" as a software metric.** The real constraint is the founder's hours.
+- **Never pricing the buy option**, the most underpriced move a solo founder with agents has.

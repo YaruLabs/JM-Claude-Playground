@@ -17,7 +17,7 @@ Each stage produces a number someone paid or bid, not one a model guessed.
 | **S4 Concierge delivery** | Serve the first 5–10 payers by hand plus agents, logging every task. | Task ledger (see §4) | **H3:** the founder does any task an agent can't yet do |
 | **S5 Learn** | Feed real CPC→CPL→deposit rates back into S1/S2 estimates, including from killed tests. | Calibrated conversion priors | Monthly review |
 
-Target: 10 smoke tests a month for about $1,500 of ad spend, expecting 2 to survive. Volume wins.
+Target: 10 smoke tests a month for about $1,500 of ad spend, expecting 2 to survive.
 
 ## 3. Minimum APIs
 
@@ -33,10 +33,10 @@ Target: 10 smoke tests a month for about $1,500 of ad spend, expecting 2 to surv
 | HN Algolia, Reddit JSON, CFPB, data.go.th / DBD open data | Problem mining and competitor registrations | $0 | Keep |
 | LINE OA free tier | TH lead capture and support | $0 (unverified) | Keep |
 
-Total excluding ad spend: under $75/mo.
+Excluding ad spend: under $75/mo.
 
 ## 4. How to measure 80–90% agent-operable
-Don't estimate it. Log it. During S4, every task goes in a ledger: `function | task | agent/human | minutes | escalations`.
+Log it, don't estimate it. In S4 every task goes in a ledger: `function | task | agent/human | minutes | escalations`.
 - **Metric:** founder minutes per $1,000 MRR per month. Target 30 or less by customer 20.
 - **Agent-operable %** = 1 − (human minutes ÷ total task minutes).
 - **Human-only today:** approving ad spend, sales calls above ~$500, refunds and disputes, regulated sign-offs (legal, medical, visa, finance), partner deals, and anything needing a Thai ID or branch visit.
