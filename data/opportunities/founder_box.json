@@ -1,0 +1,46 @@
+{
+  "_note": "Stage 0. The founder fills this in once a quarter (about 30 min). Agents read it to set the founder-fit veto and to estimate reach. Only list channels you can actually post in yourself.",
+  "founder": "Yaru Labs",
+  "base": "Bangkok, Thailand",
+  "markets": [
+    "TH",
+    "US",
+    "UK"
+  ],
+  "languages": [
+    "EN"
+  ],
+  "skills": [
+    "AI agents / Claude Code builds",
+    "content creation",
+    "teaching"
+  ],
+  "channels": [
+    {
+      "name": "Example: Yaru Labs newsletter",
+      "url": "",
+      "audience": "",
+      "size": 0,
+      "owned": true
+    },
+    {
+      "name": "Example: Bangkok expat Facebook group (member)",
+      "url": "",
+      "audience": "Expats in Bangkok",
+      "size": 0,
+      "owned": false
+    }
+  ],
+  "budget": {
+    "apis_usd_month": 60,
+    "test_spend_thb_per_test": 5000,
+    "tests_per_month": 4
+  },
+  "hard_constraints": [
+    "no regulated advice (legal/medical/financial) without a licensed partner",
+    "no on-site work",
+    "must run at >=80% agents by month 6"
+  ],
+  "avoid": [],
+  "unfair_advantages": []
+}

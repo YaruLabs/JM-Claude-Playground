@@ -1,0 +1,92 @@
+{
+  "id": "",
+  "cluster_id": "",
+  "title": "",
+  "market": "",
+  "status": "draft",
+  "created": "",
+  "updated": "",
+  "drafted_by": "",
+  "reviewed_by": "",
+  "audience": {
+    "statement": "This is for ___ who want ___; it helps them get ___.",
+    "smallest_viable_audience": "",
+    "segment": ""
+  },
+  "pain": {
+    "sufferers": 0,
+    "platforms": [],
+    "window_days": 90,
+    "top_quotes": []
+  },
+  "money": {
+    "incumbents": [
+      {"name": "", "url": "", "price": "", "revenue": "", "evidence_url": ""}
+    ],
+    "paid_workaround": "",
+    "cpc_usd": null,
+    "search_volume": null,
+    "currency": "THB",
+    "price": null,
+    "billing": "subscription",
+    "gross_margin": null,
+    "months_retained_est": null,
+    "cac_est": null,
+    "ltv12": null,
+    "payback_months": null
+  },
+  "offer": {
+    "one_liner": "",
+    "price_point": "",
+    "guarantee": "",
+    "deposit": ""
+  },
+  "reach": {
+    "channels": [
+      {"name": "", "url": "", "est_reach": 0, "owned": false}
+    ],
+    "first_100_plan": ""
+  },
+  "agent_ops": {
+    "functions": {
+      "acquisition": {"agent_pct": null, "human_tasks": ""},
+      "onboarding": {"agent_pct": null, "human_tasks": ""},
+      "delivery": {"agent_pct": null, "human_tasks": ""},
+      "support": {"agent_pct": null, "human_tasks": ""},
+      "billing": {"agent_pct": null, "human_tasks": ""},
+      "data_ops": {"agent_pct": null, "human_tasks": ""},
+      "content": {"agent_pct": null, "human_tasks": ""}
+    },
+    "est_agent_share": null,
+    "human_required_per_transaction": false,
+    "onsite_hours_week": 0,
+    "trust_moments": "",
+    "notes": "Estimate only (est.). Verified later by the ops ledger."
+  },
+  "risks": {
+    "free_alternative_adequate": null,
+    "free_alternative_notes": "",
+    "platform_hostage": null,
+    "requires_fake_trust": null,
+    "regulatory": "",
+    "founder_feasibility": "",
+    "two_sided_marketplace": false,
+    "one_shot_priced_as_subscription": false,
+    "crowded_launches_90d": 0
+  },
+  "buy_vs_build": {
+    "acquisition_targets": [],
+    "notes": ""
+  },
+  "build": {
+    "mvp_days_est": null,
+    "stack": "",
+    "next_test": "",
+    "next_test_cost_thb": null
+  },
+  "panel": [],
+  "sources": [],
+  "gate": {},
+  "evidence_rung": 0,
+  "rung_receipts": {}
+}

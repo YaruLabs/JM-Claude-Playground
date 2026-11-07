@@ -1,0 +1,39 @@
+{
+  "_note": "Harvest jobs for `oppo.py harvest`. Queries are pain phrases, not idea names, so we find problems instead of confirming ideas. Add your own; set enabled:false to pause a job. Apify jobs cost money: check each actor's input schema and price on its Apify page before enabling.",
+  "jobs": [
+    {
+      "source": "hn", "market": "GLOBAL", "segment": "founders, devs, SMB operators",
+      "queries": ["is there a tool that", "I wish there was a", "we pay someone to", "still doing this manually", "spreadsheet hell", "how do you handle invoices", "biggest time sink", "would pay for"]
+    },
+    {
+      "source": "tavily", "market": "TH", "segment": "Thai locals", "domains": ["pantip.com"],
+      "queries": ["มีใครเคยเจอปัญหา ร้านค้า", "ปวดหัวมาก ทำบัญชี", "เสียเวลามาก ทุกเดือน", "แนะนำโปรแกรม ร้านค้าออนไลน์", "โดนโกง โอนเงิน", "จ้างใครทำ เอกสาร", "คอนโด นิติบุคคล ปัญหา", "โรงพยาบาล ค่ารักษา แพง"]
+    },
+    {
+      "source": "tavily", "market": "TH", "segment": "Expats in Thailand", "domains": ["aseannow.com", "reddit.com"],
+      "queries": ["Thailand nightmare dealing with immigration", "Bangkok condo juristic office problem", "Thailand bank account frozen help", "Thailand visa agent scam fee", "Bangkok landlord deposit not returned", "Thailand tax resident remittance confused"]
+    },
+    {
+      "source": "tavily", "market": "US", "segment": "US SMBs and consumers", "domains": ["reddit.com"],
+      "queries": ["small business owner spend hours every week manually", "is there software that automatically", "we pay a bookkeeper just to", "insurance denied appeal took months", "contractor paperwork nightmare", "landlord compliance headache"]
+    },
+    {
+      "source": "tavily", "market": "UK", "segment": "UK SMBs and consumers", "domains": ["reddit.com", "forums.moneysavingexpert.com"],
+      "queries": ["HMRC making tax digital nightmare", "small business late payment chasing invoices", "letting agent deposit dispute", "service charge leaseholder unfair"]
+    },
+    {
+      "source": "reddit", "market": "TH", "segment": "Expats in Thailand", "subreddits": ["Thailand", "Bangkok", "ThailandTourism"],
+      "queries": ["frustrating", "is there an app", "scam", "how do I"]
+    },
+    {
+      "source": "reddit", "market": "US", "segment": "US SMBs", "subreddits": ["smallbusiness", "sweatystartup", "Entrepreneur"],
+      "queries": ["is there a tool", "spend hours", "manually", "would pay"]
+    },
+    {
+      "source": "apify", "market": "TH", "segment": "Thai locals", "enabled": false, "platform": "Google Maps reviews",
+      "actor": "compass~google-maps-reviews-scraper",
+      "input": {"startUrls": [{"url": "https://www.google.com/maps/search/condo+juristic+office+bangkok"}], "maxReviews": 50, "reviewsSort": "lowestRanking", "language": "th"},
+      "queries": ["1-star reviews: condo juristic offices, Bangkok"]
+    }
+  ]
+}
