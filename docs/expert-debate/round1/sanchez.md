@@ -9,13 +9,13 @@ Stop generating ideas. Find businesses that already make money and do it badly, 
 
 | Stage | What agents do | Output | Human? |
 |---|---|---|---|
-| 0. Founder box | One-time form: cash available to deploy (build budget vs. a ฿1–5M / $50–250k acquisition), hours per week, languages, licences, Foreign Business Act constraints | `founder.yaml` that every later stage reads | **Yes, once** |
+| 0. Founder box | One-time form: deployable cash (build vs. a ฿1–5M / $50–250k acquisition), hours, languages, licences, Foreign Business Act limits | `founder.yaml` | **Yes, once** |
 | 1. Money-signal sourcing | Pull four streams: (a) businesses-for-sale listings (BizBuySell, Flippa, Acquire.com, Thai "เซ้งกิจการ" transfer posts); (b) 1-star Google Maps review clusters by category and city; (c) DBD registry counts and filed revenue by TSIC code; (d) CFPB complaints for the US | `signals.csv`: segment, number of firms, median revenue, asking multiples, complaint themes | No |
-| 2. Incumbent card | Cluster signals into problems. Each card **must name 3 incumbents with evidence of revenue** (DBD filings, listing P&L, published price lists) and their top complaint themes | `incumbents/<segment>.md` | No |
-| 3. Buy vs. build | For each card, model both tracks: owner earnings, asking multiple, payback, and margin after agents replace staff hours, set against build cost plus CAC to steal 50 customers | Two-column P&L with a source on every number | No |
+| 2. Incumbent card | Cluster signals into problems. Each card **names 3 incumbents with revenue evidence** (DBD filings, listing P&L, price lists) and their complaint themes | `incumbents/<segment>.md` | No |
+| 3. Buy vs. build | Model owner earnings, multiple, payback and post-agent margin, against build cost plus CAC to win 50 customers | Two-column P&L, every number sourced | No |
 | 4. Pick 5 | Founder reads the 10 best cards and keeps 5 | Shortlist | **Yes, 30 min per month** |
 | 5. Reality contact | Buy track: agent sends outreach to brokers and owners, requests P&Ls, and books calls. Build track: LINE OA or landing-page pre-sale, plus 10 incumbent customers reached via review authors and FB groups | Reply rates, real P&Ls, deposits | **Yes: calls and any money moving** |
-| 6. Learning log | Every outcome (ask multiple, reply rate, price objection, deposit or none) is written back. Monthly, the agent re-weights which signal streams predicted real traction | `outcomes.csv` that feeds stage 1 | No |
+| 6. Learning log | Log every outcome (multiple, reply rate, objection, deposit). Monthly, re-weight the signal streams that predicted traction | `outcomes.csv` feeding stage 1 | No |
 
 Unlike LEAP, **no stage invents an idea**. Every row is anchored to an existing business with cash flow.
 
@@ -24,7 +24,7 @@ Unlike LEAP, **no stage invents an idea**. Every row is anchored to an existing 
 | API | Unlocks | Rough $/mo | Keep or cut |
 |---|---|---|---|
 | Tavily (already held) | General search and extraction for incumbent pricing pages | $0 extra | Keep |
-| Perplexity (already held) | Synthesised answers | $0 extra | **Cut first.** It overlaps Tavily and summaries without sources are opinions again |
+| Perplexity (already held) | Synthesised answers | $0 extra | **Cut first.** Overlaps Tavily |
 | Apify (Google Maps reviews and business listings) | 1-star clusters per category and city (TH and US), plus BizBuySell/Flippa listings with asking price and cash flow | ~$30–50 for the plan. Official Compass review actor is ~$0.35–0.50 per 1k reviews; BizBuySell scrapers are ~$2–4 per 1k listings. Check ToS | **Keep.** This is the single most valuable addition |
 | DBD Open Data / DataWarehouse+ | Thai firm counts, registration dates and filed revenue by industry, i.e. who is earning money | Free. Endpoint `openapi.dbd.go.th` (unverified); the DataWarehouse+ web export is manual | Keep |
 | CFPB Complaint DB | Free US complaint clusters by product and company | Free, no key | Keep (US only) |
@@ -45,11 +45,11 @@ Human-only today: physical delivery, licensed sign-offs, Thai government counter
 Contrarian point: a physical business with an agent-run back office (booking, billing, reviews, LINE support) and contractor delivery can hit 5 hours, and it has a moat that software clones lack.
 
 ## 5. Kill rules
-1. **No incumbent making money.** If we can't name 3 paying competitors with revenue evidence, kill.
-2. **Payback too long.** Kill if build payback is over 18 months, or if the asking multiple at post-agent margins gives buy payback over 3 years.
-3. **Nobody has paid yet.** Kill if no customer has ever paid anyone for this outcome through an existing rail (PromptPay, card or invoice).
-4. **Owner has to be there.** Kill if the founder must be physically present more than 5 hours a week, or if the business needs a licence or majority Thai ownership he can't structure.
-5. **Crowd rule.** Kill if 5 or more launches in the last 90 days appear on Product Hunt, HN or X. Someone smarter and better funded is already there.
+1. **No incumbent making money:** fewer than 3 named competitors with revenue evidence.
+2. **Slow payback:** over 18 months to build, or over 3 years to buy at post-agent margins.
+3. **Nobody has paid yet** for this outcome through an existing rail (PromptPay, card, invoice).
+4. **Owner must be there:** more than 5 on-site hours a week, or a licence or Thai-majority structure he can't arrange.
+5. **Crowd rule:** 5 or more launches on Product Hunt, HN or X in the last 90 days.
 
 ## 6. Ranking
 Retire the 1–5 scores. Rank on **three real numbers**, each with a cited source: month-12 owner earnings, payback months, and owner-hours per week. A field without a source stays blank, and blank rows sort last. Once stage 5 runs, real reply rates, P&Ls and deposits **overwrite the estimates**. A model can't inflate a number that came off a seller's bank statement.
