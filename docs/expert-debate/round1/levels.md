@@ -1,7 +1,5 @@
 # Round 1: Levels lens (Automation and Shipping)
 
-_A lens inspired by Pieter Levels' public approach. Not the person, and no quotes from him._
-
 ## 1. My one-line thesis
 You have 1,050 ideas and zero customers. Build a **launch factory**, not an ideation system. It turns a real complaint into a live page with a payment link in 72 hours, and then money decides. The only score is revenue per human hour.
 
@@ -18,7 +16,7 @@ The stack is one VPS (~$6–12/mo, unverified), SQLite, Python on cron, and Clau
 | **S6 Keep or kill.** ≥3 payments or ≥฿3,000 in preorders means a 7-day MVP. Otherwise the page is archived. | A decision row with the kill reason | **Yes, 10 min.** He confirms. |
 | **S7 Learn.** Write outcomes back to the sources and channels | Payers per 100 problems mined, by source | No |
 
-That is about 1–2 founder hours a week, with 2–4 tests running at once. Most die, and that is the point.
+About 1–2 founder hours a week, 2–4 tests at once.
 
 ## 3. Minimum APIs
 
@@ -62,12 +60,11 @@ No scores before launch. LEAP was theatre: the generators graded their own homew
 - **Pre-launch:** order the queue by cheapest, fastest test, meaning build hours plus ad spend.
 - **Post-launch:** rank by revenue per human hour from the ledger.
 
-Both numbers come from reality, and there is nothing to average.
 
 ## 7. What I expect the other panelists to get wrong
 - **Graham lens:** "talk to users" will become weeks of interviews. A payment link is a better interview.
 - **Hormozi lens:** offer engineering before a single visit. Polish what already sells.
 - **Walling lens:** it will push recurring SaaS. One-off ฿290 reports can be fully robotic and profitable.
 - **Sanchez lens:** buying boring businesses means staff, premises and Thai foreign-ownership limits. That is the opposite of agent-operable.
-- **Godin and Isenberg lenses:** community is real, but it costs human hours. Price that time.
+- **Godin and Isenberg lenses:** community costs human hours. Price them.
 - **Everyone:** 15 APIs and a new weighted rubric. More research is procrastination with citations.

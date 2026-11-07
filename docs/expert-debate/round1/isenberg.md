@@ -19,8 +19,6 @@ A holding-company loop: 3–5 bets a month, 14 days each, then double down on wi
 | 6. Concierge 5 | Agents + human | 5 paying customers, with every human minute logged by function. |
 | 7. Learn | Script | An outcomes table that re-weights sources: which subreddit or Pantip room produced the winners. |
 
-Run the 1,050 legacy ideas backwards through Stages 1–3 instead of re-scoring them.
-
 ## 3. Minimum APIs
 
 | API | Unlocks | ~$/mo | Keep/cut |
@@ -76,5 +74,4 @@ Rank by rung, then by cheapest next test. To keep it from becoming theatre:
 - **Pipeline builders:** a 10-stage scoring engine with $300/mo of APIs that never meets a customer. A better rubric is still a spreadsheet.
 - **Automation purists:** they'll pick back-office workflows with no channel. Fully automated with zero distribution is still zero.
 - **TAM people:** 30k reachable Bangkok expats beat a $4B TAM you can't reach.
-- **Thai specialists:** full Pantip/LINE crawling is a ToS risk. Sample it instead.
 - **Everyone:** they'll underweight the founder's own audience. Build or borrow distribution first.
