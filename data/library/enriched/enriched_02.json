@@ -1,0 +1,1293 @@
+[
+  {
+    "id": "TH-026",
+    "name": "Hospital Price Compare",
+    "one_liner": "A bilingual index of real Bangkok hospital prices for self-pay patients, built from published packages and uploaded bills.",
+    "problem": "Self-pay patients in Bangkok cannot see what an appendectomy, MRI or birth package will cost until the bill arrives. The same procedure can cost several times more at one private hospital than another.",
+    "why_it_works": "Bangkok Post reported 295 of 353 private hospitals marking prices well above cost, and the DIT has pushed hospitals to publish prices online. Hospital sites show promotional packages only, and HDmall sells checkup packages rather than inpatient or surgical prices. Nobody publishes what itemised bills actually came to.",
+    "agent_plan": [
+      "Reads each uploaded receipt with OCR, strips personal names and maps line items to a standard procedure list.",
+      "Collects published hospital package pages and DIT price disclosures and updates median and range on each procedure page.",
+      "Sends LINE alerts when a package promo drops and compiles multi-hospital estimate requests."
+    ],
+    "human_part": "You handle consent and data-protection policy, negotiate lead deals with hospitals, and decide which prices are verified enough to publish.",
+    "content_angle": "Short TikTok and Pantip posts comparing the real billed price of one procedure across hospital tiers, such as appendectomy.",
+    "first_steps": [
+      "Pick five common procedures and collect published package prices from three hospitals into one sheet.",
+      "Ask ten people in expat and Pantip groups to share an anonymised receipt for those procedures.",
+      "Publish one procedure page in English and Thai and see whether searches and receipt uploads arrive."
+    ],
+    "price_hint": "Free search; ฿199 per multi-hospital estimate request",
+    "watch_out": "Medical receipts are sensitive data under PDPA and naming hospitals carries defamation risk, and you need a few thousand receipts before medians can be trusted.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "tech"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-027",
+    "name": "Hospital Bill Check",
+    "one_liner": "Upload a Thai hospital bill and get flagged drug markups, duplicate charges and a dispute letter in Thai or English.",
+    "problem": "Thai private hospital bills bundle drugs, supplies and service fees into long lists that patients sign off at discharge under time pressure. Most patients never learn they can ask for an itemised bill or complain to the DIT 1569 hotline, so overcharges stand.",
+    "why_it_works": "Matichon reported consumer-group findings of drug prices nearly 200% above pharmacy prices, and The Nation runs explainers on where to complain about overpricing. Government channels act only after a complaint, and no tool reads a bill line by line against reference prices. Each checked bill adds to a price and dispute-outcome dataset.",
+    "agent_plan": [
+      "Reads each bill photo with OCR and maps every line to a reference price from the DIT drug list and public hospitals.",
+      "Flags outsized drug markups, duplicate or unrendered items and charges insurance or UCEP rules should cover.",
+      "Drafts the query letter to the hospital billing office and a complaint to 1569 if needed."
+    ],
+    "human_part": "You handle consent and data-protection policy, review the reference prices, and may need a Thai partner for dispute follow-ups.",
+    "content_angle": "TikTok explainers that walk through one real, anonymised bill and the line items that looked wrong.",
+    "first_steps": [
+      "Collect the DIT drug price list and a few public-hospital prices into a simple reference table.",
+      "Ask five people for anonymised bills and run them through an OCR plus AI prompt by hand.",
+      "Set up a LINE OA that takes a bill photo and returns a free red-flag scan."
+    ],
+    "price_hint": "Free scan; ฿290 full audit report with letter",
+    "watch_out": "Reference prices for private-hospital drugs are patchy, and success fees depend on hospitals actually refunding, which is unproven.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-028",
+    "name": "Expat Claim Fighter",
+    "one_liner": "Bilingual help for expats in Thailand to file, track and appeal denied health insurance claims.",
+    "problem": "Expats and retirees in Thailand often learn at claim time that the insurer has pulled records from every Thai hospital they visited and denied the claim as pre-existing. Policy wording is often Thai-first, deadlines are short, and few know the OIC complaint route.",
+    "why_it_works": "ASEAN NOW threads describe denials, partial payments only after escalating to the Insurance Ombudsman, and premiums rising after a claim. Brokers are paid by insurers, and the OIC needs a Thai-language complaint the user must prepare alone. A service that works only for the policyholder fills that gap.",
+    "agent_plan": [
+      "Reads the policy wording and denial letter and explains in plain English which clause the insurer relies on.",
+      "Builds a timeline from the user's hospital records and drafts the appeal letter.",
+      "Drafts the Thai OIC complaint and tracks each deadline with reminders."
+    ],
+    "human_part": "You hire a Thai-speaking case handler who calls insurers, and you partner with a Thai lawyer for anything that goes beyond document prep.",
+    "content_angle": "Posts in ASEAN NOW and expat Facebook groups explaining one denial reason and how an appeal was worded.",
+    "first_steps": [
+      "Write a plain-English explainer of the pre-existing look-back clause and share it in two expat groups.",
+      "Offer free claim reviews to five people with denied claims to learn the common reasons.",
+      "Line up one Thai-speaking contractor who can call insurers and file OIC complaints."
+    ],
+    "price_hint": "฿990 claim review; ฿2,900 appeal pack",
+    "watch_out": "Genuine pre-existing exclusions will not be overturned, so win rates may be low, and acting for a fee must not tip into unlicensed brokering or legal work.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "health"
+      ],
+      "agent_share": 65,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-029",
+    "name": "Prescription Price Finder",
+    "one_liner": "A LINE app that matches your prescription to cheaper generic and pharmacy prices near you before you fill it.",
+    "problem": "Patients leaving Thai private hospitals often pay hospital-pharmacy prices for chronic drugs that independent pharmacies sell for a fraction. One petitioner described nearly ฿100,000 in three months for cholesterol and antacid drugs.",
+    "why_it_works": "The Nation reported a DIT plan to QR-code about 3,000 drugs so buyers can compare pharmacy and hospital prices, and ASEAN NOW threads ask what medicines cost without insurance. Chain apps show only their own prices and the DIT list is static. No one compares across pharmacies against the hospital charge.",
+    "agent_plan": [
+      "Reads a photographed prescription and matches each drug by generic name and strength.",
+      "Compares prices across chain pharmacies, partner independents and the DIT list and finds the cheapest nearby option.",
+      "Sends refill reminders on LINE and relays pickup reservations to partner pharmacies."
+    ],
+    "human_part": "You sign up pharmacies one by one and build price feeds with them, and you need a Thai partner for contracts and licensing questions.",
+    "content_angle": "TikTok price-comparison clips showing one hospital drug against the same generic at a nearby pharmacy.",
+    "first_steps": [
+      "Photograph ten common chronic-drug prices at hospital and nearby pharmacies and put them in a sheet.",
+      "Post the comparison in two chronic-disease Facebook groups and note which drugs people ask about.",
+      "Ask three independent pharmacies whether they would share prices for free listing."
+    ],
+    "price_hint": "Free for patients; pharmacies pay a monthly listing",
+    "watch_out": "Pharmacy price feeds are the hard part, and independents may not want transparent pricing. The Drug Act bars selling prescription-only drugs or giving dispensing advice.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "tech"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-030",
+    "name": "Therapist Match Thailand",
+    "one_liner": "A bilingual directory that matches Thai and expat clients with licensed psychologists by price, language and availability.",
+    "problem": "Thailand has very few psychiatrists per head, stigma is high, and it is hard to tell a licensed clinical psychologist from an unlicensed life coach. Prices run from free hotlines to ฿3,000+ per hour, and expats need someone who speaks English or their language.",
+    "why_it_works": "The Nation (Jan 2026, citing Thai Health 2025) reported 1.3 psychiatrists per 100,000 people and that 89% of Thais did not access mental-health services in the past year. Ooca and iSTRONG list only their own clinicians. Thais already pay ฿1,000+ per session on Ooca.",
+    "agent_plan": [
+      "Collects provider profiles, prices, languages and next available slots into one directory.",
+      "Checks each provider's licence against the Medical Council and the Thai psychology licensing register.",
+      "Runs the short preference quiz and returns three matches with booking links."
+    ],
+    "human_part": "You recruit providers, handle crisis-routing rules and consent, and keep the quiz strictly non-diagnostic.",
+    "content_angle": "TikTok posts on how to tell a licensed psychologist from a life coach and what a first session costs.",
+    "first_steps": [
+      "List twenty licensed providers with prices and languages from public sources in one sheet.",
+      "Build a five-question matching quiz and test it with ten friends or colleagues.",
+      "Ask five providers whether they would pay for a premium listing or booking link."
+    ],
+    "price_hint": "Free for users; providers pay a monthly listing",
+    "watch_out": "It depends on providers sharing real availability, and Ooca may refuse to list. Mental-health data is sensitive and the quiz must route crises to the 1323 hotline.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-031",
+    "name": "Dental Price Tracker",
+    "one_liner": "Normalised implant, braces and veneer prices plus patient-reported outcomes for Bangkok dental clinics.",
+    "problem": "Implant quotes in Bangkok range from about ฿24,000 to over ฿100,000 per tooth, and clinics quote implant-only, crown-only or all-in prices. Few disclose the implant brand or the dentist's specialty, and tourist ratings never follow up on failures a year later.",
+    "why_it_works": "Bookimed's own Bangkok implant pages show averages swinging between about $1,000 and $2,267 across snapshots, so prices are opaque and heavily searched. Listings show headline prices and generic reviews, and none normalise quotes by brand or track 12-month outcomes. Implants are high-ticket, so clinics pay for leads.",
+    "agent_plan": [
+      "Reads uploaded clinic quotes and normalises them into an all-in price by implant brand, abutment and crown.",
+      "Sends follow-up surveys at 6, 12 and 24 months by LINE or email and logs the answers.",
+      "Checks dentist licences against the Dental Council and updates clinic price ranges."
+    ],
+    "human_part": "You sell verified listings to clinics, handle patient consent and handle pushback when a clinic dislikes its outcome scores.",
+    "content_angle": "SEO pages for 'dental implant Bangkok price' and TikTok explainers on what an all-in implant quote should include.",
+    "first_steps": [
+      "Collect ten real implant quotes from friends or forum posts and normalise them into an all-in format.",
+      "Publish one English and one Thai page comparing implant price ranges by brand.",
+      "Offer a ฿149 quote check to a few expat group members and note feedback."
+    ],
+    "price_hint": "Free search; ฿149 quote check",
+    "watch_out": "Outcome-survey response rates may be low, clinics may push back on unfavourable scores, and advertising rules mean you must not make clinical recommendations.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-032",
+    "name": "Beauty Clinic Verify",
+    "one_liner": "A bilingual check of a Thai beauty clinic's licence, its doctors and public complaint history before you book.",
+    "problem": "Illegal aesthetic clinics are a growing problem in Thailand, with raids after burns and arrests of unqualified staff. Official checks exist but they are in Thai, separate, and a licensed clinic can still use an unlicensed injector.",
+    "why_it_works": "Pattaya Mail and Thai PBS report officials urging the public to check clinic licences online, and Khaosod and Thai PBS World covered 2025 raids. Official registries are Thai-only and show no complaint history or whether the injector matches the licence. Beauty audiences on TikTok and Instagram share verdicts easily.",
+    "agent_plan": [
+      "Looks up a clinic name, LINE ID or Instagram handle and pulls the DHSS licence record and licence type.",
+      "Checks each listed doctor's Medical Council status and translates the result into English.",
+      "Builds the green, amber or red share card and logs evidence-backed complaints for review."
+    ],
+    "human_part": "You moderate complaints, run a strict evidence and right-of-reply policy, and sell badges to clinics.",
+    "content_angle": "TikTok and Instagram posts that check one popular clinic live and show what the licence record does and does not cover.",
+    "first_steps": [
+      "Test the DHSS and Medical Council lookups by hand on ten clinics and record what you learn.",
+      "Draft a one-page evidence and right-of-reply policy before publishing any complaint.",
+      "Post one clinic-check video and offer a free check to viewers who send a handle."
+    ],
+    "price_hint": "Free checks; ฿99 detailed report",
+    "watch_out": "Defamation exposure under Thai criminal law for the complaint log is the biggest risk, and you need a strict evidence and right-of-reply policy.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "local_services"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-033",
+    "name": "Checkup Package Decoder",
+    "one_liner": "A side-by-side comparison of Thai hospital checkup packages, test by test, with the cheapest match for your list.",
+    "problem": "Thai hospitals sell checkup packages from about ฿3,000 to over ฿60,000, with promotional brochures that are hard to read. Buyers cannot interpret tests like CEA or CA-125, so they overbuy cancer markers or miss age-appropriate screens.",
+    "why_it_works": "HDmall built a large business selling packages, which shows paid demand, and Bumrungrad's 2026 brochures show complex promo pricing. HDmall does not map tests to need or compare test by test across all hospitals. The comparison is a gap, though easy for others to copy.",
+    "agent_plan": [
+      "Reads brochures and listing pages and turns each package into a standard test list.",
+      "Builds the side-by-side table with price per package, tests missing and price per comparable test.",
+      "Maps age, sex and family history to public screening guidance without diagnosing."
+    ],
+    "human_part": "You decide which public guidance to cite, keep the tool non-diagnostic, and negotiate affiliate terms with hospitals.",
+    "content_angle": "SEO pages in Thai on comparing checkup packages for parents, plus a LINE OA that returns a comparison.",
+    "first_steps": [
+      "Parse five hospital packages into a test-by-test table and see how different they are.",
+      "Publish one Thai comparison page for parents' checkups and share it in family Facebook groups.",
+      "Apply to one hospital or marketplace affiliate programme to test commission."
+    ],
+    "price_hint": "Free for consumers; affiliate commission",
+    "watch_out": "The review notes say it is easy to copy, HDmall already owns the buyer, and it is viable only as a feature of a broader price index.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 1,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-034",
+    "name": "SSO Hospital Picker",
+    "one_liner": "A Thai LINE tool that ranks Social Security hospitals on wait times and referrals before the annual switch window closes.",
+    "problem": "Thai Section 33 and 39 Social Security workers can change their registered hospital once a year, and the choice decides where they get almost all non-emergency care. Most pick on location or rumour because nobody compares wait times, referrals or specialist access.",
+    "why_it_works": "FlowAccount and Thansettakij publish yearly how-to guides for the switch, which shows a recurring seasonal search need, and Pantip threads on which SSO hospital is good recur each year. The SSO's own channels handle the switch but give no quality comparison. Visit-level wait data is not collected anywhere for the public scheme.",
+    "agent_plan": [
+      "Builds the SSO hospital list with a map and distance from home and work.",
+      "Ranks hospitals by a user's needs from crowdsourced wait times, referral ease and ratings.",
+      "Sends reminders before the switch window and runs the two-question LINE survey after each visit."
+    ],
+    "human_part": "You sell the HR dashboard to employers, which is slow and needs Thai staff, and you handle defamation care in how scores are published.",
+    "content_angle": "TikTok videos during the switch season on how to choose an SSO hospital for pregnancy or chronic illness.",
+    "first_steps": [
+      "List SSO hospitals in one province and collect wait-time reports from fifteen workers.",
+      "Set up a LINE OA that returns a shortlist from three needs questions.",
+      "Show the shortlist to two HR managers at factories and ask whether they would pay."
+    ],
+    "price_hint": "Free for workers; employers pay a monthly HR dashboard",
+    "watch_out": "Workers will not pay and the business only works if employers or insurers fund it. Publishing hospital scores needs defamation care.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "work_careers"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-035",
+    "name": "Surgery Quote Compare",
+    "one_liner": "A request-for-quote service that gets itemised surgery quotes from vetted Thai hospitals for self-pay patients.",
+    "problem": "Self-pay patients needing knee replacement, hernia repair or spinal surgery email hospitals one by one and get non-comparable quotes that exclude implants or extra nights. Brokers earn hidden commissions and steer patients to paying partners.",
+    "why_it_works": "ThailandStarterKit's guides advise patients to confirm what package prices include, which shows the comparison gap, and Bookimed shows heavy listing activity for Thai procedures. Brokers hide commissions and hospital desks quote only their own hospital. Surgeries cost ฿200k+ and patients already pay brokers.",
+    "agent_plan": [
+      "Structures uploaded imaging reports and referrals into a standard case file for hospitals.",
+      "Sends the quote template to accredited hospitals and lines up returned quotes side by side.",
+      "Checks surgeon licences on the Medical Council site and sends post-surgery follow-up surveys."
+    ],
+    "human_part": "You recruit hospitals, coordinate with them, and need a Thai-licensed nurse coordinator to own patient communication.",
+    "content_angle": "SEO and Facebook diaspora-group posts explaining what a surgery quote should include, with an example comparison.",
+    "first_steps": [
+      "Write a standard quote template covering surgeon, implant brand, nights and exclusions.",
+      "Ask two hospital international desks whether they will answer it for one anonymised case.",
+      "Post the template to one expat or diaspora group and see who requests a quote."
+    ],
+    "price_hint": "Free quote request; disclosed 5% hospital referral fee",
+    "watch_out": "Hospitals may refuse standardised quotes, and referral fees must be disclosed with no medical opinion on whether to have surgery.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "money",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-036",
+    "name": "Care Home Check",
+    "one_liner": "A bilingual directory of Thai nursing homes showing licence status, inspection results and verified family reviews.",
+    "problem": "In October 2026 Thailand revoked the licence of a Kanchanaburi nursing home that kept residents in caged beds and ordered checks on 1,203 registered facilities. Families have no way to see licence type, inspection history or real reviews before choosing a home for a parent.",
+    "why_it_works": "Khaosod, The Star and HRW (Oct 2026) covered the scandal, and the government admitted many homes are unlicensed. Thai PBS cited a survey estimating nearly 4,000 facilities, almost 70% unlicensed. No source joins licence status, inspection results and verified family reviews.",
+    "agent_plan": [
+      "Collects DHSS licence records and published inspection outcomes into one profile per facility.",
+      "Summarises news reports and verified family reviews and flags red flags such as an expired licence.",
+      "Sends LINE alerts when a chosen home's licence or inspection status changes."
+    ],
+    "human_part": "You verify reviews and facilities, handle defamation risk, and sign up homes for verified profiles and placement referrals.",
+    "content_angle": "SEO pages in Thai for 'บ้านพักคนชรา' by province plus Facebook caregiver-group posts with a visit checklist.",
+    "first_steps": [
+      "Pull licence records for homes in one province into a sheet and mark any expired or missing.",
+      "Publish a Thai visit checklist for families and share it in caregiver Facebook groups.",
+      "Call three homes to ask about verified profiles and price bands."
+    ],
+    "price_hint": "Free search; facilities pay a monthly verified profile",
+    "watch_out": "The DHSS could publish its own consumer-facing ratings, and reviews carry defamation risk and need redaction of resident health details.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-037",
+    "name": "Province Caregiver Network",
+    "one_liner": "A marketplace for trained, background-checked caregivers in Thai provinces, with daily LINE shift reports for families in Bangkok.",
+    "problem": "About 12.9% of Thai older people now live alone, and many have children in Bangkok who cannot find reliable care in provinces like Khon Kaen. Families hire by word of mouth with no training check, no reporting and no backup if the caregiver quits.",
+    "why_it_works": "The ILO projects up to 250,000 missing care workers by 2037, and NSO data put the elderly living alone at 12.9% in 2024. Existing platforms are Bangkok-centric with thin provincial supply. Families already pay ฿15k+ a month for live-in help.",
+    "agent_plan": [
+      "Matches booking requests to certified caregivers by province, shift and availability.",
+      "Turns caregiver entries into the structured LINE report with meals, medication reminders and photos.",
+      "Finds and notifies a backup caregiver when the main one cancels."
+    ],
+    "human_part": "You recruit and vet caregivers in person, handle supply in each province, and need a Thai co-founder for provincial recruitment.",
+    "content_angle": "TikTok and Facebook province-group stories from families showing a sample shift report and what it replaces.",
+    "first_steps": [
+      "Recruit five certified caregivers in one province and agree rates and reporting format.",
+      "Offer five Bangkok families a trial week with daily LINE reports by hand.",
+      "Test whether families pay and whether caregivers stay on-platform."
+    ],
+    "price_hint": "Day shift ฿600–900; live-in ฿15,000–22,000/month",
+    "watch_out": "Supply recruitment in provinces is the bottleneck, and caregivers may take clients off-platform.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "local_services",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 4,
+      "goals": [
+        "scale",
+        "replace_salary"
+      ],
+      "backgrounds": [
+        "health",
+        "sales_ops"
+      ],
+      "agent_share": 45,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-038",
+    "name": "Parents Daily Check-in",
+    "one_liner": "A LINE check-in for parents upcountry that alerts you in Bangkok when they do not answer.",
+    "problem": "Many Thai adults in Bangkok have ageing parents living alone in the provinces, and most falls among older people happen at home. A fall or stroke can go unnoticed for a day, and sensor kits cost ฿5,000+ in hardware plus monthly fees.",
+    "why_it_works": "NESDC data show the share of older people living alone doubled to 12.9% by 2024, and the Health Minister said 65% of elderly falls occur at home. Existing options need hardware or are research pilots, and none use the LINE habit parents already have. Escalation to local helpers is operational and harder to copy.",
+    "agent_plan": [
+      "Calls or messages parents at set times and takes one-tap or voice replies in Thai dialects.",
+      "Escalates missed check-ins from a second call to a LINE alert and then a neighbour or helper.",
+      "Writes the weekly summary of mood, missed medication and patterns for siblings."
+    ],
+    "human_part": "You line up neighbours or local helpers for escalation, and you must get consent from the parent and make clear it does not replace 1669.",
+    "content_angle": "TikTok stories about a missed fall and how a daily check-in would have caught it, aimed at Thai workers abroad.",
+    "first_steps": [
+      "Set up a LINE OA that sends one daily check-in message and logs replies.",
+      "Run it free with five friends' parents for two weeks and record missed replies.",
+      "Test the escalation chain once with a neighbour or helper in one province."
+    ],
+    "price_hint": "Basic ฿99/month; Plus ฿249/month with sensor kit",
+    "watch_out": "Families may cancel after the first quiet months unless the weekly summary feels valuable, and LINE or a telco could ship a similar feature.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "health"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-039",
+    "name": "Expat Retiree Care Plan",
+    "one_liner": "A membership that builds a bilingual emergency file and provides an on-call advocate for foreign retirees in Thailand.",
+    "problem": "Foreign retirees in Pattaya, Hua Hin and Chiang Mai often live alone or with a Thai partner. When they fall ill, nobody knows their wishes, insurance details or who holds power of attorney, and Thai hospitals turn to whoever shows up.",
+    "why_it_works": "An ASEAS interview and Chiang Mai CityLife coverage describe isolated foreign retirees and care gaps, and forums ask whether retirees can stay if they need full-time care. Volunteer networks are local and informal, and brokers handle insurance only. Retirees already pay for insurance and agents.",
+    "agent_plan": [
+      "Turns a member's records into a bilingual file with medications, insurance and embassy contacts.",
+      "Drafts the advance directive and power of attorney from templates for a Thai lawyer to review.",
+      "Routes hotline calls and dispatches the advocate with the member's file."
+    ],
+    "human_part": "You hire Thai-English advocates who attend hospitals in person, and partner with a Thai lawyer for documents and with insurers.",
+    "content_angle": "Posts in ASEAN NOW and retiree Facebook groups on what to put in an if-something-happens file.",
+    "first_steps": [
+      "Draft the bilingual emergency file template and test it with five retirees.",
+      "Find a Thai lawyer who will review living will and power of attorney drafts.",
+      "Offer a founding-member plan to retiree clubs in one city."
+    ],
+    "price_hint": "Setup ฿6,900; membership ฿1,490/month",
+    "watch_out": "It is ops-heavy and hard to scale, advocate quality decides retention, and in-person advocacy needs a Thai-majority company or BOI.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "travel_expat",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "replace_salary",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "hospitality"
+      ],
+      "agent_share": 45,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-040",
+    "name": "Dementia Family Coach",
+    "one_liner": "A Thai-language LINE coach and care diary for families looking after a parent with dementia at home.",
+    "problem": "An estimated 770,000 Thai older adults lived with dementia in 2022, and most are cared for at home by daughters or spouses with little training. Memory clinics have long waits, so families learn by trial and error on Facebook.",
+    "why_it_works": "A 2025 Frontiers study projects Thai dementia cases rising to about 2.4M by 2050, and an ISPOR 2025 poster quantified households' informal care costs. Support today is in person, episodic or unstructured. Nothing gives daily, Thai-language, behaviour-specific coaching with a diary.",
+    "agent_plan": [
+      "Takes behaviour entries and replies with non-medical strategies from vetted Thai and international curricula.",
+      "Builds the monthly summary for the doctor and a respite planner of local day-care options.",
+      "Flags urgent symptoms to 1669 or the treating doctor."
+    ],
+    "human_part": "You need a Thai geriatric nurse or OT to review content and take paid calls, and you must stay strictly non-clinical.",
+    "content_angle": "Facebook caregiver-group and TikTok posts showing one behaviour, such as sundowning, and a calm-response script.",
+    "first_steps": [
+      "Write ten behaviour strategies from public curricula and have a nurse or OT review them.",
+      "Run a manual LINE diary with three caregivers for two weeks.",
+      "Ask them what they would pay and what felt useful."
+    ],
+    "price_hint": "Free diary; Coach ฿199/month",
+    "watch_out": "Content safety and clinical review are essential, and willingness to pay among caregivers is unproven.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "education"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-041",
+    "name": "Elder Home Safety Retrofit",
+    "one_liner": "Photo-based fall-hazard checks and fixed-price grab bars and ramps for parents' homes in Thailand, with subsidy forms filled in.",
+    "problem": "Falls kill about 1,600 older Thais a year (est.), and most happen at home. Families want grab bars, sit toilets and ramps but local contractors quote by guesswork, and few know the Ministry of Social Development funds up to ฿40,000 per house for poor elderly households.",
+    "why_it_works": "Thairath reported the ฿40,000-per-house repair support, and the Health Minister said 65% of elderly falls happen at home. Home-improvement chains sell products rather than hazard assessments, and the government scheme is slow and limited to poor households. Families already pay for one-off installs.",
+    "agent_plan": [
+      "Scores fall hazards room by room from uploaded photos or video and writes a prioritised fix list.",
+      "Matches each job to a vetted local installer at a fixed price and collects before and after photos.",
+      "Pre-fills the subsidy request for eligible households."
+    ],
+    "human_part": "You recruit and train installers in each province, check their work quality, and need a Thai co-founder for partner contracts.",
+    "content_angle": "Facebook family-group posts showing a photo assessment of one bathroom and the fixes ranked by priority.",
+    "first_steps": [
+      "Create a one-page fall-hazard checklist with an occupational therapist's input.",
+      "Run five photo assessments for friends' parents and price the fixes with a local handyman.",
+      "Book one install with before and after photos."
+    ],
+    "price_hint": "Photo assessment ฿390; bathroom safety kit ฿6,900–14,900",
+    "watch_out": "Installer quality control across provinces is the main execution risk.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "local_services",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "sales_ops"
+      ],
+      "agent_share": 50,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-042",
+    "name": "Vet Price Compare Thailand",
+    "one_liner": "A receipt-based price index for vet procedures at Bangkok clinics, in English and Thai.",
+    "problem": "Pet owners in Bangkok find the same spay or tumour removal can cost a few thousand baht at a university hospital and ฿14,000+ at a private clinic. No consumer source lists prices, so expats rely on forum anecdotes.",
+    "why_it_works": "The Nation reported the price-gouging probe extending to vet clinics, and Naewna ran a series on why pet treatment costs keep rising. Guides are anecdotal and dated, and nobody publishes real vet prices by procedure and clinic. Every receipt sharpens the index.",
+    "agent_plan": [
+      "Reads uploaded vet bills with OCR and normalises line items by procedure and species.",
+      "Builds median and range pages by clinic tier and updates clinic profiles with English and 24-hour flags.",
+      "Checks a quote against the index and lists line items to ask about."
+    ],
+    "human_part": "You recruit receipt contributors, handle defamation care with clinic prices, and sell profiles to clinics.",
+    "content_angle": "TikTok pet-creator posts comparing the price of one vaccine or spay across clinic tiers.",
+    "first_steps": [
+      "Collect fifteen vet receipts from cat and dog owners in one Facebook group.",
+      "Publish a spay and vaccination price page with ranges by clinic type.",
+      "Offer a ฿79 quote check to a small group of owners and ask for feedback."
+    ],
+    "price_hint": "Free search; ฿79 quote check",
+    "watch_out": "Receipt volume in year one decides whether prices are credible, and pet insurers or Google could aggregate prices.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-043",
+    "name": "Pet Friendly Condo Verify",
+    "one_liner": "A Bangkok building database that records each condo's real pet rules, confirmed with the juristic office.",
+    "problem": "Bangkok listings say pet allowed when only the landlord agrees, then the building's juristic office enforces a no-pet rule or weight limit, and owners lose deposits or must rehome their pet. Truly pet-friendly condos rent at a premium and supply is thin near the BTS.",
+    "why_it_works": "Superagent and PropertyScout publish guides on pet-friendly condo scams and new 2026 rules, describing listings where the juristic office later refuses pets. Portals tag listings on landlord claims and none verify building rules. A verified building-level database can't be copied without calling each office.",
+    "agent_plan": [
+      "Extracts pet rules from building documents and rule sheets into a structured record.",
+      "Filters listings by dog weight and species and sends matching-unit alerts.",
+      "Tracks which buildings need re-verification and queues the calls."
+    ],
+    "human_part": "You call juristic offices to verify rules, work with agents on co-broke deals, and may need a Thai partner for brokerage.",
+    "content_angle": "Instagram, TikTok and Facebook housing-group posts on which BTS-line condos truly allow big dogs.",
+    "first_steps": [
+      "Verify pet policies by phone for twenty buildings along one BTS line and record them.",
+      "Publish the list as a free page and share it in expat housing groups.",
+      "Show it to three agents and ask whether they would pay for featured listings."
+    ],
+    "price_hint": "Free for renters; agents pay ฿990/month featured",
+    "watch_out": "Verification at scale is labour-intensive, and portals could add a verified tag. Brokerage commissions need a Thai partner company.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 65,
+      "speed": "weeks",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-044",
+    "name": "Pet Move Planner",
+    "one_liner": "A dated, route-specific checklist for moving a pet into or out of Thailand, with permits, vet paperwork and airline options.",
+    "problem": "Expats moving to or from Thailand with a pet face conflicting advice on DLD import permits, rabies titres and health certificate timing, and mistakes can mean a pet held at Suvarnabhumi. Door-to-door agents charge ฿50,000+.",
+    "why_it_works": "Multiple 2026 guides give conflicting rules on titres and permits, and Superagent reports door-to-door packages of ฿50,000+. Agents are expensive and opaque, and DIY guides don't produce a dated plan for a route. Owners already pay agents for this.",
+    "agent_plan": [
+      "Builds a dated checklist from DLD and destination rules for the owner's origin, species and travel date.",
+      "Drafts the DLD permit request email and lists airlines accepting the breed and crate size.",
+      "Collects route outcomes and flags rule changes for review."
+    ],
+    "human_part": "You verify rules and airline data regularly, partner with a Thai vet for export paperwork, and avoid acting as a customs broker.",
+    "content_angle": "SEO pages and expat Facebook posts such as a step-by-step plan for bringing a dog to Thailand.",
+    "first_steps": [
+      "Write the full checklist for one route, such as Australia to Thailand, from official sources.",
+      "Test it with two owners who recently moved a pet and note errors.",
+      "Publish the route page and a DIY plan purchase button."
+    ],
+    "price_hint": "DIY plan ฿1,490 per pet",
+    "watch_out": "Rules change often and errors could strand a pet, so you need disclaimers and frequent checks. It is a small niche.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "travel_expat",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-045",
+    "name": "Pet Insurance Claim Score",
+    "one_liner": "A Thai pet insurance comparison that scores insurers by real claim payouts reported by owners.",
+    "problem": "Thai pet insurance is a small market partly because owners don't trust policies they can't compare. Plans cap vet fees with breed and age exclusions and price is often on request, so owners learn what is covered only when a claim is rejected.",
+    "why_it_works": "Thairath reports the market is below ฿200M (0.2% of pet spending) while cat ownership grew 32.1% in 2025. Giraffy and CheckDi compare premiums and limits, but none show actual claim payout behaviour. A claims ledger would be new data in Thailand.",
+    "agent_plan": [
+      "Decodes policy wording into plain Thai and English and lists plans by breed and age.",
+      "Reads uploaded claim outcomes and vet bills and builds a payout score by insurer and condition.",
+      "Prepares anonymised claims insight reports for insurers."
+    ],
+    "human_part": "You partner with a licensed Thai broker for any sale and persuade owners to share claim outcomes.",
+    "content_angle": "TikTok and Instagram cat-creator posts decoding one policy exclusion and what it meant in a real claim.",
+    "first_steps": [
+      "Decode three popular policies into a plain-language comparison table.",
+      "Ask ten pet owners in Facebook groups about claim outcomes they have had.",
+      "Ask one licensed broker about commission terms for referrals."
+    ],
+    "price_hint": "Free to compare; broker commission on first-year premium",
+    "watch_out": "The market is tiny, comparison sites already exist, and selling insurance requires a licensed broker, so it only works if the claims ledger becomes a data business.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-046",
+    "name": "International School Compare",
+    "one_liner": "True all-in costs, exam results and parent reviews for Bangkok's international schools, in English and Thai.",
+    "problem": "Bangkok international school fees run from about ฿100,000 to over ฿1.2M a year, and levies, deposits, buses and trips add 20–40% on top. Fee guides conflict and parent reviews live in closed Facebook groups.",
+    "why_it_works": "At least five 2026 fee guides target Bangkok international school costs, and they disagree on numbers, which signals both demand and data confusion. Existing sites list headline tuition and generic reviews and none compute all-in cost to graduate with verified outcomes. Parents spending ฿1M a year pay for advice.",
+    "agent_plan": [
+      "Extracts fee schedules and outcomes from school reports and builds a cost-to-graduate figure per child.",
+      "Runs the sibling and inflation fee calculator for each family.",
+      "Summarises verified parent surveys by school and updates fee history each year."
+    ],
+    "human_part": "You run advisor sessions, verify surveys and sell enhanced profiles to schools.",
+    "content_angle": "SEO pages and Facebook-group posts on the real cost to graduate from one school versus another.",
+    "first_steps": [
+      "Collect fee schedules from ten schools and compute all-in annual cost in a sheet.",
+      "Publish a comparison page in English and share it in one parents' group.",
+      "Offer a paid cost-to-graduate report to a few families for feedback."
+    ],
+    "price_hint": "Free comparisons; ฿990 cost-to-graduate report",
+    "watch_out": "The market is crowded with aggregators, so verified outcomes must be the wedge.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "education",
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-047",
+    "name": "Thai School Scorecard",
+    "one_liner": "A scorecard of ED-visa Thai language schools plus an AI speaking coach with tone feedback.",
+    "problem": "Foreigners study Thai on ED visas paying about ฿30,000–80,000 a year, but 2025 rule changes tightened compliance. Students can't tell good, compliant schools from visa mills, and many finish a year unable to hear tones.",
+    "why_it_works": "The Pattaya News and Globe reported the 2025 ED visa crackdown and about 10,000 revocations, and an expat.com thread shows frustration with tones. Apps like Ling teach vocabulary but don't vet schools or train tone perception in real scenarios. No source scores schools on compliance and outcomes.",
+    "agent_plan": [
+      "Collects school accreditation, fees and compliance records into a scorecard and updates it.",
+      "Scores learners' speech with pitch-contour tone feedback and role plays for market, taxi and immigration.",
+      "Builds weekly progress reports schools can use as attendance-plus-learning evidence."
+    ],
+    "human_part": "You sell to schools, who may resist a public scorecard, and you need a Thai speaker to check tone-scoring quality.",
+    "content_angle": "YouTube or TikTok videos on one tone mistake foreigners make and how to hear it.",
+    "first_steps": [
+      "Gather accreditation and fee data for ten schools in one city into a scorecard.",
+      "Prototype a tone drill using speech tools and test it with five learners.",
+      "Ask two schools whether they would pay to integrate the coach."
+    ],
+    "price_hint": "Learner ฿390/month; school licence per student",
+    "watch_out": "Tone feedback quality decides whether learners trust it, and general AI voice assistants can do Thai conversation practice.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-048",
+    "name": "IELTS Speaking Mock TH",
+    "one_liner": "An AI speaking examiner for IELTS and interview practice, tuned to the errors Thai learners make.",
+    "problem": "Thailand ranked 116th of 123 countries in the 2025 EF English Proficiency Index, yet students applying to international programmes need IELTS band 6–7 speaking scores. Human mock tests cost ฿1,000–2,000 each (est.), and generic apps don't know Thai-specific errors like dropped final consonants.",
+    "why_it_works": "EF's 2025 fact sheet ranks Thailand 116/123 with a score of 402, and Bangkok Post and The Thaiger covered the fall. Live-tutor platforms are expensive per session, and generic apps don't simulate the IELTS speaking format with Thai-specific feedback. Students already pay for tests and tutoring.",
+    "agent_plan": [
+      "Runs timed Part 1–3 mock tests and scores against public IELTS band descriptors.",
+      "Gives feedback in Thai and English on final consonants, clusters, word stress and articles.",
+      "Tracks band estimates over time and recommends drills."
+    ],
+    "human_part": "You arrange the monthly human examiner reviews and calibrate scores against real IELTS results, and you must not present it as an official test.",
+    "content_angle": "TikTok study-creator posts on common Thai speaker mistakes in IELTS Part 2, such as dropped final consonants.",
+    "first_steps": [
+      "Write a Part 1–3 mock script and Thai-L1 error checklist from public band descriptors.",
+      "Run five students through a manual mock and compare feedback with a tutor.",
+      "Build a LINE or web version of the timed test and price five mocks."
+    ],
+    "price_hint": "5 mock tests ฿299; unlimited ฿399/month",
+    "watch_out": "General AI voice assistants and speaking apps can run IELTS practice, and calibration against real IELTS results is the only defensible edge.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "education",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-049",
+    "name": "TCAS Chance Planner",
+    "one_liner": "Enter your TGAT, TPAT and A-Level scores to see each programme's weighted score and admission odds.",
+    "problem": "Every year Thai Grade 12 students navigate TCAS rounds where each faculty weights scores differently and round 3 lets them rank up to 10 choices. They compute weighted scores by hand from many announcement PDFs and waste choices on unreachable programmes.",
+    "why_it_works": "Thai PBS reported confusion when round 3 didn't publish minimum scores and faculties counted points differently, and every Thai student goes through TCAS. mytcas.com and Dek-D publish rules and news but don't compute personalised scores and odds across programmes. Outcome data from users can improve odds over time.",
+    "agent_plan": [
+      "Reads announcement PDFs and turns each programme's weighting formula into a calculator rule.",
+      "Estimates reach, match or safe bands from past cut-offs and builds a 10-choice ranking.",
+      "Sends LINE reminders for round dates and a parent summary."
+    ],
+    "human_part": "You check formulas for accuracy each season and collect outcome data from users, and you must not promise admission.",
+    "content_angle": "TikTok posts under TCAS hashtags showing how one student's scores map to programme choices.",
+    "first_steps": [
+      "Build the weighted-score formula for ten popular programmes from announcement PDFs.",
+      "Test it with five Grade 12 students and compare with their own hand calculations.",
+      "Share a free calculator in a student LINE group and track usage."
+    ],
+    "price_hint": "Free calculator; Premium ฿199 per admission season",
+    "watch_out": "Demand is seasonal with a low price point, and odds accuracy depends on getting outcome data from users.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "education"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-050",
+    "name": "Verified Tutor Results",
+    "one_liner": "A Thai tutoring marketplace where tutors earn a badge by linking verified before and after student scores.",
+    "problem": "Thai parents spend heavily on private tutoring yet choose tutors from Facebook posts and claims like students got into Chula that can't be checked. Rates range from ฿300 to ฿2,000+ an hour with no link to results.",
+    "why_it_works": "BestKru reported reaching 9,000 tutors in 2023 and StartDee about 2M downloads, showing supply and demand. Directories rely on self-written profiles, and none verify score improvements or compare trial lessons. Parents already pay tutors weekly.",
+    "agent_plan": [
+      "Matches parents to tutors by subject, exam, language and fair-rate range.",
+      "Reads parent-uploaded score reports to confirm before and after gains for the verified badge.",
+      "Scores recorded trial lessons for clarity and engagement and posts session notes to LINE."
+    ],
+    "human_part": "You recruit tutors to build supply, handle disputes and verification, and need a Thai co-founder if you take commissions locally.",
+    "content_angle": "TikTok clips of tutors with verified score gains, showing a before and after for one subject.",
+    "first_steps": [
+      "Recruit ten tutors in one subject and collect before and after scores from their students.",
+      "Record a trial lesson from each and ask five parents to rate them.",
+      "List the tutors on a simple LINE page and see who books."
+    ],
+    "price_hint": "15% commission on lessons",
+    "watch_out": "Parents may pay tutors directly after the first booking, and verification friction may limit supply.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "family_care"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "side_income"
+      ],
+      "backgrounds": [
+        "education",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  }
+]

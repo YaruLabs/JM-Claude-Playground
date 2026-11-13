@@ -1,0 +1,1272 @@
+[
+  {
+    "id": "GL-051",
+    "name": "Application Outcome Ledger",
+    "one_liner": "A job-search tracker that reads your inbox and shows which resumes, companies and ATS vendors actually get replies.",
+    "problem": "Job seekers send hundreds of applications into AI-screened systems and hear nothing back, and spreadsheets break at that volume. Current trackers are manual boards that never show what is working.",
+    "why_it_works": "HireTruffle sorted 20,973 r/recruitinghell posts from Jan-Jun 2026 and ghosting sat near the top of the complaints. Teal and Huntr charge $29-40/month for trackers, so people already pay in this category. Competitors need manual entry and have no cross-user response data.",
+    "agent_plan": [
+      "Reads read-only Gmail or Outlook mail and classifies each message as applied, rejected, interview or ghosted.",
+      "Detects the ATS vendor from URLs and sender domains and tags each application with its resume version.",
+      "Builds the callback-rate dashboard and pools anonymized, opt-in outcomes into company response benchmarks."
+    ],
+    "human_part": "You handle Google's restricted-scope and security review, answer user questions, and decide how company benchmarks are worded.",
+    "content_angle": "Post short videos on TikTok or LinkedIn showing your callback rate by resume version, for example 'which resume actually got replies'.",
+    "first_steps": [
+      "Post in r/jobs asking job seekers how they track applications and what they wish they could see.",
+      "Mock up the callback-rate dashboard with fake data and show it to ten job seekers.",
+      "Start the Google OAuth restricted-scope application early, since the review takes weeks."
+    ],
+    "price_hint": "Free to 50 applications; Pro $12/month",
+    "watch_out": "Gmail restricted-scope approval and keeping users once they land a job are the main risks.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-052",
+    "name": "Layoff Deadline Tracker",
+    "one_liner": "A dated checklist for laid-off US workers that turns severance, COBRA, equity and unemployment paperwork into one timeline with reminders.",
+    "problem": "A layoff starts COBRA, severance review, Marketplace enrollment, option exercise and unemployment deadlines on different clocks. Missing one can mean lost health coverage, a forfeited option grant or a taxable loan default.",
+    "why_it_works": "Free single-deadline COBRA calculators exist, which shows people search for this. DOL notes COBRA can cost up to 102% of the plan premium, so the COBRA-versus-Marketplace choice is costly to get wrong. Nothing combines a person's own documents into one plan.",
+    "agent_plan": [
+      "Reads uploaded separation agreements, COBRA notices, paystubs and equity documents and extracts dates, amounts and clauses.",
+      "Builds each person's dated timeline and sends SMS and calendar reminders before every deadline.",
+      "Compares COBRA and Marketplace costs using the premium on the user's own notice."
+    ],
+    "human_part": "You set the legal boundary (information, not legal advice), build the attorney referral relationships, and keep the state rules current.",
+    "content_angle": "Publish search pages and short posts on topics like 'COBRA deadline after a layoff' and answer questions in r/layoffs.",
+    "first_steps": [
+      "Write one search page on the COBRA election window and see whether it draws visitors.",
+      "Hand-build a deadline timeline from a sample separation packet and test it with two laid-off people.",
+      "Talk to one employment attorney about referral rules and wording that avoids legal advice."
+    ],
+    "price_hint": "$29 one-time pass; $9/month after",
+    "watch_out": "Unauthorized-practice-of-law risk, and a one-time purchase may mean low lifetime value.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-053",
+    "name": "1099 Reconciler",
+    "one_liner": "A tool for US freelancers that matches every 1099 to the bank deposits behind it and flags duplicate or missing income.",
+    "problem": "Freelancers receive 1099-NECs and 1099-Ks, and the same payment can appear on two forms. With the 1099-K threshold back at $20,000 and 200 transactions, fewer forms arrive but all income is still taxable, and mismatches can trigger IRS CP2000 notices.",
+    "why_it_works": "The IRS confirmed the threshold change, so forms no longer work as an income checklist. MBO Partners counted 72.9M US independent workers in 2025, and Keeper and FlyFin subscriptions show willingness to pay. Those tools focus on write-offs and filing, not matching forms to deposits.",
+    "agent_plan": [
+      "Extracts amounts from uploaded or photographed 1099s and imports deposits from connected bank and payment accounts.",
+      "Matches each form to its deposit lines and flags overlaps, missing forms and unreported income.",
+      "Calculates safe-harbor quarterly estimates, sends reminders and produces a CPA-ready reconciliation PDF."
+    ],
+    "human_part": "You find a CPA or EA advisor to check the rules engine and keep the product clear of tax preparation and IRS representation.",
+    "content_angle": "Write search pages and YouTube explainers such as 'what to do when a 1099-K and a 1099-NEC cover the same income'.",
+    "first_steps": [
+      "Collect sample 1099 situations from r/freelance and r/tax and note which mismatches come up most.",
+      "Hand-reconcile three freelancers' forms against their bank exports to learn the matching rules.",
+      "Ask one CPA to review your reconciliation report format and the wording around advice."
+    ],
+    "price_hint": "$15/month or $99/year",
+    "watch_out": "Demand clusters in January-April, and Keeper or QuickBooks could add reconciliation.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-054",
+    "name": "Parent Paperwork Inbox",
+    "one_liner": "A shared family inbox that reads an aging parent's Medicare, insurance and provider mail and tells siblings what needs action.",
+    "problem": "Family caregivers handle Medicare notices, Part D statements, premium bills and provider bills that arrive at a parent's address, and siblings in other states never see the same mail. Caregiver apps coordinate tasks but do not read the documents.",
+    "why_it_works": "AARP and the National Alliance for Caregiving count 63M US caregivers, and 6 in 10 also hold jobs. Paid caregiver apps show demand for sibling coordination, but they rely on manual entry. None match provider bills against Medicare notices.",
+    "agent_plan": [
+      "Classifies each scanned or forwarded document and extracts amounts and due dates.",
+      "Matches provider bills against the corresponding Medicare Summary Notice or EOB and flags charges the patient should not owe.",
+      "Builds the shared needs-action queue and the monthly family digest of paid, pending and changed items."
+    ],
+    "human_part": "You set up the parent's signed authorization, build the health-data security posture, and avoid recommending Medicare plans without a licensed agent.",
+    "content_angle": "Post explainers in Facebook caregiver groups and search pages such as 'Medicare Summary Notice explained'.",
+    "first_steps": [
+      "Interview five adult children who manage a parent's mail about what they scan, forward and lose.",
+      "Hand-process one family's month of mail and show the needs-action list.",
+      "Draft the parent authorization form and check wording with an elder-law firm."
+    ],
+    "price_hint": "$19/month per family",
+    "watch_out": "Caregivers may not scan mail consistently, and health-data security has to be solid from day one.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-055",
+    "name": "IEP Progress Binder",
+    "one_liner": "A records tool for US parents that tracks special-education goals, services and progress across years of IEPs.",
+    "problem": "Parents of students with IEPs hold years of 20-page PDFs and spend hours before each annual review comparing them by hand. They often miss goals copied forward unchanged, baselines that never moved or service minutes that were cut.",
+    "why_it_works": "About 7.9 million US students aged 3-21 were served under IDEA in 2023-24, and Understood, Undivided and state parent centers all run binder-organizing guides. The free templates are static paper checklists, and advocates are expensive. Nothing tracks goals across years automatically.",
+    "agent_plan": [
+      "Reads uploaded IEPs, evaluations and progress reports and extracts goals, baselines, services, minutes and key dates.",
+      "Links each goal across years and flags repeated goals, missing progress reports and reduced service minutes.",
+      "Writes the one-page factual meeting summary with questions to ask and keeps the communication log."
+    ],
+    "human_part": "You earn trust with parents and independent advocates, keep the product factual with no legal advice, and protect children's records.",
+    "content_angle": "Share short videos and posts for parent groups, such as 'three things to compare in this year's IEP versus last year's'.",
+    "first_steps": [
+      "Ask ten parents in special-needs Facebook groups what they check before an annual review.",
+      "Hand-build a goal timeline from one parent's sample IEPs and test whether it surprises them.",
+      "Contact one independent advocate about using the tool with several families."
+    ],
+    "price_hint": "Free for 1 IEP; $12/month",
+    "watch_out": "Records are highly sensitive and the line between factual summaries and legal advice must hold.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "family_care",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-056",
+    "name": "Aid Appeal Packet",
+    "one_liner": "A packet builder that helps US families appeal college financial aid after a change in income, matched to each school's own requirements.",
+    "problem": "After a job loss, medical bills, divorce or death, colleges can adjust aid, but each school uses its own form, documents and deadline. Families with several offers build a different packet for each and get rejected for missing documents.",
+    "why_it_works": "For 2026-27, schools such as SJSU, Missouri Western and Hawaii each list different events, documents and deadlines. SwiftStudent only offers free templates and consultants are expensive. A maintained per-school checklist and outcome record is the part a general AI assistant lacks.",
+    "agent_plan": [
+      "Looks up each target college's special-circumstances form and document checklist and keeps the database current.",
+      "Maps the family's uploaded evidence to each school's requirements and flags missing items.",
+      "Drafts a factual cover letter and builds a net-price table to compare competing offers."
+    ],
+    "human_part": "You verify the school checklists, keep claims honest with no guaranteed aid, and handle families' sensitive financial documents carefully.",
+    "content_angle": "Publish search pages for '[college] special circumstances appeal' and answer questions in r/financialaid.",
+    "first_steps": [
+      "Build the checklist for three colleges by hand and publish them as search pages.",
+      "Help two families assemble a packet and note which documents they lacked.",
+      "Contact an independent admissions counselor about using it with their families."
+    ],
+    "price_hint": "$79 per admissions season",
+    "watch_out": "SwiftStudent is free and the demand is seasonal, so the maintained school database must carry the value.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-057",
+    "name": "Landlord Compliance Calendar",
+    "one_liner": "A per-property calendar of local registration, inspection and notice rules for small US landlords.",
+    "problem": "Landlords with 1-20 units face city rules on rental registration, inspections, lead-paint certificates and smoke or CO requirements, buried in municipal codes and PDFs. Missing one can mean fines, unenforceable leases or blocked evictions.",
+    "why_it_works": "Cities from Boston to Lynn MA to Jackson MS run distinct programs, and BiggerPockets threads show owners unsure whether rules apply. DoorLoop itself says requirements vary by state and municipality. Property-management tools handle rent and leases, not local compliance calendars.",
+    "agent_plan": [
+      "Looks up and parses city and county ordinances into a structured rules database with citations.",
+      "Builds each property's compliance calendar with due dates, forms and email or SMS reminders.",
+      "Monitors ordinance changes and alerts the affected owners."
+    ],
+    "human_part": "You decide city coverage from user demand, check parsed rules for accuracy, and set the terms that limit liability for errors.",
+    "content_angle": "Publish search pages like '[city] rental registration' and answer landlord questions on BiggerPockets and Facebook groups.",
+    "first_steps": [
+      "Parse the rules for one city and publish a free checklist page for it.",
+      "Ask landlords in one city group to check the checklist and report what is missing.",
+      "Add a verification date and citation to every rule before showing it to anyone."
+    ],
+    "price_hint": "$15/month for up to 5 units",
+    "watch_out": "Keeping long-tail city rules accurate over time is the main cost and liability.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-058",
+    "name": "Creator Deal Desk",
+    "one_liner": "A back office for US creators that parses brand deals, checks exclusivity conflicts and chases late invoices.",
+    "problem": "Mid-tier creators run many brand deals through email, DMs and agency PDFs, each with its own deliverables, exclusivity clauses and slow payment terms. They miss conflicts, forget to invoice and rarely chase late payers.",
+    "why_it_works": "Freelancers Union's running unpaid-invoice counter exceeds $14M, and the FTC places disclosure responsibility on the creator. Beacons and Passionfroot focus on winning deals, not running them. A payment-speed record by brand is hard for a general AI assistant to copy.",
+    "agent_plan": [
+      "Reads forwarded brand emails, contracts and briefs and extracts deliverables, deadlines, usage rights, exclusivity and payment terms.",
+      "Checks exclusivity conflicts across active deals and builds the FTC disclosure checklist for each platform.",
+      "Creates invoices when a deliverable goes live and sends polite, then firm, payment reminders."
+    ],
+    "human_part": "You build trust with creators and managers, keep the output informational rather than legal advice, and handle any dispute over payment-speed data.",
+    "content_angle": "Post short videos on TikTok or YouTube about topics like 'the contract clause that blocks your next brand deal'.",
+    "first_steps": [
+      "Ask ten mid-tier creators how they track deals, and where deals actually live.",
+      "Parse three real contracts by hand and show the deal board and exclusivity check.",
+      "Join creator Discords and newsletters and offer free setup to five creators."
+    ],
+    "price_hint": "Free for 3 deals; Pro $19/month",
+    "watch_out": "Creators may keep deals in DMs and never forward them, so the product never sees the data.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "creator",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-059",
+    "name": "Sponsor Invoice Autopilot",
+    "one_liner": "A back office for independent podcasters and newsletter writers that proves sponsor delivery and sends the invoice.",
+    "problem": "Publishers who sell sponsorships directly must pull stats from hosting tools, match them to the insertion order, calculate make-goods and chase net-30/60 invoices. This takes hours a month for a one- or two-person show, and errors cost money.",
+    "why_it_works": "Podscribe sells verification to advertisers, and marketplaces like Paved take a cut, but direct-deal publishers have no back office. Brand demand for proof of delivery is documented, and publishers must supply it. Nothing automates delivery-to-invoice for direct deals.",
+    "agent_plan": [
+      "Reads insertion orders and sponsor emails and extracts flight dates, rates, guarantees and reporting needs.",
+      "Pulls delivery stats, compares them to the guarantee and calculates make-goods or overage.",
+      "Generates the proof-of-performance PDF and invoice, then sends payment reminders."
+    ],
+    "human_part": "You keep each hosting and newsletter integration working and build relationships in podcast and newsletter operator communities.",
+    "content_angle": "Write posts in podcast-industry newsletters and communities on topics like 'how to prove sponsor delivery without a spreadsheet'.",
+    "first_steps": [
+      "Ask ten independent publishers how they report to sponsors and how long it takes.",
+      "Build one proof-of-performance PDF by hand from real stats and show it.",
+      "Check the Beehiiv and Megaphone APIs to see what stats you can pull."
+    ],
+    "price_hint": "$39/month for up to 10 sponsors",
+    "watch_out": "Covering enough hosts and email platforms means many integrations to keep up to date.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "creator",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-060",
+    "name": "Home History File",
+    "one_liner": "A verified record of a home's repairs and upgrades that an owner can hand to buyers at sale.",
+    "problem": "Buyers rarely see proof of a new roof, serviced HVAC or upgraded panel, so sellers cannot prove work and buyers discount or ask for repairs. Receipts sit scattered across email, paper and contractor portals.",
+    "why_it_works": "Buyers are cautious: NAR's 2025 Profile puts first-time buyers at a record-low 21% share. HomeZada and HomeBinder show people pay for home records, but they rely on manual entry. None produce a permit-verified report built for a sale.",
+    "agent_plan": [
+      "Reads forwarded invoices and equipment-label photos and extracts date, work type, system, contractor, license and warranty.",
+      "Cross-checks entries against public permit data and contractor license lookups in pilot cities.",
+      "Generates the shareable Home History Report with timelines per system and remaining warranties."
+    ],
+    "human_part": "You build partnerships with listing agents and inspectors, and define the methodology behind the 'verified' label.",
+    "content_angle": "Publish search pages on topics like 'home maintenance records for sale' and share before-and-after report examples on Nextdoor.",
+    "first_steps": [
+      "Build a sample report for a friend's home from their old receipts.",
+      "Pick one pilot city with open permit data and test the cross-check.",
+      "Show the sample report to two listing agents and ask what a buyer would trust."
+    ],
+    "price_hint": "Free logging; $49 report at sale",
+    "watch_out": "HomeBinder is free through inspectors and willingness to pay is weak, so the review rated it CAUTION.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-061",
+    "name": "EV Charger Quote Check",
+    "one_liner": "A one-time report that checks an EV charger install quote against your own panel capacity and zip-code prices.",
+    "problem": "A home Level 2 charger install can cost from $800 to over $4,000 when a panel upgrade is quoted, and homeowners cannot tell whether the upgrade is needed. The federal 30C credit window has ended, so buyers now pay the full cost.",
+    "why_it_works": "EnergySage documents the $800 to $4,000+ spread driven by panel capacity, and the IRS confirms the 30C home charger credit window ended 30 June 2026. Install sellers and generic ranges exist, but none audit a specific quote against the user's panel.",
+    "agent_plan": [
+      "Reads uploaded panel and breaker photos and estimates spare capacity with a load calculation from the home's appliances.",
+      "Labels each quote line and compares prices to a zip-code benchmark built from uploaded quotes.",
+      "Explains whether a load-management device could avoid a service upgrade and lists questions for the installer."
+    ],
+    "human_part": "You recruit an electrician advisor to check the load rules, and the report defers to a licensed electrician and local permit authority.",
+    "content_angle": "Answer questions in EV owner forums and Facebook groups, with posts like 'is that panel upgrade quote really needed'.",
+    "first_steps": [
+      "Collect five real quotes from EV owner groups and label each line by hand.",
+      "Write one search page on EV charger panel upgrade costs and check traffic.",
+      "Ask an electrician to review your load-estimate logic on two homes."
+    ],
+    "price_hint": "$19 per quote check report",
+    "watch_out": "Demand may have dipped after the 30C credit ended, and this is not code-compliance advice.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "property"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-062",
+    "name": "Prior Auth Tracker",
+    "one_liner": "A patient-side tracker that starts the federal decision clock on each pending prior authorization and flags overdue ones.",
+    "problem": "Patients waiting on prior authorization do not know when the clock started, whether their plan is covered by the new rule, or who to call. They end up stuck between the doctor's office and the insurer.",
+    "why_it_works": "CMS-0057-F decision timeframes of 72 hours urgent and 7 days standard took effect 1 January 2026. The AMA survey reports 78% of physicians see patients abandon treatment over prior authorization. Existing appeal tools only help after a denial.",
+    "agent_plan": [
+      "Reads forwarded portal messages and photographed letters and logs each pending authorization.",
+      "Detects whether the plan type falls under the federal timeframes and sends alerts when a decision is overdue.",
+      "Extracts denial reasons and appeal deadlines and assembles a case file with a timeline."
+    ],
+    "human_part": "You keep the product clear of medical and legal advice, state which plans the rule covers, and earn trust in patient communities.",
+    "content_angle": "Post in chronic-illness and caregiver communities, and publish search pages like 'prior authorization taking too long'.",
+    "first_steps": [
+      "Ask patients in advocacy groups how they track a pending authorization today.",
+      "Build the clock and alert logic for one plan type and test it with five patients.",
+      "Check consent and privacy rules for health data in your first state."
+    ],
+    "price_hint": "Free for 1 authorization; $9/month",
+    "watch_out": "Willingness to pay is uncertain because free appeal help exists, and employer plans fall outside the rule.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-063",
+    "name": "Trial Shortlist",
+    "one_liner": "A tool that matches a patient's own medical records to recruiting clinical trials and explains each match.",
+    "problem": "Patients with cancer, rare or treatment-resistant conditions face hundreds of studies per condition with dense eligibility criteria. Matching their labs, prior therapies and biomarkers takes hours and medical literacy.",
+    "why_it_works": "ClinicalTrials.gov offers a public data API. Antidote and Leal Health built sponsor-funded businesses on patient matching, so sponsors do pay for recruitment. Those finders rely on questionnaires rather than parsing the patient's own records.",
+    "agent_plan": [
+      "Imports records through FHIR, portal export or PDFs and builds a structured patient profile.",
+      "Pulls recruiting studies from the ClinicalTrials.gov API and parses each criterion into checks.",
+      "Scores each trial and drafts an oncologist summary and an inquiry to the site coordinator."
+    ],
+    "human_part": "You need legal review of sponsor referral fees, a clinical-research advisor for sponsor sales, and a plan for health-privacy compliance.",
+    "content_angle": "Share posts with disease-specific advocacy foundations on topics like 'how to read a trial's exclusion criteria'.",
+    "first_steps": [
+      "Match three public trial listings against a synthetic patient profile to test your parsing.",
+      "Talk to two advocacy foundations about what patients struggle with when reading trials.",
+      "Book a legal consult on referral fees and health-privacy duties before building."
+    ],
+    "price_hint": "Free basic match; $29/month Plus",
+    "watch_out": "Medical liability, referral-fee compliance and free sponsor-funded competitors make this a heavy burden.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-064",
+    "name": "Pet Claim Autopilot",
+    "one_liner": "A pet-owner app that files vet claims across insurers, tracks payouts and drafts appeals for denials.",
+    "problem": "Most pet insurance runs on reimbursement: the owner pays, then files with invoices and often full records. Claims stall, small claims go unfiled, and denials for pre-existing or bilateral conditions go unchallenged.",
+    "why_it_works": "Trupanion reports more than 1.12M enrolled pets (June 2026), and APPA reports 95M pet-owning households. Insurer apps only file their own claims, and comparison sites stop at purchase. Nobody runs claims and appeals across insurers for the owner.",
+    "agent_plan": [
+      "Reads photographed or forwarded vet invoices, extracts line items and maps them to the owner's policy.",
+      "Pre-fills claim forms for major carriers and tracks each claim's status and expected payout.",
+      "Extracts denial reasons and drafts appeals citing the policy wording and the vet's notes."
+    ],
+    "human_part": "You keep to owner self-service with drafting help to stay clear of public-adjuster rules, and keep carrier forms up to date.",
+    "content_angle": "Post short videos on TikTok about topics like 'the pet insurance denial reason you can appeal'.",
+    "first_steps": [
+      "Ask owners in pet insurance groups what they have forgotten to claim or had denied.",
+      "Hand-file three claims with different carriers to learn the forms.",
+      "Write one appeal draft from a real denial letter and ask the owner if it helps."
+    ],
+    "price_hint": "$5/month or $39/year per household",
+    "watch_out": "Insurer form changes and a low price point make the margin thin.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-065",
+    "name": "Ghost Job Score",
+    "one_liner": "A browser extension that scores job postings by how likely they are to be ghost jobs before you apply.",
+    "problem": "Job seekers waste 20-60 minutes tailoring applications for postings that were never meant to be filled. The only signal is a vague 'reposted' tag.",
+    "why_it_works": "Greenhouse estimated 18-22% of postings in a recent quarter were ghost jobs, and a Clarify Capital survey found nearly 1 in 3 employers admit posting with no current intent to hire. Job boards have no incentive to flag their paying employers. Each user's outcome report improves the score.",
+    "agent_plan": [
+      "Fingerprints job descriptions across boards and tracks repost history and days open.",
+      "Combines company headcount and layoff news with crowd outcome reports into a score with reasons.",
+      "Sends Pro users alerts for fresh postings and company-level response-rate history."
+    ],
+    "human_part": "You protect against terms-of-service and defamation risk, present scores as opinions, and build the early user base.",
+    "content_angle": "Post short videos on TikTok and LinkedIn showing a posting's score, for example 'this job has been reposted every month'.",
+    "first_steps": [
+      "Track repost history for fifty postings by hand and see how often they reappear.",
+      "Build a basic badge for one job board and test it with ten job seekers.",
+      "Post the findings in r/recruitinghell and r/jobs and gather feedback."
+    ],
+    "price_hint": "Free badge; Pro $8/month",
+    "watch_out": "Willingness to pay is low, so income may depend on data licensing.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "marketplace"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-066",
+    "name": "Solo 401k Limit Planner",
+    "one_liner": "A tracker that keeps a running view of your 401(k) deferrals across employers and side-business income.",
+    "problem": "People with a W-2 job and 1099 income can share one deferral limit across every 401(k) they hold, and no plan administrator sees contributions made elsewhere. Excess deferrals can be taxed twice, and a missed Form 5500-EZ costs $250 a day above $250,000 in plan assets.",
+    "why_it_works": "TurboTax community threads ask whether the maximum is calculated correctly with a W-2 plan. Calculators give a one-off number, and providers only see their own plan. Nothing follows pay stubs and income through the year.",
+    "agent_plan": [
+      "Extracts figures from uploaded pay stubs and side-business books and keeps a year-to-date deferral tracker.",
+      "Calculates remaining employee room and the maximum employer contribution from actual net earnings.",
+      "Tracks the Form 5500-EZ threshold and July 31 deadline and exports a one-page CPA summary."
+    ],
+    "human_part": "You contract a CPA reviewer, update the rules each year when IRS limits change, and keep the product clear of investment advice.",
+    "content_angle": "Publish search pages on topics like 'Solo 401k contribution with a W-2 401k' and post in Bogleheads and FIRE communities.",
+    "first_steps": [
+      "Build a free calculator for the shared limit and post it in a FIRE community.",
+      "Ask five W-2-plus-side-income people to share how they track deferrals today.",
+      "Contact a CPA about reviewing the rules and referring clients."
+    ],
+    "price_hint": "Free calculator; Pro $79/year",
+    "watch_out": "The moat is thin, free calculators exist, and the review suggests selling it through CPAs or a custodian.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-067",
+    "name": "SSDI Evidence Binder",
+    "one_liner": "A tool that organizes a disability claimant's medical records by work-function category for small disability law firms.",
+    "problem": "SSDI and SSI applicants must prove how conditions limit work, with evidence spread across years of records, and the appeal deadline after each denial is typically 60 days. Claimants lose when the right evidence never reaches the file.",
+    "why_it_works": "Citizens Disability and Atticus run contingency SSDI businesses (25% of back pay up to $9,200), which shows what is at stake. Medical-summary vendors rely on slow human review. Nobody offers an affordable AI-built evidence binder.",
+    "agent_plan": [
+      "Ingests bulk medical PDFs and extracts diagnoses, findings and limitation statements with page citations.",
+      "Organizes evidence by residual functional capacity category and shows where it is thin.",
+      "Drafts provider records requests and tracks deadlines for every SSA notice."
+    ],
+    "human_part": "You need a disability-attorney design partner, HIPAA business associate agreements, and outbound sales to small law firms.",
+    "content_angle": "Write posts and search pages like 'SSDI denied what evidence', and share firm-focused examples in representative communities.",
+    "first_steps": [
+      "Interview three small disability firms about how they summarize records today.",
+      "Hand-build one cited evidence summary from a sample record set with a design partner.",
+      "Confirm HIPAA agreement requirements with a health-privacy lawyer before touching real records."
+    ],
+    "price_hint": "Law firm $79 per case summary",
+    "watch_out": "High unauthorized-practice-of-law and HIPAA burden, plus slow sales to law firms.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "health"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "health"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-068",
+    "name": "Records Request Tracker",
+    "one_liner": "A patient tool that files, follows up and escalates medical records requests to every provider you have seen.",
+    "problem": "Patients switching doctors or filing claims need records from many providers, each with its own form, fax number, fee and delay. They chase faxes for weeks and often do not know they can escalate.",
+    "why_it_works": "HIPAA gives patients a right of access with response deadlines, and information-blocking rules are meant to make sharing the norm. Portal apps only reach connected systems, and full-service retrieval is expensive. Nobody files and escalates requests for every provider cheaply.",
+    "agent_plan": [
+      "Builds a directory of provider records departments and pre-fills the right access request.",
+      "Sends requests by e-fax or email, counts down to the legal deadline and sends follow-ups.",
+      "Runs OCR, de-duplicates records and merges them into one searchable timeline."
+    ],
+    "human_part": "You keep valid patient authorization on every request, maintain the escalation templates as information only, and handle health-privacy compliance.",
+    "content_angle": "Publish search pages like 'how to get my medical records' and build partnerships with law firms and patient advocates.",
+    "first_steps": [
+      "Send records requests for five volunteers by hand and log response times and fees.",
+      "Write one search page on getting your medical records.",
+      "Talk to two patient advocates or injury law firms about using it for clients."
+    ],
+    "price_hint": "$9 per request or $15/month",
+    "watch_out": "Demand is episodic and distribution is weak, which the review flagged.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-069",
+    "name": "Payer Denial Index",
+    "one_liner": "A dataset that normalizes insurers' published prior-authorization denial and decision-time numbers for brokers and provider groups.",
+    "problem": "Medicare Advantage, Medicaid, CHIP and federal-exchange plans had to start publishing prior-authorization metrics from 31 March 2026. Each payer posts its own page or PDF in a different format, so the data is public but hard to use.",
+    "why_it_works": "The CMS-0057-F fact sheet confirms the metrics were due by 31 March 2026. The AMA survey shows 27% of prior authorizations are often or always denied. Price-transparency vendors focus on rates, and KFF publishes periodic studies rather than a live plan-level feed.",
+    "agent_plan": [
+      "Locates and scrapes each payer's posted metrics and extracts tables from HTML and PDF.",
+      "Normalizes the numbers to one schema by plan, line of business, service and year with source links.",
+      "Sends trend alerts when a plan's denial rate jumps and serves CSV and API exports."
+    ],
+    "human_part": "You sell to benefits brokers and revenue-cycle teams, and word comparisons carefully so reuse does not mislead.",
+    "content_angle": "Publish a free public leaderboard and health-policy newsletter posts, for example 'which Medicare Advantage plans deny the most'.",
+    "first_steps": [
+      "Collect the posted metrics from five payers by hand and normalize them in a spreadsheet.",
+      "Publish a small free comparison and see who shares it.",
+      "Email ten benefits brokers and ask what they would pay for."
+    ],
+    "price_hint": "Broker seat $99/month",
+    "watch_out": "Payers' postings may not be detailed enough at first, and CMS could centralize the data.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-070",
+    "name": "Client Pay Score",
+    "one_liner": "A lookup that shows how fast a freelance client really pays, built from verified invoice outcomes shared by other freelancers.",
+    "problem": "Freelancers extend credit on every invoice but cannot check a client's payment history. Late and missing payments hurt cash flow and cost hours of chasing.",
+    "why_it_works": "Freelancers Union's 'World's Longest Invoice' exceeds $14M in unpaid bills, and NYC's Freelance Isn't Free Act requires payment within 30 days absent a contract date. MBO counts 72.9M US independents. Platform reputation stays inside each platform.",
+    "agent_plan": [
+      "Imports invoices from Stripe and QuickBooks and records days-to-pay, partial payments and disputes per client.",
+      "Resolves client identities across spellings and domains and calculates a Client Pay Score.",
+      "Sends reminder sequences that cite the client's own terms and applicable freelancer payment laws."
+    ],
+    "human_part": "You solve the cold start by building one niche community, handle disputes, and get counsel review on defamation and credit-reporting rules.",
+    "content_angle": "Post in Freelancers Union and r/freelance on topics like 'which client types pay slowest', starting with one niche such as design agencies.",
+    "first_steps": [
+      "Ask twenty freelancers in one niche to share anonymized days-to-pay for past clients.",
+      "Build a simple lookup from that data and test it with five freelancers.",
+      "Draft the dispute process and ask a lawyer to check it."
+    ],
+    "price_hint": "Free with data contribution; Pro $10/month",
+    "watch_out": "Cold-start data and defamation complaints are the main risks.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-071",
+    "name": "Write Off Valuation Challenger",
+    "one_liner": "A tool that shows UK car owners whether their write-off offer is low and builds the challenge letter and Ombudsman pack.",
+    "problem": "When a car is written off, insurers pay the market value just before the loss, and many owners get offers that will not buy a comparable car. Most accept the first offer within days and never learn which evidence wins.",
+    "why_it_works": "The Financial Ombudsman has published decisions where offers rose after challenge, sometimes with 8% interest added. Insurance Edge reported car and motorcycle complaints rose 27% in 2022-23, with disputed values a key driver. Valuation guides and forums give anecdotes, not outcomes by insurer.",
+    "agent_plan": [
+      "Reads the uploaded offer letter and finds comparable adverts for the same model, year, mileage and spec.",
+      "Drafts a challenge letter citing the policy's market-value wording and flags deductions that need justification.",
+      "Tracks the insurer's 8-week deadline and assembles the Ombudsman complaint pack."
+    ],
+    "human_part": "You take legal advice on FCA claims-management rules, secure a licensed advert data feed, and decide whether any success fee is lawful.",
+    "content_angle": "Publish search pages like 'car written off valuation too low' and answer questions on MoneySavingExpert and car-club forums.",
+    "first_steps": [
+      "Get a legal opinion on whether a flat-fee self-serve pack needs FCA authorisation.",
+      "Hand-build one challenge pack from a real offer letter with the owner's permission.",
+      "Check what licensed advert data feeds exist and what they cost."
+    ],
+    "price_hint": "Challenge pack £29; Ombudsman pack £49",
+    "watch_out": "FCA claims-management rules may require authorisation, especially before any success fee.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-072",
+    "name": "Renters Rights Switchover",
+    "one_liner": "A compliance tool for small English landlords that maps each tenancy to the new Renters' Rights Act duties.",
+    "problem": "The Renters' Rights Act 2025 abolishes section 21 evictions, makes tenancies periodic and limits rent increases to the section 13 process. Small landlords rely on outdated templates and Facebook groups.",
+    "why_it_works": "GOV.UK confirms Royal Assent on 27 October 2025, with a later database and ombudsman. The NRLA sells membership from £125/year, much of it Renters' Rights content. Nothing maps a landlord's own tenancy documents to the new rules.",
+    "agent_plan": [
+      "Reads tenancy agreements and certificates and extracts dates, rent, deposit details and now-unenforceable clauses.",
+      "Produces a per-tenancy report of what changes and the correct section 13 timetable for the next increase.",
+      "Tracks certificate renewals and database and ombudsman dates as the government confirms them."
+    ],
+    "human_part": "You confirm commencement dates from official sources before launch, refer possession work to solicitors, and register with the ICO.",
+    "content_angle": "Answer landlord questions in Property118 and r/HousingUK, with posts like 'what to change in your tenancy this year'.",
+    "first_steps": [
+      "Re-check the Phase 1 commencement date and database dates against the government roadmap.",
+      "Build a what-changed report for one real tenancy and show three landlords.",
+      "Write one search page on the Act's rent-increase rules for landlords."
+    ],
+    "price_hint": "£6/month per property; £49/year for one",
+    "watch_out": "The transition window is narrow, so the product must become ongoing compliance to keep users.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-073",
+    "name": "Council Tax Band Check",
+    "one_liner": "A tool that compares your council tax band with similar nearby homes and builds the evidence for a band review.",
+    "problem": "Council tax bands in England still rest on 1 April 1991 values, so near-identical neighbours can pay different amounts. Most people do not know how to build evidence, and a review can also move their own band, or neighbours' bands, upward.",
+    "why_it_works": "GOV.UK sets out the band-challenge and Valuation Tribunal routes, and the tribunal takes around 9 months to decide a case. Commercial rebate firms charge a cut for a process the VOA runs for free. Free guides do not build comparables or quantify the risk of an increase.",
+    "agent_plan": [
+      "Pulls street and similar-property bands from the VOA public listing and Land Registry sale prices.",
+      "Compares like with like and estimates whether the band looks out of line, including the risk of a rise.",
+      "Drafts the band review request with comparables and tracks VOA and tribunal deadlines."
+    ],
+    "human_part": "You check licence terms for the VOA and Land Registry data and keep every claim honest, with no promise of refunds.",
+    "content_angle": "Publish search pages like 'is my council tax band wrong' and answer questions on MoneySavingExpert and r/UKPersonalFinance.",
+    "first_steps": [
+      "Build the band comparison for one postcode area and publish it as a free page.",
+      "Check the VOA and Land Registry licence terms for reuse.",
+      "Test the evidence pack with three homeowners who think their band is wrong."
+    ],
+    "price_hint": "Free comparison; £19 evidence pack",
+    "watch_out": "The process is free, which keeps willingness to pay low.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-074",
+    "name": "PPDS Label Change Guard",
+    "one_liner": "A label tool for UK food businesses that flags when a supplier change makes your printed allergen labels wrong.",
+    "problem": "UK businesses that make and pack food on the same premises must label it with full ingredients and the 14 allergens emphasised. When a wholesaler swaps a bread, sauce or spice blend, the label becomes wrong, which is how allergic customers get hurt.",
+    "why_it_works": "An FSA-commissioned evaluation found nearly a quarter of businesses surveyed admitted non-compliance. Label tools already charge about £28-34 a month, so businesses pay for compliance. Existing tools print what staff type in and do not watch supplier changes.",
+    "agent_plan": [
+      "Extracts ingredients and allergens from photographed supplier specs and delivery notes into a recipe library.",
+      "Generates FSA-format labels for the printer the business already owns.",
+      "Compares new delivery notes with stored specs and flags affected recipes before the next print run."
+    ],
+    "human_part": "You need a food-safety consultant to review templates, professional indemnity insurance, and mandatory human sign-off on every label.",
+    "content_angle": "Reach trade bodies and local authority newsletters with posts like 'the supplier swap that silently changes your allergen label'.",
+    "first_steps": [
+      "Visit five cafes and see how they update labels when a supplier changes a product.",
+      "Build a recipe-and-change-alert prototype using one cafe's real delivery notes.",
+      "Ask a food-safety consultant to review your label template and sign-off process."
+    ],
+    "price_hint": "Starter £19/month; Pro £39/month",
+    "watch_out": "A missed allergen could harm a customer, so liability, insurance and human sign-off are essential.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-075",
+    "name": "Packaging EPR Data Builder",
+    "one_liner": "A data builder that helps small UK producers turn product and supplier packaging data into the packaging EPR report.",
+    "problem": "UK packaging EPR obliges larger-turnover producers supplying packaging above the threshold to report by material, class and weight. Weights per SKU and component sit with suppliers and 3PLs, and small brands rebuild them in spreadsheets each year.",
+    "why_it_works": "GOV.UK sets 1 April 2027 for 2026 small-producer data, with £1,303 direct or £696 scheme registration fees and a £386 late fee. Compliance schemes bundle data services and do not publish prices. Packaging Gateway notes small brands face the same rules as global players without a compliance department.",
+    "agent_plan": [
+      "Imports SKUs and sales from Shopify, Amazon or Excel and reads supplier specs and invoices.",
+      "Suggests material and packaging class codes and rolls weights up into the reporting file layout.",
+      "Flags packaging likely to cost more for large producers and tracks deadlines and thresholds."
+    ],
+    "human_part": "You must not act as a compliance scheme, keep evidence for audits, check reporting-code changes, and build the accountant channel.",
+    "content_angle": "Publish posts and search pages like 'EPR small producer data' and list the tool in the Shopify App Store.",
+    "first_steps": [
+      "Build the weight roll-up for one small brand's real SKU list.",
+      "Check the current reporting file layout and code lists against official guidance.",
+      "Ask two ecommerce accountants whether their clients would use a self-serve builder."
+    ],
+    "price_hint": "Small producer £390/year",
+    "watch_out": "Compliance schemes could release cheaper self-serve tools, which would turn this into a feature.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "marketplace",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

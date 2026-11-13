@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "CLAUDE-185",
+    "name": "Sponsorship Pitcher",
+    "one_liner": "An AI tool that finds sponsors for small YouTubers, podcasters and newsletter writers and drafts their pitches.",
+    "problem": "Small and mid-size creators know sponsorships pay more than ad revenue, but not which brands sponsor their niche, what to charge or how to pitch. Cold pitches go unanswered and creators undercharge.",
+    "why_it_works": "Sponsor marketplaces mostly serve larger creators, so small creators below their thresholds get no inbound deals. Outbound sponsor discovery plus rate benchmarks fills that gap. Every logged outcome improves the benchmarks for all users.",
+    "agent_plan": [
+      "Scans which brands sponsor similar channels, newsletters and podcasts and builds a target list with contact paths.",
+      "Drafts personalised pitches using the creator's audience stats and suggests a rate from benchmark data.",
+      "Tracks follow-ups and logs outcomes such as response and deal value to improve rate benchmarks."
+    ],
+    "human_part": "You still run the creator communities, handle support and make sure pitches and sponsorships follow FTC disclosure and CAN-SPAM rules.",
+    "content_angle": "Post short YouTube videos and newsletter issues on how small creators price and pitch sponsors, for example a teardown of one real pitch.",
+    "first_steps": [
+      "Hand-build a sponsor target list and pitch draft for five creators in one niche to see if they reply.",
+      "Offer the pitch package to those creators and record any price they will pay.",
+      "Start a simple outcomes log of responses and deal values by niche and audience size."
+    ],
+    "price_hint": "Free content, $9.99 per pitch package, $19/mo unlimited",
+    "watch_out": "Marketplaces like Passionfroot and YouTube BrandConnect are crowded, so it only works if your outcome data on sponsor rates becomes the moat.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "creator",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-202",
+    "name": "Live Seller Order Manager",
+    "one_liner": "An order manager for Facebook, Instagram and TikTok live sellers that turns messy comments into orders and bills.",
+    "problem": "Live sellers in Thailand and the Philippines get hundreds of order comments per stream, with codes, sizes and typos, and track them by hand or with screenshots. Missed or duplicated orders cause refunds and angry buyers, and sending bills and chasing payment takes hours after each live.",
+    "why_it_works": "The demand is real: sellers report missing orders and slow invoices. Page365 already handles the core in Thailand, so the opening is better parsing of messy Thai, Tagalog and English messages and support for TikTok Live.",
+    "agent_plan": [
+      "Reads live comments in real time and parses messy Thai, Tagalog and English order messages into line items.",
+      "Reserves stock, sends each buyer a bill with a PromptPay or GCash QR and chases unpaid orders.",
+      "Books courier pickups and writes a post-stream summary of sales, conversion and best-selling items."
+    ],
+    "human_part": "You still handle Meta app review, onboard sellers personally, and set up a local partner for payment rails and invoicing.",
+    "content_angle": "Post short videos on Facebook and TikTok showing a messy live-stream comment feed turned into clean orders in seconds.",
+    "first_steps": [
+      "Record one live stream's comments from a friendly seller and test how accurately an AI parses the orders.",
+      "Build a simple sheet-based order and bill flow for that seller and time how long it saves.",
+      "Check Meta's live comment access requirements and the Thai PDPA rules for buyer data before building."
+    ],
+    "price_hint": "Free trial, ฿399 per month, ฿10 per stream",
+    "watch_out": "Page365 already auto-opens bills when a product is CF'd in Facebook and Instagram lives, so you must win on parsing accuracy and TikTok Live.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "CLAUDE-204",
+    "name": "COD Risk Checker",
+    "one_liner": "A COD risk score and WhatsApp or LINE confirmation service for Southeast Asian social commerce sellers.",
+    "problem": "Cash on delivery is still common in Southeast Asian social commerce, and failed or refused COD deliveries (est. 10-30% for some sellers) cost shipping both ways, tied-up stock and courier penalties. Sellers cannot tell a real order from a prank, and confirmation calls take hours a day.",
+    "why_it_works": "Sellers describe 15-30% of COD orders failing and fake orders wasting stock. Pooled, hashed delivery outcomes can make a risk score better than any single seller's history. Competitors like OrderOnline.id cover parts of this, but a cross-seller risk score is not commoditised.",
+    "agent_plan": [
+      "Scores each new order on pooled hashed delivery outcomes, address quality and order patterns.",
+      "Runs automatic WhatsApp or LINE confirmation flows in the buyer's language for higher-risk orders, with optional small deposits.",
+      "Suggests delivery windows around payday and shows sellers their return-to-sender rate in a dashboard."
+    ],
+    "human_part": "You still sort out lawful basis for sharing buyer risk data, appeals for flagged buyers, and local partners for payment rails and sales.",
+    "content_angle": "Post short videos and LINE or Facebook seller-group posts showing what one failed COD order really costs a seller.",
+    "first_steps": [
+      "Interview ten COD sellers and ask for their refused-order records over a month.",
+      "Test a manual WhatsApp or LINE confirmation script with two sellers and compare refusal rates.",
+      "Get a PDPA and Data Privacy Act opinion on pooling hashed buyer outcomes before you build the score."
+    ],
+    "price_hint": "Free to 100 orders/mo, ฿490 or ₱499 per month",
+    "watch_out": "Privacy compliance for pooled buyer risk data is the main risk, and you must avoid blacklisting buyers without an appeal route.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "CLAUDE-209",
+    "name": "Local Dropship Finder",
+    "one_liner": "A supplier finder that matches Southeast Asian dropshippers with fast local suppliers instead of slow China sourcing.",
+    "problem": "Dropshippers in Southeast Asia sourcing from China face 2-4 week shipping that buyers hate, causing cancellations and bad reviews. Local manufacturers and wholesalers could ship in days, but they are hard to find, rarely list online and vary in reliability.",
+    "why_it_works": "Sellers say local suppliers are hard to find without connections and cost comparison against China is complicated. A finder that scores suppliers on stock reliability, shipping speed and seller-reported defects addresses that. CJdropshipping and BigSeller-linked suppliers offer regional warehouses, so the edge is vetted local depth.",
+    "agent_plan": [
+      "Matches a product or link to regional suppliers and compares landed cost and delivery time against China sourcing.",
+      "Scores suppliers on stock reliability, shipping speed and defect rates reported by sellers.",
+      "Forwards orders to supplier stock so sellers can fulfil locally without holding inventory."
+    ],
+    "human_part": "You still need on-the-ground partners to verify suppliers, plus a local entity or partner for some payment rails.",
+    "content_angle": "Publish dropshipping guides and short videos comparing a real product's China versus local landed cost and delivery time.",
+    "first_steps": [
+      "List fifty local suppliers in one category by hand and ask each for stock and shipping terms.",
+      "Sell three manual supplier searches to dropshippers and see if they pay.",
+      "Check Thai FDA and BPOM product rules for the first category you pick."
+    ],
+    "price_hint": "Free guides, $15 per search, $79/month unlimited",
+    "watch_out": "Supplier verification is labour-heavy and dropshipping margins are thin.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "CLAUDE-211",
+    "name": "OFW Money App",
+    "one_liner": "A Tagalog-first money app for overseas Filipino workers that splits paychecks and compares remittance options.",
+    "problem": "Many overseas Filipino workers send money home every month but return with little savings because of family pressure, high remittance fees and no budget. Money advice in Tagalog suited to their host country is scarce, and financial literacy seminars are one-off and easy to forget.",
+    "why_it_works": "Workers say they cannot track whether money sent home is used well and that they dip into savings. A budget split, corridor rate comparison and payday reminders speak to those problems. GCash, Maya and Wise serve parts of this, so the angle is a Tagalog-first, family-coordinated experience.",
+    "agent_plan": [
+      "Splits each paycheck into living costs abroad, remittance, emergency fund and goals.",
+      "Compares remittance options for the worker's corridor and sends reminders before payday.",
+      "Shows agreed amounts to family back home and delivers money education content."
+    ],
+    "human_part": "You still need licensed providers for any savings products, careful education-only positioning, and a local partner for payments.",
+    "content_angle": "Post Tagalog short videos and Facebook group tips on budgeting abroad, for example a payday split for a worker in Hong Kong.",
+    "first_steps": [
+      "Interview ten OFWs about how they split pay and what they would pay for.",
+      "Build a budget spreadsheet and rate-comparison guide and share it in OFW Facebook groups.",
+      "Ask a Philippine lawyer where education ends and regulated financial advice begins."
+    ],
+    "price_hint": "Free content, ₱199/mo premium",
+    "watch_out": "The audience is large but willingness to pay looks weak, and affiliate revenue raises advice-licensing questions.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "family_care"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-221",
+    "name": "SME Loan Matcher",
+    "one_liner": "A matching service that shows small business owners in Southeast Asia which lenders and government schemes they likely qualify for.",
+    "problem": "Small businesses in the Philippines, Indonesia, Malaysia and Thailand struggle to get credit: banks reject them for lack of collateral, online lenders charge high rates, and government schemes are hard to find. Owners apply blindly and collect rejections that hurt their credit.",
+    "why_it_works": "Owners say they do not know which government programmes they qualify for or how to present their business. Lenders pay success fees on funded loans, which is a clear revenue source. Lendela, Funding Societies and bank marketplaces already match SMEs, so you would need a sharper fit.",
+    "agent_plan": [
+      "Asks about revenue, years operating, documents and need, then ranks likely-fit banks, licensed lenders and government schemes.",
+      "Prepares a document checklist and a simple financial summary for each application.",
+      "Estimates rates and requirements and keeps lender and scheme data current across countries."
+    ],
+    "human_part": "You still negotiate lender partnerships and licensing in each country, which is hard to do solo.",
+    "content_angle": "Post explainer videos and articles on which government SME loan schemes exist, for example a checklist for one country.",
+    "first_steps": [
+      "Map the government SME schemes in one country and write a plain-language eligibility checker.",
+      "Ask three lenders whether they would pay a disclosed success fee for qualified referrals.",
+      "Check with a local lawyer whether loan brokering or lead-gen needs a licence there."
+    ],
+    "price_hint": "Free assessment, success fee (typically 1-2%)",
+    "watch_out": "Loan brokering and lead-gen may need licensing in each country, and that is the gating risk.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-222",
+    "name": "Philippines Business Registration",
+    "one_liner": "A step-by-step guide for starting a business in the Philippines, with fees and documents for your city.",
+    "problem": "Starting a business in the Philippines means DTI or SEC registration, barangay clearance, a Mayor's permit and BIR registration, with requirements and fees that differ by city. Many entrepreneurs pay agents thousands of pesos or stay informal, and mistakes lead to penalties or rejected applications.",
+    "why_it_works": "Entrepreneurs ask which comes first, DTI or BIR, and keep getting rejected for missing documents. Official sites and AI assistants explain general steps, but local LGU requirements vary and are poorly documented. Users reporting real fees and times can build a compounding local dataset.",
+    "agent_plan": [
+      "Builds an exact registration path from business type, structure and city, with current fees and documents.",
+      "Pre-fills forms and checks uploaded documents for common errors.",
+      "Tracks each step and updates the local requirements map from user-reported fees and processing times."
+    ],
+    "human_part": "You still need a local content partner to keep LGU rules current, and bookkeeping and tax partners for upsells.",
+    "content_angle": "Publish city-by-city registration guides and short videos on common rejection reasons.",
+    "first_steps": [
+      "Document the full registration path for one city by hand with a local helper.",
+      "Sell the guide to five would-be entrepreneurs and ask what confused them.",
+      "Draft a simple document checker for the five most common rejection reasons."
+    ],
+    "price_hint": "Free checker, ₱499 DIY guide, ₱2,999 with review",
+    "watch_out": "Rules like BIR registration changed in 2024, so content must stay current and document review must not become legal advice.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "weeks",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-223",
+    "name": "Indonesia NIB Helper",
+    "one_liner": "A Bahasa Indonesia assistant that picks the right KBLI business codes and walks you through the OSS licence application.",
+    "problem": "Indonesian entrepreneurs must get an NIB through the OSS risk-based licensing system, choosing the right KBLI codes and risk level. Wrong codes lead to rejected applications, missing permits or the wrong obligations, and legal firms charge high fees for what many see as paperwork.",
+    "why_it_works": "Applicants say they do not know which KBLI code fits and that their NIB keeps being rejected. The rules were revised in 2025, so changes create steady need for current guidance. OSS itself and legal startups like Easybiz are competitors, so the edge is plain-language code matching.",
+    "agent_plan": [
+      "Takes a plain-word business description and suggests KBLI codes with explanations.",
+      "Shows the risk level and required permits and produces a document checklist.",
+      "Tracks follow-up permits and flags when rule changes affect a user's codes."
+    ],
+    "human_part": "You still need an Indonesian partner for local payments and legal escalation, and licensed advocates for any disputes.",
+    "content_angle": "Post Bahasa Indonesia short videos and search articles on picking the right KBLI code for common businesses.",
+    "first_steps": [
+      "Collect twenty common business types and map each to KBLI codes with an Indonesian partner.",
+      "Offer the DIY checklist to a few founders and watch where they get stuck.",
+      "Check how the 2025 rule revision changes the mapping."
+    ],
+    "price_hint": "Rp150k DIY, Rp750k with review",
+    "watch_out": "It competes with legal-service startups and free OSS guidance, and regulation changes often.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-224",
+    "name": "SEA Freelancer Tax",
+    "one_liner": "A tax assistant for freelancers in Southeast Asia that explains what they owe and builds a filing calendar.",
+    "problem": "Freelancers and gig workers across Southeast Asia, including Upwork contractors, Grab drivers and content creators, often do not know whether or how to file taxes, especially on foreign income. Rules differ by country and changed recently, and unfiled returns lead to penalties.",
+    "why_it_works": "Freelancers ask whether Upwork income is taxable and how to categorise income sources. Thailand now taxes foreign income remitted from 2024, creating fresh confusion. Taxumo serves Philippine freelancers and general AI misses local detail, so starting with Thailand and the Philippines is the opening.",
+    "agent_plan": [
+      "Explains which taxes apply from country, income sources and amounts and estimates what is owed.",
+      "Logs income from bank and platform exports and builds a filing calendar with reminders.",
+      "Routes users to partner tax agents when filing is required."
+    ],
+    "human_part": "You still need registered tax agent partners for filing, and expert review of every country's rules.",
+    "content_angle": "Post short videos and search articles on whether Upwork or foreign income is taxable, starting with Thailand.",
+    "first_steps": [
+      "Build a spreadsheet calculator and guide for one country's freelancers.",
+      "Share it in freelancer groups and see who asks for filing help.",
+      "Recruit one tax professional to review the rules and the disclaimers."
+    ],
+    "price_hint": "Free calculator, $15 monthly with filing help",
+    "watch_out": "Tax-advice liability and per-country rule upkeep are the main risks, so start with one country.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT",
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "CLAUDE-227",
+    "name": "Filipino VA Career Coach",
+    "one_liner": "A career platform that trains Filipinos for virtual assistant jobs and practises interviews with AI.",
+    "problem": "The Philippines is a major virtual assistant hub, but competition for international clients is fierce and many aspiring VAs fail to land or keep jobs because of skill gaps in communication, tools and client management. AI tools now automate basic admin tasks, so clients expect more.",
+    "why_it_works": "Aspiring VAs say they apply to hundreds of jobs without replies and do not know what skills clients want. A skills assessment, training and mock interviews address those gaps. Crowded courses and AI eroding basic VA work mean the pitch must be AI-augmented skills.",
+    "agent_plan": [
+      "Assesses skills gaps and recommends training modules in AI tools, automation, support and bookkeeping basics.",
+      "Runs AI mock client interviews with feedback on English and professionalism.",
+      "Tracks placement and rate outcomes to improve the curriculum."
+    ],
+    "human_part": "You still vet and build relationships with clients, and may need recruitment licensing for placement.",
+    "content_angle": "Post short videos and Facebook group tips on getting hired as a VA, for example a mock interview teardown.",
+    "first_steps": [
+      "Interview ten Filipino VAs about what lost them jobs.",
+      "Pilot a small paid cohort with a skills checklist and live mock interviews.",
+      "Check DOLE and DMW licensing rules for placing workers with foreign clients."
+    ],
+    "price_hint": "₱1999 course, ₱499 monthly job support",
+    "watch_out": "The course market is crowded and AI is eroding demand for basic VA tasks.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "education",
+        "sales_ops"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-229",
+    "name": "Board Exam Reviewer PH",
+    "one_liner": "An adaptive reviewer app for Filipinos preparing for PRC licensure exams.",
+    "problem": "Many Filipinos sit PRC licensure exams each year and pay review centers tens of thousands of pesos (est.) for months of classes. Review centers teach everyone the same way and examinees cannot tell which topics will cost them the exam. Failing means waiting months to retake.",
+    "why_it_works": "Examinees say they failed before and do not know what to focus on, and cannot attend classes while working. A diagnostic against the PRC table of specifications plus personalised review fits. Post-exam results can calibrate difficulty, a data advantage general AI quizzes lack.",
+    "agent_plan": [
+      "Maps each examinee's weak topics against the PRC table of specifications from a diagnostic test.",
+      "Generates question variants and explanations for review by licensed professionals.",
+      "Schedules spaced review, runs timed mock exams and shows readiness by topic."
+    ],
+    "human_part": "You still need subject-matter reviewers for each exam and a local entity or partner for payments.",
+    "content_angle": "Post short videos and Facebook reviewer-group posts with a sample weak-topic breakdown for one exam.",
+    "first_steps": [
+      "Pick one exam and recruit a licensed reviewer to write a topic map and sample questions.",
+      "Run a free diagnostic with Facebook reviewer-group members.",
+      "Confirm in writing that no actual PRC exam items will be used."
+    ],
+    "price_hint": "₱499 to ₱799/month, ₱1,499 3-month package",
+    "watch_out": "Quality control of AI-generated items and avoiding leaked PRC questions are the main risks.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "work_careers"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "education"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-231",
+    "name": "Thai Hospitality English Coach",
+    "one_liner": "A LINE-based English coach for Thai hotel and tourism staff, sold to employers as a training tool.",
+    "problem": "English is a big barrier to career growth for Thai workers, especially in tourism and hospitality, where it affects tips, promotions and salaries. Many feel shy speaking and classes focus on grammar, not workplace situations. Hotels and spas spend on training that staff forget.",
+    "why_it_works": "Learners say they can read but cannot speak confidently and want business English for their industry. Duolingo, Speak and general AI voice modes are strong consumer competitors, so the defensible angle is selling hotel and spa scenario packs with a manager dashboard.",
+    "agent_plan": [
+      "Runs voice practice on industry scenarios like front desk, restaurant service, spa and sales.",
+      "Explains mistakes in Thai and tracks progress by skill.",
+      "Builds scenario packs and a manager dashboard for each hotel's guests."
+    ],
+    "human_part": "You still make sales calls to hotels and spas, handle B2B invoicing through a Thai entity or partner, and review scenarios for accuracy.",
+    "content_angle": "Post short TikTok and Facebook videos of common front-desk English phrases with Thai explanations.",
+    "first_steps": [
+      "Write ten front-desk and spa scenarios and test them with staff at one hotel.",
+      "Pitch a one-month paid pilot to three hotels and spas.",
+      "Check PDPA requirements for voice recordings before storing any audio."
+    ],
+    "price_hint": "Free trial, ฿299 or ฿599 per month",
+    "watch_out": "The consumer side is commoditised, so only the B2B hospitality-training angle looks defensible.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "education",
+        "work_careers"
+      ],
+      "channels": [
+        "outbound",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "education"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "CLAUDE-233",
+    "name": "Pag-IBIG Loan Guide",
+    "one_liner": "A guide that checks Pag-IBIG housing loan eligibility, estimates payments and builds a document checklist.",
+    "problem": "Pag-IBIG housing loans are among the cheapest home financing in the Philippines, but many members do not know if they qualify, how much they can borrow, which documents they need or which projects are accredited. Applications are rejected for avoidable reasons and OFWs struggle to apply from abroad.",
+    "why_it_works": "Members ask whether they qualify, which developers are accredited and how to apply from abroad. Virtual Pag-IBIG provides calculators and Lamudi provides listings, so the opening is one guided path covering eligibility, documents and accredited projects. Referral revenue needs a licensed broker.",
+    "agent_plan": [
+      "Checks eligibility from contribution history and income and estimates loanable amount and monthly payments.",
+      "Builds a document checklist for local employees, self-employed members and OFWs.",
+      "Matches users with accredited projects in budget and tracks the application."
+    ],
+    "human_part": "You still need a licensed Philippine real estate broker partner to earn referral fees.",
+    "content_angle": "Post short videos and search articles on Pag-IBIG eligibility and OFW application steps.",
+    "first_steps": [
+      "Write a plain-language eligibility and document guide for local employees and OFWs.",
+      "Share it in OFW and home-buyer Facebook groups and note the questions.",
+      "Talk to a licensed broker about a disclosed referral arrangement."
+    ],
+    "price_hint": "Free tools, referral fees via licensed broker",
+    "watch_out": "The revenue model needs a licensed broker and government tools already cover the calculators.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-241",
+    "name": "Halal Certification Prep",
+    "one_liner": "A document workspace that prepares food businesses for halal certification in Malaysia and Indonesia.",
+    "problem": "Food businesses applying for halal certification in Malaysia or Indonesia must assemble ingredient lists, supplier certificates, process flows and an internal assurance system. Small firms find the paperwork confusing, often fail first audits on supplier documents and pay consultants (est. thousands of ringgit or millions of rupiah).",
+    "why_it_works": "Applicants say they do not know what documents to prepare and their supplier compliance is unclear. Indonesia has made halal certification mandatory for most food and beverage products. AI assistants can summarise rules but cannot track a firm's supplier certificates and expiries, which also keeps users after certification.",
+    "agent_plan": [
+      "Checks each ingredient against stored supplier certificates and expiries and flags gaps.",
+      "Generates the ingredient matrix, process flow and halal assurance manual drafts each regime expects.",
+      "Produces pre-audit checklists in Malay, Bahasa Indonesia or English and reminds firms before certificates expire."
+    ],
+    "human_part": "You still need an Indonesian partner for sales and Bahasa content, and you cannot certify anything yourself.",
+    "content_angle": "Publish guides and short videos on common first-audit failures for small food businesses.",
+    "first_steps": [
+      "Interview five food businesses about their halal paperwork and what they paid consultants.",
+      "Build a Malaysia-only ingredient and supplier checklist template and test it.",
+      "Compare the template with current MYeHALAL procedures."
+    ],
+    "price_hint": "RM299 / Rp1.5M pack; RM79 / Rp350k monthly",
+    "watch_out": "It is unclear whether small food firms will pay once Indonesia's free micro-business self-declare route and enforcement settle.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-261",
+    "name": "Travel Nurse Offer Compare",
+    "one_liner": "An assistant that compares travel nursing contracts and tracks multi-state licences and tax home status.",
+    "problem": "Travel nurses compare offers from several agencies that package pay differently, with taxable base versus untaxed stipends, guaranteed hours and cancellation terms. They also hold licences in several states, track compact status and renewals, and must keep a valid tax home. Mistakes cost thousands in tax or lost contracts.",
+    "why_it_works": "Nurses say they do not know which agency offers the best package. Vivian and Trusted Health publish listings, but AI can explain the rules without live offers. A contract comparator plus licence tracker serves a narrow, informed audience.",
+    "agent_plan": [
+      "Compares contracts across agencies on total compensation including stipends, travel and benefits.",
+      "Tracks multi-state licensing and alerts nurses to compact state changes.",
+      "Flags contract red flags and drafts negotiation talking points."
+    ],
+    "human_part": "You still need a tax professional to review all tax-home content, and you answer nurses' questions in their communities.",
+    "content_angle": "Post short videos on TikTok and Facebook groups comparing two sample offers line by line.",
+    "first_steps": [
+      "Collect five real offer sheets from nurses and compare them by hand.",
+      "Publish a licence-renewal tracker template for nurses.",
+      "Hire a tax professional to review your tax-home guidance."
+    ],
+    "price_hint": "Free comparison, $19.99 monthly",
+    "watch_out": "Well-funded marketplaces already compare contracts, so the licence tracker and comparison must be clearly better.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "work_careers",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-266",
+    "name": "Estate Sale Pricer",
+    "one_liner": "A mobile pricing tool for estate sale companies that suggests prices from photos of items.",
+    "problem": "Estate sale companies must price thousands of mixed items in two or three days before a sale. Under-pricing a valuable item loses money for the family and company, and researching comps item by item takes too long. Staff often miss items they do not recognise.",
+    "why_it_works": "Staff say they miss valuable items because they do not recognise them. Google Lens and AI assistants identify single items but not an entire house quickly with local realised prices. Recording final sale prices builds data that single-item comp tools lack.",
+    "agent_plan": [
+      "Identifies items from photos of objects or shelves and flags potentially valuable ones.",
+      "Suggests price ranges from online sold comps blended with realised prices from other users.",
+      "Prints tags and builds item lists, then reports sell-through by category after each sale."
+    ],
+    "human_part": "You still sell to estate sale companies through associations, and staff still make final pricing calls.",
+    "content_angle": "Post before-and-after pricing demos on Facebook and YouTube, such as a shelf of kitchenware priced from one photo.",
+    "first_steps": [
+      "Shadow one estate sale and note which items staff miss or price wrongly.",
+      "Test photo identification and comps on a box of items from that sale.",
+      "Pitch a free trial to three companies through an association."
+    ],
+    "price_hint": "Free trial; $49 monthly or $1 per 100 items",
+    "watch_out": "A listing platform such as EstateSales.NET may add similar pricing tools, so realised-price data is the defence.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services",
+        "ecommerce"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-292",
+    "name": "Morph Breeder Manager",
+    "one_liner": "Colony records and a pairing planner for reptile morph breeders.",
+    "problem": "Ball python and leopard gecko breeders keep dozens or hundreds of animals and track complex genetics, including recessive, co-dominant and het-possible traits. Records live in spreadsheets, so planning pairings, proving hets and tracking clutches is error-prone. Mistakes cost a breeding season.",
+    "why_it_works": "Breeders say they want specific morphs but do not know which pairings. A pairing planner and automatic het-proven updates fit that. MorphMarket already owns breeder workflows and a calculator, so you need a clearly better colony-records product.",
+    "agent_plan": [
+      "Calculates expected offspring for any pair and suggests pairings to reach a target morph.",
+      "Updates het-proven status from clutch, incubation and hatch records.",
+      "Stores lineage, genes, weights and feedings and pushes listings to marketplaces."
+    ],
+    "human_part": "You still need breeder trust and community presence, and you check genetics logic with experienced breeders.",
+    "content_angle": "Post short videos and breeder forum posts on planning a pairing for a target morph.",
+    "first_steps": [
+      "Interview five breeders about their spreadsheets and pairing mistakes.",
+      "Build a genetics and pairing calculator for one species.",
+      "Offer it free to ten breeders and track which features they use."
+    ],
+    "price_hint": "Free basics, $19.99 monthly",
+    "watch_out": "MorphMarket already owns breeder workflows and its calculator, so this must be a better colony-records product.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-311",
+    "name": "Junk Removal Photo Quoter",
+    "one_liner": "A photo-quoting tool that helps junk haulers price jobs including dump fees.",
+    "problem": "Junk removal operators quote jobs by eye or from customer photos, and under-quoting volume, weight or dump fees wipes out the profit. Customers want an instant price before booking, but sending a truck for an estimate wastes time. Operators also miss resale value in what they haul.",
+    "why_it_works": "Operators say they underquote jobs and lose money. Jobber and similar tools add generic AI quoting but not photo-based junk volume and disposal-cost estimation. Recording actual volume and fees after each job makes estimates better per operator.",
+    "agent_plan": [
+      "Estimates truck-load fraction from customer photos and flags heavy or regulated items.",
+      "Suggests a price including local dump fees and learns from actual volume and fees.",
+      "Plans routes to transfer stations and resale drop-offs and syncs jobs into Jobber or Housecall Pro."
+    ],
+    "human_part": "You still sell to operators in owner Facebook groups, and crews still do the hauling and record actuals.",
+    "content_angle": "Post short videos in owner Facebook groups showing a photo-based quote versus the actual load.",
+    "first_steps": [
+      "Collect photo and final-load data from three operators for past jobs.",
+      "Test an AI estimate against those jobs and measure how close it is.",
+      "Check disposal rules for e-waste, mattresses and tyres in one state."
+    ],
+    "price_hint": "Free trial; $49 monthly per truck",
+    "watch_out": "Jobber or Housecall Pro adding photo volume estimation is the key risk, so owning the photo-versus-actual dataset is the defence.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-005",
+    "name": "Daycare Inspection Directory",
+    "one_liner": "A daycare directory that turns state inspection reports into plain-English violation timelines.",
+    "problem": "Parents choosing a daycare for an infant or toddler have little reliable information. Inspection reports sit in hard-to-search PDFs that vary by state, with serious citations mixed in with paperwork lapses. Most parents decide on a tour and a few online reviews.",
+    "why_it_works": "Parents search for daycare violations near them and whether a daycare is safe. Winnie and state portals show some inspection data, so the edge is a better inspection-data layer that classifies citations by severity. Daycares can pay to claim profiles and post openings.",
+    "agent_plan": [
+      "Ingests state inspection reports and classifies each citation by severity and category.",
+      "Builds each provider's violation timeline, repeat-violation pattern, ratios and tuition ranges.",
+      "Sends alerts to subscribed parents when a new inspection is posted."
+    ],
+    "human_part": "You still verify parent reviews, handle accuracy disputes from providers and sell profile subscriptions to daycares.",
+    "content_angle": "Publish search pages and short videos on how to read a daycare inspection report, for example one state.",
+    "first_steps": [
+      "Pick three states with structured data and pull the inspection records.",
+      "Classify citations with an LLM and review a sample by hand.",
+      "Launch one city's pages and check search traffic."
+    ],
+    "price_hint": "Free to search, $49/mo for daycares",
+    "watch_out": "Winnie is a well-funded competitor, and citations must be presented accurately to avoid defamation.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-006",
+    "name": "Independent Senior Care Guide",
+    "one_liner": "A neutral senior-care directory that combines inspection and staffing data, funded by facility profiles not referral fees.",
+    "problem": "Adult children choosing assisted living, memory care or a nursing home for a parent usually decide in a crisis, within days. The best-known finders are paid by the facilities they recommend, so families get sales calls instead of neutral advice. Inspection and staffing data exist but are scattered across CMS and state agencies.",
+    "why_it_works": "Families search for nursing home reviews and good memory care ratings. Merging CMS data with state records and plain-English summaries gives a neutral view that referral-fee sites cannot offer. A Place for Mom and Caring.com dominate with referral models.",
+    "agent_plan": [
+      "Merges CMS ratings, staffing and inspection citations with state assisted-living records.",
+      "Writes plain-English risk summaries and flags recent serious citations.",
+      "Filters facilities by care level, Medicaid acceptance, memory care and reported price."
+    ],
+    "human_part": "You still handle verified family reviews, facility sales for enhanced profiles and clear disclosure of the funding model.",
+    "content_angle": "Publish local search pages and guides on reading a nursing home inspection report.",
+    "first_steps": [
+      "Build profiles for one state from CMS and state data.",
+      "Write an LLM risk summary for twenty facilities and review them for accuracy.",
+      "Launch pages for one metro area and track search impressions."
+    ],
+    "price_hint": "Free to search, $199/mo facility subscriptions",
+    "watch_out": "A non-referral model limits revenue, and A Place for Mom and Caring.com dominate.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-008",
+    "name": "Funeral Price Compare",
+    "one_liner": "A funeral price directory that extracts line items from price lists so families can compare homes.",
+    "problem": "Families arranging a funeral make many decisions within 48 hours of a death, often without knowing prices. Funeral homes must give an itemised price list on request under the FTC Funeral Rule, but many do not post prices online. Costs for the same service can differ several-fold in one city.",
+    "why_it_works": "Families search for funeral costs and affordable cremation near them. Funeralocity and Parting already compare prices, so the differentiation is line-item depth and showing the corporate owner behind each home. Homes that post full prices can pay for a premium profile.",
+    "agent_plan": [
+      "Collects General Price Lists from websites and mystery-shopper requests and extracts line items into a standard format.",
+      "Compares direct cremation, burial packages, embalming and casket prices and shows each home's corporate owner.",
+      "Tracks price history to show increases over time."
+    ],
+    "human_part": "You still make mystery-shopper requests, which are laborious, and sell premium profiles to funeral homes.",
+    "content_angle": "Publish local price comparison pages and short videos on what a funeral should cost, for example direct cremation in one city.",
+    "first_steps": [
+      "Request price lists from twenty funeral homes in one city.",
+      "Extract the line items with an LLM and check a sample by hand.",
+      "Publish the city comparison page and track searches."
+    ],
+    "price_hint": "Free to search, $149/mo for funeral homes",
+    "watch_out": "Funeralocity and Parting already compare prices, and the FTC rule's online-price status needs checking.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-015",
+    "name": "Advisor Fee Check",
+    "one_liner": "An advisor directory that turns Form ADV fee schedules into comparable all-in annual costs.",
+    "problem": "People looking for a financial advisor cannot easily tell fiduciaries from commission salespeople or compare what they will really pay. Fees are buried in Form ADV PDFs, and percentage-of-assets fees cost far more over time than most clients realise. Lead-gen sites are paid by advisors and rarely highlight conflicts.",
+    "why_it_works": "People search for fee-only and fiduciary advisors. SEC and FINRA data are public and structured, and fee normalisation is the moat. SmartAsset, Wealthtender and NAPFA already list advisors, so neutral fee data is the differentiator.",
+    "agent_plan": [
+      "Parses each firm's Form ADV fee schedule into an all-in annual cost at $250K, $1M and $3M portfolios.",
+      "Builds profiles with fiduciary status, compensation type, conflicts and disciplinary history.",
+      "Filters by fee-only, flat-fee, minimums and specialties like equity compensation."
+    ],
+    "human_part": "You still sell enhanced profiles to advisors and avoid giving investment advice or breaching SEC marketing rules on testimonials.",
+    "content_angle": "Publish search pages and short videos comparing advisor costs, for example what a percentage-of-assets fee costs over time.",
+    "first_steps": [
+      "Download IAPD data for one metro area and parse fee schedules into a table.",
+      "Check parsing accuracy against twenty firms by hand.",
+      "Publish a metro fee comparison page and track search traffic."
+    ],
+    "price_hint": "Free to search, $99/mo advisor profiles",
+    "watch_out": "SmartAsset dominates paid leads, so the moat is fee normalisation.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-027",
+    "name": "Condition Dietitian Finder",
+    "one_liner": "A dietitian directory searchable by condition, with verified credentials, insurance and telehealth details.",
+    "problem": "People with IBS, PCOS, diabetes, eating disorders or those taking GLP-1 drugs need a dietitian with deep experience in that condition. Generic advice can make symptoms worse. Search results mix registered dietitians with unlicensed coaches and insurance coverage is unclear.",
+    "why_it_works": "People search for dietitians for PCOS or IBS and ones covered by insurance. Fay, Nourish and Berry Street now offer insurance-covered dietitians with condition matching, so a directory has little edge beyond being independent.",
+    "agent_plan": [
+      "Verifies RD credentials and condition-specific training for each profile.",
+      "Shows insurance plans, telehealth states and session prices on each profile.",
+      "Suggests matches from an intake form based on condition and coverage."
+    ],
+    "human_part": "You still sell listings to dietitians, which is the main time cost, and check state licensure rules.",
+    "content_angle": "Publish condition guides and short videos, for example how to choose a dietitian for PCOS.",
+    "first_steps": [
+      "Collect fifty dietitian listings for two conditions and verify credentials.",
+      "Publish two condition guides and track search traffic.",
+      "Offer free claimed profiles to ten dietitians and ask what they would pay."
+    ],
+    "price_hint": "Free to search, $39/mo dietitian profiles",
+    "watch_out": "VC-funded insurance-covered marketplaces like Fay and Nourish now match by condition for free.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "food"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-031",
+    "name": "Addiction Treatment Directory",
+    "one_liner": "An information-only directory of addiction treatment centres built on licensing, accreditation and ownership data.",
+    "problem": "Families searching for addiction treatment, often in a crisis, face predatory marketing, call centres that sell leads to the highest bidder and centres that make outcome claims with no proof. Licensing and accreditation are hard to check. Choosing badly can cost lives as well as money.",
+    "why_it_works": "People search for rehab reviews and treatment that works. Combining SAMHSA data, state licensing records and accreditation with ownership history is something lead-gen sites do not offer. SAMHSA's FindTreatment.gov is free, and Recovery.com and Rehabs.com exist.",
+    "agent_plan": [
+      "Builds profiles from SAMHSA locator data, state licensing records and accreditation status.",
+      "Flags medication-assisted treatment, insurance acceptance, ownership history and regulatory actions.",
+      "Collects structured reviews from verified alumni and families."
+    ],
+    "human_part": "You still sell flat-fee listings, verify reviews carefully and get legal advice, since patient-brokering laws ban paying for referrals.",
+    "content_angle": "Publish plain-English guides and search pages on how to check a treatment centre, for example licensing and accreditation red flags.",
+    "first_steps": [
+      "Pull SAMHSA and one state's licensing data for a small set of centres.",
+      "Build ten sample profiles with ownership and regulatory actions.",
+      "Get a healthcare-law opinion on listing fees and review handling."
+    ],
+    "price_hint": "Free to search, $199/mo centre profiles",
+    "watch_out": "EKRA and state patient-brokering laws make referral-fee models risky, so revenue must be flat-fee listings.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-034",
+    "name": "Creator Rate Benchmarks",
+    "one_liner": "A rate directory built from verified creator deals, sold to brands as benchmark reports.",
+    "problem": "Brands and creators negotiate sponsorships with no shared idea of fair pricing. Small creators often undercharge while brands overpay for creators with inflated followings. Most rate calculators guess from follower counts, and agencies spend hours on negotiations a benchmark could settle.",
+    "why_it_works": "People search for what to pay Instagram influencers and YouTube sponsorship rates. Collabstr, CreatorIQ and Passionfroot already publish benchmarks, so the opening is verified deal data by niche and deliverable. Free access for contributing creators grows the dataset.",
+    "agent_plan": [
+      "Extracts rates from redacted contracts and invoices by platform, niche, follower band and deliverable type.",
+      "Builds benchmark reports and quarterly rate trends by niche.",
+      "Provides a rate calculator and creator search for subscribed brands."
+    ],
+    "human_part": "You still recruit creators to submit deals, sell subscriptions to brands and check submitted contracts for authenticity.",
+    "content_angle": "Publish quarterly rate reports and short videos on sponsorship pricing, for example a YouTube rate card by niche.",
+    "first_steps": [
+      "Collect redacted deal data from twenty creators in one niche.",
+      "Publish a free rate report for that niche and track downloads.",
+      "Ask five brands whether they would subscribe."
+    ],
+    "price_hint": "$49/mo for brands, free for contributing creators",
+    "watch_out": "The rate-data niche is real but marketplaces already publish benchmarks.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "creator",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

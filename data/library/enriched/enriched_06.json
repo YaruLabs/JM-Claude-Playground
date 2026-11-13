@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "GL-026",
+    "name": "HVAC Warranty Registrar",
+    "one_liner": "An agent that registers each HVAC install with the manufacturer and files parts-warranty claims for small contractors.",
+    "problem": "Installers often forget to register units within the 60-90 day window, so homeowners drop to base coverage and the contractor takes the blame. Many contractors also never file parts-warranty labor claims, leaving an est. $50-$200 per failed part unclaimed.",
+    "why_it_works": "Registration means re-keying serial numbers into several manufacturer portals, and field-service tools store the photo but never push it anywhere. Some states now limit registration-gated warranties, which adds complexity. Contractors already pay VAs or office staff to do this by hand.",
+    "agent_plan": [
+      "Reads the data-plate photo from each install job and extracts model, serial and install date.",
+      "Fills in each manufacturer's registration portal and emails the homeowner a branded warranty certificate.",
+      "Matches failed parts to serial numbers on service calls and drafts the distributor warranty claim with labor allowance."
+    ],
+    "human_part": "You build the integration with one field-service platform, keep up with portal changes, and sell to contractors one by one.",
+    "content_angle": "Post short videos on HVAC owner Facebook groups showing a data-plate photo becoming a filed registration, with an example of unclaimed labor allowances.",
+    "first_steps": [
+      "Interview 10 HVAC contractors about how they register units and file parts claims today.",
+      "Hand-process one contractor's installs for a month to prove the dollars recovered.",
+      "Build photo OCR and auto-fill for two manufacturer portals before adding more."
+    ],
+    "price_hint": "$149-$299/mo plus 15% of recovered labor claims",
+    "watch_out": "State laws removing registration requirements may erode the core job, so claim recovery has to carry the value, and manufacturer portal terms on automated submission need checking.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-027",
+    "name": "Permit Packet Builder",
+    "one_liner": "Builds the right permit packet for each city or county from a roofing, HVAC or water-heater job ticket.",
+    "problem": "Every jurisdiction wants a different packet for the same job, and a roofer working 15 jurisdictions keeps a binder of PDFs. Each permit takes an est. 30-90 minutes, or a $75-$250 permit runner, and skipped permits lead to stop-work orders.",
+    "why_it_works": "Municipal checklists vary widely for the same roofing job, so the pain is visible in public documents. PermitFlow targets larger commercial and builder permits, and runners are manual and charge per trip. Nobody serves the 1-10 truck re-roof shop at a per-packet price.",
+    "agent_plan": [
+      "Looks up the jurisdiction from the job address and selects the correct forms.",
+      "Auto-fills forms from the contract PDF and checks the packet for missing items before submission.",
+      "Logs each rejection reason per jurisdiction so the next packet avoids the same mistake."
+    ],
+    "human_part": "The contractor stays the permit applicant and signs affidavits personally; you maintain the form library for your launch metro.",
+    "content_angle": "Post short walkthroughs in roofing contractor Facebook groups showing one city's packet built in minutes, with a stop-work order story as the hook.",
+    "first_steps": [
+      "Pick one metro with 10-15 jurisdictions and collect each one's re-roof permit checklist.",
+      "Build packets by hand for three roofers to learn what gets rejected.",
+      "Charge per packet and track whether they pay or go back to a runner."
+    ],
+    "price_hint": "$29 per packet; $249-$599/mo plans",
+    "watch_out": "Keeping forms current is unglamorous ongoing work, and contractors may prefer a runner who also takes plans to the counter.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-028",
+    "name": "Supply House Price Watch",
+    "one_liner": "Reads plumbing and HVAC supply invoices and flags price increases against what you quoted or contracted.",
+    "problem": "Contractors price jobs from price books updated once or twice a year, so every unnoticed increase on a counter invoice cuts margin on jobs already sold. Owners rarely compare invoice lines to their quoted price, and an est. 2-5% of material spend leaks through unflagged increases and billing errors.",
+    "why_it_works": "Supply House Times documents repeated 2026 manufacturer price increases, and local news reports plumbing shops squeezed by tariff-driven material costs. Price-book vendors publish standard costs but do not audit a contractor's actual invoices. Cross-distributor SKU mapping is hard to copy.",
+    "agent_plan": [
+      "Ingests invoices from email or photos and reads every line item.",
+      "Normalizes SKUs and compares invoiced prices to contract or quoted prices.",
+      "Drafts credit-request emails for overcharges and sends a weekly price-change digest."
+    ],
+    "human_part": "You sell to contractors directly, and you decide how to handle distributor confidentiality when sharing any price data.",
+    "content_angle": "Write search pages and Facebook posts on supply house price increases, with an example showing one invoice line creeping up across months.",
+    "first_steps": [
+      "Collect 20 real invoices from two or three contractors and manually find the overcharges.",
+      "Show each owner the dollars found and ask if they would pay monthly.",
+      "Build invoice OCR plus SKU matching for one region of plumbing supplies."
+    ],
+    "price_hint": "$129-$299/mo",
+    "watch_out": "It is unproven that owners act on alerts, so the credit-recovery dollar figure has to show up in month one.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-029",
+    "name": "Refrigerant Leak Logbook",
+    "one_liner": "A leak-rate ledger that turns technician notes into AIM Act records for commercial refrigeration contractors.",
+    "problem": "Since January 1, 2026, EPA rules put leak-rate calculation, repair deadlines and records on HFC appliances with 15 lb or more of charge, with no grace period. Contractors serving restaurants and small grocers still log refrigerant adds on paper or in free-text notes, so nobody calculates the threshold in time.",
+    "why_it_works": "EPA published a January 2026 fact sheet and ACHR News covered the new rules. Existing tools are enterprise facility platforms priced for chains, and none parse small contractors' free-text notes into a compliance ledger. Domain-specific calculations make it harder to copy.",
+    "agent_plan": [
+      "Extracts refrigerant adds from technician notes and photos into a per-appliance ledger.",
+      "Calculates leak rates and alerts on repair and verification deadlines.",
+      "Generates audit-ready PDF records and an owner portal view."
+    ],
+    "human_part": "You need an HVAC/R technician advisor to validate the leak-rate logic, and you sell to contractors yourself.",
+    "content_angle": "Post explainers on HVAC trade newsletters and groups about the 15 lb threshold, and pitch it as a billable maintenance-agreement upsell.",
+    "first_steps": [
+      "Interview five commercial refrigeration contractors about how they log refrigerant today.",
+      "Have a technician advisor check your leak-rate calculation against the rule text.",
+      "Build a ledger from sample work-order notes and run it for one contractor."
+    ],
+    "price_hint": "$199/mo per contractor up to 100 appliances",
+    "watch_out": "Weak EPA enforcement (no public actions as of mid-2026) could dull urgency, so position it as a maintenance-agreement upsell.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "local_services",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-030",
+    "name": "Dental Denial Appeals",
+    "one_liner": "Drafts carrier-specific appeals for denied dental claims, with the narrative and attachments, for dentist sign-off.",
+    "problem": "Independent dental offices see crowns, SRP, buildups and implants denied every week, and each appeal needs chart pulls and a narrative that matches carrier criteria. An est. 5-10% of claims are denied at first pass, and an office manager can lose a day a week to rework.",
+    "why_it_works": "The ADA publishes a Denial Buster Playbook because the problem is so widespread. Most AI dental billing tools focus on eligibility, x-ray detection or claim scrubbing, while appeals remain manual. Practices often write appeals from scratch or let small denials age out.",
+    "agent_plan": [
+      "Imports denied claims and classifies the denial codes from the EOB.",
+      "Drafts an appeal narrative from chart findings and assembles the carrier appeal packet.",
+      "Tracks each appeal and the dollars recovered."
+    ],
+    "human_part": "A dentist must sign off on every narrative, and you need BAAs and a HIPAA security posture before scaling.",
+    "content_angle": "Post breakdowns on Dentaltown forums of one denial type and how a good appeal narrative is structured.",
+    "first_steps": [
+      "Interview three office managers about which denials they skip or let age out.",
+      "Work with an office manager advisor to draft appeals for 10 real denied claims.",
+      "Test whether the practice pays a monthly fee or a share of recovered dollars."
+    ],
+    "price_hint": "$299/mo per location, or 12% of recovered",
+    "watch_out": "HIPAA compliance cost is the main friction, and win-rate data takes months to accumulate, so early value rests on time saved.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-031",
+    "name": "Chiro Medicare Note Audit",
+    "one_liner": "Checks chiropractic notes for Medicare documentation gaps before the claim goes out.",
+    "problem": "CMS reports a 33.6% improper payment rate for chiropractic services in 2024, and 95.5% of it came from insufficient documentation. Common gaps include an unspecified subluxation level, PART exams under 2 of 4 criteria, and plans without goals, which surface only when an audit letter demands repayment.",
+    "why_it_works": "An OIG audit found $358.8M of $438.1M in chiropractic payments unallowable, so the exposure is documented. EHR templates force fields but cannot judge whether a note meets medical necessity. Consultants audit a sample once a year, not every visit.",
+    "agent_plan": [
+      "Reads each uploaded note and checks PART criteria and subluxation level.",
+      "Flags missing treatment-plan goals and active versus maintenance care wording.",
+      "Builds an ADR response packet when an audit letter arrives."
+    ],
+    "human_part": "You work with a certified chiropractic coding consultant, and the doctor confirms every note since suggested wording must reflect the actual exam.",
+    "content_angle": "Post short breakdowns in chiropractor Facebook groups of the most common note gaps, citing the CMS improper payment rate.",
+    "first_steps": [
+      "Get 10 anonymized or sample notes from a chiropractor and check them by hand against the criteria.",
+      "Have a coding consultant review your checker's findings for accuracy.",
+      "Offer a free audit of one week of notes to three offices."
+    ],
+    "price_hint": "$149/mo per doctor; $399/mo clinic",
+    "watch_out": "Medicare is a minority of revenue for many chiropractors, so test whether commercial-payer audits widen the market enough.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-032",
+    "name": "PBM Audit Defense",
+    "one_liner": "Builds the invoice and prescription evidence pack independent pharmacies need to appeal PBM audit recoupments.",
+    "problem": "PBMs audit independent pharmacies and claw back money over invoice shortfalls and days-supply errors, with appeal windows of often only days to weeks. Law firm write-ups describe recoupments of $100k-$705k, and most owners cannot afford a pharmacy-law firm for every audit.",
+    "why_it_works": "One inventory audit was cut from $186,000 to $20,000 on appeal once invoices were reconciled. Law firms engage after the fact and charge a lot, and existing consultants offer templates rather than automated reconciliation. Pharmacy-specific data work is hard for outsiders to copy.",
+    "agent_plan": [
+      "Parses the audit letter and lists each finding with its deadline.",
+      "Reconciles wholesaler invoices against dispensing data by NDC.",
+      "Drafts an appeal letter with statute cites and a per-finding evidence checklist."
+    ],
+    "human_part": "The pharmacist-in-charge reviews contract and statute arguments, and you refer litigation to counsel.",
+    "content_angle": "Publish case-style posts for pharmacy owner groups showing how invoice reconciliation cut a recoupment on appeal.",
+    "first_steps": [
+      "Ask five independent pharmacy owners about their last audit and what it cost them.",
+      "Reconcile one real audit by hand using a PioneerRx or Liberty CSV export.",
+      "Confirm whether wholesalers let owners export invoice data."
+    ],
+    "price_hint": "$249/mo; $750 per appeal pack; or 10% of reduction",
+    "watch_out": "Upstream access to wholesaler invoice data is essential, and it is not yet confirmed that wholesalers allow export.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-033",
+    "name": "Vet Controlled Drug Log",
+    "one_liner": "Reconciles a vet clinic's controlled-substance log against PIMS charges and distributor invoices every day.",
+    "problem": "DEA requires usage logs for every controlled substance, but many clinics still use paper logs that rarely match what was charged in the PIMS. A DEA inspection that finds a shortfall can cost the DVM their registration, and reconciliation takes a practice manager an est. 2-4 hours a week.",
+    "why_it_works": "AAHA partner content urges at least weekly reconciliation, and dvm360 notes many discrepancies come from unrecorded waste. Vetsnap and PIMS modules digitize the log, but cross-checking against distributor invoices and charged items is limited. Hardware cabinets are expensive for small clinics.",
+    "agent_plan": [
+      "Records each drug draw from voice or tablet entry and keeps a per-bottle running balance.",
+      "Reconciles logs nightly against PIMS charges and distributor invoices.",
+      "Alerts on discrepancies and exports a DEA-ready log."
+    ],
+    "human_part": "You need a veterinary practice manager advisor and must check state by state whether electronic logs are accepted.",
+    "content_angle": "Post checklists on VIN forums and practice-manager Facebook groups about warning signs of log discrepancies.",
+    "first_steps": [
+      "Interview five practice managers about how they reconcile logs today.",
+      "Confirm electronic log rules for two states with a state board source.",
+      "Prototype reconciliation of one clinic's log against its PIMS charge export."
+    ],
+    "price_hint": "$99-$179/mo per location",
+    "watch_out": "Vetsnap is a direct competitor, so the moat depends on three-way reconciliation being meaningfully better.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "pets",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-034",
+    "name": "Make Ready Scheduler",
+    "one_liner": "An AI coordinator that books painters, cleaners and techs in the right order for each unit turn.",
+    "problem": "Every vacant day on a $1,800/mo unit costs about $60, and small property managers coordinate turns by text. Vendor no-shows and bad sequencing, like cleaners arriving before paint, stretch turns from an est. 5 days to 10-14.",
+    "why_it_works": "Buildium warns that waiting until a unit empties to book vendors can add a week. Work-order tools treat each task separately, and nobody auto-sequences multi-vendor turns or rebooks no-shows. Vendors can work by text, so they need no app.",
+    "agent_plan": [
+      "Triggers from a notice to vacate in the property software and estimates scope from inspection photos.",
+      "Books vendors in sequence by SMS and rebooks automatically when one declines.",
+      "Captures completion photos and invoices and shows a days-vacant board."
+    ],
+    "human_part": "You sell to property managers directly and need vendors to respond to texts reliably.",
+    "content_angle": "Post in NARPM and property manager groups with the cost of a vacant day and a before-and-after turn timeline.",
+    "first_steps": [
+      "Interview five property managers about their last three slow turns.",
+      "Run one manager's turns by hand over SMS for a month and record vacant days.",
+      "Build SMS sequencing for one property software integration."
+    ],
+    "price_hint": "$1.00/door/mo (min $149/mo); $49 per turn",
+    "watch_out": "It overlaps Property Meld heavily, so it wins only if auto-sequencing measurably cuts vacant days.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-035",
+    "name": "Deposit Itemization Agent",
+    "one_liner": "Turns move-in and move-out photos into a state-compliant deposit statement for landlords and property managers.",
+    "problem": "States set hard deadlines, such as 14 days in Washington and Arizona and 21 in California, and deducting for normal wear can cost the landlord bad-faith penalties of up to 2x in California. Managers compare photos by eye and price deductions from memory across dozens of move-outs a month.",
+    "why_it_works": "Inspection apps capture photos but do not classify wear versus damage, price deductions with depreciation, or enforce each state's deadline and notice method. Deposit disputes are among the most common landlord-tenant small-claims cases. Many itemization templates show up in search, a sign of demand.",
+    "agent_plan": [
+      "Pairs move-in and move-out photos and classifies wear versus damage.",
+      "Prices deductions with depreciation and calculates the state deadline.",
+      "Produces the itemized statement PDF and a dispute evidence pack."
+    ],
+    "human_part": "The property manager approves every deduction, and you research each state's rules; this is not legal advice to tenants.",
+    "content_angle": "Post in landlord forums with a state-by-state deadline explainer and an example of normal wear versus damage.",
+    "first_steps": [
+      "Build rule tables for two states and check them against the statute text.",
+      "Run five real move-outs by hand with a friendly property manager.",
+      "Charge per itemization and see whether managers return for the next one."
+    ],
+    "price_hint": "$19 per itemization; $199/mo for 20 move-outs",
+    "watch_out": "Misclassification creates liability, so every statement needs a human approval step.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-036",
+    "name": "Distributor Invoice Auditor",
+    "one_liner": "Checks restaurant distributor invoices against contract or bid-sheet prices and files credit requests for overcharges.",
+    "problem": "Supy's analysis found nearly 1 in 4 restaurant invoices charges a different price than expected, with overbilling more common than underbilling. Independent operators have no time to check each line, and a few percent of drift on proteins and produce eats into a thin 3-5% net margin.",
+    "why_it_works": "Incumbents like MarginEdge and xtraCHEF digitize invoices and track price trends, but contract checks and automatic credit follow-up are thin or missing. A contingency-fee model aligns with the owner's interest. Overbilling data is published by Supy and trade press.",
+    "agent_plan": [
+      "Ingests invoices by email, photo or portal and reads each line.",
+      "Flags lines above contract or cost-plus price using rules you set up per restaurant.",
+      "Drafts credit-request emails with proof and tracks credits received."
+    ],
+    "human_part": "You sell to restaurant owners yourself and negotiate how contract terms are loaded.",
+    "content_angle": "Post in r/restaurantowners and owner groups with a real invoice walkthrough showing a flagged line.",
+    "first_steps": [
+      "Ask five owners for a month of invoices and find overcharges by hand.",
+      "Offer to file credit requests for 20% of what you recover.",
+      "Build invoice OCR and contract rule setup for one distributor."
+    ],
+    "price_hint": "$99/mo per location, or 20% of credits",
+    "watch_out": "This market is crowded, with Toast-bundled xtraCHEF and MarginEdge already ingesting the same invoices, so it is viable only as a contingency credit-recovery wedge.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-037",
+    "name": "Inspection Ready Kitchen",
+    "one_liner": "Runs AI self-inspections from line-check photos, tuned to your local health code and past violations.",
+    "problem": "Independent restaurants get unannounced inspections one to three times a year, and a critical violation can mean a re-inspection fee, a public score or closure. Generic checklist apps ask the same questions everywhere, though risk depends on the county's code version and the restaurant's own history.",
+    "why_it_works": "An ABC17 investigation found repeat violations with little follow-up, so the same problems recur. Existing apps are generic checklists and sensors, and none personalize to a restaurant's public violation history. Open inspection data exists in places like NYC, Chicago and King County.",
+    "agent_plan": [
+      "Imports a restaurant's public inspection history and maps it to local code sections.",
+      "Builds a personalized checklist and checks line-check photos for labels, storage and temperatures.",
+      "Keeps a corrective-action log and a readiness score."
+    ],
+    "human_part": "It is advisory only, so a certified food protection manager still signs off, and you must learn each local code.",
+    "content_angle": "Post county-specific videos on what inspectors in that area flag most, using public inspection data.",
+    "first_steps": [
+      "Pull public inspection data for one county and list the most repeated violations.",
+      "Show five restaurants their own history and ask if a checklist would help.",
+      "Prototype a photo check for food labels and storage."
+    ],
+    "price_hint": "$59-$149/mo per location",
+    "watch_out": "Willingness to pay outside the weeks after a bad inspection is unproven, so consider selling to food-safety consultants first.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-038",
+    "name": "IFTA Receipt Reconciler",
+    "one_liner": "Matches fuel receipts to ELD state miles and prepares a clean IFTA quarterly return for owner-operators.",
+    "problem": "Owner-operators file IFTA quarterly, which means sorting every fuel receipt by state and matching it to jurisdiction miles. Receipts and card statements rarely line up, and every undocumented gallon is a forfeited credit. Many pay a bookkeeper $75-$200 a quarter or file late and pay penalties.",
+    "why_it_works": "Overdrive profiled an owner-operator surprised by a $400 Pennsylvania fuel-tax bill, and TruckersReport threads show drivers stuck with missing receipts. IFTA calculators assume complete data and do not chase missing receipts or flag audit-risk MPG. Vendor guides in 2026 target the same pain.",
+    "agent_plan": [
+      "Reads receipt photos and imports fuel card statements.",
+      "Imports ELD state miles and alerts on gaps and odd MPG figures.",
+      "Calculates the quarterly return and exports an audit file."
+    ],
+    "human_part": "The carrier files and stays responsible, and you build trust in trucker communities.",
+    "content_angle": "Post short videos on TikTok and YouTube about common IFTA mistakes and what a missing receipt costs.",
+    "first_steps": [
+      "Interview 10 owner-operators about how they handle IFTA each quarter.",
+      "Prepare one real quarter by hand to learn which data gaps occur.",
+      "Build receipt OCR and the quarterly calculation for a small test group."
+    ],
+    "price_hint": "$19/mo per truck; $149/quarter filing review",
+    "watch_out": "ELD vendors like Motive and Samsara already include IFTA mileage reports, and fuel cards are adding receipt capture.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-039",
+    "name": "Detention Proof Agent",
+    "one_liner": "Records geofenced arrival times and photo proof, then files detention invoices for owner-operators.",
+    "problem": "Owner-operators wait 2-6 hours at shippers and receivers and are denied detention pay because the rate con lacked a clause, the claim was late, or proof was a handwritten note. At $50-$75 an hour, a small carrier loses an est. $500-$1,500 a month.",
+    "why_it_works": "A 2026 TruckersReport thread shows the exact complaint, and FleetOwner calls detention a persistent problem. Visibility tools serve brokers and shippers, and nobody auto-generates carrier-side notices and invoice evidence. Broker-side tools have opposite incentives.",
+    "agent_plan": [
+      "Extracts the detention clause from each rate confirmation.",
+      "Runs a geofence arrival and departure clock and prompts for timestamped photos.",
+      "Sends the free-time notice to the broker and generates the detention invoice with evidence."
+    ],
+    "human_part": "You build trust in trucker communities, and collecting still depends on brokers and shippers paying.",
+    "content_angle": "Post short videos on trucker TikTok and YouTube showing a detention claim with full proof versus a handwritten note.",
+    "first_steps": [
+      "Read 20 TruckersReport detention threads and note what proof brokers refused.",
+      "Hand-build a detention invoice for three drivers' last loads.",
+      "Prototype the geofence clock and photo prompts in a basic mobile app."
+    ],
+    "price_hint": "$15/mo per truck plus 10% of detention collected",
+    "watch_out": "Collecting from brokers still depends on the shipper paying, so the subscription should stand on its own.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-040",
+    "name": "Daycare Licensing Binder",
+    "one_liner": "Keeps every staff and child file inspection-ready under your state's child care licensing rules.",
+    "problem": "Paperwork is the most common deficiency in California child care inspections. Directors track background checks, training hours and immunizations for 10-30 staff, and a citation can affect subsidy eligibility and appears on public sites parents check.",
+    "why_it_works": "Child care platforms store files but do not know state-specific required-document rules or chase staff and parents automatically. Public licensing reports show record-related citations. California is the largest market with public citations, so you can start there.",
+    "agent_plan": [
+      "Classifies uploaded documents and extracts expiry dates.",
+      "Maps files to the California Title 22 checklist and flags gaps.",
+      "Chases staff and parents by SMS and exports an inspection binder."
+    ],
+    "human_part": "The licensee remains responsible, and you maintain the rule set for each state you add.",
+    "content_angle": "Post checklists in child care director Facebook groups on the documents inspectors flag most often.",
+    "first_steps": [
+      "Interview five directors and list the missing-document citations they have received.",
+      "Build the Title 22 checklist and test it on one center's files.",
+      "Pilot SMS reminders for expiring CPR and TB clearances."
+    ],
+    "price_hint": "$79/mo per center; $29/mo home",
+    "watch_out": "Per-state rule maintenance is the ongoing cost, and children's records are sensitive.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "family_care",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-041",
+    "name": "Funeral Rule Compliance",
+    "one_liner": "Audits a funeral home's price list and phone quotes against the FTC Funeral Rule.",
+    "problem": "In an FTC undercover phone sweep of more than 250 funeral homes, 39 were found violating the Funeral Rule, including failing to give accurate prices by phone. Penalties can reach about $51,744 per violation, and most family-owned homes update their price list in Word once a year with no phone script.",
+    "why_it_works": "The FTC sweep was widely covered, and it says a rule update is still in progress. Software and associations offer templates, but nobody continuously audits a home's actual documents and phone behavior. A general AI can check a price list, so the value lies in workflow and call review.",
+    "agent_plan": [
+      "Audits an uploaded General Price List against the rule and flags problems.",
+      "Regenerates a compliant price list and builds an online price page.",
+      "Reviews call transcripts against a phone-quote script when the home opts in."
+    ],
+    "human_part": "You sell by building trust with conservative family-owned businesses, and this is not legal advice.",
+    "content_angle": "Write articles for funeral director publications on the FTC sweep and the most common price-quote failures.",
+    "first_steps": [
+      "Audit three public funeral home price lists against the rule text.",
+      "Offer a one-time price list audit to five homes.",
+      "Draft a phone-quote script and test it with one front desk."
+    ],
+    "price_hint": "$79/mo per location; $499 one-time audit",
+    "watch_out": "Demand spikes only with FTC enforcement, and a general AI assistant can do part of the audit, so consider bundling with GL-042.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-042",
+    "name": "Insurance Assignment Agent",
+    "one_liner": "Files life insurance assignments for funeral homes on each carrier's own forms and follows up until paid.",
+    "problem": "Funeral homes wait 30 days to 8+ weeks for assignment payments because each carrier wants its own forms and signatures. Funders advance the money for an est. 3-4% fee, or $270-$360 on a $9,000 funeral, and in-house handling ties up staff.",
+    "why_it_works": "Funders bundle fast cash and paperwork into a percentage, and there is no low-cost software option that handles paperwork alone. Claimcheck and Frazer Consultants publish repeated posts on payment delays. Funders have little reason to sell software that removes their fee.",
+    "agent_plan": [
+      "Identifies the carrier and prefills its exact claim forms.",
+      "Collects beneficiary e-signatures and submits by fax, email or portal.",
+      "Schedules follow-ups, parses carrier replies and shows outstanding dollars."
+    ],
+    "human_part": "You build the carrier form library, must not act as a claims adjuster, and sell to funeral homes yourself.",
+    "content_angle": "Post on funeral director groups with a cost comparison of a funder's fee versus a flat per-assignment price.",
+    "first_steps": [
+      "Collect forms from the top 10 carriers funeral homes use.",
+      "Process one home's assignments by hand and record time to payment.",
+      "Test whether homes value fee savings or the cash advance more."
+    ],
+    "price_hint": "$49 per assignment; $199/mo unlimited",
+    "watch_out": "Homes may value the immediate cash advance more than fee savings, so you might need a factoring partner later.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-043",
+    "name": "Service Contract Claim Packet",
+    "one_liner": "Builds the authorization packet independent auto shops need to get extended-warranty claims approved and paid.",
+    "problem": "Each claim on a third-party vehicle service contract means calling the administrator, waiting on hold, sending photos and fault codes and arguing labor times. Service advisors lose an est. 1-3 hours per claim, and some shops refuse warranty work entirely.",
+    "why_it_works": "Warranty companies say most denials happen because shops start repairs before authorization or fail to document the failure. Shop-management systems create the repair order but do not assemble administrator-specific packets or track adjuster outcomes. Consumer investigations show customers blaming the shop.",
+    "agent_plan": [
+      "Parses the customer's service contract PDF and applies the administrator's rule profile.",
+      "Assembles the authorization packet from the repair order, photos and fault codes.",
+      "Submits by portal or email, follows up and logs the adjuster's decision."
+    ],
+    "human_part": "You learn each administrator's rules, and shops must not misrepresent the failure cause.",
+    "content_angle": "Post in shop-owner Facebook groups and iATN forums with a checklist of what administrators need before authorization.",
+    "first_steps": [
+      "Interview five shop owners about their last denied claims.",
+      "Build rule profiles for the top three administrators.",
+      "Run one shop's claims by hand for a month and record approval time."
+    ],
+    "price_hint": "$149/mo up to 20 claims; $9 per extra",
+    "watch_out": "Phone-heavy administrators may resist automation, so check whether a voice agent can handle the hold queue within their rules.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-044",
+    "name": "Pesticide Application Records",
+    "one_liner": "Turns lawn-tech job notes into state-compliant pesticide records and annual use reports.",
+    "problem": "Commercial applicators must record product, EPA registration number, rate, area, location, time and applicator for each application, and some states require annual use reports. Small lawn companies keep free-text notes or paper, and the owner's applicator license is at stake.",
+    "why_it_works": "Maine's pesticide board fined a lawn care company over incomplete records. Lawn-focused field-service tools have basic chemical tracking but weak state-specific fields and annual-report formatting, and Jobber has none. The narrowest wedge is Jobber-based landscapers without a chemical module.",
+    "agent_plan": [
+      "Identifies the product and EPA registration number from a label photo.",
+      "Turns voice or job-note entries into state-specific application records with weather data.",
+      "Exports the annual use report."
+    ],
+    "human_part": "The applicator stays legally responsible, and you confirm per state whether electronic records are accepted.",
+    "content_angle": "Post in lawn care Facebook groups and r/lawncare with a short video on what an incomplete record looks like.",
+    "first_steps": [
+      "Collect record requirements for five strict states from regulator guidance.",
+      "Interview five lawn companies about how they record applications today.",
+      "Build a note-to-record generator for one state and test it."
+    ],
+    "price_hint": "$49/mo up to 3 applicators; $99 annual report",
+    "watch_out": "Real Green already serves the core lawn-care segment, so the wedge is Jobber-based landscapers who lack a chemical module.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-045",
+    "name": "Lien Waiver Tracker",
+    "one_liner": "Sends the right conditional lien waiver with each pay app and swaps to unconditional only after payment clears.",
+    "problem": "Small subcontractors must send a conditional waiver with each pay application and an unconditional one once payment clears, on each state's form. Signing early can forfeit payment and lien rights, and office managers juggle dozens of waivers in email where a wrong through-date costs real money.",
+    "why_it_works": "Levelset's payment-help forum has hundreds of questions on conditional versus unconditional waivers. However, Levelset gives waiver tools away free and Siteline bundles them, so differentiation is thin. The unconditional release triggered by cleared payment for tiny subs is only a minor gap.",
+    "agent_plan": [
+      "Generates the correct state statutory waiver for each pay application.",
+      "Detects cleared payment through bank or QuickBooks data and releases the unconditional waiver.",
+      "Collects supplier waivers and keeps a waiver log per job."
+    ],
+    "human_part": "You refer strategy questions such as whether to sign to counsel, and you maintain the state form library.",
+    "content_angle": "Post in trade Facebook groups with a short guide to conditional versus unconditional waivers and a through-date mistake example.",
+    "first_steps": [
+      "Collect statutory waiver forms for two states and check the rules.",
+      "Ask five subs how they track waivers today.",
+      "Test whether they would pay when Levelset's free forms exist."
+    ],
+    "price_hint": "$79/mo up to 10 jobs; $199/mo unlimited",
+    "watch_out": "Levelset (Procore) gives waiver tools away free and Siteline bundles them, so it is probably better as a feature of a larger tool.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-046",
+    "name": "Retainage Closeout Agent",
+    "one_liner": "Collects warranties, O&M manuals and as-builts as a job finishes so subcontractors get retainage released.",
+    "problem": "Subcontractors typically have 5-10% of every progress payment held as retainage, which is $100k-$200k on a $2M job. Release depends on closeout documents, and missing paperwork is a common reason retainage gets stuck for months while the project manager has moved on.",
+    "why_it_works": "Siteline's closeout guide lists missing warranties, as-builts and waivers as payment delayers. Procore closeout is GC-centric and Siteline focuses on billing, and nobody parses the sub's spec sections into a closeout checklist and assembles the package. Heaviest O&M trades make a good first niche.",
+    "agent_plan": [
+      "Parses the subcontract and spec closeout clauses into a per-job checklist.",
+      "Generates warranty letters and assembles the O&M binder.",
+      "Alerts on missing documents and runs the retainage invoice chase cadence."
+    ],
+    "human_part": "You need a construction project manager advisor, and disputes go to counsel.",
+    "content_angle": "Post on construction groups and trade association channels about the closeout documents that hold up retainage.",
+    "first_steps": [
+      "Interview five subcontractors about retainage stuck at closeout.",
+      "Hand-build a closeout checklist from one real spec section.",
+      "Pick one trade, such as mechanical, and test the O&M package workflow."
+    ],
+    "price_hint": "$249/mo up to 15 jobs; or 1% of late retainage",
+    "watch_out": "The success fee depends on collecting from GCs who may stall anyway, so the subscription should be justified by project manager hours saved.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-047",
+    "name": "T&M Ticket Capture",
+    "one_liner": "Foremen speak, and the agent writes the signed T&M ticket and turns it into a priced change order.",
+    "problem": "Procore and Dodge survey respondents report losing an average of about 30% of project revenue to unbilled or unpaid change orders. Extra work happens on verbal direction and paper T&M tags go unsigned, and a Vermont sub lost a $100k+ claim for not following procedures.",
+    "why_it_works": "A 2026 Dodge/Clearstory report says the average change order approval takes 26 days. Clearstory is the closest competitor but is priced for larger subs, and Procore is GC-centric. Small crews have few project managers to turn field notes into priced change orders.",
+    "agent_plan": [
+      "Turns a foreman's voice note and photos into a T&M ticket.",
+      "Prices the ticket using contract rates and markup and sends a GC e-sign link by SMS.",
+      "Tracks notice deadlines and shows an aging board of pending change orders."
+    ],
+    "human_part": "Foremen must adopt it, so you sell with extreme simplicity, and disputes go to counsel.",
+    "content_angle": "Post on r/Construction and trade groups with a story about unsigned T&M tags and what they cost.",
+    "first_steps": [
+      "Interview five subs about their last unbilled extra work.",
+      "Test voice-to-ticket with two foremen on real jobs.",
+      "Check whether GC supers will sign by SMS on the spot."
+    ],
+    "price_hint": "$299/mo up to 5 foremen; $49 per extra",
+    "watch_out": "Clearstory could move down-market, and GC supers' willingness to e-sign on the spot is the key behavior to test.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-048",
+    "name": "Injectable Charting Assistant",
+    "one_liner": "Voice-to-chart for med spa injectors, with lot tracking, face-map units and consent checks.",
+    "problem": "Injectable charts must record where product went, units, product, lot and expiration, plus per-procedure consent and photo authorization. Injectors seeing 15-25 patients a day chart after hours or skip details, which creates liability in malpractice claims and board complaints.",
+    "why_it_works": "Zenoti's guides stress lot and unit traceability, and OptiMantra's 2026 post shows AI charting moving into the category. Med spa EMRs offer templates with manual entry, and ambient charting built for injectables is only starting. Medical director oversight is a distinct wedge.",
+    "agent_plan": [
+      "Turns voice dictation into a face-map chart with units per site.",
+      "Checks lot and expiry against inventory and blocks charting without consent.",
+      "Samples charts for medical director review and flags gaps."
+    ],
+    "human_part": "You need an RN-injector advisor, a HIPAA posture, and medical directors still review charts themselves.",
+    "content_angle": "Post in Instagram injector communities showing a dictated chart becoming a face map with lot data.",
+    "first_steps": [
+      "Interview five injectors about where charting gets skipped.",
+      "Prototype the voice-to-face-map flow with an RN advisor.",
+      "Pitch the medical-director oversight add-on to three supervising doctors."
+    ],
+    "price_hint": "$129/mo per injector; $99/mo oversight add-on",
+    "watch_out": "EMR incumbents may ship ambient charting within 12 months, so consider the medical-director oversight wedge first.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "side_income"
+      ],
+      "backgrounds": [
+        "health",
+        "tech"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-049",
+    "name": "Grant Report Assembler",
+    "one_liner": "Pulls program data and finances into each funder's report format for small nonprofits.",
+    "problem": "Small nonprofits juggle 5-30 grants, each with its own template, metrics and deadline, and CEP estimates about 8 hours of reporting per typical grant per year. Development directors copy numbers by hand from spreadsheets and QuickBooks into funder portals.",
+    "why_it_works": "A Carleton study found only 8% of charities manage reporting easily, and some stop applying for small grants because reporting costs more than the grant. Tools serve grant discovery or the funder side, so grantee-side reporting stays manual. Fiscal sponsors and grant consultants offer leverage for sales.",
+    "agent_plan": [
+      "Parses award letters and funder templates into a report structure.",
+      "Pulls budget-to-actuals from accounting data by funder category and maps program metrics.",
+      "Drafts narratives grounded in the data and alerts on missing metrics and deadlines."
+    ],
+    "human_part": "A human must approve all figures since false statements carry liability, and you sell to slow-moving buyers.",
+    "content_angle": "Write guides for nonprofit associations and TechSoup on cutting reporting time, with a template example.",
+    "first_steps": [
+      "Interview five development directors about their last reports.",
+      "Build one funder's report by hand from real books and program data.",
+      "Pitch fiscal sponsors and grant consultants who manage many grants."
+    ],
+    "price_hint": "$79-$199/mo; fiscal-sponsor plan $499/mo",
+    "watch_out": "Nonprofits buy slowly, and willingness to pay is the main risk.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-050",
+    "name": "Missing Doc Predictor",
+    "one_liner": "Predicts each client's expected tax documents from last year's return and chases them across email and text.",
+    "problem": "Small tax firms lose most of February to April chasing W-2s, 1099s and K-1s, and clients email documents instead of using portals. A 300-return firm can spend an est. 150-300 staff hours a season, and missing items are found only when the file is opened.",
+    "why_it_works": "Reviews of TaxDome and Financial Cents mention document-request friction and clients bypassing portals. Practice-management tools send generic organizers and do not derive the expected list from last year's return. The edge is prior-year prediction.",
+    "agent_plan": [
+      "Parses last year's return PDF into an expected-document list for each client.",
+      "Classifies documents arriving by inbox or portal and updates a missing-item tracker.",
+      "Sends personalized SMS and email reminders and forecasts extension risk."
+    ],
+    "human_part": "You need a security program to meet the FTC Safeguards Rule, and you sell to CPA and EA firms yourself.",
+    "content_angle": "Post in r/taxpros and CPA Facebook groups with a before-and-after season workload example.",
+    "first_steps": [
+      "Interview five tax preparers about missing-document chasing.",
+      "Run the prior-year parser on three sample returns with permission.",
+      "Offer a pilot to one small firm before the next filing season."
+    ],
+    "price_hint": "$3 per client return; $999/yr unlimited",
+    "watch_out": "TaxDome or Karbon could ship the same prediction as a feature before 2027 tax season, and seasonal revenue concentrates.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Your startup ideas | Yaru Labs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="wrap wide">
+  <a class="brand" href="/"><i></i>YARU LABS</a>
+  <main id="app" hidden>
+    <div class="results-head">
+      <h1>Your matched ideas</h1>
+      <p>Picked from your quiz answers. Open any idea for the full breakdown. They are starting points, not guarantees.</p>
+    </div>
+    <div id="mine"></div>
+
+    <section class="band">
+      <h2>The idea database</h2>
+      <p class="cred">Every other idea in the library. Search or filter, then open one to read it.</p>
+      <div class="filters">
+        <input type="search" id="search" placeholder="Search ideas" aria-label="Search ideas">
+        <select id="market" aria-label="Market"><option value="">All markets</option></select>
+        <select id="area" aria-label="Topic"><option value="">All topics</option></select>
+      </div>
+      <p class="count-line" id="shown"></p>
+      <div id="all"></div>
+    </section>
+  </main>
+  <main id="denied" hidden>
+    <div class="results-head">
+      <h1>This link is not valid</h1>
+      <p>Take the quiz and join the community to get your own link.</p>
+      <p style="margin-top:20px"><a class="btn" href="/">Take the quiz</a></p>
+    </div>
+  </main>
+  <footer>Yaru Labs. Ideas are researched starting points, not financial or legal advice.</footer>
+</div>
+<script src="/ui.js"></script>
+<script>
+'use strict';
+(async function () {
+  const m = new URLSearchParams(location.search).get('m');
+  const res = m ? await fetch('/api/ideas?m=' + encodeURIComponent(m)) : null;
+  if (!res || !res.ok) { document.getElementById('denied').hidden = false; return; }
+  const data = await res.json();
+  document.getElementById('mine').replaceChildren(...data.mine.map(ideaRow));
+  const market = document.getElementById('market'), area = document.getElementById('area'), search = document.getElementById('search');
+  for (const [k, v] of Object.entries(MARKET)) market.append(h('option', { value: k, text: v }));
+  for (const [k, v] of Object.entries(AREA)) area.append(h('option', { value: k, text: v }));
+  function draw() {
+    const q = search.value.trim().toLowerCase();
+    const list = data.all.filter((i) =>
+      (!market.value || i.facts.markets.includes(market.value)) &&
+      (!area.value || i.facts.interests.includes(area.value)) &&
+      (!q || (i.name + ' ' + i.one_liner + ' ' + i.problem).toLowerCase().includes(q)));
+    document.getElementById('shown').textContent = `${list.length} of ${data.all.length} ideas`;
+    document.getElementById('all').replaceChildren(...list.slice(0, 60).map(ideaRow),
+      list.length > 60 ? h('p', { class: 'count-line', text: 'Showing the first 60. Narrow your search to see the rest.' }) : null);
+  }
+  for (const el of [market, area]) el.addEventListener('change', draw);
+  search.addEventListener('input', draw);
+  draw();
+  document.getElementById('app').hidden = false;
+})();
+</script>
+</body>
+</html>

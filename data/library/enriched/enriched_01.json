@@ -1,0 +1,1261 @@
+[
+  {
+    "id": "TH-001",
+    "name": "DTV Embassy Router",
+    "one_liner": "A bilingual checker that shows which Thai embassy will accept your DTV application and builds your document pack.",
+    "problem": "From 31 August 2026 a DTV must be filed at the embassy covering your citizenship or a country where you can prove legal residence, and a criminal record certificate is required. Each mission publishes its own checklist and defines residence differently, so applicants get rejected, lose fees and fly home unplanned.",
+    "why_it_works": "Embassies and agents have published the 31 August 2026 change, and Q&A sites already show people rejected at third-country missions. Agents sell the full filing and Issa Compass offers a free visa check, but no one offers a cheap per-embassy router built from real outcomes.",
+    "agent_plan": [
+      "Maps each applicant's nationality, residence permits and DTV route to the embassies that accept that profile.",
+      "Generates a personalised document pack, including bank-statement format and school enrolment letter templates.",
+      "Watches embassy pages for checklist changes and sends alerts, logging each change with a date."
+    ],
+    "human_part": "You verify each embassy's rules by hand, vet the licensed agents you refer to, and handle questions that fall outside the rules database.",
+    "content_angle": "Short TikTok and Reddit answers such as 'Which embassy will take your DTV after 31 August 2026?', pointing to the free checker.",
+    "first_steps": [
+      "Pick three embassies and write down their current DTV checklists with the page links and dates.",
+      "Build a simple nationality-and-residence questionnaire that returns the accepting missions and checklists.",
+      "Post it in two nomad groups and ask users to report what each embassy actually did."
+    ],
+    "price_hint": "Free check; THB 690 document pack",
+    "watch_out": "Residence is undefined and missions change checklists without notice, and most sources are agent blogs, so every rule must be re-checked against embassy pages.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-002",
+    "name": "Ninety Day Autopilot",
+    "one_liner": "A LINE and web tool that tracks your 90-day report window, pre-fills the TM47 and sends an agent if you risk being late.",
+    "problem": "Foreigners staying over 90 days must file a TM47, but the online system only accepts filings in a narrow window and rejects first reports and post-passport-renewal reports. Missing it means a trip to an immigration office and a fine, and many people learn of a rejection days later.",
+    "why_it_works": "Dozens of Q&A threads show people hitting errors and rejections on the official portal. Issa Compass already sells agent filing at THB 600 in Bangkok, so some people pay. The portal gives no eligibility guidance or outage visibility, and agents do not offer cheap self-filing support with escalation.",
+    "agent_plan": [
+      "Calculates each user's online and in-person filing windows from entry date, visa type and last report.",
+      "Pre-fills TM47 fields in the right format and checks for known traps like a first report or new passport.",
+      "Stores approval receipts and escalates to a partner agent when online filing fails or is not processed."
+    ],
+    "human_part": "You line up a licensed Bangkok partner agency for in-person filings and confirm the window rules with the Immigration Bureau.",
+    "content_angle": "A LINE-promoted Facebook retiree-group post such as 'Why your 90 day report keeps erroring, and what to do before the deadline'.",
+    "first_steps": [
+      "Confirm the exact online and in-person window rules with immigration for two visa types.",
+      "Build a LINE reminder bot that computes the window from entry date and last report.",
+      "Offer it free to one retiree Facebook group and note which errors people report."
+    ],
+    "price_hint": "Free reminders; THB 99/month; THB 600 per agent filing",
+    "watch_out": "Sources disagree on the exact online window and the moat is low, so it may work best as a free hook for other tools.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-003",
+    "name": "TM30 Landlord Filer",
+    "one_liner": "A Thai-language LINE tool that helps landlords file TM30 for foreign tenants and gives tenants a receipt for immigration.",
+    "problem": "Owners must file a TM30 within 24 hours of a foreigner moving in, with fines up to THB 2,000 per case, yet many small condo owners do not know how or refuse. Tenants then get stuck at their visa extension or 90-day report when immigration asks for the receipt.",
+    "why_it_works": "Phuket Immigration has confirmed TM30 remains the owner's duty, and 2026 guides describe landlords refusing and tenants stuck at extensions. Agents charge per filing and the government portal has no reminders and uses heavy bureaucratic Thai.",
+    "agent_plan": [
+      "Reads tenant passport and arrival-stamp uploads and fills in the TM30 fields.",
+      "Stores receipts and shares a copy with the tenant for extensions.",
+      "Prompts owners when a tenant re-enters Thailand, following the local office's practice."
+    ],
+    "human_part": "You sell to Thai landlords and agencies, ideally with a Thai co-founder, and confirm each office's TM30 practice yourself.",
+    "content_angle": "A Thai Facebook group post for condo owners: 'Your foreign tenant moved in. Here is how to avoid the THB 2,000 TM30 fine.'",
+    "first_steps": [
+      "Walk through one real TM30 filing and write the exact steps in Thai.",
+      "Build a tenant upload link that returns pre-filled TM30 fields for the owner.",
+      "Offer free filing help to five landlords in a condo owner group and gather feedback."
+    ],
+    "price_hint": "THB 49/unit/month; agencies THB 1,990/month",
+    "watch_out": "Whether a new TM30 is needed after every re-entry differs by office and is unsettled, so the product must encode office practice.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-004",
+    "name": "Tax Residency Day Ledger",
+    "one_liner": "An app that counts your days toward the 180-day test and tags each transfer to Thailand as old savings or taxable income.",
+    "problem": "Foreign income remitted to Thailand by a tax resident is taxable in the year it arrives, while savings built before 2024 are generally exempt. Retirees and nomads move money through many channels with no record of which pot it came from, and accountants ask for a day count and source-of-funds trail almost nobody keeps.",
+    "why_it_works": "Press has reported the Revenue Department drafting changes to the remittance rule, and 2026 guides and filing-deadline coverage show lasting expat confusion. Free calculators answer one question once, but none keep a defensible evidence trail. Expats already pay tax advisers.",
+    "agent_plan": [
+      "Builds a day count from stamp photos, flight emails and opt-in location data, warning near 180 days.",
+      "Imports bank and Wise CSVs and suggests a source tag for each transfer, such as pre-2024 savings or income.",
+      "Compiles a year-end pack of day count and remittance table for a licensed accountant."
+    ],
+    "human_part": "You work with licensed Thai tax accountants, who give the actual advice, and you check each Revenue Department rule change yourself.",
+    "content_angle": "A Facebook retiree-group and SEO article: 'How to keep a source-of-funds record for Thailand's remittance tax'.",
+    "first_steps": [
+      "Interview three expats and an accountant about what evidence they actually need at filing time.",
+      "Build a spreadsheet-style day counter and transfer tagger and test it on real statements.",
+      "Publish a guide on the 180-day test and offer the counter free."
+    ],
+    "price_hint": "Free counter; THB 1,290/year ledger and pack",
+    "watch_out": "Whether the reported remittance relief was enacted could not be verified, and the product's value partly depends on it.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-005",
+    "name": "Expat Tax Filing Desk",
+    "one_liner": "A marketplace selling fixed-price Thai tax filing for foreigners, done by vetted licensed accountants.",
+    "problem": "Foreign tax residents who remit income now need a Thai TIN and an annual PND 90/91 return, with paper returns due 31 March. Most expats do not read Thai, Revenue Department branches give inconsistent answers, and adviser quotes vary widely with no way to compare.",
+    "why_it_works": "HLB Thai and law firms publish remittance tax guides because clients ask, and 2026 coverage of the April deadline shows demand. Advisers quote case by case, so a transparent fixed-price, English-first marketplace with reviews fills a gap. Expats already pay advisers.",
+    "agent_plan": [
+      "Checks each client's uploaded documents for completeness before the case reaches an accountant.",
+      "Routes each case to an accountant with the right double-tax-treaty experience.",
+      "Tracks case status and files the finished return and receipt in the client's vault."
+    ],
+    "human_part": "You recruit and vet licensed Thai accountants and sign data agreements with them, and accounting work stays with them.",
+    "content_angle": "SEO articles timed to filing season, such as 'Do I need a Thai TIN as a retiree? What it costs', linking to fixed prices.",
+    "first_steps": [
+      "Ask five expat tax accountants whether they would accept fixed-price packages with a 20% platform cut.",
+      "Publish a price list for TIN registration and a simple return, with a bilingual intake form.",
+      "Run intake for the first paying clients by hand and record turnaround."
+    ],
+    "price_hint": "THB 1,500 to THB 7,900 per package",
+    "watch_out": "Getting accountants to accept fixed fees and a platform cut is the main risk, and demand is seasonal.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-006",
+    "name": "Bank Branch Acceptance Map",
+    "one_liner": "A crowd-sourced map showing which Thai bank branches open accounts for which visa types, with a document checklist.",
+    "problem": "Since early 2025 Thai banks have tightened account opening for foreigners, and outcomes vary branch by branch. Newcomers make several trips with their documents only to be refused, while needing an account for rent, PromptPay and visa financial proof.",
+    "why_it_works": "Press has reported Bangkok Bank closing tourist accounts, and 2026 guides say DTV acceptance varies by branch. Existing guides are generic and dated, and nobody publishes branch-level, visa-specific, time-stamped outcomes. Relocation firms could pay for that data.",
+    "agent_plan": [
+      "Moderates outcome reports and flags duplicates or likely fake entries.",
+      "Generates a Thai-language purpose letter tailored to the user's visa and the branch.",
+      "Updates branch checklists and success rates as new reports arrive."
+    ],
+    "human_part": "You moderate disputes, keep reports free of staff names, and manage any chaperone bookings through Thai partners.",
+    "content_angle": "Reddit and Facebook answers such as 'Which Bangkok bank branches opened accounts for DTV holders this month?'",
+    "first_steps": [
+      "Collect outcomes from 20 recent expat account attempts across three banks into one table.",
+      "Publish a branch-by-visa map with a simple report form.",
+      "Share it in expat groups and ask people to add their outcomes."
+    ],
+    "price_hint": "Free map; THB 390 success pack",
+    "watch_out": "Sources conflict on how strict Bangkok Bank is in 2026, and data freshness and fake reports are the key operational risk.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 65,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-007",
+    "name": "Frozen Account Rescue",
+    "one_liner": "A LINE and web guide that diagnoses why your Thai bank froze your account and gives the exact recovery steps in Thai and English.",
+    "problem": "Press reports say around 3 million Thai accounts were frozen or restricted in 2025, and thousands of wrongly frozen accounts led to complaints. Foreigners hit by KYC flags and small merchants losing PromptPay income bounce between call centres and branches without knowing what documents lift the hold.",
+    "why_it_works": "Press reported the Bank of Thailand acting after thousands of complaints about incorrectly frozen accounts. Banks explain little beyond visiting a branch, so a bank-specific, freeze-type-specific workflow fills a gap. All freeze data found is from 2025.",
+    "agent_plan": [
+      "Asks a few questions and reads the bank message to classify the type of freeze.",
+      "Drafts Thai and English request letters listing the documents that bank requires.",
+      "Tracks each case and reminds users of follow-ups."
+    ],
+    "human_part": "You hand police-request freezes to licensed lawyers, screen out cases involving police or AMLO, and stay within procedural information.",
+    "content_angle": "TikTok and SEO content in Thai such as 'Bank account frozen? The first documents to bring to the branch'.",
+    "first_steps": [
+      "Interview five people with frozen accounts and map what each bank asked for.",
+      "Build a decision tree for the four freeze types with bank-specific document lists.",
+      "Publish it in Thai and English and check which questions people ask next."
+    ],
+    "price_hint": "Free diagnosis; THB 490 case pack",
+    "watch_out": "All freeze data found is from 2025, so whether freezes continue at that scale in late 2026 is unverified.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-008",
+    "name": "Licence Conversion Slot Finder",
+    "one_liner": "An app that checks your documents and alerts you when an earlier DLT driving-licence conversion appointment opens.",
+    "problem": "Converting a foreign licence needs a residence certificate, medical certificate, translations and a DLT Smart Queue appointment, and some Bangkok offices are booked for months. Rules differ between guides and offices, so people arrive with the wrong documents and lose the slot.",
+    "why_it_works": "2026 guides note Smart Queue booking is mandatory and some offices are booked for months, and Q&A threads repeat the same document questions. Smart Queue does not search across offices or alert on cancellations, and guides do not encode per-office rules.",
+    "agent_plan": [
+      "Checks a user's visa, licence country and documents against each office's requirements.",
+      "Builds a document checklist with residence-certificate steps and nearby clinics.",
+      "Logs crowd reports on each office's actual requirements and test practice."
+    ],
+    "human_part": "You find a legitimate way to see slot data or fall back to manual-refresh help, and never resell government slots.",
+    "content_angle": "A Facebook expat-group and SEO guide such as 'Converting your licence in Bangkok: documents to bring and where slots open'.",
+    "first_steps": [
+      "Confirm whether DLT slot data can be accessed within its terms before building anything.",
+      "Write a per-office document checklist for three Bangkok offices from user reports.",
+      "Offer the checklist free in expat groups and ask for corrections."
+    ],
+    "price_hint": "THB 290 slot alert; THB 690 with document check",
+    "watch_out": "It hinges on whether slot data can be accessed legitimately, since automated monitoring may breach the system's terms.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-009",
+    "name": "Extension Funds Tracker",
+    "one_liner": "An app that watches your Thai bank balance and shows when retirement or marriage extension funds can safely be touched.",
+    "problem": "Retirement extensions need THB 800,000 seasoned in a Thai account and marriage extensions THB 400,000, with seasoning and minimum-balance rules that differ by office. One withdrawal at the wrong time can sink an extension and force a costly restart or an agent solution.",
+    "why_it_works": "There is a large volume of 2026 Q&A threads about 800k seasoning and whether funds can be withdrawn, and sources disagree on periods. Agents sell filing and sometimes dubious money solutions, but nobody gives a live compliance status on your own account. Retirees already pay agents.",
+    "agent_plan": [
+      "Parses uploaded bank statements into a balance timeline checked against the office's rules.",
+      "Computes a green, amber or red status and the earliest safe date to use the funds.",
+      "Schedules bank letters and builds the extension document checklist."
+    ],
+    "human_part": "You verify each immigration office's rules with users and keep the tool to monitoring, never arranging funds schemes.",
+    "content_angle": "A Facebook retiree-group post such as 'The one withdrawal that can restart your 800k seasoning'.",
+    "first_steps": [
+      "Collect rule descriptions from five retirees at two immigration offices and compare them.",
+      "Build a statement upload that charts balance against the seasoning period.",
+      "Offer it free to a retiree group and record which rules people dispute."
+    ],
+    "price_hint": "THB 990/year; THB 290 checklist",
+    "watch_out": "Seasoning and post-approval rules are applied at officer discretion and reported inconsistently, so the rules database needs crowd verification.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-010",
+    "name": "Certified Translation Runner",
+    "one_liner": "An online service for fixed-price certified Thai-English translations and MFA legalisation runs for visa and licence papers.",
+    "problem": "Marriage registrations, visa extensions, licence conversions and bank applications often need certified Thai translations and Ministry of Foreign Affairs legalisation. People queue at shops of uneven quality, pay unclear fees and lose days when a translation is rejected over a name spelling or stamp.",
+    "why_it_works": "Marriage-visa and licence-conversion guides list certified translations as standard requirements, and one 2026 guide notes embassies stopped providing licence translations. Shops are offline and inconsistent, and freelancers cannot certify or run legalisation.",
+    "agent_plan": [
+      "Produces a first-draft translation of each uploaded document.",
+      "Keeps names transliterated consistently across all of a customer's documents.",
+      "Sends order status updates through LINE and books MFA runner slots."
+    ],
+    "human_part": "You rely on certified human translators and a Thai partner for legalisation runs, since AI drafts cannot be certified.",
+    "content_angle": "A Google Maps listing and SEO pages such as 'Certified translation for Thai marriage documents near Chaeng Watthana'.",
+    "first_steps": [
+      "Sign up two certified translators and agree prices per page and turnaround.",
+      "Build an upload-and-quote page with a LINE order tracker.",
+      "Run your first orders through visa agents and wedding planners by referral."
+    ],
+    "price_hint": "THB 500/page; THB 1,200 legalisation runner",
+    "watch_out": "The moat is thin, and it works best bundled with other services rather than as a standalone brand.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT",
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 50,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-011",
+    "name": "eWorkPermit SME Desk",
+    "one_liner": "A Thai-language tool that helps small employers track and file work permits for foreign staff on the e-WorkPermit system.",
+    "problem": "Since 13 October 2025 permits, renewals and cancellations must be filed on the e-WorkPermit platform, which had launch problems. Small employers with a few foreign staff have no HR team, and pay law firms THB 10,000-30,000 per permit (est.).",
+    "why_it_works": "Government and EY announcements confirm the mandatory platform, and Fragomen reported interim manual filings because of delays. Large firms serve corporates, while small businesses get expensive per-case service and no ongoing compliance calendar. SMEs already pay law firms.",
+    "agent_plan": [
+      "Keeps visa, permit and extension dates for each foreign employee in one calendar.",
+      "Checks the company's capital and Thai-staff ratio against permit requirements.",
+      "Prepares the document set for the portal and sends renewal reminders ahead of expiry."
+    ],
+    "human_part": "You sell to Thai SME owners, ideally with a Thai co-founder, and rely on a licensed partner agency for filings.",
+    "content_angle": "A LINE and Facebook post to language-school owners such as 'Your teacher's work permit expires in 60 days: a checklist'.",
+    "first_steps": [
+      "Interview five SME owners about their last permit renewal and its cost.",
+      "Build a compliance calendar with renewal reminders for foreign employees.",
+      "Offer the calendar free to three schools and confirm what documents the portal wants."
+    ],
+    "price_hint": "THB 290/foreign employee/month",
+    "watch_out": "The portal's current stability in late 2026 was not verified, and if it now works smoothly the value shifts to the calendar.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "work_careers",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "replace_salary",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-012",
+    "name": "Entry Stamp Ledger",
+    "one_liner": "An app that tracks your permitted stay and land-border entries under Thailand's new 30-day visa-exempt rules.",
+    "problem": "From 15 September 2026 Thailand replaced the 60-day exemption with a 30-day exemption for fewer countries and generally limits visa-exempt land entries to two per calendar year. Long-stay visitors who relied on 60+30 days risk overstay fines and entry refusals, and reports differ on which rule applies.",
+    "why_it_works": "TAT, TTG Asia and Thai embassies announced the change, though country counts differ between sources. Embassy pages are free, but no tool tracks stamp-level history plus land-entry caps. Willingness to pay is low, so it works best as a funnel into a DTV tool.",
+    "agent_plan": [
+      "Reads entry stamp photos and extracts dates.",
+      "Computes permitted-stay dates and land-entry counts for the user's nationality.",
+      "Sends overstay and entry-limit warnings and drafts trip options."
+    ],
+    "human_part": "You check each rule against official notices yourself, and must never advise on getting around the limits.",
+    "content_angle": "TikTok and Reddit explainers such as 'The two land entries per year rule: how to count yours'.",
+    "first_steps": [
+      "Read the official notice and write the stay rules for five nationalities as a table.",
+      "Build a stamp-date entry form that computes days left and land entries used.",
+      "Post the tracker in two Thailand groups and ask users which rules confuse them."
+    ],
+    "price_hint": "Free tracker; THB 79/month for alerts",
+    "watch_out": "Whether the 30-day exemption can be extended once is reported by some sources but not stated in the TAT notice.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-013",
+    "name": "Juristic Office Scorecard",
+    "one_liner": "A bilingual review site rating Bangkok condo juristic offices on repairs, fees, security and rules, by verified residents.",
+    "problem": "Two similar condos can differ widely depending on the juristic office: slow repairs, fees raised without a vote, and developer-controlled committees. Listing portals show photos and prices but nothing on management quality, so buyers and tenants find out after signing.",
+    "why_it_works": "Thai press and legal sites document common-fee disputes and developer-controlled juristic persons, and complaints are scattered across Pantip and Facebook. Portals review units rather than management, and resident apps are closed. A verified dataset could be licensed to agents and developers.",
+    "agent_plan": [
+      "Verifies residents from uploaded utility bills or receipts, then deletes the documents.",
+      "Moderates comments and summarises structured scores into per-building pages.",
+      "Seeds building pages from public project lists and builds comparison views."
+    ],
+    "human_part": "You manage defamation risk with a takedown and right-of-reply process, and sell claimed pages and data to management firms.",
+    "content_angle": "SEO pages and TikTok reviews such as 'Which Bangkok condo juristic offices fix repairs fastest?'.",
+    "first_steps": [
+      "Create pages for 20 buildings from public project lists with a simple rating form.",
+      "Recruit verified residents in Facebook condo groups to rate their building.",
+      "Draft the right-of-reply and takedown policy before publishing any scores."
+    ],
+    "price_hint": "Free to read; THB 1,990/month claimed page",
+    "watch_out": "Reviews are slow to accumulate, and Thai defamation law creates real liability for a review platform.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "tech"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-014",
+    "name": "Move In Condition Report",
+    "one_liner": "A LINE app that records a rental's condition at move-in with signed photos and starts a deposit-return countdown.",
+    "problem": "Deposit disputes are among the most common complaints tenants have about Bangkok landlords, with vague deductions or vanished deposits. A 2025 consumer notification requires return within 7 days (14 with damage) for lessors with three or more units, but tenants rarely have move-in proof.",
+    "why_it_works": "A Pattaya Mail legal case and a long ASEAN NOW thread show the problem, and a Tilleke summary documents the 7/14-day rule. Phone photos are not signed or structured, and SuperAgent covers only its own listings. A both-party signed bilingual report is specific.",
+    "agent_plan": [
+      "Guides the tenant through a room-by-room checklist and describes damage in photos.",
+      "Produces a tamper-evident bilingual PDF after the landlord signs.",
+      "Compares move-out photos side by side and starts the deposit countdown with reminders."
+    ],
+    "human_part": "You make sure the app states which law applies, since the 2025 notification covers only landlords with three or more units.",
+    "content_angle": "TikTok and Facebook move-in tips such as 'Five photos that get your deposit back in Bangkok'.",
+    "first_steps": [
+      "Build a room-by-room checklist as a LINE form with photo upload.",
+      "Generate a bilingual signed PDF and test it with two landlords.",
+      "Share the free checklist in expat and condo rental groups and track completions."
+    ],
+    "price_hint": "Free checklist; THB 199 signed report",
+    "watch_out": "The notification covers only lessors with three or more units, limiting leverage against single-condo owners.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-015",
+    "name": "Small Landlord Compliance Kit",
+    "one_liner": "A Thai-first tool for small landlords with lease templates, official-tariff utility bills and deposit tracking under the 2025 rules.",
+    "problem": "A 2025 consumer notification extended lease rules to landlords with three or more units, requiring prescribed contracts, banning utility charges above official tariffs and setting 7/14-day deposit returns. Many small owners are now regulated without knowing it, and charging THB 7-8 per unit of electricity is a ready complaint.",
+    "why_it_works": "Tilleke and Price Sanond summaries confirm the lowered threshold and the utility ban. Apartment apps target dormitories and large buildings, so condo owners with a few units lack a compliant lightweight tool. Landlords already pay for rent-collection apps.",
+    "agent_plan": [
+      "Generates the prescribed Thai and English contract for each unit.",
+      "Reads meter photos and computes bills at the official tariff.",
+      "Issues PromptPay invoices and tracks deposit-return deadlines."
+    ],
+    "human_part": "You have a Thai lawyer review the templates, keep them in sync with updates, and sell to landlords, ideally with a Thai co-founder.",
+    "content_angle": "YouTube and TikTok property-investor videos such as 'The 2025 lease rules every condo landlord must follow'.",
+    "first_steps": [
+      "Have a Thai lawyer review the prescribed contract and write the plain-Thai summary.",
+      "Build a meter-photo bill calculator with a PromptPay QR invoice.",
+      "Offer it free to ten landlords in an investor group and collect objections."
+    ],
+    "price_hint": "THB 59/unit/month; starter THB 149/month",
+    "watch_out": "Terms came from a law-firm summary, not the Royal Gazette text, and enforcement on small landlords is unknown.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-016",
+    "name": "Soi Flood History Map",
+    "one_liner": "A map and report service showing building- and soi-level flood history in Bangkok before you rent or buy.",
+    "problem": "Bangkok floods unevenly, and official data lists risk points by district, not by soi or building. Renters and buyers learn that the car park or lobby floods every rainy season only after moving in.",
+    "why_it_works": "Press has warned of flood-risk areas and a major Bangkok flood risk by the early 2030s. Official maps are district-level, and nobody keeps per-building flood history for renters. Crowd photos add data each season, which is hard to copy.",
+    "agent_plan": [
+      "Combines public flood-risk data and satellite extents into map layers.",
+      "Classifies resident flood photos and estimates depth with a date stamp.",
+      "Builds a flood history page and PDF report per building."
+    ],
+    "human_part": "You moderate evidence photos against defamation risk and sell data to agents and insurers.",
+    "content_angle": "TikTok storm videos and SEO pages such as 'Does your Bangkok condo flood? Check the soi history'.",
+    "first_steps": [
+      "Map public flood-risk points for two districts and write a sample building report.",
+      "Collect resident flood photos with dates through a LINE form after the next storm.",
+      "Publish the building pages and ask residents to correct or add reports."
+    ],
+    "price_hint": "Free map; THB 149 building report",
+    "watch_out": "Source counts of flood-risk points conflict, and it depends on seeding enough crowd reports in the first rainy season.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "tech"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-017",
+    "name": "Building Air Noise Index",
+    "one_liner": "Per-building PM2.5 and noise scores from low-cost sensors in volunteer units combined with public air data.",
+    "problem": "Bangkok's PM2.5 regularly exceeds safe levels in some districts in the dry season, and construction and traffic make noise a top condo complaint. Official monitors are by district, so a tenant cannot compare buildings, and families with children or asthma choose units blind.",
+    "why_it_works": "Reports in 2026 repeatedly show PM2.5 above standards, and condo noise disputes appear in ASEAN NOW and Geonoise. Existing air data is station-level and noise data is consultancy-only. Unit-level data would be hard to copy but needs a physical sensor network.",
+    "agent_plan": [
+      "Calibrates sensor readings against public air stations and flags anomalies.",
+      "Aggregates readings into building and floor-orientation scores and seasonal reports.",
+      "Writes building pages with night-time noise percentiles and nearby construction."
+    ],
+    "human_part": "You source and ship sensors, handle radio-device approval with a Thai partner, and recruit volunteer hosts.",
+    "content_angle": "Facebook parent-group posts such as 'Which Bangkok buildings have the cleanest air at night?' using sensor charts.",
+    "first_steps": [
+      "Check NBTC approval rules for Wi-Fi sensors with a distributor.",
+      "Place sensors in five friendly units and compare them with the nearest public station.",
+      "Publish one building report and ask parent groups which buildings to cover next."
+    ],
+    "price_hint": "Sensor THB 1,990; building report THB 199",
+    "watch_out": "Hardware cold start and low consumer willingness to pay are the main risks.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "property"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-018",
+    "name": "Foreign Quota Tracker",
+    "one_liner": "A platform recording foreign-quota availability by condo building, with a transfer checklist for foreign buyers.",
+    "problem": "Foreigners can own condo freehold only within the 49% foreign quota, and must bring funds from abroad with the right FET form or the Land Office refuses registration. Buyers often learn at transfer that the quota is full or that their funds lacked the right purpose code.",
+    "why_it_works": "Thaiger, PropertyScout and legal guides cover the 49% rule and FET, and agents say 'quota available' without evidence. No neutral, time-stamped quota dataset exists. Buyers spend millions of baht, so a check fee is small by comparison.",
+    "agent_plan": [
+      "Parses juristic-office quota letters into a time-stamped building database.",
+      "Tracks each buyer through the transfer steps with reminders for documents.",
+      "Drafts Thai and English document templates for lawyers to review."
+    ],
+    "human_part": "You work with licensed Thai lawyers for legal work and request quota letters, and you never help with nominee structures.",
+    "content_angle": "SEO pages such as 'Is there foreign quota left in [condo name]?' with a dated quota status.",
+    "first_steps": [
+      "Collect quota status for ten popular condo buildings from agents and letters.",
+      "Publish a dated building page with confidence levels and a quota-check request form.",
+      "Run the first paid checks by hand and note which juristic offices refuse."
+    ],
+    "price_hint": "Free search; THB 990 verified quota check",
+    "watch_out": "FET details came from law-firm blogs, and juristic offices may refuse quota letters to non-owners.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-019",
+    "name": "Building Approved Fixers",
+    "one_liner": "A repair marketplace listing technicians already approved by your condo's juristic office, booked in English or Thai.",
+    "problem": "Getting aircon, plumbing or electrical work done in a Bangkok condo means finding a technician, clearing building rules and negotiating price, often via an absent landlord. Expats get quoted tourist prices and no-shows, and generic apps ignore building rules or who pays.",
+    "why_it_works": "Seekster raised seed funding to move into condominiums, and SuperAgent's guide names Seekster, Fixzy and BeNeat as go-to apps, so people already buy this. Existing apps do not book technicians registered with a specific building or handle landlord approval.",
+    "agent_plan": [
+      "Maintains building pages with each juristic office's contractor rules and work hours.",
+      "Sends landlords a one-tap LINE approval request for each booked job.",
+      "Logs before and after photos to each unit's job history."
+    ],
+    "human_part": "You recruit technicians building by building, sign juristic offices up, and need a Thai partner entity for payments.",
+    "content_angle": "Facebook building-group posts such as 'Approved aircon cleaners for your condo, fixed price, no juristic paperwork'.",
+    "first_steps": [
+      "Pick one building and get its contractor rules from the juristic office.",
+      "Sign up three technicians and publish fixed prices for aircon cleaning and drains.",
+      "Offer bookings to residents in that building's group and handle the first jobs yourself."
+    ],
+    "price_hint": "Jobs THB 600-3,500; 15% commission",
+    "watch_out": "Supply onboarding per building is slow, and the revenue share with juristic offices must be disclosed to co-owners.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "marketplace",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 4,
+      "goals": [
+        "scale"
+      ],
+      "backgrounds": [
+        "property",
+        "sales_ops"
+      ],
+      "agent_share": 45,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-020",
+    "name": "Pre Transfer Inspection Market",
+    "one_liner": "A marketplace to compare and book condo defect inspectors before transfer, with a standard report and developer fix tracking.",
+    "problem": "Thai buyers of new condos increasingly hire inspectors before transfer, but quality ranges widely, prices are opaque and reports have no standard format. Afterwards buyers chase developers over LINE for fixes, and many report incomplete fixes at transfer.",
+    "why_it_works": "HomePro sells condo inspection by unit size, and Thai press reports buyers getting incomplete fixes. There is no comparison, standard report or shared defect tracking with the developer. Buyers already pay for inspections.",
+    "agent_plan": [
+      "Turns inspector photos and notes into a standard defect report with location and severity.",
+      "Sends the developer's after-sales team a link and tracks each fix with photos.",
+      "Aggregates defect counts by project into a build-quality index."
+    ],
+    "human_part": "You recruit and vet inspectors, check engineer licences, and persuade developers to take part in fix tracking.",
+    "content_angle": "Pantip and TikTok posts such as 'What a pre-transfer inspection found in a new condo, and what the developer fixed'.",
+    "first_steps": [
+      "Recruit two inspectors and agree a standard report format and prices by unit size.",
+      "Build the report template and fix-tracking link and test it on one inspection.",
+      "Offer the first inspections in a project-buyer Facebook group."
+    ],
+    "price_hint": "THB 3,500-8,000 per inspection; 15% fee",
+    "watch_out": "Developer participation in fix tracking is uncertain, and market price levels across independent inspectors were not verified.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale"
+      ],
+      "backgrounds": [
+        "property"
+      ],
+      "agent_share": 50,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-021",
+    "name": "Condo Co Owner AGM Kit",
+    "one_liner": "A tool for condo co-owners to benchmark common fees, pool proxies and run AGM votes against their juristic office.",
+    "problem": "Fees, budgets and the management company are decided at the owners' meeting, but in many buildings the developer controls the committee and most owners never attend. Owners cannot reach each other because the juristic office holds the contact list, and have no benchmark for whether a fee is fair.",
+    "why_it_works": "Legal Q&A sites and a Thairath interview document fees raised without resolutions and developer-controlled juristic persons. Existing resident apps are run by the juristic office, so nothing is owner-side and independent. The AGM kit gives owners their voice.",
+    "agent_plan": [
+      "Explains Condominium Act meeting rules in Thai and English.",
+      "Drafts agenda motions and questions about the accounts.",
+      "Collects proxy forms digitally and tracks meeting resolutions."
+    ],
+    "human_part": "You verify owners and keep paper proxies available where law requires them, and it is not legal advice.",
+    "content_angle": "Facebook and Pantip posts such as 'Your common fee went up. Here are your rights at the owners' meeting'.",
+    "first_steps": [
+      "Write a plain-language guide to the AGM and proxy rules and have a Thai lawyer check it.",
+      "Build an owner sign-up page with a shared fee-benchmark form.",
+      "Recruit one building's owner group as a pilot and help them prepare an AGM."
+    ],
+    "price_hint": "THB 2,990/building/year, split among owners",
+    "watch_out": "Collective-action products struggle to make money, and it may fit better as a premium feature of a building review site.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-022",
+    "name": "Utility Overcharge Checker",
+    "one_liner": "A free LINE tool where renters photo their meter and bill to see if the landlord charges above official tariffs.",
+    "problem": "Thai renters are routinely billed THB 7-8 per electricity unit and flat water fees above official tariffs. The 2025 consumer notification bans this for landlords with three or more units, but tenants do not know the rule, cannot compute the tariff and fear conflict.",
+    "why_it_works": "Tilleke and Price Sanond describe the ban on above-tariff utility charges, and Bangkok Post reported landlords calling earlier rules impractical, suggesting widespread overcharging. No consumer tool links the meter photo, official tariff and rule in one step.",
+    "agent_plan": [
+      "Reads meter and bill photos and extracts readings.",
+      "Computes the official-tariff bill including Ft and VAT and shows the difference.",
+      "Drafts a polite Thai message to the landlord and a pre-filled complaint."
+    ],
+    "human_part": "You keep the rule-applicability checks accurate, since dormitories are excluded, and make clear complaint templates are not legal advice.",
+    "content_angle": "TikTok consumer-rights clips in Thai such as 'Is your landlord charging THB 8 per unit? Check in 30 seconds'.",
+    "first_steps": [
+      "Write the tariff calculation for one province and test it on five real bills.",
+      "Build the LINE flow from meter photo to difference and polite message.",
+      "Post a short TikTok showing the check and measure how many people use it."
+    ],
+    "price_hint": "Free check; THB 49 premium letter pack",
+    "watch_out": "Monetisation is weak alone, and it is strongest as an acquisition funnel for landlord and building tools.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-023",
+    "name": "Rental Listing Verifier",
+    "one_liner": "A LINE service that checks a Bangkok rental listing for photo reuse and owner match before you pay a deposit.",
+    "problem": "Fake condo listings use stolen or AI-generated photos and low prices to collect a holding deposit and vanish. Newcomers cannot judge market rents and are pressured to pay before viewing, and victims lose THB 10,000-60,000 (est.).",
+    "why_it_works": "2026 guides describe AI-generated photos, fake LINE agents and double-booking scams, and an expat.com thread shows a tenant who paid for a unit that was not available. SuperAgent verifies only its own listings, so nobody checks listings found elsewhere.",
+    "agent_plan": [
+      "Reverse-searches listing photos across major portals and flags AI-generated images.",
+      "Compares the asking price with recent rents in that building.",
+      "Checks agent phone and LINE IDs against reported scam identifiers."
+    ],
+    "human_part": "You request owner confirmation from juristic offices, use a licensed payment partner for any escrow, and share scam reports only as 'reported' with evidence.",
+    "content_angle": "TikTok scam-awareness clips such as 'Five signs this Bangkok rental listing is fake', pointing to the free scan.",
+    "first_steps": [
+      "Check 20 recent rental listings by hand and note which signals caught the fakes.",
+      "Build the photo reverse-search and price comparison into a LINE bot.",
+      "Ask Facebook rental group admins to pin the checker and confirm how common scams are."
+    ],
+    "price_hint": "Free scan; THB 299 owner verification",
+    "watch_out": "Scam evidence mostly comes from a competitor's blog, so prevalence should be validated before building escrow.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-024",
+    "name": "Family Scam Guard",
+    "one_liner": "A LINE bot that checks suspicious messages your parents forward and alerts family when a likely scam is found.",
+    "problem": "Whoscall recorded around 173 million scam calls and SMS in Thailand in 2025, and gangs impersonating police target older people who transfer savings under fear. Elderly foreign retirees face English-language and romance scams. Adult children usually find out after the money is gone.",
+    "why_it_works": "Whoscall's 2025 report and GASA estimates show the scale of the problem. Whoscall identifies numbers but does not alert family or explain chats, and banks act only at transfer time. Competition is heavy and free alternatives limit willingness to pay.",
+    "agent_plan": [
+      "Checks forwarded screenshots, SMS and links against known scam scripts.",
+      "Explains the risk in plain Thai or English within seconds.",
+      "Alerts linked family members when risk is high and sends a weekly summary."
+    ],
+    "human_part": "You get the parent's consent for linking family, avoid any promise of guaranteed protection, and would need partners for B2B sales.",
+    "content_angle": "TikTok and Facebook family-safety clips such as 'Mum got this message about a parcel: what to check'.",
+    "first_steps": [
+      "Collect 50 real scam messages from friends' parents and test how well a bot classifies them.",
+      "Build a LINE forward-to-check flow with a family alert.",
+      "Offer it free to ten families and ask whether they would pay."
+    ],
+    "price_hint": "Free for 1 parent; THB 99/month family plan",
+    "watch_out": "Commoditisation is high and willingness to pay low, so it is viable mainly as a B2B benefit or a feature of a broader app.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-025",
+    "name": "Scam Victim Recovery Navigator",
+    "one_liner": "A bilingual first-hour checklist after a scam in Thailand covering bank freeze requests and a police report pack.",
+    "problem": "Whether money can be frozen depends on acting within hours: calling the bank, filing a police report and sending the case number to the bank. Victims, especially foreigners who do not read Thai, panic, call the wrong numbers or fall for recovery agents who scam them again.",
+    "why_it_works": "Thai media cite police figures of about 250,000 online-crime cases and THB 32 billion lost in 2025, so the number of victims is large. Official channels are Thai-language and fragmented, and nobody guides victims across bank and police in the first hours.",
+    "agent_plan": [
+      "Asks the scam type and payment method and builds a timed checklist.",
+      "Drafts Thai call scripts for the bank and fills in the police report fields.",
+      "Assembles chat exports and transfer slips into one bilingual evidence PDF."
+    ],
+    "human_part": "You confirm hotline numbers and police reporting steps before launch, use Thai-speaking assistants and lawyers for paid help, and never promise recovery.",
+    "content_angle": "SEO pages in Thai and English such as 'Transferred money to a scammer? What to do in the first hour'.",
+    "first_steps": [
+      "Confirm the current police online-report steps and bank hotline numbers directly.",
+      "Write the first-hour checklist for three scam types and test it with a Thai speaker.",
+      "Publish it free and measure which scam type draws the most visitors."
+    ],
+    "price_hint": "Free checklist; THB 990 assisted case",
+    "watch_out": "Police reporting URL and hotline numbers were not verified and must be confirmed before launch.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  }
+]

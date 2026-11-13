@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "GL-001",
+    "name": "BNPL Stack Tracker",
+    "one_liner": "An app that puts every Affirm, Klarna and Afterpay plan on one calendar and helps with stalled refunds, for people with several plans.",
+    "problem": "Buy-now-pay-later users often hold several plans at once, each with its own app, due date and late-fee policy. LendingTree found 42% of BNPL users had paid late, and about a quarter of those were charged a fee or interest.",
+    "why_it_works": "Lender apps only show their own loans, and budget apps rarely capture BNPL installment schedules. The CFPB withdrew its BNPL rule in 2025, so refund and dispute rights depend on each lender's own terms. The CFPB complaint database logged 12,444 complaints against Affirm since January 2025.",
+    "agent_plan": [
+      "Reads order-confirmation and lender emails and builds one ledger of lender, merchant, installments and due dates.",
+      "Warns when several installments land in the same week as rent or a payday gap.",
+      "Drafts a refund or dispute letter from the lender's published terms and tracks the deadline."
+    ],
+    "human_part": "You handle Google inbox-access verification, consent wording and the decision on what the app must never advise, such as which debts to skip.",
+    "content_angle": "Short TikTok or Instagram videos showing one shopper's four BNPL plans on a single calendar, plus search pages for 'Affirm refund not received'.",
+    "first_steps": [
+      "Collect 10 real BNPL confirmation emails and test whether an AI can extract every plan, date and amount correctly.",
+      "Build a forward-to-address version that needs no inbox permission, and offer it to 5 heavy BNPL users.",
+      "Post one 'what I really owe' video and count waitlist signups before building the dispute feature."
+    ],
+    "price_hint": "Free for 2 plans; $4.99/month Pro",
+    "watch_out": "Google's restricted-scope verification for reading inboxes may cost time and money, so the forward-to-address fallback matters.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-002",
+    "name": "Auto Add-On Refund Finder",
+    "one_liner": "A service that finds the refunds owed on car add-ons like GAP and service contracts when a loan ends early, for US car owners.",
+    "problem": "Car buyers often finance GAP waivers, service contracts and similar packages that can add thousands to the loan (est.). When the loan is paid off early, refinanced or the car is totaled, most owe a prorated refund that the buyer usually has to request, often before a deadline.",
+    "why_it_works": "The CFPB's auto-finance review found refund miscalculations and delays of up to 664 days. Lenders publish 'how to get a GAP refund' guides because consumers must start the claim. No consumer tool lists every add-on in a contract and chases each administrator to payout.",
+    "agent_plan": [
+      "Reads the uploaded contract and lists every add-on, its administrator, price and cancellation clause.",
+      "Calculates the expected pro-rata or Rule-of-78 refund from the payoff, trade-in or total-loss date.",
+      "Fills each administrator's cancellation form, sends it by tracked mail or email, and schedules follow-ups."
+    ],
+    "human_part": "You need a lawyer to review contingency-fee rules state by state, and you decide how to handle admins that ignore requests.",
+    "content_angle": "SEO pages and Reddit answers on 'GAP refund after payoff', plus short videos walking through a real contract's add-on list.",
+    "first_steps": [
+      "Find 5 recent car-loan payoffs among friends or Reddit posters and check what add-on refunds were owed.",
+      "Build a refund estimator from a photographed contract and test it against those 5 cases.",
+      "Ask a consumer-finance lawyer whether a flat fee is safer than a percentage of the refund."
+    ],
+    "price_hint": "Free estimate; 20% of refund (min $29, cap $250)",
+    "watch_out": "State debt-adjuster or claims-recovery rules may limit contingency pricing, and a flat fee may be the safer default.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-003",
+    "name": "Dealer Add-On Check",
+    "one_liner": "A mobile web app that reads the car dealer's paperwork at the desk and flags optional add-ons and fees, for US car buyers.",
+    "problem": "In the finance office, buyers face pre-loaded packages, nitrogen tires and etch products under time pressure late in a long visit. The buyer's order and contract are dense and few buyers know which items are optional.",
+    "why_it_works": "A federal court vacated the FTC's CARS Rule in January 2025, which removed federal add-on protections. Price guides cover the car's price, not finance-office line items, and none reads the actual contract at the desk. The CFPB complaint database shows 41,926 vehicle loan and lease complaints since January 2025.",
+    "agent_plan": [
+      "Reads photos of the buyer's order, menu and draft contract and extracts every fee and product.",
+      "Labels each line as government-mandated, standard dealer fee or optional add-on.",
+      "Checks that APR, term and amount financed in the contract match what the buyer was quoted."
+    ],
+    "human_part": "You seed and maintain the price database, track each state's document-fee rules, and keep privacy rules for the photos.",
+    "content_angle": "Search pages on 'is this dealer fee legit' and YouTube or Reddit answers that break down a real buyer's order line by line.",
+    "first_steps": [
+      "Collect 10 anonymized buyer's orders from Reddit or friends and test a line-item classifier on them.",
+      "Launch a one-page mobile web test where people upload a photo and get a labeled fee list.",
+      "Pitch two credit unions on a white-label version inside their auto-loan flow."
+    ],
+    "price_hint": "$9.99 per scan; $19 deal-day pass",
+    "watch_out": "A general AI assistant can already read a photo, so your edge is dealer-level price benchmarks you still have to build.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "mobility"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-004",
+    "name": "Solar Quote Reality Check",
+    "one_liner": "A paid review of a solar proposal or loan that finds hidden dealer fees and outdated tax-credit claims, for US homeowners.",
+    "problem": "Rooftop solar is still sold door to door, and the CFPB says dealer fees can be hidden in the loan principal and raise costs by 30% or more over the cash price. Many pitches still assume a 30% federal credit that ended for systems placed in service after December 31, 2025.",
+    "why_it_works": "Solar marketplaces generate new quotes and earn installer fees, but they do not audit an existing contract's financing or tax-credit claims. The CFPB issued a consumer advisory on the markups, and older sales scripts are now misleading.",
+    "agent_plan": [
+      "Extracts system size, cash price, amount financed, APR and escalators from an uploaded proposal or loan.",
+      "Calculates the implied dealer fee and rebuilds payback using the home's ZIP, tariff and production data.",
+      "Flags red items such as expired tax-credit claims and drafts a cash-price request letter."
+    ],
+    "human_part": "You keep tariff and incentive data current and disclose any installer referral fees clearly.",
+    "content_angle": "Search pages for 'is my solar quote fair' and posts in neighborhood Facebook and Nextdoor groups with a redacted example review.",
+    "first_steps": [
+      "Ask 5 homeowners with solar proposals to share them and manually compute the implied dealer fee.",
+      "Build the extraction and payback model using NREL PVWatts and public utility tariff data.",
+      "Offer 10 paid single-proposal reviews in local groups and note what questions come up."
+    ],
+    "price_hint": "$49 per proposal; $89 to compare up to 3",
+    "watch_out": "Residential solar demand may be lower after the federal credit ended, so volume could be below earlier years.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-005",
+    "name": "Orphaned Solar Helper",
+    "one_liner": "A service that traces who now owns your solar loan and warranty after the installer failed, for US homeowners.",
+    "problem": "Sunnova filed for Chapter 11 in June 2025 and PosiGen followed in late 2025, leaving homeowners with panels whose installer, servicer or warranty provider is gone or changed. In Connecticut the Attorney General received more than 60 complaints about the successor servicer and opened an investigation.",
+    "why_it_works": "Successor servicers have conflicting incentives, and directories do not trace loan or warranty ownership or prepare manufacturer claims. Customer Facebook groups give you a place to reach affected owners directly.",
+    "agent_plan": [
+      "Reads the uploaded contract and bills and identifies the original lender and current servicer.",
+      "Looks up which panel, inverter and battery warranties the manufacturer still honors by serial number.",
+      "Drafts warranty claims and servicer dispute letters and prefills attorney general complaints."
+    ],
+    "human_part": "You recruit and vet licensed local technicians, and refer lease-rescission cases to consumer attorneys.",
+    "content_angle": "Posts in Sunnova and PosiGen customer Facebook groups and search pages on 'what happens to my panels after bankruptcy'.",
+    "first_steps": [
+      "Join two affected-customer Facebook groups and count how many owners ask about warranty or servicer problems.",
+      "Trace 5 volunteers' contracts by hand to learn where ownership records can be found.",
+      "Start in one or two heavy states and test a $39 diagnosis with a few owners."
+    ],
+    "price_hint": "$39 diagnosis; $99 full case management",
+    "watch_out": "Demand depends on how many more installers fail, and the technician side needs state-licensed contractors.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-006",
+    "name": "Non-Renewal Rescue",
+    "one_liner": "A tool that checks your home insurance non-renewal notice and compares your options, for US homeowners dropped by insurers.",
+    "problem": "In wildfire and hurricane states insurers are dropping homeowners in large numbers. Many owners must decide on a last-resort policy or a takeout offer with little understanding of the coverage gaps or their rights.",
+    "why_it_works": "California's FAIR Plan grew to 698,307 policies by September 2026, up 157% from 2022, and Florida's Citizens moved from about 1.4 million to about 255,000 policies mostly via takeouts. Agents and quoting sites sell replacement policies, but none checks whether the notice was compliant.",
+    "agent_plan": [
+      "Reads the uploaded notice, declarations page and escrow letter and extracts limits, deductibles and deadlines.",
+      "Checks the notice against the state's timing and required-reason rules.",
+      "Drafts a reconsideration request and builds a side-by-side of last-resort, surplus and takeout options."
+    ],
+    "human_part": "You either get a producer licence or route every quote to licensed partner agents within your state's referral-fee limits.",
+    "content_angle": "Search pages on 'non-renewal notice what to do' and posts in wildfire-recovery and Nextdoor groups.",
+    "first_steps": [
+      "Decide early between getting a P&C producer licence and a pure referral model by checking your state's rules.",
+      "Review 5 real non-renewal notices by hand and list the common coverage gaps.",
+      "Run a $29 notice review with homeowners from local groups in California or Florida."
+    ],
+    "price_hint": "$29 notice review; free via agent quote",
+    "watch_out": "Producer licensing and referral-fee rules differ by state, and you must choose early between licensing yourself or partnering.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-007",
+    "name": "Mitigation Discount Filer",
+    "one_liner": "A guided photo app that proves your home upgrades to your insurer so you get the discount, for homeowners in California and Florida.",
+    "problem": "California now requires insurers to give discounts for Safer from Wildfires actions, and Florida's My Safe Florida Home program offers free wind-mitigation inspections. Yet many homeowners who did the work never get the discount because insurers need specific evidence.",
+    "why_it_works": "Inspectors produce one form for one moment, and nobody tracks whether carriers apply the credit at every renewal. The California Insurance Commissioner has said every Safer from Wildfires action qualifies for a discount. Insurers have no incentive to build this tool.",
+    "agent_plan": [
+      "Checks each guided photo of roof, vents, eaves and windows against the state program's requirements.",
+      "Flags missing items and estimates the discount value of each remaining fix.",
+      "Assembles an insurer-ready evidence packet and checks the renewal page for applied credits."
+    ],
+    "human_part": "You partner with licensed inspectors for the signed wind-mitigation form and handle contractor relationships.",
+    "content_angle": "Search pages on 'Safer from Wildfires discount how to get' and posts in Firewise and local homeowner groups.",
+    "first_steps": [
+      "Confirm the actual credit amounts carriers give for Safer from Wildfires, since small credits change the model.",
+      "Turn one state's checklist into a guided photo flow and test it with 5 homeowners.",
+      "Contact two licensed inspectors about a partnership for the signed-form step."
+    ],
+    "price_hint": "$39 packet; $5/month renewal keeper",
+    "watch_out": "If the actual carrier credits are small, the product may need to lead with contractor leads instead.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-008",
+    "name": "Subsidy Cliff Guard",
+    "one_liner": "A planner that tracks your income against the ACA subsidy cliff month by month, for self-employed and early-retired US households.",
+    "problem": "The enhanced ACA premium tax credits expired at the end of 2025, which brought back the hard cliff at 400% of the poverty line, where all subsidy disappears. People with variable income may only discover they crossed it at tax time.",
+    "why_it_works": "Calculators give a one-time estimate, planners do not model ACA income month by month, and accountants see the problem only after year-end. IRS guidance confirms that excess subsidy repayment limits are removed for tax years beginning after December 31, 2025.",
+    "agent_plan": [
+      "Pulls bank, brokerage and invoice data and projects ACA-defined income month by month.",
+      "Shows distance to the cliff and alerts the user before a Roth conversion or freelance payment crosses it.",
+      "Prepares plain-language scenario summaries that an accountant can review for each client."
+    ],
+    "human_part": "You have a tax professional review the rules before launch and keep the rules updated as Congress acts.",
+    "content_angle": "Posts in early-retirement and Bogleheads-style communities and search pages on 'ACA subsidy cliff 2026'.",
+    "first_steps": [
+      "Check the latest status of the enhanced credit extension, since the cliff could disappear.",
+      "Build a spreadsheet version of the monthly income projection and test it with 5 early-retired people.",
+      "Ask 3 accountants whether a client-seat plan would help during planning season."
+    ],
+    "price_hint": "$12/month or $99/year",
+    "watch_out": "Policy cuts both ways, since a congressional extension of the enhanced credits would shrink the cliff problem.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-009",
+    "name": "HSA Receipt Vault",
+    "one_liner": "An app that stores your medical receipts, matches them to insurer statements and tracks what your HSA can repay you later.",
+    "problem": "More people follow the 'shoebox' strategy of paying medical bills out of pocket and reimbursing themselves tax-free from their HSA years later. That only works with records, and IRS rules require holders to keep them.",
+    "why_it_works": "HSAs held about 42.6 million accounts by mid-2026, and custodians store receipt images but do not match them to insurer statements or classify eligibility. A portable lifetime balance helps people who switch custodians.",
+    "agent_plan": [
+      "Reads receipts from photos or email and extracts provider, date, patient and the amount owed.",
+      "Matches each receipt to the related insurer statement to show the out-of-pocket amount was real.",
+      "Classifies each item for eligibility and flags uncertain ones for review."
+    ],
+    "human_part": "You maintain the eligibility rules library and keep tax-advice limits clear.",
+    "content_angle": "Posts in Bogleheads and HSA communities and search pages on 'HSA reimburse yourself later receipts'.",
+    "first_steps": [
+      "Interview 5 people who use the shoebox strategy about how they store receipts today.",
+      "Build a receipt and statement matcher and test it on your own medical paperwork.",
+      "Test the planner and B2B plan early, since willingness to pay is the weak point."
+    ],
+    "price_hint": "Free to 25 receipts; $39/year Family",
+    "watch_out": "Willingness to pay is the weak point because users are accustomed to free custodian tools.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "health"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-010",
+    "name": "Medicaid Hours Keeper",
+    "one_liner": "An app that gathers proof of work, school or volunteer hours for Medicaid recipients, sold to health plans and nonprofits.",
+    "problem": "Under the 2025 reconciliation law, Medicaid expansion adults in 44 states and DC must show work, school or community-service hours starting January 1, 2027, with 80 hours a month set in the statute. Recipients must collect scattered evidence to keep coverage.",
+    "why_it_works": "State portals accept uploads but do not help collect evidence, and other tools focus on SNAP balances. KFF tracks the requirements, and some states start earlier through waivers.",
+    "agent_plan": [
+      "Assembles qualifying hours from connected payroll data, pay stubs and school letters.",
+      "Builds monthly hour totals and reminds members before a reporting deadline.",
+      "Prepares the evidence packet each state's portal asks for."
+    ],
+    "human_part": "You run enterprise sales to health plans and nonprofits, and sign HIPAA agreements.",
+    "content_angle": "Posts and webinars for navigator nonprofits, clinics and health-plan outreach teams explaining the new hours rules.",
+    "first_steps": [
+      "Contact one navigator nonprofit in an early-implementing state and ask how clients document hours today.",
+      "Mock up the monthly hours view and test it with 5 navigators.",
+      "Read your target state's implementation rules and list what proof it accepts."
+    ],
+    "price_hint": "Free to members; MCO license per member per month",
+    "watch_out": "Enterprise sales cycles are long, HIPAA compliance is heavy, and the law could change.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "sales_ops"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-011",
+    "name": "Work Rule Exemption Kit",
+    "one_liner": "A tool that turns a patient's record into a Medicaid work-rule exemption packet for clinics and legal-aid groups to sign off.",
+    "problem": "Medicaid work requirements exempt people who are medically frail, caring for a young child or disabled person, or pregnant. The people who most need an exemption are least able to complete the paperwork.",
+    "why_it_works": "Nothing turns a patient's record into a state-specific exemption packet that a clinician can sign in minutes, and nothing tracks re-certifications. KFF has analyzed the CMS rule on medical frailty and a court decision easing the burden of proof.",
+    "agent_plan": [
+      "Asks plain-language questions in voice or text about conditions, treatments and caregiving.",
+      "Maps answers to the state's exemption categories and the federal medical-frailty definition.",
+      "Pulls diagnoses and visit history with consent and drafts the packet and re-certification reminders."
+    ],
+    "human_part": "A clinician must make and sign every attestation, and you build clinic and legal-aid relationships and sign HIPAA agreements.",
+    "content_angle": "Webinars and posts aimed at health-center and behavioral-health associations explaining exemption paperwork.",
+    "first_steps": [
+      "Speak with 3 clinic staff about how exemption paperwork is handled today.",
+      "Find a clinical advisor willing to review the exemption categories for one state.",
+      "Prototype a questionnaire that outputs a draft packet and test it with that advisor."
+    ],
+    "price_hint": "Free for individuals; clinic plan $199/month",
+    "watch_out": "Clinics may expect states to fund this rather than pay for it, so test willingness to pay early.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-012",
+    "name": "Medicare Plan Exit Navigator",
+    "one_liner": "A report that explains your rights and options when your Medicare plan is terminated, for beneficiaries and adult children.",
+    "problem": "KFF estimates about 4.3 million Medicare beneficiaries will have a Medicare Advantage or stand-alone drug plan terminated at the end of 2026. People get a letter and a short window to pick a new plan.",
+    "why_it_works": "Plan Finder does not explain termination versus consolidation rights or Medigap guaranteed issue. Brokers are paid by carriers, and state counseling programs have long waits in open enrollment. Terminated Medicare Advantage enrollees get Medigap guaranteed-issue rights but consolidated ones do not.",
+    "agent_plan": [
+      "Reads the uploaded notice, drug list and doctor names and classifies termination versus consolidation.",
+      "Works out special enrollment and Medigap guaranteed-issue windows for the person's state.",
+      "Checks the drug list and doctors against each available plan using public plan and formulary files."
+    ],
+    "human_part": "You offer the optional human review and send enrollment through Medicare.gov, since selling plans needs a licence.",
+    "content_angle": "Search pages on 'my Medicare Advantage plan is ending' and posts in caregiver Facebook groups.",
+    "first_steps": [
+      "Read the public plan and formulary files and prototype a drug-cost comparison for one state.",
+      "Offer free reports to 5 caregivers in Facebook groups and note which questions repeat.",
+      "Contact a local counseling program or senior center about a seat plan."
+    ],
+    "price_hint": "$49 per household; $99 with human review",
+    "watch_out": "Revenue is concentrated in the Oct-Dec enrollment season, and you must stay advisory without a selling licence.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "health",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-013",
+    "name": "Citizenship Trip Log",
+    "one_liner": "A tool that rebuilds your travel history from passports, emails and records for the US citizenship application.",
+    "problem": "Citizenship applicants must list every trip outside the US over the statutory period and show 30 months of physical presence within five years. Most green-card holders never kept a travel log, so they spend hours reconstructing dates.",
+    "why_it_works": "Form-prep services ask users to type trips themselves, and the I-94 lookup misses land crossings and has errors. No one reconciles several evidence sources into one timeline.",
+    "agent_plan": [
+      "Reads photos of passport stamps and airline emails and extracts departure and return dates.",
+      "Reconciles passport, I-94 and card statement evidence into one timeline.",
+      "Counts days abroad, flags gaps and contradictions, and produces a clean trip list for the application."
+    ],
+    "human_part": "You stay organizational, send legal questions to attorneys or accredited representatives, and handle passport images under strict privacy rules.",
+    "content_angle": "Search pages on 'N-400 trips outside the US how to find' and posts in immigrant community WhatsApp and Facebook groups.",
+    "first_steps": [
+      "Collect 5 volunteers' travel evidence and time how long a manual reconstruction takes.",
+      "Build a timeline from passport photos and I-94 PDFs and check it against volunteer records.",
+      "Contact two immigration attorneys about offering it to their clients."
+    ],
+    "price_hint": "$39 per applicant; $59 couple",
+    "watch_out": "Immigration advice can slip into unauthorized practice of law, so you must stay strictly organizational.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-014",
+    "name": "Total Price Watchdog",
+    "one_liner": "A browser extension that records hidden fees at ticket and short-term rental checkout and builds claim packets.",
+    "problem": "Since May 12, 2025, anyone selling live-event tickets or short-term lodging must show the total price up front. Compliance is uneven on smaller sites, with fees appearing late at checkout.",
+    "why_it_works": "Price tools show totals but do not document violations or produce chargeback and complaint packets, and no public drip-pricing compliance index exists. The rule covers only tickets and lodging, so the problem is narrow.",
+    "agent_plan": [
+      "Records the first advertised price and every fee added later, with screenshots.",
+      "Compares the checkout against the federal total-price rule and state laws.",
+      "Drafts a chargeback or complaint packet when a fee was not in the first price."
+    ],
+    "human_part": "You track the rule's legal status and handle any data sales with care around lawyer advertising rules.",
+    "content_angle": "Posts on concert and travel subreddits showing a real checkout where the price jumped, plus pitches to consumer journalists.",
+    "first_steps": [
+      "Record 20 checkout flows on ticket and rental sites and count how many break the total-price test.",
+      "Build a simple extension that logs first price and final price with a screenshot.",
+      "Test whether anyone pays $3.99 for a claim packet before building more."
+    ],
+    "price_hint": "Free alerts; $3.99/month Pro",
+    "watch_out": "Browsers and big ticket sites already show all-in prices, and consumer willingness to pay is weak.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "money"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-015",
+    "name": "Loan Servicer Error Audit",
+    "one_liner": "A paid audit that rebuilds your student-loan payment history to catch servicer errors, for US borrowers moving off SAVE.",
+    "problem": "The SAVE plan ended in 2026 and the new RAP plan launched July 1, 2026, with about 7 million former SAVE borrowers told to choose a new plan within roughly 90 days. A wrong plan placement can mean payments that do not count toward PSLF.",
+    "why_it_works": "Existing tools focus on choosing a plan or applying for forgiveness, not month-by-month reconciliation against servicer records, and attorneys are costly. The CFPB complaint database shows 38,243 student-loan complaints since January 2025.",
+    "agent_plan": [
+      "Reads the uploaded federal data file and servicer statements and rebuilds the expected payment history month by month.",
+      "Checks plan placement and which forbearance types count, and works out the expected RAP or IBR payment.",
+      "Drafts servicer dispute letters and tracks response deadlines."
+    ],
+    "human_part": "You keep the rules engine current, offer clear refunds, and send complex cases to attorneys.",
+    "content_angle": "Posts in teacher, nurse and public-defender communities and search pages on 'PSLF count wrong after SAVE'.",
+    "first_steps": [
+      "Audit 3 volunteers' loan files by hand and list the common error types.",
+      "Build the monthly history rebuild for one plan type using an uploaded data file.",
+      "Review federal rules on upfront fees for debt relief before setting any price."
+    ],
+    "price_hint": "$49 audit; $99 with 6 months of disputes",
+    "watch_out": "Upfront-fee rules for debt-relief services apply, and you must avoid looking like a loan-forgiveness scam.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "education"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "education"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-016",
+    "name": "Mortgage Payment Shrinker",
+    "one_liner": "An audit that rechecks your mortgage escrow math and PMI removal rights, for US homeowners with rising payments.",
+    "problem": "Rising homeowner insurance and property taxes have caused escrow shortages that raise monthly mortgage payments by hundreds of dollars (est.). Servicers' escrow analyses often use stale or wrong numbers.",
+    "why_it_works": "In the CFPB complaint database, escrow, taxes or insurance led the sub-issues with 8,619 of 26,478 mortgage payment complaints since January 2025. Servicers grade their own math, and property-tax appeal services do not audit escrow calculations.",
+    "agent_plan": [
+      "Reads the escrow statement, mortgage statement and bills and re-runs the escrow analysis under federal rules.",
+      "Checks the cushion limit, how the shortage is spread, and whether a lower premium or tax exemption applies.",
+      "Drafts a PMI removal request or a written error notice to the servicer."
+    ],
+    "human_part": "You stay off loan modification and loss mitigation, which carry their own fee rules, and have the fee structure reviewed.",
+    "content_angle": "Search pages on 'escrow shortage too high' and Reddit first-time-homebuyer answers with an anonymized audit example.",
+    "first_steps": [
+      "Collect 5 escrow statements from friends or forums and check them against the escrow cushion rule.",
+      "Build an upload flow that outputs a one-page audit and a draft letter.",
+      "Sell 10 $29 audits through Reddit answers and track how many find an error."
+    ],
+    "price_hint": "$29 escrow audit; $49 PMI removal kit",
+    "watch_out": "You must stay clear of mortgage assistance relief fee rules by not touching loss mitigation or loan modification.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-017",
+    "name": "Scam Transfer Claim Kit",
+    "one_liner": "A guided kit that helps scam victims build a bank claim and track deadlines, with honest limits on what can be recovered.",
+    "problem": "FTC data shows consumers reported losing more than $12.5 billion to fraud in 2024, and more was lost to scams paid by bank transfer or crypto than all other methods combined. Victims face bank forms that push them toward the 'authorized' framing.",
+    "why_it_works": "Bank forms push victims into 'authorized' framing, and free helplines give support and general guidance but no deadline tracking or drafting. The CFPB logged 20,767 fraud or scam money-transfer complaints between January 2025 and November 2026.",
+    "agent_plan": [
+      "Runs a guided interview and builds a timeline from statements and screenshots of texts or calls.",
+      "Sorts the case into unauthorized transfer, induced payment or card dispute and explains which rules apply.",
+      "Drafts the claim and escalation letters and tracks response deadlines."
+    ],
+    "human_part": "You build trust with nonprofits, credit unions and consumer attorneys, and must never promise recovery.",
+    "content_angle": "Search pages on 'bank denied Zelle fraud claim' and partnerships with elder-fraud and credit union communities.",
+    "first_steps": [
+      "Talk to 3 scam victims or victim-services volunteers about what happened when they filed a claim.",
+      "Draft a free basic kit and test whether people complete it without help.",
+      "Contact a credit union or nonprofit about licensing it for members."
+    ],
+    "price_hint": "$29 claim kit; $79 with tracking",
+    "watch_out": "The product must be honest that authorized push-payment scams are generally not covered, and victims attract recovery scams.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-018",
+    "name": "FEMA Appeal Builder",
+    "one_liner": "A tool that decodes a FEMA denial letter and tells disaster survivors what evidence fixes it, sold to aid groups and counties.",
+    "problem": "FEMA's Individuals and Households Program decisions are often 'ineligible' for reasons that can be fixed, such as missing proof of ownership or occupancy. Appeals must be filed within 60 days with specific documents.",
+    "why_it_works": "Legal aid is overwhelmed after big disasters and public adjusters do not handle FEMA. OpenFEMA lists more than 26 million registrations since 2002, which shows the scale. Nothing turns denial codes into a document checklist and sends the appeal.",
+    "agent_plan": [
+      "Decodes the denial reason in a photo of the FEMA letter and lists what evidence fixes it.",
+      "Helps survivors gather alternative proof such as utility bills, tax records or affidavits.",
+      "Assembles the appeal letter and tracks the 60-day deadline."
+    ],
+    "human_part": "You sell to nonprofits and local government and partner with legal aid for denied heirs'-property cases.",
+    "content_angle": "Posts in local Facebook groups after each disaster and outreach to long-term recovery groups and legal-aid hotlines.",
+    "first_steps": [
+      "Contact a disaster legal-aid hotline and ask which denial reasons they see most.",
+      "Build a letter decoder for the five most common denial reasons.",
+      "Pitch one recovery group or county office on a caseworker dashboard pilot."
+    ],
+    "price_hint": "Free for survivors; $199/month per organization",
+    "watch_out": "Revenue depends on grants and government contracts, so a nonprofit or sponsored structure may fit better.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "property"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-019",
+    "name": "Repo Notice Check",
+    "one_liner": "A checklist tool that screens repossession notices and deficiency letters against your state's rules, for US borrowers.",
+    "problem": "After a repossession, lenders must send specific notices of the sale and any remaining balance. Repossession complaints to the CFPB totaled 11,460 from January 2025 to November 2026, including thousands about balances left after the car was sold.",
+    "why_it_works": "Attorneys cannot economically screen every small case, and debt settlement assumes the debt is valid. Nobody does automated notice-compliance screening, and the CFPB's guidance explains the rules the tool would check.",
+    "agent_plan": [
+      "Reads the uploaded repossession notices, sale notice, deficiency letter and loan contract and builds a timeline.",
+      "Checks each step against the state's repossession rules for timing and content.",
+      "Produces an informational checklist and matches the borrower to participating attorneys."
+    ],
+    "human_part": "You get a consumer attorney to validate the state rule matrix and a state-bar opinion on advertising and referrals.",
+    "content_angle": "Search pages on 'deficiency balance after repossession dispute' and helpful answers on legal and personal finance subreddits.",
+    "first_steps": [
+      "Hire a consumer attorney for an hour to review the rules for one state.",
+      "Build the notice checklist for that state and test it on 5 anonymized cases.",
+      "Ask the state bar whether a flat attorney-directory subscription is permitted."
+    ],
+    "price_hint": "$19 per notice check",
+    "watch_out": "Unauthorized-practice-of-law and attorney-advertising rules are the central risk, so findings must stay informational.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-020",
+    "name": "Immigrant Coverage Change Checker",
+    "one_liner": "A tool that shows which family members still qualify for public benefits after the 2025 law, sold to aid organizations.",
+    "problem": "The 2025 reconciliation law narrowed which lawfully present immigrants qualify for federal benefits, and refugees and other humanitarian groups lost Medicaid eligibility on October 1, 2026. Families in mixed-status households cannot easily tell who still qualifies.",
+    "why_it_works": "Generic screeners rarely model the new status-based exclusions or mixed-status households member by member. KFF tracks which states are affected.",
+    "agent_plan": [
+      "Asks each household member's category in plain language without storing document numbers.",
+      "Checks each person and program against the rules before and after effective dates and state policies.",
+      "Produces a plain-language summary with next steps and referrals."
+    ],
+    "human_part": "You build trust with resettlement agencies and health centers and refer status questions to accredited representatives.",
+    "content_angle": "Outreach to resettlement agencies and posts in immigrant community WhatsApp and Facebook groups.",
+    "first_steps": [
+      "Talk to 3 resettlement agency staff about which benefit questions they cannot answer today.",
+      "Map the rules for one state into a simple screener.",
+      "Test it with staff before offering it to families."
+    ],
+    "price_hint": "Free for households; $99-$299/month for orgs",
+    "watch_out": "Willingness to pay is low, so it is viable mainly with grant funding or nonprofit licensing, and the data is extremely sensitive.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "health"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-021",
+    "name": "LTC Rate Hike Decider",
+    "one_liner": "A report that models your options when your long-term-care insurer raises premiums, for policyholders and their adult children.",
+    "problem": "Older long-term-care insurance policies have faced repeated premium increases. Each increase letter gives policyholders, usually in their 70s and 80s, a confusing set of options.",
+    "why_it_works": "Carriers present the options neutrally but do not model their value, and brokers cannot earn on in-force decisions. Planners charge hundreds and lack carrier-specific data. Genworth alone reports about $34.8 billion in rate actions since 2012.",
+    "agent_plan": [
+      "Reads the rate letter and policy schedule and extracts benefits, inflation rider and elimination period.",
+      "Models each offered option against local long-term-care costs.",
+      "Prepares a plain-language comparison that a planner or specialist can review."
+    ],
+    "human_part": "You partner with licensed long-term-care specialists for the call tier and stay educational on advice.",
+    "content_angle": "Search pages on 'Genworth rate increase letter options' and posts in caregiver groups and fee-only planner networks.",
+    "first_steps": [
+      "Collect 3 real rate-increase letters and list the options and tradeoffs they present.",
+      "Build a model for one carrier using local care cost data.",
+      "Talk to two fee-only planners about a planner-seat plan."
+    ],
+    "price_hint": "$79 per letter report",
+    "watch_out": "Advice on keeping or changing a policy may require an insurance licence in some states, and letter volume may fall.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-022",
+    "name": "Closed Account Fund Recovery",
+    "one_liner": "A kit that helps you demand money held after a bank or app closes your account, routed to the right regulator.",
+    "problem": "Banks and fintech apps close accounts suddenly for risk or fraud flags and can hold balances for weeks or months. The CFPB recorded 19,943 closing-an-account complaints about deposit accounts from January 2025 to November 2026.",
+    "why_it_works": "The CFPB portal does not cover state money transmitters well and offers no strategy. Nothing sequences demand, regulator and arbitration steps by institution type. Those complaints include 6,979 about funds not received from a closed account.",
+    "agent_plan": [
+      "Reads the closure notice, last statement and support transcripts and identifies the institution type.",
+      "Finds the account terms on closed-account funds and the matching regulator.",
+      "Drafts the demand letter, regulator complaint and arbitration packet and tracks 60 days."
+    ],
+    "human_part": "You keep the regulator-routing rules current and must never promise recovery.",
+    "content_angle": "Search pages on 'Cash App closed my account how to get money' and posts in seller and gig-worker forums.",
+    "first_steps": [
+      "Collect 5 closure cases from forums and map which regulator each belongs to.",
+      "Build a routing flow by institution type that outputs a demand letter.",
+      "Sell 10 $29 kits to people posting in forums and track outcomes."
+    ],
+    "price_hint": "$29 demand and escalation kit",
+    "watch_out": "Arbitration filings are an unauthorized-practice gray area, so you can offer templates and instructions only.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-023",
+    "name": "Overtime Tips Ledger",
+    "one_liner": "A year-round worksheet that tracks the tax deductions for tips and overtime pay, for US hourly workers.",
+    "problem": "The 2025 tax law created temporary deductions for qualified tips and the overtime premium portion of pay for tax years 2025 through 2028, with income phase-outs. The definitions are tricky, and only part of overtime pay qualifies.",
+    "why_it_works": "Tax software asks only at filing time and relies on reported totals, with no year-round tracking of mixed overtime or cash tips. The IRS has issued several rounds of guidance, which shows ongoing confusion.",
+    "agent_plan": [
+      "Reads photographed pay stubs and splits qualified overtime premium from other overtime.",
+      "Separates qualified tips from service charges and keeps a year-to-date estimate with phase-out math.",
+      "Keeps a daily cash-tip log and exports a worksheet for the worker or preparer."
+    ],
+    "human_part": "You keep the tax rules current each season and must not prepare or sign returns.",
+    "content_angle": "Short videos for service workers explaining which overtime counts, plus search pages on 'is my overtime qualified for deduction'.",
+    "first_steps": [
+      "Read the latest IRS guidance and list which pay stub lines count as qualified overtime.",
+      "Build a pay stub reader and test it on 5 volunteers' stubs.",
+      "Ask a restaurant or staffing firm about offering it as an employee benefit."
+    ],
+    "price_hint": "$19/year; $1 per worker per month",
+    "watch_out": "Tax software and payroll providers will likely cover most cases, and the deduction ends after tax year 2028.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 1,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-024",
+    "name": "Deferred Interest Alarm",
+    "one_liner": "An app that tracks store-card and medical-card promo deadlines and plans payoffs so back-interest does not hit, for card users.",
+    "problem": "Store cards and medical credit cards such as CareCredit often use deferred-interest promotions. Interest accrues from the purchase date and is waived only if the whole balance is paid by the deadline, so missing it by a dollar can add months of back-interest at once.",
+    "why_it_works": "Issuer apps show promo dates but do not plan payments across overlapping promos, and budget apps do not parse promo tables at all. The CFPB complaint database shows 27,406 Synchrony complaints since January 2025.",
+    "agent_plan": [
+      "Reads each statement's promotional-balance table and expiry dates.",
+      "Builds a payoff plan per promo that follows the federal payment-allocation rule.",
+      "Sends alerts before each deadline and checks that payments were applied correctly."
+    ],
+    "human_part": "You keep payment-allocation rules current and keep it educational rather than credit counseling.",
+    "content_angle": "Search pages on 'CareCredit deferred interest how to avoid' and handouts at dental and vet offices.",
+    "first_steps": [
+      "Collect 5 real statements with promo balances and test whether the AI reads them correctly.",
+      "Build a payoff calculator for overlapping promos.",
+      "Ask 2 dental or vet offices to hand out a promo-deadline tip sheet."
+    ],
+    "price_hint": "Free for 1 promo; $3.99/month",
+    "watch_out": "The market is small, and it could work better as a feature inside a broader promo-debt product.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 1,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-025",
+    "name": "Tenant Screening Fix",
+    "one_liner": "A kit that gets your tenant screening file and flags errors that cost you an apartment, for US renters.",
+    "problem": "Landlords use screening companies that combine eviction filings, criminal records and credit data with opaque risk scores. Renters denied by a report often cannot tell what was wrong.",
+    "why_it_works": "The CFPB's market report covered 17 screening companies and flagged problems with public-record matching and risk scores. Credit-dispute tools target the big three bureaus, not specialty tenant screeners, and legal aid capacity is limited.",
+    "agent_plan": [
+      "Reads the adverse-action letter and drafts the file-request letter to the right screening company.",
+      "Parses every record in the report and flags likely errors such as wrong-person matches.",
+      "Drafts dispute letters and tracks the response deadlines for re-disputes."
+    ],
+    "human_part": "You get legal review of credit-repair rules before charging and partner with legal aid and tenant groups.",
+    "content_angle": "Search pages on 'denied apartment tenant screening dispute' and helpful answers on renter subreddits.",
+    "first_steps": [
+      "Contact a tenant union or legal-aid group and ask how often screening errors come up.",
+      "Build a file-request letter generator for the three biggest screening companies.",
+      "Get a lawyer's opinion on whether a self-help tool avoids credit-repair fee rules."
+    ],
+    "price_hint": "$25 request and dispute kit",
+    "watch_out": "Credit-repair rules limit when you can charge, so the tool needs legal review or a self-help structure.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

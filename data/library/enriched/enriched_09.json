@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "CLAUDE-001",
+    "name": "Medical Bill Audit",
+    "one_liner": "A tool where US patients upload an itemized hospital bill and get each line checked against that hospital's posted prices.",
+    "problem": "US patients get hospital bills with duplicate charges, upcoded visits and items never delivered, and most never ask for an itemized bill. Billing offices rarely volunteer corrections, so overcharges of hundreds to thousands of dollars go unchallenged.",
+    "why_it_works": "Free tools write dispute letters but do not benchmark each line against the hospital's own posted rates. People already search for help with bills they cannot understand. Patients with big bills already pay for help, and a per-audit fee or capped success fee fits that.",
+    "agent_plan": [
+      "Reads each uploaded itemized bill and extracts billing codes and charges line by line.",
+      "Compares each charge against the hospital's posted negotiated rates and Medicare benchmarks, flagging duplicates and anomalies.",
+      "Drafts a dispute letter with the specific codes and tracks which arguments each billing office accepts."
+    ],
+    "human_part": "You handle the price-data pipeline setup, privacy decisions, and clear disclosure of any success fee; you never imply legal representation.",
+    "content_angle": "Short videos on TikTok or YouTube walking through a real redacted bill, such as 'three charges to check on any ER bill'.",
+    "first_steps": [
+      "Collect five real itemized bills from friends or Reddit volunteers and check them against posted prices by hand.",
+      "Build a landing page with a free bill scan offer and a $49 audit button.",
+      "Post in medical-debt communities offering ten free audits in exchange for feedback and outcomes."
+    ],
+    "price_hint": "Free scan; $49 per audit or 20% of savings",
+    "watch_out": "A free general AI assistant gives much of the value, so the moat has to be hospital-specific rate and dispute-outcome data.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "health",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-002",
+    "name": "Insurance Claim Coach",
+    "one_liner": "A self-help coach for homeowners and drivers that reads your policy and guides you through negotiating a property or auto claim.",
+    "problem": "Adjusters handle hundreds of claims a year and know which provisions to lean on, while most policyholders accept the first offer and miss covered items like code upgrades or loss of use. Public adjusters take 10-20% of the payout and avoid small claims.",
+    "why_it_works": "Public adjusters are expensive and skip small claims, and generic AI cannot say what a fair payout looks like for a given insurer. Pricing is $29 a month or $99 per claim. Over time, uploaded claim letters build data on offers versus final payouts by insurer.",
+    "agent_plan": [
+      "Reads the uploaded policy and maps which coverages could apply to the loss.",
+      "Builds a documentation checklist and a settlement range from the claim details you enter.",
+      "Drafts counter-offer and appeal letters and suggests escalation steps in coaching mode."
+    ],
+    "human_part": "You must keep the product on the self-help side of public-adjuster licensing, and partner with licensed adjusters if you ever move into representation.",
+    "content_angle": "Short videos on TikTok or YouTube after storms, such as 'five covered items most people forget to claim'.",
+    "first_steps": [
+      "Read your state's public-adjuster licensing rules and write down exactly what coaching you can offer.",
+      "Test with three people who have open claims, using a manual policy read.",
+      "Launch a one-page offer for the $99 claim analysis and post it in homeowner groups."
+    ],
+    "price_hint": "$29/mo or $99 per claim analysis",
+    "watch_out": "Negotiating a claim for a fee can need a public adjuster licence in most states, so the product must stay strictly coaching.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork",
+        "property"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-003",
+    "name": "Contractor Bid Check",
+    "one_liner": "A tool where homeowners photograph renovation quotes and get a line-by-line check for missing scope and overpriced items.",
+    "problem": "Homeowners planning a $5K-$50K renovation collect two or three quotes they cannot compare, with differing line items and vague scope. Low bids hide change orders and people choose on gut feel.",
+    "why_it_works": "Cost guides give national averages and do not read the quote on the table, and nobody aggregates real quotes by zip. People already ask whether a quote is fair and how to compare bids. Each quote analysed adds price data by trade and region.",
+    "agent_plan": [
+      "Reads quote photos and converts them into structured line items by trade and material grade.",
+      "Flags missing scope items that often become change orders and compares prices to local ranges.",
+      "Builds a side-by-side bid comparison and a list of questions to ask each contractor."
+    ],
+    "human_part": "You seed the quote database yourself through partnerships with home inspectors and renovation communities, and you word every price as an estimate.",
+    "content_angle": "Posts in Reddit and Nextdoor-style renovation groups, such as 'what a vague quote line really means'.",
+    "first_steps": [
+      "Gather ten real quotes from friends and renovation forums and annotate them by hand.",
+      "Offer free quote reviews in two local renovation groups in exchange for permission to log the data.",
+      "Set up a $19 per quote checkout page and a simple upload form."
+    ],
+    "price_hint": "$19 per quote or $49/mo unlimited",
+    "watch_out": "Without enough local quotes, the benchmarks fall back to the same averages as free cost guides.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-005",
+    "name": "Vet Bill Audit",
+    "one_liner": "A tool where pet owners upload a vet bill or estimate and see how the charges compare with local prices and cheaper options.",
+    "problem": "Estimates for dental cleanings, surgery or emergencies vary several-fold between clinics in the same city, and owners rarely know which diagnostics are optional. Vet pricing is not posted, so comparing is hard.",
+    "why_it_works": "No one turns individual invoices into clinic-level price transparency for owners. People already search for help with bills that feel too high. Crowdsourced invoices would give local price ranges that general AI cannot supply.",
+    "agent_plan": [
+      "Reads uploaded invoices and estimates and maps each procedure to a standard category.",
+      "Compares line items to local price ranges built from user-submitted invoices.",
+      "Suggests lower-cost options such as veterinary schools and compounding pharmacies, and questions to ask the vet."
+    ],
+    "human_part": "You recruit invoice uploads from pet communities and keep wording to price comparison and questions, never veterinary advice.",
+    "content_angle": "Short videos and posts in pet groups, such as 'what a fair price range looks like for a dental cleaning'.",
+    "first_steps": [
+      "Collect ten vet invoices from pet-owner groups and compare them by hand.",
+      "Publish one price-range page for a common procedure in one city.",
+      "Offer a free basic check and a $19 detailed analysis behind a simple form."
+    ],
+    "price_hint": "Free basic check; $19 detailed analysis",
+    "watch_out": "It overlaps the corpus idea DIR-002 Vet Price Compare, and the app must not drift into judging clinical necessity.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "pets",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-011",
+    "name": "Salary Offer Coach",
+    "one_liner": "A self-serve coach that checks a job offer against market pay and writes negotiation scripts, aimed at non-tech roles.",
+    "problem": "Many candidates accept the first offer without negotiating, even though recruiters often expect a counter. They lack data on what peers earn and fear losing the offer, and leaving 5-10% on the table compounds through later raises.",
+    "why_it_works": "There is a gap between free AI scripts and $1,250 human coaching, especially for non-tech roles Levels.fyi does not cover. People search for how to negotiate and whether an offer is competitive. Offer and outcome data would be the long-term asset.",
+    "agent_plan": [
+      "Parses the offer letter and compares base, equity, bonus and benefits to market data.",
+      "Writes word-for-word phone and email negotiation scripts for the specific offer.",
+      "Plays the hiring manager in a practice role-play and gives feedback on the counter-offer."
+    ],
+    "human_part": "You find real offer data outside big tech, and you handle the trust of people sharing confidential offer letters.",
+    "content_angle": "Short LinkedIn or TikTok videos, such as 'what to say when the recruiter says this is the best they can do'.",
+    "first_steps": [
+      "Run five free offer reviews for friends with real offers and note what data you lacked.",
+      "Build a one-page offer analyzer with a $49 checkout.",
+      "Post a free script template on LinkedIn to collect offer-review requests."
+    ],
+    "price_hint": "$49 per offer or $19/mo during job search",
+    "watch_out": "Squeezed between free AI role-play and Levels.fyi's paid coaching, and real offer data outside big tech is hard to get.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "work_careers",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-013",
+    "name": "Debt Settlement Coach",
+    "one_liner": "A self-help tool for people with debt in collections that explains when and how to offer a settlement, with letter templates.",
+    "problem": "People with charged-off cards, medical debt or collections often do not know creditors settle for a fraction of the balance. Settlement companies charge 15-25% of enrolled debt and take years, while going alone risks paying without written terms or tax surprises.",
+    "why_it_works": "Settlement firms charge 15-25% and nonprofits push repayment plans, so there is no cheap self-serve tool with creditor-specific odds. People already search for how to settle debt and what to say to collectors. Accepted settlement percentages by creditor would build into a useful data set.",
+    "agent_plan": [
+      "Takes debt type, age, balance and creditor and explains settlement options in plain English.",
+      "Drafts settlement offer letters and paid-in-full confirmation templates.",
+      "Builds a checklist for documenting each call and payment so disputes can be avoided later."
+    ],
+    "human_part": "You must check state debt-adjuster licensing and the FTC advance-fee rule before charging, and stay a self-help tool, not a settlement company.",
+    "content_angle": "Posts in debt forums and short videos, such as 'what never to say to a debt collector'.",
+    "first_steps": [
+      "Read the FTC Telemarketing Sales Rule and your target states' debt-adjuster laws, and write down the safe scope.",
+      "Draft one settlement letter template and test it with three volunteers.",
+      "Launch a $29 package page with plain disclaimers."
+    ],
+    "price_hint": "$29 per debt settlement package",
+    "watch_out": "Some states treat paid debt-settlement help as a licensed activity, and distressed users have little cash.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-014",
+    "name": "Property Tax Appeal Helper",
+    "one_liner": "A service that finds comparable sales and builds a property tax appeal package for homeowners in under-served counties.",
+    "problem": "Assessed values often lag or overshoot the market, and many homeowners never appeal even though reviews regularly reduce assessments. Processes differ by county, deadlines are short and finding comparable sales takes hours, and an unchallenged over-assessment costs money every year.",
+    "why_it_works": "Competitors focus on high-population states and many counties remain unserved. Success-fee appeals already work for Ownwell and local consultants. Appeal outcomes by county would build a useful data set over time.",
+    "agent_plan": [
+      "Pulls the property's assessment and finds comparable sales that sold for less.",
+      "Estimates annual savings and fills jurisdiction-specific appeal forms with the homeowner's details.",
+      "Writes a hearing preparation guide covering the evidence boards care about."
+    ],
+    "human_part": "You pick counties, source assessor data for each one, and check whether your state requires registration to represent owners at hearings.",
+    "content_angle": "Local search pages and direct mail, such as 'how to appeal your property tax in [county]'.",
+    "first_steps": [
+      "Choose one under-served county and read its appeal rules and deadlines.",
+      "Build one appeal package by hand for a friendly homeowner.",
+      "Launch a county landing page with a free analysis form."
+    ],
+    "price_hint": "Free analysis; $99 or 25% of first-year savings",
+    "watch_out": "Ownwell is strong in big states, so profit depends on picking under-served counties, and some states license consultants.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-018",
+    "name": "Creator Rate Card",
+    "one_liner": "A subscription tool that helps creators price brand deals using real closed-deal prices instead of follower-count formulas.",
+    "problem": "Micro and mid-size creators are unsure what to charge, so they accept a brand's first offer, while brands know their budgets. Underpricing early deals anchors future rates low.",
+    "why_it_works": "Calculators use follower-count formulas, not real closed-deal prices. People already search for what to charge and whether an offer is fair. Creator-submitted deal prices would build a benchmark data set.",
+    "agent_plan": [
+      "Analyses a creator's engagement and niche to suggest a rate range for each deliverable.",
+      "Generates a rate card, media kit and pitch templates with FTC disclosure built in.",
+      "Writes counter-offer scripts and logs deal outcomes to track rates over time."
+    ],
+    "human_part": "You recruit creators to share real deal prices and verify what they submit.",
+    "content_angle": "Short videos on TikTok or YouTube, such as 'how to answer when a brand asks for your rate'.",
+    "first_steps": [
+      "Collect ten real closed-deal prices from creator friends and communities.",
+      "Build a free rate estimator on one page.",
+      "Offer the $14.99 plan to early users and ask them to log deals."
+    ],
+    "price_hint": "$14.99/mo for creator pricing tools",
+    "watch_out": "The creator-tools market is crowded and marketplaces include free rate calculators; it overlaps DIR-034 and CLAUDE-185.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "creator",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-019",
+    "name": "Vendor Price Benchmark",
+    "one_liner": "A subscription that checks small-business vendor contracts and invoices against what similar businesses pay.",
+    "problem": "Small businesses buy software, insurance, payroll, card processing and supplies without procurement staff or benchmarks. Vendors raise prices quietly at renewal and owners rarely have time to shop around.",
+    "why_it_works": "Incumbents target mid-market SaaS spend, not small businesses' broader vendor categories. Cross-company price data compounds as more invoices are uploaded. The data is the asset, but it needs a way to start.",
+    "agent_plan": [
+      "Extracts unit price, term, discount and renewal uplift from uploaded contracts and invoices.",
+      "Benchmarks each line against anonymised data from similar small businesses.",
+      "Drafts negotiation talking points and flags price creep before renewal dates."
+    ],
+    "human_part": "You find a way to get the first invoices, such as accounting integrations, and handle customer confidentiality.",
+    "content_angle": "LinkedIn posts and a small-business newsletter, such as 'three vendor renewals that quietly rose this year'.",
+    "first_steps": [
+      "Collect twenty invoices from small-business owner friends and benchmark them manually.",
+      "Choose one vendor category, such as card processing, and build a benchmark for it.",
+      "Offer a free review to five owners in exchange for anonymised data."
+    ],
+    "price_hint": "$49/mo for unlimited vendor analysis",
+    "watch_out": "Benchmarks are worthless until many small businesses upload invoices, and it overlaps CLAUDE-038.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "local_services"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-031",
+    "name": "Franchise Disclosure Checker",
+    "one_liner": "A paid report that reads a franchise disclosure document and flags red flags for people about to buy a franchise.",
+    "problem": "Prospective buyers receive a 200+ page document and often have 14 days before signing. Earnings claims are optional and hard to compare, closure counts are buried in tables, and brokers are usually paid by franchisors.",
+    "why_it_works": "No affordable buyer-side benchmark tool exists, since FRANdata sells to lenders and franchisors. Buyers investing their savings already pay attorneys $2-5K. A database of documents across brands and years would enable comparisons that a single summary cannot.",
+    "agent_plan": [
+      "Extracts all 23 items from an uploaded document into a structured summary.",
+      "Flags earnings claims, litigation patterns and closure or transfer counts against category benchmarks.",
+      "Builds a true-total-investment estimate and a question list for existing franchisees."
+    ],
+    "human_part": "You collect documents from state registration databases and tell buyers clearly to have a franchise attorney review before signing.",
+    "content_angle": "Posts on r/franchise and search pages on brand names, such as 'what Item 20 reveals about [brand]'.",
+    "first_steps": [
+      "Download five public documents from a registration state and extract the key items by hand.",
+      "Publish one sample report for a well-known brand.",
+      "Offer the $149 report to ten people on r/franchise."
+    ],
+    "price_hint": "$149 per franchise document analysis",
+    "watch_out": "The buyer pool is small, so you may need to sell to franchise attorneys and SBA lenders.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-032",
+    "name": "Commercial Lease Review",
+    "one_liner": "A per-lease review that flags landlord-friendly clauses and drafts counter-proposals for small businesses signing a first lease.",
+    "problem": "Small business owners signing a first commercial lease face landlord-written terms such as uncapped CAM charges, personal guarantees and relocation clauses. Almost everything is negotiable but most owners do not know market norms, and a bad lease can sink a shop before it turns profitable.",
+    "why_it_works": "Tenant-rep brokers focus on larger deals, so small tenants get no market benchmarks. People already search about CAM charges and personal guarantees. Lease terms by city would be the differentiator over a free AI read.",
+    "agent_plan": [
+      "Parses an uploaded lease and extracts rent, CAM, guarantee, renewal and use clauses.",
+      "Flags clauses landlords commonly use to add cost and compares terms to local data.",
+      "Drafts a redline with counter-proposals and negotiation talking points."
+    ],
+    "human_part": "You gather local lease data and frame every redline as a negotiation suggestion with attorney review recommended.",
+    "content_angle": "Posts in SBA and restaurant-owner groups, such as 'five lease clauses to push back on'.",
+    "first_steps": [
+      "Collect three real leases from small-business owners and review them manually.",
+      "Write a clause checklist and a sample redline.",
+      "Offer the $99 review through local small-business advisers."
+    ],
+    "price_hint": "$99 per commercial lease review",
+    "watch_out": "Without local lease-term data you cannot beat a free AI read.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "property",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-038",
+    "name": "SaaS Contract Review",
+    "one_liner": "A review service that flags lock-in clauses in software contracts for small companies and tracks renewal dates.",
+    "problem": "Small and mid-size companies sign SaaS contracts with auto-renewal windows, uncapped price increases and weak data-export rights. Missed cancellation windows lock them into another year of unused seats.",
+    "why_it_works": "Incumbents focus on mid-market and enterprise, leaving small companies under $50K a year of SaaS spend underserved. People already search for help with auto-renewals and contract terms. Negotiated-term data by vendor builds over time.",
+    "agent_plan": [
+      "Parses uploaded contracts and highlights renewal, uplift, termination and data-export clauses.",
+      "Compares terms to anonymised benchmarks and drafts a redline with counter-proposals.",
+      "Tracks renewal dates and sends reminders before each cancellation window."
+    ],
+    "human_part": "You collect anonymised contract terms and handle customer confidentiality.",
+    "content_angle": "LinkedIn posts for IT and finance leads, such as 'the auto-renewal clause that costs you a year'.",
+    "first_steps": [
+      "Collect five SaaS contracts from small-business friends and review them manually.",
+      "Build a clause checklist and a renewal tracker sheet.",
+      "Launch a $29 per contract offer in small-business groups."
+    ],
+    "price_hint": "$29 per contract or $79/mo unlimited",
+    "watch_out": "Competition is heavy from Vendr, Tropic and Spendflo, and it overlaps CLAUDE-019.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-039",
+    "name": "Restaurant Fee Audit",
+    "one_liner": "A per-restaurant analysis that breaks down card-processing and POS fees and gives negotiation scripts.",
+    "problem": "Restaurants pay blended rates, monthly minimums, PCI fees, equipment leases and early-termination penalties that are hard to read. Owners rarely know their effective rate or what similar restaurants pay.",
+    "why_it_works": "Free analyses come from processors trying to switch you, and there is no neutral benchmark of what similar restaurants pay. The FTC brought actions in 2026 against a POS provider and a payment processor over hidden fees and cancellation terms. Statements by processor would build effective-rate data.",
+    "agent_plan": [
+      "Parses processing statements and separates interchange, processor markup, equipment and hidden fees.",
+      "Calculates the effective rate and compares it to alternatives.",
+      "Flags contract traps such as early-termination fees and equipment leases, and drafts negotiation scripts."
+    ],
+    "human_part": "You gather enough statements to make benchmarks credible and disclose clearly if you ever earn referral fees.",
+    "content_angle": "Posts in restaurant-owner Facebook groups, such as 'how to find your real effective rate in five minutes'.",
+    "first_steps": [
+      "Collect five restaurant statements from owners and compute effective rates by hand.",
+      "Offer free statement reviews in two owner Facebook groups.",
+      "Set up a $49 analysis checkout page."
+    ],
+    "price_hint": "$49 per POS and processing analysis",
+    "watch_out": "You need enough statements to make benchmarks credible, and you must avoid acting as an undisclosed sales agent.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "money",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-042",
+    "name": "Elder Care Navigator",
+    "one_liner": "A neutral guidance package for adult children choosing between assisted living, memory care and nursing homes.",
+    "problem": "Families often have days to choose a care level after a hospital discharge or fall. Medicaid rules are complicated, costs run thousands a month and inspection histories are hard to read.",
+    "why_it_works": "Free referral services are paid by the facilities they recommend, so neutral guidance is rare. People already search for how to choose care and how Medicaid works. Public CMS files give a starting data source.",
+    "agent_plan": [
+      "Explains care levels and what signals a change, based on a described situation.",
+      "Summarises state Medicaid rules in plain English and flags issues in facility inspection reports.",
+      "Generates tour question lists and a framework for comparing facilities."
+    ],
+    "human_part": "You build trust as a neutral source and keep the guidance informational rather than legal or financial advice.",
+    "content_angle": "Search pages and posts for hospital discharge planners, such as 'assisted living vs nursing home: how to decide'.",
+    "first_steps": [
+      "Write one guide on care levels using public CMS data for your state.",
+      "Interview three families about their last facility decision.",
+      "Offer the $49 guidance package to one local group."
+    ],
+    "price_hint": "$49 per elder care guidance package",
+    "watch_out": "Free referral services dominate the funnel, so neutrality must be the wedge, and it overlaps DIR-006.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "health",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-071",
+    "name": "IEP Advocate",
+    "one_liner": "A subscription that helps parents prepare for special education meetings by checking IEP documents against their rights.",
+    "problem": "Parents walk into IEP meetings facing district staff who run hundreds of them a year. They often do not know what IDEA requires or what services to request, and private advocates charge $100-200 per hour.",
+    "why_it_works": "Free resources explain the process, but nobody tells a parent what services similar children in their district received. Parents already pay advocates $100-200 an hour. De-identified service data by district would be a unique asset.",
+    "agent_plan": [
+      "Reads uploaded evaluations and IEPs and compares them to IDEA requirements.",
+      "Lists services the child may be entitled to and questions to raise.",
+      "Drafts meeting prep notes and dispute templates for parents."
+    ],
+    "human_part": "You protect child data, get parental consent, and partner with independent advocates for referrals while staying out of legal advice.",
+    "content_angle": "Posts in parent Facebook groups and advocate communities, such as 'questions to ask before signing an IEP'.",
+    "first_steps": [
+      "Interview five parents and two advocates about the IEP meeting prep they lack.",
+      "Build a meeting-prep checklist and test it manually.",
+      "Launch a $19 per month plan during the school year to a parent group."
+    ],
+    "price_hint": "$19/mo during the school year",
+    "watch_out": "Child-data security and staying on the advocacy side of the unauthorised-practice line are the main risks.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "family_care",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-075",
+    "name": "Immigration Form Checker",
+    "one_liner": "A form-consistency checker for self-filing immigration applicants, run with a licensed attorney partner.",
+    "problem": "Immigration forms are long and unforgiving, and a missed field or inconsistent answer can trigger a request for evidence, a denial or delays. Many applicants file alone because attorneys charge hundreds of dollars to review forms.",
+    "why_it_works": "Incumbents sell full packages, so a cheap check for self-filers is thin. People search for help with form mistakes they cannot afford a lawyer to check. Form answer patterns linked to outcomes could become a data asset.",
+    "agent_plan": [
+      "Cross-checks answers across related forms for inconsistencies and omissions.",
+      "Flags common errors that trigger requests for evidence.",
+      "Builds an evidence checklist that matches the supporting documents to the application."
+    ],
+    "human_part": "You need a licensed attorney partner for review and must stay strictly clerical to avoid unauthorised practice and notario-style fraud concerns.",
+    "content_angle": "Posts in immigrant community groups, such as 'five form mistakes that cause delays'.",
+    "first_steps": [
+      "Find and talk to an immigration attorney willing to partner on review.",
+      "Define a clerical-only scope in writing.",
+      "Test the checker on five volunteers' forms with attorney sign-off."
+    ],
+    "price_hint": "$59 per check; $149 family package with attorney review",
+    "watch_out": "Regulatory risk is high, and without an attorney-review model this product could harm applicants.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-076",
+    "name": "IRS Notice Helper",
+    "one_liner": "A tool that explains IRS notices in plain English and drafts responses, with optional enrolled-agent review.",
+    "problem": "Millions of taxpayers receive IRS notices each year, such as CP2000 or balance-due letters, and many panic. Most can be resolved with a correct, timely response, but ignoring or answering wrongly creates penalties.",
+    "why_it_works": "Resolution firms are expensive and aggressive, and no cheap notice-specific response tool escalates to an enrolled agent. People already search for what to do when a letter arrives. Notice types and outcomes by response approach would build a useful data set.",
+    "agent_plan": [
+      "Classifies the uploaded notice and explains in plain English what the IRS is asking.",
+      "Drafts a response and a deadline checklist for the specific notice.",
+      "Routes complex cases to a partner enrolled agent with the notice summary prepared."
+    ],
+    "human_part": "You build a network of enrolled agents or CPAs for review, and keep the product to self-help since representation needs Circular 230 credentials.",
+    "content_angle": "Short videos and search pages, such as 'what a CP2000 letter really means'.",
+    "first_steps": [
+      "Recruit one enrolled agent partner and agree a review price.",
+      "Write plain-English guides for the three most common notice types.",
+      "Offer the $39 explanation to ten people in tax forums."
+    ],
+    "price_hint": "$39 per notice; $149 with enrolled-agent review",
+    "watch_out": "General AI already explains notices and the IRS publishes its own explanations, so paid value is mainly enrolled-agent escalation.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-079",
+    "name": "Student Loan Optimizer",
+    "one_liner": "A subscription that models federal repayment plans under the post-2025 rules and flags likely servicer errors.",
+    "problem": "Federal student-loan rules changed sharply after 2025, so borrowers are unsure which plan to choose, whether PSLF progress is safe and what their payment will be. Servicer errors are common and costly.",
+    "why_it_works": "Policy churn makes neutral, up-to-date modelling valuable, and free tools lag. People already search for which plan saves the most and about servicer mistakes. The input notes the rules were not re-verified, so check them before building.",
+    "agent_plan": [
+      "Imports loan data and models each plan the borrower is still eligible for.",
+      "Projects monthly payments, total cost and forgiveness timelines, and flags suspicious PSLF or IDR counts.",
+      "Drafts servicer dispute letters, tracks replies and explains each rule change in plain English."
+    ],
+    "human_part": "You keep the plan rules current and check the legal details yourself, since the source notes were not re-verified.",
+    "content_angle": "Short videos and search pages, such as 'what the new repayment plan means for your payment'.",
+    "first_steps": [
+      "Verify the current federal repayment rules against official sources.",
+      "Build a simple calculator for two plans and test with five borrowers.",
+      "Offer the $9.99 monthly plan with a rule-change alert list."
+    ],
+    "price_hint": "$9.99/mo for optimization and monitoring",
+    "watch_out": "Rules change fast so content must stay current, and StudentAid.gov tools and employer-benefit providers are free or bundled.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "education"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "education"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-088",
+    "name": "Auto Repair Verifier",
+    "one_liner": "A mobile tool that checks whether recommended car repairs are needed now and what a fair local price is.",
+    "problem": "Drivers handed a long list of recommended repairs cannot tell which are urgent, which can wait and which are unnecessary. Upselling on flushes, filters and brakes is common, and second opinions take time.",
+    "why_it_works": "Existing estimates show price, not whether the job is needed now. People already search for whether a repair is necessary or whether they are being overcharged. Quotes by shop and vehicle would build a data set.",
+    "agent_plan": [
+      "Reads the repair list and compares each item to the manufacturer's maintenance schedule.",
+      "Checks known issues for the make and model and the symptoms the owner describes.",
+      "Builds a list of questions to ask the shop and a price range to compare."
+    ],
+    "human_part": "You source repair price data and word every result carefully to avoid defaming named shops.",
+    "content_angle": "Short videos on TikTok and YouTube, such as 'five repairs a shop may push that can wait'.",
+    "first_steps": [
+      "Collect ten real repair estimates and compare them to maintenance schedules by hand.",
+      "Build a one-page checker for the five most common upsells.",
+      "Offer a $9 analysis in car-owner communities."
+    ],
+    "price_hint": "$9 per estimate or $29/mo unlimited",
+    "watch_out": "Free estimators like RepairPal and general AI are strong, and you need shop-level data to beat them.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-094",
+    "name": "Gig Worker Tax Coach",
+    "one_liner": "A mobile tax coach for rideshare and delivery workers that tracks expenses and estimates quarterly payments.",
+    "problem": "Rideshare drivers, couriers and freelancers often do not realise they owe self-employment tax or quarterly estimates. They miss mileage and expense deductions and get penalties at tax time.",
+    "why_it_works": "People already search for how much tax they owe and what they can deduct. Rules after 2025, such as the tips deduction, add confusion. The input says funded incumbents already target gig workers, so a single-platform niche is the only gap.",
+    "agent_plan": [
+      "Tracks mileage and expenses and categorises them as deductible or not.",
+      "Calculates quarterly estimated tax payments from reported income.",
+      "Surfaces commonly missed deductions and explains self-employment tax in plain English."
+    ],
+    "human_part": "You check tax rules with a qualified preparer and meet IRS rules if you offer any filing service.",
+    "content_angle": "Short videos on TikTok and YouTube, such as 'deductions delivery drivers commonly miss'.",
+    "first_steps": [
+      "Pick one gig platform and list its specific tax issues.",
+      "Build a quarterly estimate calculator and test it with five drivers.",
+      "Post it in driver forums and offer the $9.99 plan."
+    ],
+    "price_hint": "$9.99/mo for gig tax management",
+    "watch_out": "Keeper, QuickBooks Solopreneur and FlyFin already target gig workers, and CLAUDE-107 duplicates this idea.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "mobility",
+        "work_careers"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-129",
+    "name": "New Manager Coach",
+    "one_liner": "An AI coach with role-play for first-time managers, sold as a cheap seat to small companies.",
+    "problem": "Most first-time managers are promoted for individual performance and get little training. They face feedback talks, underperformers and conflict with no playbook, and coaching costs too much for most small companies.",
+    "why_it_works": "There is a gap for an affordable self-serve option for small companies without a learning budget. People already search for how to manage for the first time and how to run hard conversations. Anonymised situations and outcomes could form a library.",
+    "agent_plan": [
+      "Asks clarifying questions about a described management situation and suggests a framework.",
+      "Drafts scripts and runs a voice role-play of the conversation with feedback.",
+      "Maintains a scenario library, one-on-one templates and follow-up reminders."
+    ],
+    "human_part": "You sell seats to small-company HR leads and handle employee privacy so employers cannot read individual chats.",
+    "content_angle": "LinkedIn posts and short videos, such as 'how to run your first difficult feedback conversation'.",
+    "first_steps": [
+      "Interview five new managers about their hardest recent conversation.",
+      "Build a role-play prompt for one scenario and test it live.",
+      "Offer the $14.99 plan to a manager community."
+    ],
+    "price_hint": "$14.99/mo; $10/seat for teams",
+    "watch_out": "It is viable only as a cheap seat for small companies, as general AI assistants beat a consumer version.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "work_careers",
+        "education"
+      ],
+      "channels": [
+        "content",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-133",
+    "name": "Homeschool Compliance Planner",
+    "one_liner": "A planner that builds a mixed curriculum and handles state compliance paperwork for homeschooling families.",
+    "problem": "Homeschooling families face curriculum paralysis and state laws that differ on notification, subjects, hours and testing. New education savings account programs add reimbursement paperwork, and wrong materials waste money.",
+    "why_it_works": "Curriculum platforms sell their own content and do not build mixed curricula across vendors, track compliance or prepare reimbursement paperwork. Owning compliance is the differentiator. The input's demand phrases belong to another idea, so demand here is untested.",
+    "agent_plan": [
+      "Builds a weekly lesson plan from vetted free and paid resources mapped to the state's required subjects.",
+      "Tracks attendance hours and mastery and keeps a portfolio.",
+      "Generates notification letters, logs and reimbursement documentation for eligible purchases."
+    ],
+    "human_part": "You research each state's rules and get approved as an education savings account vendor where required, which takes paperwork.",
+    "content_angle": "Posts in homeschool Facebook groups, such as 'what your state requires, in one page'.",
+    "first_steps": [
+      "Write a requirements checker for one state and test it with five families.",
+      "Interview families about their compliance headaches.",
+      "Launch the free checker and offer the $14.99 plan."
+    ],
+    "price_hint": "Free checker; $14.99/mo per family or $129/yr",
+    "watch_out": "Account program rules and vendor approval vary by state, and the listed demand phrases do not match this idea.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "family_care"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-144",
+    "name": "Landlord Rule Alerts",
+    "one_liner": "An education brand and tool that tracks local landlord-tenant rules and alerts small landlords when they change.",
+    "problem": "DIY landlords with one to five units handle tenant problems, deposits and evictions without legal training. Rules vary by state and city and change often, and one procedural mistake can void an eviction.",
+    "why_it_works": "Free tools treat local rules generically, so up-to-date local rule changes pushed to the landlord's properties are a gap. A maintained rule library by state and city is the core asset. The input's demand phrases are about SEO and belong to another idea, so demand is untested.",
+    "agent_plan": [
+      "Tracks each property's jurisdiction and drafts alerts when notice periods, deposit limits or rent caps change.",
+      "Turns a described situation into plain-language information and a checklist of required steps.",
+      "Generates templated notices and routes eviction cases to a vetted local attorney."
+    ],
+    "human_part": "You build the attorney referral network and maintain the rule library, keeping everything informational rather than legal advice.",
+    "content_angle": "Short videos and search pages, such as 'what changed in landlord rules in your city this year'.",
+    "first_steps": [
+      "Build a rule sheet for one city and publish it as a free guide.",
+      "Interview five small landlords about their last rule surprise.",
+      "Offer a rule-change alert email and the $14.99 toolkit."
+    ],
+    "price_hint": "Free content; $14.99/mo landlord toolkit",
+    "watch_out": "Unauthorised-practice risk is real and free incumbents exist, so it works only as rule alerts plus attorney referral.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-159",
+    "name": "Restaurant Profit Tracker",
+    "one_liner": "An app for independent restaurants that reads supplier invoices, updates plate costs and suggests menu price changes.",
+    "problem": "Independent restaurants run on thin margins (est. 3-6%) and owners rarely know the true plate cost as supplier prices move weekly. Menu prices get set once and forgotten, and back-office tools are priced for chains.",
+    "why_it_works": "Incumbents target multi-unit operators at $300+ a month, while independents and food trucks need a cheaper photo-the-invoice tool. Ingredient prices matched to menu sales would build local benchmarks. The input's demand phrases belong to another idea, so demand is untested.",
+    "agent_plan": [
+      "Extracts line items from photographed supplier invoices and updates recipe costs.",
+      "Flags price spikes and ranks menu items by margin and popularity.",
+      "Writes a weekly plain-English report on food-cost percentage with suggested price or portion changes."
+    ],
+    "human_part": "You build point-of-sale integrations and win trust with restaurant owners, who often buy after a personal conversation.",
+    "content_angle": "Posts in restaurant-owner groups and short videos, such as 'which menu items quietly lose you money'.",
+    "first_steps": [
+      "Interview five owners about how they track plate costs today.",
+      "Cost one menu by hand from real invoices to show the value.",
+      "Offer the $49 plan to three owners as a pilot."
+    ],
+    "price_hint": "Free content; $49/mo profit optimization",
+    "watch_out": "MarginEdge, meez and Toast xtraCHEF are well funded, so you must win on price and simplicity, and the listed demand phrases do not match.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "CLAUDE-161",
+    "name": "Garden Planner AI",
+    "one_liner": "A mobile garden planner that suggests what to plant and when for your zone, built on neighbours' logged results.",
+    "problem": "Home gardeners struggle with timing, spacing and which varieties suit their zone and microclimate. Failed crops waste a season and money, and generic calendars ignore local frost dates, shade and soil.",
+    "why_it_works": "Established planners use generic zone charts, so crowd-sourced local outcome data is the gap. Users who log what grew and what failed build a local map. The input's demand phrases are about dog training, so demand here is untested.",
+    "agent_plan": [
+      "Suggests varieties, layouts and companion plantings from location, sun and soil.",
+      "Builds a sowing and harvest calendar from local frost dates and sends weekly reminders.",
+      "Diagnoses pests from photos and aggregates logged outcomes into local recommendations."
+    ],
+    "human_part": "You need enough local users logging results before the data beats generic charts, which means community-building.",
+    "content_angle": "Short videos and Pinterest posts, such as 'what to plant this month in zone 7'.",
+    "first_steps": [
+      "Build a planting calendar for one zone and publish it free.",
+      "Recruit twenty gardeners in one region to log results.",
+      "Test the $8.99 monthly plan with those users."
+    ],
+    "price_hint": "Free content; $8.99/mo or $49/yr",
+    "watch_out": "Cheap planners are crowded and it only works if community harvest data becomes the differentiator.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "food",
+        "local_services"
+      ],
+      "channels": [
+        "content",
+        "marketplace"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

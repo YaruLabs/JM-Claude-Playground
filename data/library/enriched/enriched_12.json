@@ -1,0 +1,804 @@
+[
+  {
+    "id": "DIR-241",
+    "name": "Geotechnical Testing Lab Finder",
+    "one_liner": "A directory that lets US contractors and engineers find labs accredited for the exact test methods their project specs require.",
+    "problem": "Contractors and engineers need soil, compaction, concrete and asphalt tests from labs accredited for specific ASTM or AASHTO methods, but accreditation lists are split across AASHTO re:source, A2LA and state DOT lists. A rejected lab report can stall a pour or a pay application.",
+    "why_it_works": "AASHTO re:source and A2LA both run accreditation programs, and ASTM methods are written into project specs, so method-level accreditation checks are routine. Existing directories are siloed and do not show turnaround, mobilization radius or RFQs. Combining them into one maintained dataset is hard to copy.",
+    "agent_plan": [
+      "Parses accreditation scopes from AASHTO re:source, A2LA and state DOT lists into method-level rows such as ASTM D1557 or C39.",
+      "Matches a project location and required test methods to labs within mobilization distance and routes RFQs to them.",
+      "Watches accreditation sources for changes and sends alerts, with dated proof exports for spec submittals."
+    ],
+    "human_part": "You still recruit labs to claim profiles, confirm turnaround and field-tech availability with them, and build trust with engineers and contractors.",
+    "content_angle": "Publish Google-targeted city pages such as 'compaction testing [city]' and share them in ASCE Geo-Institute and contractor association networks.",
+    "first_steps": [
+      "Parse the accreditation scope of five labs in one state into method-level rows by hand.",
+      "Build a one-page search by test method and city, and check results against lab websites.",
+      "Contact those five labs to confirm turnaround and offer a free profile for feedback."
+    ],
+    "price_hint": "Free search; labs $199/mo, $20 per RFQ",
+    "watch_out": "It depends on reliably parsing accreditation scopes across several bodies, and the platform does not certify test results.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "sales_ops"
+      ],
+      "agent_share": 72,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-242",
+    "name": "Metal Finishing Shop Finder",
+    "one_liner": "A spec-searchable directory that helps US machine shops and buyers find plating, anodizing and coating shops approved for their spec.",
+    "problem": "Machine shops and OEM buyers must use finishers approved for exact specs such as MIL-A-8625 anodize or AMS 2700 passivation, and finding one with the right tank size and lead time takes calls and emails. A mistake means scrapped parts or a failed first-article inspection.",
+    "why_it_works": "The industry is specification-driven and EPA maintains dedicated effluent guidelines covering thousands of facilities. Thomasnet lists categories rather than spec and class approvals, and Xometry brokers work instead of letting buyers pick the shop. Closures of small platers keep shrinking the supplier base.",
+    "agent_plan": [
+      "Reads shop capability sheets and approval lists and turns them into rows for process, spec, class, tank size and lead time.",
+      "Extracts finish callouts from uploaded drawings and matches them to qualified shops.",
+      "Routes RFQs to matching shops and chases weekly lead-time updates and buyer ratings."
+    ],
+    "human_part": "You still sign up finishers, vouch for the data with shop owners, and handle trust and any export-controlled drawings.",
+    "content_angle": "Answer spec questions on r/Machinists and publish pages such as 'Type III anodizing near me' that link to your directory.",
+    "first_steps": [
+      "List ten finishers in one region with their specs, tank sizes and lead times from public sheets.",
+      "Post a short guide to choosing an anodizer in r/Machinists and note who asks for spec search.",
+      "Offer three shops a free profile in return for a weekly lead-time update."
+    ],
+    "price_hint": "Finishers $249/mo, $15 per RFQ; buyers $59/mo",
+    "watch_out": "ITAR-controlled drawings cannot go through the LLM pipeline without a compliant setup, and Xometry or Thomasnet could add spec search.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "tech"
+      ],
+      "agent_share": 72,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-244",
+    "name": "Fire Protection Engineer Directory",
+    "one_liner": "A directory of licensed fire protection engineers and NICET designers, for US developers, architects and building owners.",
+    "problem": "Developers, architects and tenants need fire protection engineers for sprinkler, alarm and code work, and many jurisdictions require a PE stamp. Licensed engineers are scarce, and plan-review rejections delay certificates of occupancy at a cost well above the design fee.",
+    "why_it_works": "NCEES runs a dedicated PE Fire Protection exam and NICET certifies fire protection technicians, which shows a credentialed, stamp-driven market. License lookups and associations do not show capacity, AHJ experience or fees. Profiles that do would fill that gap.",
+    "agent_plan": [
+      "Checks state PE license records and NICET levels and keeps verified profiles current.",
+      "Drafts a standardized RFP from an architect's project scope covering occupancy, square footage and AHJ.",
+      "Tags engineers by jurisdictions where they have passed plan review and updates capacity status."
+    ],
+    "human_part": "You still recruit engineers, verify credentials where records are unclear, and persuade busy professionals the listing is worth paying for.",
+    "content_angle": "Publish state-by-state guides on finding a fire protection engineer for a buildout, aimed at architects and searchable on Google.",
+    "first_steps": [
+      "Build profiles for ten engineers in one state from public license and NICET records.",
+      "Write one RFP template and test it with two architects on a real project scope.",
+      "Ask three engineers whether they would pay to receive scoped RFPs."
+    ],
+    "price_hint": "Free for requesters; engineers $199/mo, $30 per RFP",
+    "watch_out": "Supply is scarce and fully booked, so engineers may not see a reason to pay for leads.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-245",
+    "name": "Maritime Lawyer Directory",
+    "one_liner": "A maritime-only attorney directory for US seamen, vessel owners and shippers, with practice and port filters.",
+    "problem": "Injured seamen, offshore workers and vessel owners need admiralty counsel who know the Jones Act and cargo rules, which most personal injury firms do not. Injured workers are often approached by adjusters first, and filing deadlines are short.",
+    "why_it_works": "The Jones Act gives seamen a distinct injury remedy, and the Maritime Law Association has organized this specialized bar for over a century. General directories mix injury advertisers with real admiralty practitioners. A maritime-only listing with port and practice filters addresses that.",
+    "agent_plan": [
+      "Compiles firm profiles with MLA membership, ports served, fee structures and sourced published verdicts.",
+      "Explains Jones Act concepts in plain language with citations to 46 U.S.C. § 30104, without giving legal advice.",
+      "Routes each worker or vessel-owner inquiry to two or three matching firms and tracks outcomes."
+    ],
+    "human_part": "You still sell subscriptions to law firms, stay within state bar advertising and referral-fee rules, and review what counts as legal information.",
+    "content_angle": "Write plain-language Jones Act explainers for Google searches like 'Jones Act lawyer' and answer questions in r/maritime and mariner groups.",
+    "first_steps": [
+      "Check your state bar's advertising and referral-fee rules and note what you must avoid.",
+      "List ten maritime firms in one port region with practice areas from their public sites.",
+      "Publish one Jones Act explainer and see which searches bring visitors."
+    ],
+    "price_hint": "Firms $599/mo per port region; $1,500/mo national",
+    "watch_out": "Injury lead-generation is competitive and bar-regulated, and AI assistants already explain the Jones Act though they do not vet counsel.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "marketing_content"
+      ],
+      "agent_share": 68,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-246",
+    "name": "Tax Lien Sale Calendar",
+    "one_liner": "A county-by-county calendar of US tax lien and deed sales with rules, bidding methods and actual results, for investors.",
+    "problem": "Tax lien and deed investors must track thousands of county sales with different dates, registration deadlines, deposits, bidding methods and redemption periods. New investors lose money by misreading redemption periods or overbidding premiums that are not refunded.",
+    "why_it_works": "A trade group (NTLA) and several online auction vendors serve this market, showing ongoing investor participation. Auction vendors cover only their own counties, and Tax Sale Resources is pricey and aimed at professionals. Recording actual results lets investors see real yields, not statutory maximums.",
+    "agent_plan": [
+      "Reads county notices and auction pages and extracts date, deadline, deposit, bidding method, interest and redemption period.",
+      "Sends deadline alerts and filters sales by lien or deed state, rate, online availability and budget.",
+      "Records results after each sale, such as average winning bid-down rate and premium paid."
+    ],
+    "human_part": "You still check extracted rules against official county sources, keep dated sources, and avoid anything that reads as investment advice.",
+    "content_angle": "Post county-level sale guides on BiggerPockets and YouTube, and publish pages such as '[county] tax lien sale 2027'.",
+    "first_steps": [
+      "Extract the rules for ten counties in two states into a spreadsheet and check against county notices.",
+      "Publish a free calendar for one state and share it on BiggerPockets.",
+      "Count sign-ups for alerts before building the paid all-states tier."
+    ],
+    "price_hint": "Free for 1 state; $29/mo all states; $99/mo with results",
+    "watch_out": "Tax Sale Resources already sells county data, so the open question is whether you can undercut it on price and still fund data upkeep.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-247",
+    "name": "Equipment Lease Quote Comparer",
+    "one_liner": "A tool and lessor directory that lets US small businesses check equipment lease quotes and compare lessors by asset and credit tier.",
+    "problem": "Small businesses financing trucks, medical devices or machinery get quotes with different structures, fees and prepayment penalties that hide the true cost. Most owners take the vendor's financing offer at the point of sale without comparing.",
+    "why_it_works": "Lenders such as Crest Capital and Ameris compete openly online for small business equipment deals, and the Equipment Leasing & Finance Foundation publishes ongoing industry research. Marketplaces route to their own partners and do not let borrowers benchmark quotes they already hold. A neutral quote check fills that gap.",
+    "agent_plan": [
+      "Reads uploaded lease quotes and extracts structure, term, rate factor, fees and buyout terms.",
+      "Computes an implied APR and total cost so quotes can be compared side by side.",
+      "Maintains lessor profiles by asset focus, minimum time in business and borrower-reported approval speed."
+    ],
+    "human_part": "You still recruit lessors and equipment dealers, and handle state commercial financing disclosure rules and any broker licensing.",
+    "content_angle": "Publish short breakdowns of real lease quote structures such as $1 buyout versus fair market value, aimed at Google searches and small business groups.",
+    "first_steps": [
+      "Collect five anonymized lease quotes from owners and compute the implied cost by hand.",
+      "Check your state's commercial financing disclosure and broker licensing rules.",
+      "Offer a free quote check to ten owners and note what they ask next."
+    ],
+    "price_hint": "Free quote check; lessors $249/mo; $100-$300 per referral",
+    "watch_out": "Lendio could add quote benchmarking, and state disclosure laws or broker licensing may apply.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-248",
+    "name": "Forensic Accountant Matchmaker",
+    "one_liner": "A directory of forensic accountants by credential and case type, for US attorneys and business owners.",
+    "problem": "Litigators, family law attorneys and business owners need forensic accountants with the right credential and case experience, and general CPA and expert directories do not separate them. Finding a qualified, conflict-free expert quickly is still hard.",
+    "why_it_works": "The ACFE's Occupational Fraud 2026 Report to the Nations analyzed 2,402 real fraud cases, and AICPA, ACFE and NACVA all run forensic credentials. Expert directories cover every discipline, and credentialing bodies do not show case-type experience or availability. A focused directory fits that.",
+    "agent_plan": [
+      "Builds expert profiles by case type, credentials, state CPA licence, testimony experience and rate range.",
+      "Screens a confidential case summary for conflicts using party names the attorney provides.",
+      "Matches attorneys to available experts and tracks response times."
+    ],
+    "human_part": "You still recruit experts, handle confidentiality and fee-splitting rules, and build trust with attorneys who will not hand over cases lightly.",
+    "content_angle": "Share guides for family law attorneys on tracing hidden assets, and publish pages such as 'forensic accountant divorce [city]'.",
+    "first_steps": [
+      "List ten forensic accountants in one city with credentials and case types from public profiles.",
+      "Check your state's expert fee-splitting and CPA licensing rules.",
+      "Ask three family law attorneys how they find experts today."
+    ],
+    "price_hint": "Free for attorneys; experts $249/mo, 8% first-job fee",
+    "watch_out": "Expert Institute could add a forensic accounting vertical, and fee-splitting and confidentiality rules need care.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 68,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-250",
+    "name": "Industrial Automation Integrator Finder",
+    "one_liner": "A directory of PLC and SCADA integrators with verified projects, for US plant managers modernizing their lines.",
+    "problem": "Plant managers replacing obsolete PLCs need integrators certified on their platform and experienced in their industry, and a bad one can cause weeks of downtime. Vendor locators list only their own partners, and engineers on r/PLC complain about integrator quality and lock-in.",
+    "why_it_works": "CSIA runs a find-an-integrator directory and ISA offers a Certified Automation Professional credential, which shows a large, credentialed integrator market. Vendor locators are single-platform and CSIA lacks project-size and code-ownership data. Verified projects and comparable bids are the gap.",
+    "agent_plan": [
+      "Structures integrator capabilities by platform, partner tier, industry, project size and code-ownership policy.",
+      "Turns an owner's I/O counts and scope into a standard RFQ so bids are comparable.",
+      "Collects client confirmation for project summaries and flags legacy-controller migration experience."
+    ],
+    "human_part": "You still win integrators over, who find work by referral, and your controls background matters when judging claims and scope.",
+    "content_angle": "Answer integrator-selection questions on r/PLC and publish pages such as 'PLC integrator [state]'.",
+    "first_steps": [
+      "List ten integrators in one state with platforms, industries and code-ownership policy from their sites.",
+      "Post a checklist for vetting integrators on r/PLC and collect feedback.",
+      "Ask three integrators to confirm a project summary for a free profile."
+    ],
+    "price_hint": "Free for owners; integrators $299/mo, $40 per RFQ",
+    "watch_out": "Integrators win work by referral, so getting them to claim profiles may be slow.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-251",
+    "name": "Penetration Testing Firm Finder",
+    "one_liner": "A directory of penetration testing firms by specialty, certification and methodology, for security teams choosing a provider.",
+    "problem": "Companies know they need penetration testing but cannot judge technical competency and often choose on sales presentations. Prices vary widely for similar scopes, and some firms deliver automated scans as a pentest.",
+    "why_it_works": "The market has over 2,000 pentest providers with widely varying prices, and certifications like OSCP and CREST mean different things. Clutch, G2 and CREST list firms but not methodology, retest policy or pricing per test type. Demand searches are listed in the input but unverified.",
+    "agent_plan": [
+      "Builds firm profiles with specialty, certifications, methodology and pricing ranges by scope.",
+      "Maps firms to compliance needs such as PCI-DSS, HIPAA and SOC 2 and which auditors accept their reports.",
+      "Matches a company's described environment to relevant firms and routes leads."
+    ],
+    "human_part": "You still win trust from security buyers, which is slow, and recruit firms to share honest pricing and methodology.",
+    "content_angle": "Publish guides such as 'penetration testing cost comparison' and 'how to spot a scan sold as a pentest' for security buyers.",
+    "first_steps": [
+      "Profile ten firms by specialty, certifications and published methodology.",
+      "Publish a buyer's checklist for spotting automated scans sold as pentests.",
+      "Ask five security leads what pricing data would change their choice."
+    ],
+    "price_hint": "Free search; firms $199/mo with lead routing",
+    "watch_out": "Clutch and G2 already list pentest firms, so quote data is the only real moat and enterprise trust is slow.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 78,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-256",
+    "name": "Privacy Compliance Consultant Finder",
+    "one_liner": "A directory of GDPR and CCPA consultants and DPO services, searchable by regulation, industry and technical skill.",
+    "problem": "Companies need privacy consultants but the market has many generalists, and some only write policies while others can build privacy into code. Many hire several consultants before finding one who understands both the legal and technical sides.",
+    "why_it_works": "Rates run widely with no link to quality, and the IAPP vendor directory, Clutch and G2 do not cover jurisdiction-specific expertise. Search phrases like 'GDPR consultant' and 'DPO as a service' are listed in the input but unverified. A directory split by service type could help buyers.",
+    "agent_plan": [
+      "Builds consultant profiles by regulation, industry, certification and service type: policy, technical, DPO or breach response.",
+      "Collects client reviews focused on implementation quality and regulator interactions.",
+      "Keeps pricing models and technical capability indicators current for each listing."
+    ],
+    "human_part": "You still recruit consultants and keep the site on the information side of the line, as advice that drifts legal creates risk.",
+    "content_angle": "Publish pages such as 'privacy consultant for startups' and 'DPO as a service pricing' explaining service types and typical pricing models.",
+    "first_steps": [
+      "Profile ten consultants by regulation and service type from their public sites.",
+      "Write one guide on policy-only versus technical privacy help.",
+      "Ask five startup founders how they found their privacy consultant."
+    ],
+    "price_hint": "Free search; consultants $99/mo",
+    "watch_out": "The IAPP vendor directory is an entrenched free alternative, and advice that drifts toward legal could raise unauthorized-practice issues.",
+    "tags": {
+      "markets": [
+        "US",
+        "UK"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 78,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-260",
+    "name": "Game Server Host Comparison",
+    "one_liner": "An independent comparison site for game server hosts, with measured uptime and ping, for gamers and community managers.",
+    "problem": "Game server hosting is spread across hundreds of providers with confusing pricing and uneven quality. Buyers often find out after paying that performance is poor or their game or mod is not supported.",
+    "why_it_works": "The input lists search phrases like 'Best Minecraft server hosting' but marks them unverified. GPORTAL, Shockbyte, Trustpilot and affiliate blogs cover the topic, but independent measured uptime and ping from player regions is the gap. Without that data it would be just another affiliate list.",
+    "agent_plan": [
+      "Runs latency and uptime probes against hosts from several regions and logs the results.",
+      "Keeps game support, pricing models and server locations current for each host.",
+      "Calculates a true price by game and player count and publishes comparison pages."
+    ],
+    "human_part": "You still negotiate host partnerships, follow FTC affiliate disclosure rules, and judge which test results are fair.",
+    "content_angle": "Post short videos showing measured ping and uptime for popular Minecraft or Rust hosts, with a link to the comparison.",
+    "first_steps": [
+      "Pick five hosts for one game and measure ping from two regions for a week.",
+      "Publish the results as one comparison page with clear affiliate disclosure.",
+      "Check search interest by posting it in a Minecraft or Rust community."
+    ],
+    "price_hint": "Free to browse; host partnerships for placement",
+    "watch_out": "It is easily mistaken for another affiliate list, and measured probe data is the only differentiator.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "creator"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-269",
+    "name": "Digital Forensics Expert Finder",
+    "one_liner": "A directory of digital forensics experts by specialty, certification and court history, for litigation attorneys.",
+    "problem": "Lawyers and corporate investigators need forensic experts with specific certifications, testimony experience and evidence-type skills, but cannot judge technical competency. Chain of custody mistakes can invalidate evidence entirely.",
+    "why_it_works": "The input lists searches like 'digital forensics expert witness' but marks them unverified. Expert Institute, SEAK and IACIS list experts, and the gap named is specialty, such as mobile and crypto tracing, with court admission history. A specialized directory can fill it.",
+    "agent_plan": [
+      "Builds expert profiles by specialty, certification and cases where they were qualified as experts.",
+      "Collects lawyer and investigator reviews on technical competency and communication.",
+      "Keeps rates, turnaround, rush availability and supported evidence types current."
+    ],
+    "human_part": "You still recruit experts, verify certifications with issuing bodies, and check state PI licensing rules for some forensic work.",
+    "content_angle": "Publish pages such as 'mobile forensics expert' that explain evidence types and what to ask an expert before hiring.",
+    "first_steps": [
+      "Profile ten experts by specialty and certification from public sources.",
+      "Check state PI licensing rules that may apply to forensic work.",
+      "Ask three litigation attorneys how they find experts for mobile or crypto evidence."
+    ],
+    "price_hint": "Free search; experts $149/mo",
+    "watch_out": "It overlaps expert-witness and incident-response directories, and recruiting experts is the bottleneck.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 72,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-273",
+    "name": "Stream-Safe Music Guide",
+    "one_liner": "A directory of music services for Twitch and YouTube streamers, showing which platforms each license actually covers.",
+    "problem": "A single copyrighted song can bring channel strikes or bans, and some services claiming to be stream-safe still lead to strikes. There is no trusted comparison of which services protect you on which platform.",
+    "why_it_works": "The input lists searches like 'stream safe music' but marks them unverified. Epidemic Sound, StreamBeats and Monstercat Gold exist, and the gap named is per-platform license coverage and claim tracking. Streamer reports of real strikes would add something providers do not publish.",
+    "agent_plan": [
+      "Keeps a table of each service's coverage for Twitch live, VODs, YouTube and TikTok clips.",
+      "Collects and sorts streamer strike reports by service.",
+      "Tracks pricing, catalog size, genres and OBS integration, and checks for license term changes."
+    ],
+    "human_part": "You still read license terms yourself, make accuracy calls, and negotiate any affiliate partnerships.",
+    "content_angle": "Post short videos on Twitch and YouTube explaining what each service's license covers, using real strike reports as examples.",
+    "first_steps": [
+      "Read the license terms of five services and chart platform coverage.",
+      "Post the chart in a streamer community and collect strike reports.",
+      "Add clear disclaimers and affiliate disclosure before publishing."
+    ],
+    "price_hint": "Free to browse; affiliate partnerships",
+    "watch_out": "License terms change often, so data upkeep is the risk, and wrong coverage claims create copyright accuracy liability.",
+    "tags": {
+      "markets": [
+        "GLOBAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "creator"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-281",
+    "name": "Farm Drone Service Directory",
+    "one_liner": "A directory of licensed agricultural drone operators with per-acre pricing and crop experience, for US farmers.",
+    "problem": "Farmers need drone providers for scouting, mapping and spraying, but operators vary in certification, equipment and agricultural knowledge. Pricing is not standardized, and farmers struggle to find providers licensed for pesticide application in their state.",
+    "why_it_works": "The input lists searches like 'agricultural drone spraying near me' but marks them unverified. Existing options are dealer networks, local ag retailers and Facebook farm groups, so a neutral directory with per-acre pricing and crop experience is the gap. Licensing keeps the niche harder to copy.",
+    "agent_plan": [
+      "Builds operator profiles with FAA and state pesticide licences, equipment, sensors and crop experience.",
+      "Normalizes quotes to per-acre prices by service type for comparison.",
+      "Routes farmer requests to matching operators and collects ratings after the job."
+    ],
+    "human_part": "You still recruit operators, who may prefer dealer referrals, and check licensing rules for FAA exemptions and state pesticide applicators.",
+    "content_angle": "Publish pages for searches like 'crop scouting drone service' and share local guides in farm Facebook groups.",
+    "first_steps": [
+      "List ten operators in one farming region with licences, equipment and crops served.",
+      "Post a per-acre price guide in a local farm Facebook group.",
+      "Ask three operators whether they would pay for farmer leads."
+    ],
+    "price_hint": "Operators $99/mo; 5% booking fee",
+    "watch_out": "Supply is growing fast, but operators may prefer dealer referral networks, and licensing rules vary by state.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 68,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-287",
+    "name": "Wind Technician Directory",
+    "one_liner": "A directory of certified wind turbine technicians and service firms, for US wind farm operators.",
+    "problem": "Wind farm operators struggle to find qualified technicians for maintenance and emergency repair, and certifications vary by turbine brand. Independent technicians have little visibility beyond word of mouth.",
+    "why_it_works": "The input says the industry needs 14,000+ new technicians by 2030, though the demand searches listed are unverified. Indeed, GWO training records and staffing agencies are the alternatives, and certification-verified profiles are the gap. Independents could win work if operators could verify them.",
+    "agent_plan": [
+      "Verifies certifications with issuing bodies and tracks expiry dates for each technician profile.",
+      "Matches operator searches by turbine type, certification, region and availability.",
+      "Alerts technicians in a region when an urgent repair is posted."
+    ],
+    "human_part": "You still sign up operators and technicians on both sides, which is staffing-style sales work, and check staffing licensing rules.",
+    "content_angle": "Publish pages for searches like 'GWO certified technician' and post in wind industry groups on LinkedIn.",
+    "first_steps": [
+      "List ten independent technicians or small firms with their certifications from public profiles.",
+      "Ask three wind farm operators what blocks them from hiring independents.",
+      "Check your state's staffing licensing rules before taking any fees."
+    ],
+    "price_hint": "Job postings $199; technicians $39/mo",
+    "watch_out": "It is a staffing-shaped business, supply and demand both need recruiting, and federal wind policy is uncertain.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "work_careers",
+        "local_services"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-300",
+    "name": "RV Mechanic Finder",
+    "one_liner": "A directory that helps RV owners find mechanics by RV type, brand and issue, including mobile and emergency service.",
+    "problem": "RV owners need mechanics who can handle electrical, plumbing, propane and chassis in one vehicle, and dealer service departments are known for long waits. Independent and mobile mechanics are hard to find and evaluate before hiring.",
+    "why_it_works": "The input cites 11 million RV owners, but the demand searches listed are unverified. Existing sources are RVTAA, RVDA and RVIA listings, and mobile tech discovery with wait times is the gap named. It can run as a content and SEO directory.",
+    "agent_plan": [
+      "Builds mechanic profiles with certifications, brand training, specialties and RV types serviced.",
+      "Keeps mobile service radius, shop bay sizes and current wait times up to date.",
+      "Routes urgent breakdown requests to available mobile technicians and nearby shops."
+    ],
+    "human_part": "You still recruit mechanics, and the input warns that techs are already overbooked, so you must give them a reason to pay.",
+    "content_angle": "Publish pages such as 'mobile RV repair near me' and short videos on common RV breakdowns that link to the directory.",
+    "first_steps": [
+      "List fifteen mobile RV mechanics in one region with specialties and travel radius.",
+      "Post a breakdown checklist in an RV owner Facebook group and see who asks for mechanics.",
+      "Ask five mechanics whether paid leads would interest them."
+    ],
+    "price_hint": "Mechanics $79/mo; $40 per lead",
+    "watch_out": "Techs are already overbooked, so supply incentives are weak and recruiting mechanics is the bottleneck.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 72,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

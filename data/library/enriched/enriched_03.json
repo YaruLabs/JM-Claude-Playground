@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "TH-051",
+    "name": "Counter E-Receipt QR",
+    "one_liner": "A counter QR that lets shoppers get an e-Tax Invoice in LINE in about 30 seconds, built for small VAT-registered shops.",
+    "problem": "Shoppers at small VAT-registered shops now ask for full e-Tax Invoices during Easy E-Receipt rounds. Owners write paper invoices or retype buyer details after closing, which takes 3-5 minutes each and creates tax ID typos that void the deduction.",
+    "why_it_works": "Easy E-Receipt ran in 2567 and 2568 and a 2569 round is reported, each limited to e-Tax Invoice or e-Receipt documents. FlowAccount and PEAK both publish e-Tax guides, which shows SME demand. They assume back-office entry, and none offer a customer self-serve counter QR.",
+    "agent_plan": [
+      "Validates each 13-digit tax ID checksum and branch code before an invoice is built.",
+      "Builds the invoice and sends the PDF into the customer's LINE chat after the cashier taps the sale.",
+      "Syncs issued documents to FlowAccount or PEAK and compiles the monthly output-VAT report."
+    ],
+    "human_part": "You still handle Revenue Department registration support, shop onboarding visits and bookkeeper referrals, ideally with a Thai co-founder or bookkeeper partner.",
+    "content_angle": "Short videos for Facebook seller groups showing a 30-second counter e-receipt, posted before each Easy E-Receipt season.",
+    "first_steps": [
+      "Mock up the counter QR and LINE form, and show it to five cafe or pharmacy owners.",
+      "Ask two local bookkeepers whether they would refer clients, and what Time Stamp setup help they need.",
+      "Build a no-sync pilot with tax ID validation and PDF return for one friendly shop."
+    ],
+    "price_hint": "Free 20 receipts/mo; ฿290/mo for 300 docs",
+    "watch_out": "Demand depends on the Easy E-Receipt campaign recurring each year; demand outside campaign months is unproven.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-052",
+    "name": "PromptPay Match Ledger",
+    "one_liner": "A ledger that matches each PromptPay credit in your bank feed to the LINE or Facebook order it paid for, for small online sellers.",
+    "problem": "Social sellers get PromptPay payments as bare notifications with an amount and a truncated name, while the order sits in a chat. Staff spend an hour a day ticking off who paid, identical prices cause wrong shipments, and partial payments surface only at month-end.",
+    "why_it_works": "PromptPay processed about 24.3 billion transactions in 2024, and regulators tell sellers to check money in the account rather than trust slips. That check is the reconciliation step. Slip bots verify authenticity, bank apps show credits without orders, and order tools like Zort do not reconcile bank credits.",
+    "agent_plan": [
+      "Parses bank statement exports and notification emails for five banks into a single credit list.",
+      "Matches credits to open orders by amount, time window and fuzzy Thai and English payer names.",
+      "Sends a daily LINE digest of unmatched credits and unpaid orders, and exports a reconciled ledger to FlowAccount or PEAK."
+    ],
+    "human_part": "You still sell to sellers and bookkeepers, handle support when a bank changes its export format, and persuade owners to forward statements reliably.",
+    "content_angle": "TikTok tutorials showing how to stop wrong-buyer shipments when many orders cost 299 baht.",
+    "first_steps": [
+      "Interview eight LINE or Facebook sellers about how they reconcile payments today.",
+      "Build a spreadsheet matcher for one bank's export using real anonymised data.",
+      "Offer a manual daily digest to three sellers for two weeks and note what they act on."
+    ],
+    "price_hint": "฿199/mo (500 matches) to ฿1,490/mo bookkeepers",
+    "watch_out": "Open question is whether sellers will reliably forward bank emails or exports, and per-bank parsers are the grind.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "ecommerce"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-053",
+    "name": "Fifty Tawi Tracker",
+    "one_liner": "A tool that chases, checks and prepares 50 Tawi withholding-tax certificates so freelancers and small firms reclaim withheld tax.",
+    "problem": "Thai freelancers and small suppliers have 1-5% withheld from payments and often wait months for the 50 Tawi certificate. Without it they cannot offset the tax in their annual return, so money stays with the Revenue Department, and tiny payers mix up PND 3 and PND 53.",
+    "why_it_works": "FlowAccount and PEAK both publish explainers on PND 3 versus PND 53 and sending 50 Tawi, and the Revenue Department built e-Withholding Tax with 11 banks to cut this paperwork. Suites issue certificates for payers but no tool manages the recipient chase or ties certificates to the annual return.",
+    "agent_plan": [
+      "Reads invoices and payment credits and predicts which payments should carry withholding.",
+      "Chases the payer by email or LINE until a 50 Tawi arrives, then checks amounts, tax IDs and PND type by OCR.",
+      "Generates Thai and English 50 Tawi PDFs for payers and pre-fills PND 3 and 53 attachment files."
+    ],
+    "human_part": "You partner with a licensed Thai bookkeeper or tax auditor for any filing on a client's behalf, and you sell to freelancers and small companies yourself.",
+    "content_angle": "Facebook freelancer-group posts and Q1 tax-season search pages on 50 ทวิ questions, such as how to chase a client for a missing certificate.",
+    "first_steps": [
+      "Interview five freelancers about certificates they are still waiting for and what it cost them.",
+      "Build a free chaser email template and a certificate checklist, and share it in freelancer groups.",
+      "Test OCR on ten real 50 Tawi samples to see how reliably it reads amounts and tax IDs."
+    ],
+    "price_hint": "Free 5 certs/yr; ฿990/yr; ฿350/mo company",
+    "watch_out": "Wider e-Withholding Tax adoption could remove the certificate chase for larger payers.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-054",
+    "name": "Marketplace Fee Auditor",
+    "one_liner": "An audit tool for Shopee, Lazada and TikTok Shop payouts that finds fee errors and builds the input-VAT schedule.",
+    "problem": "Thai marketplace sellers pay stacked commission, transaction and programme fees that change several times a year, and payout reports differ per platform. Many find out months later that a SKU is unprofitable, and bookkeepers must collect fee tax invoices from three seller centres by hand.",
+    "why_it_works": "Bangkok Post and seller blogs report repeated Shopee and Lazada commission increases, and FlowAccount keeps a 2026 fee-update article because sellers search for it. Order-management tools like Zort and BigSeller sync orders and stock, but none recompute fees against the official rate card or build the input-VAT schedule.",
+    "agent_plan": [
+      "Recomputes expected fees for every order from a maintained rate card by category, programme and payment method.",
+      "Flags discrepancies such as fees on cancelled orders and drafts the evidence pack for a seller-centre ticket.",
+      "Collects platform fee tax invoices and outputs an input-VAT schedule and journal for FlowAccount or PEAK."
+    ],
+    "human_part": "You still maintain relationships with bookkeepers and platform partner programmes, check rate cards in each seller centre, and sell to seller groups.",
+    "content_angle": "TikTok or Facebook posts showing a real payout broken down line by line, with the fee mistakes circled.",
+    "first_steps": [
+      "Collect payout exports from five sellers and recompute fees by hand for one platform.",
+      "Check the current rate cards in each seller centre and record the date checked.",
+      "Share the findings with the sellers and ask whether they would pay for monthly audits."
+    ],
+    "price_hint": "฿390-฿2,990/mo by GMV band",
+    "watch_out": "Biggest risk is API access and rate-card upkeep, since platforms change fees several times a year and 2026 rates need checking in each seller centre.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-055",
+    "name": "Small Crew Payroll",
+    "one_liner": "Payroll, Social Security and PND 1 for employers with 1-30 staff, with payslips in Thai, Burmese and English through LINE.",
+    "problem": "Small restaurants, salons and shops run payroll in Excel, miss the new Social Security wage ceiling of 17,500 baht from January 2026, and file the SSO upload and PND 1 by hand. Migrant staff need payslips they can read and work-permit renewals tracked.",
+    "why_it_works": "The Cabinet approved the 17,500 baht ceiling from 1 January 2026, widely covered by Thai media and PEAK help articles. Employers were told to renew migrant work permits by 31 March 2026. Humanica and Prosoft HRMI are quote-based and aimed at mid-to-large firms, so micro-employers are left with spreadsheets.",
+    "agent_plan": [
+      "Calculates net pay, SSO contributions and PND 1 withholding using the current ceiling tables.",
+      "Generates the SSO e-Service contribution file and PND 1 attachment, and reminds the owner before the 15th.",
+      "Sends payslips in Thai, Burmese, Lao, Khmer or English by LINE and tracks work-permit expiry."
+    ],
+    "human_part": "You still need a Thai payroll accountant to sign off the rules, and the employer submits to SSO; you also sell door-to-door through bookkeepers and employer networks.",
+    "content_angle": "Facebook restaurant-owner group posts explaining the new SSO ceiling with a simple worked payslip example.",
+    "first_steps": [
+      "Ask a payroll accountant to review the 2026 SSO and PND 1 calculation rules.",
+      "Build a spreadsheet prototype for one restaurant and check the SSO upload file format.",
+      "Offer free payroll for one month to three small employers and note where they get stuck."
+    ],
+    "price_hint": "฿39/employee/mo (min ฿190)",
+    "watch_out": "Distribution to micro-employers is the hard part, and the SSO e-Service file format must be verified before building.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-056",
+    "name": "LINE Deposit Booking",
+    "one_liner": "A booking mini-app inside LINE with PromptPay deposits that cuts no-shows for salons, clinics and massage shops.",
+    "problem": "Thai salons, massage shops and small clinics take bookings by LINE chat, answering the same availability questions all day. Nothing is prepaid so no-shows are common, and collecting a deposit by PromptPay and checking slips by hand is awkward.",
+    "why_it_works": "LINE reports 56 million Thai users and over 12 billion Official Account conversations in 2025, and MINI App volume tripled after developer access opened in March 2026. Global booking tools need an app download and card payments, and LINE OA alone lacks deposit-backed scheduling with automatic PromptPay confirmation.",
+    "agent_plan": [
+      "Confirms PromptPay deposits automatically from the dynamic QR instead of slip photos.",
+      "Sends LINE reminders 24 hours and 2 hours before each booking.",
+      "Applies each shop's cancellation policy in Thai and English and produces no-show and repeat-visit reports."
+    ],
+    "human_part": "You still sell to shop owners in person or through salon distributors, and set up payments through a licensed Thai gateway so funds go straight to the merchant.",
+    "content_angle": "Short videos for salon owners showing a no-show rate before and after deposits, posted to Facebook salon groups.",
+    "first_steps": [
+      "Interview six salon or massage owners about no-shows and how they take deposits now.",
+      "Prototype a LINE booking flow with a fixed PromptPay deposit QR for one shop.",
+      "Run it with that shop for two weeks and count no-shows against the previous fortnight."
+    ],
+    "price_hint": "฿350/mo solo; ฿790/mo up to 8 staff",
+    "watch_out": "LINE could ship native booking, since it is building MINI Apps, and Fresha is expanding.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "local_services",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-057",
+    "name": "LINE Broadcast Optimizer",
+    "one_liner": "A tool that cuts LINE OA broadcast costs by sending each campaign to the right segment instead of every friend.",
+    "problem": "LINE OA paid plans include a fixed message quota, and shops that broadcast to every friend burn through it in a couple of campaigns. Blasting everyone also drives blocks, which shrinks the list the shop paid to build.",
+    "why_it_works": "LINE's 2023 plan change cut the free broadcast quota by 50% and raised prices, which Thai SMEs criticised in KrASIA and Bangkok Post coverage. LINE's built-in audiences need manual tagging and offer no cost or block forecasting, and agency CRMs are built for enterprises.",
+    "agent_plan": [
+      "Captures purchase, chat and click events through the Messaging API and tags friends by behaviour.",
+      "Forecasts reach, quota cost and block risk before each campaign and recommends a segment and send time.",
+      "Drafts Thai copy and rich-menu variants per segment, and reports baht saved against whole-list broadcasting."
+    ],
+    "human_part": "You still sell to OA owners and LINE agencies, and a Thai entity may help you become a LINE technology partner.",
+    "content_angle": "Posts in Facebook marketing groups showing a real broadcast bill and what a segmented send would have cost.",
+    "first_steps": [
+      "Interview five OA owners and ask how many messages they send and what they pay.",
+      "Check the current 2026 LINE OA plan prices, since the quotas in the research date from 2023.",
+      "Build a manual segment-and-forecast sheet for one OA and test one segmented campaign."
+    ],
+    "price_hint": "฿490/mo per OA; agency ฿3,900/mo",
+    "watch_out": "LINE can improve its own audiences and AI targeting at any time, and current 2026 plan prices were not verified.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-058",
+    "name": "Thai Shop Chat Agent",
+    "one_liner": "An AI agent that answers Thai customer chats on LINE OA, takes orders and hands hard cases to the owner.",
+    "problem": "Thai shop owners handle hundreds of chat questions a day about price, stock, delivery and payment, often at midnight. Slow replies lose sales, a hired admin costs 12,000-15,000 baht a month, and keyword bots break on informal Thai.",
+    "why_it_works": "LINE OA logged more than 12 billion conversations in 2025, and vendor guides on building AI chatbots for LINE are growing in 2026. Generic or rule-based bots lack live stock and order context, and agencies build one-off bots at project prices.",
+    "agent_plan": [
+      "Answers price, stock, size and shipping questions in Thai or English from the shop's catalogue and policies.",
+      "Creates the order and a PromptPay QR, checks the payment and posts a summary for the owner.",
+      "Escalates complaints and custom orders to a human with full context and learns from one-tap corrections."
+    ],
+    "human_part": "You still onboard each shop, write its policies with the owner, and sell to sellers, ideally with a Thai co-founder for language quality.",
+    "content_angle": "TikTok demo videos of the agent handling a midnight order from start to PromptPay QR.",
+    "first_steps": [
+      "Collect real chat logs from three sellers, with permission, to build a Thai test set.",
+      "Prototype an agent on one catalogue with a stock sheet and test it on past questions.",
+      "Run it in shadow mode for a week, with the owner approving replies, and measure edits."
+    ],
+    "price_hint": "฿690/mo (1,000 chats); ฿1,900/mo Pro",
+    "watch_out": "Commoditization is high, since LINE ships native AI chat and agencies connect general assistants cheaply, so live order integration must be the differentiator.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "local_services"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-059",
+    "name": "Thai Listing Localizer",
+    "one_liner": "A tool that rewrites Chinese or English product listings into natural, compliance-aware Thai for TikTok Shop, Shopee and Lazada.",
+    "problem": "Foreign brands and Thai importers machine-translate listings into stiff Thai that misses real search terms. Cosmetics, supplements and food need Thai FDA-compliant wording and electrical goods need TISI references, and agencies charge per SKU and take days.",
+    "why_it_works": "TikTok is a major entry point for Chinese products into Thailand, and Taobao launched a Thai interface with AI translation in 2025, which shows demand for Thai localisation. Translation tools are not tied to Thai search keywords or FDA and TISI claim rules, and agencies are slow and expensive.",
+    "agent_plan": [
+      "Rewrites each listing into marketplace Thai using a keyword bank from Thai search suggestions and top listings.",
+      "Flags risky claims for FDA and TISI categories and suggests compliant alternatives.",
+      "Translates text on product images and exports bulk files for TikTok Shop, Shopee and Lazada plus an English version."
+    ],
+    "human_part": "You still need a Thai linguist to review output, you keep compliance rules current, and you sell through agencies and Chinese seller communities.",
+    "content_angle": "WeChat and TikTok posts showing a before-and-after of one machine-translated listing and its Thai rewrite.",
+    "first_steps": [
+      "Take ten real listings from a seller and rewrite them with the tool prototype.",
+      "Ask a Thai linguist to score the output and list the claims wording that needs flagging.",
+      "Offer a 20-SKU trial to two cross-border sellers or agencies and ask what they would pay."
+    ],
+    "price_hint": "฿15 per SKU; ฿2,500/mo for 300 SKUs",
+    "watch_out": "FDA and TISI rules change and must be maintained, compliance suggestions are not legal advice, and marketplaces could add AI translation natively.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT",
+        "GLOBAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "tech"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-060",
+    "name": "Thai Review Defect Radar",
+    "one_liner": "A tool that mines Thai Shopee, Lazada and TikTok reviews for the defect and sizing themes behind your returns.",
+    "problem": "Thai reviews are full of signal in slang and emoji, but sellers with hundreds of SKUs only read the one-star ones. Returns are expensive and recurring defects keep generating them, and a 1-2% return rate gap can decide whether a SKU is profitable.",
+    "why_it_works": "TikTok Shop extended No Longer Needed returns to Thailand in 2024 and auto-approves refunds when sellers miss deadlines. Thai sellers are under price pressure from imports. Platform dashboards show star ratings, not defect themes, and generic tools are weak on informal Thai.",
+    "agent_plan": [
+      "Imports reviews and return reasons from the seller's shops across three marketplaces.",
+      "Clusters them into defect themes such as sizing, material, packaging and courier, and estimates return cost per theme.",
+      "Suggests fixes like a size chart or new photo, and sends a weekly LINE summary."
+    ],
+    "human_part": "You still sell to sellers, check the clusters against what sellers know about their products, and maintain access to marketplace APIs.",
+    "content_angle": "TikTok seller-education posts showing the top three defect themes found in one public category's reviews.",
+    "first_steps": [
+      "Pull public reviews for one product category and cluster them manually by theme.",
+      "Show the findings to three sellers and ask which theme costs them the most returns.",
+      "Prototype the weekly LINE summary for one seller and ask whether they acted on it."
+    ],
+    "price_hint": "฿490/mo (100 SKUs); ฿1,290/mo (1,000)",
+    "watch_out": "Willingness to pay is uncertain, and the research suggests it may be better folded into a fee-audit or dispute product as a module.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-061",
+    "name": "Return Dispute Evidence Kit",
+    "one_liner": "A pack-out video app that links each parcel to its order and builds evidence before marketplace dispute deadlines.",
+    "problem": "Buyers claim missing items or empty parcels, and platforms resolve disputes on deadlines: TikTok Shop auto-approves the refund if a seller does not respond. Many sellers film packing already, but clips sit unsorted on a phone and the appeal window is missed.",
+    "why_it_works": "TikTok Shop guides document appeal windows of about 15 days for returned goods and auto-approval when sellers do not respond. OMS tools do not capture pack-out video, and phone videos are not indexed to orders or linked to deadlines.",
+    "agent_plan": [
+      "Starts recording on barcode scan, overlays order number, timestamp and SKU list, and stores clips by order.",
+      "Pulls the right clip when a dispute appears and drafts the Thai appeal text and a still-frame evidence sheet.",
+      "Alerts the owner on LINE ahead of each deadline and reports disputes won and money recovered."
+    ],
+    "human_part": "You still visit or call warehouses and fulfilment partners to get set up, and explain to staff that they are being filmed under PDPA.",
+    "content_angle": "TikTok seller tutorials showing a lost refund and how the same pack-out clip would have won it.",
+    "first_steps": [
+      "Ask five sellers how many disputes they lost last month and where their clips are stored.",
+      "Prototype barcode-triggered recording with an overlay on a phone and test on one packing desk.",
+      "Pilot with one seller for two weeks and count disputes where the clip was found in time."
+    ],
+    "price_hint": "฿390/mo (1,500 orders); ฿990/mo (6,000)",
+    "watch_out": "The cross-seller buyer blacklist is legally sensitive under PDPA, so launch without it.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-062",
+    "name": "Expat Company Compliance Desk",
+    "one_liner": "A bilingual compliance calendar for foreign-run Thai companies covering VAT, PND, SSO, DBD and work-permit deadlines.",
+    "problem": "Foreign founders of small Thai companies face recurring VAT, PND, SSO, DBD and work-permit obligations written in Thai. Most rely on one bookkeeper who emails Thai PDFs, so owners learn of a missed deadline only when a surcharge or permit problem appears.",
+    "why_it_works": "Foreign Business Act and BOI digital rules are actively debated, law firms publish recurring explainers for foreign owners, and PDPA fines are rising. Accounting apps cover tax but not immigration-linked or DBD deadlines and are not designed for non-Thai readers.",
+    "agent_plan": [
+      "Builds a company-specific English and Thai compliance calendar from a short onboarding questionnaire.",
+      "Translates and summarises photographed Thai government letters and bookkeeper PDFs, extracting any new deadline.",
+      "Sends LINE and email reminders and tracks proof of filing uploaded by the bookkeeper."
+    ],
+    "human_part": "You still refer owners to licensed lawyers and bookkeepers, since you cannot give legal advice or file taxes, and you build trust in expat groups and chambers.",
+    "content_angle": "English SEO pages and expat Facebook group posts on questions like what a foreign-owned Thai company must file each month.",
+    "first_steps": [
+      "List the recurring obligations for three company profiles and have a bookkeeper check them.",
+      "Build a calendar template and offer it free to five expat owners in a Facebook group.",
+      "Ask two bilingual bookkeepers whether they would resell it and how they would want proof uploaded."
+    ],
+    "price_hint": "฿690/mo or ฿6,900/yr",
+    "watch_out": "The market is small and partly overlaps a sibling work-permit idea, so it works best resold by bookkeepers.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "TH-063",
+    "name": "Delivery Margin Splitter",
+    "one_liner": "A tool showing true profit per dish on Grab, LINE MAN, ShopeeFood and Robinhood, with per-app menu price advice.",
+    "problem": "Thai restaurants pay delivery commissions of roughly 15-30% plus VAT on the fee, and rates change with campaigns. Owners rarely know which platform, dish or promotion makes money, so many mark up every menu by the same amount and lose margin or volume.",
+    "why_it_works": "Restaurant complaints about 30-35% commission prompted Grab to cut rates in 2020 and the Trade Competition Commission to intervene, and 2026 co-pay campaigns started a price war with differing rates per platform. Order aggregators like Klikit centralise orders but do not compute per-dish margin or audit deductions.",
+    "agent_plan": [
+      "Rebuilds per-order economics from each app's payout report, including commission, VAT, promos and packaging.",
+      "Recommends platform-specific menu prices and bundles that reach a target margin.",
+      "Flags orders where deductions do not match the contract rate and sends a daily LINE profit summary."
+    ],
+    "human_part": "You still sell to restaurant owners, ideally with a Thai partner, and help them input food costs for their top dishes.",
+    "content_angle": "Facebook restaurant-owner group posts breaking down one real order's money after commission, VAT and packaging.",
+    "first_steps": [
+      "Collect payout reports from three restaurants on two or more apps.",
+      "Compute true margin for their top ten dishes in a spreadsheet and show the results.",
+      "Ask whether they would pay monthly for the daily profit summary and campaign calculator."
+    ],
+    "price_hint": "฿290/mo per outlet; ฿190 for 5+ outlets",
+    "watch_out": "Margins are thin for restaurants, and the research notes platform data-export terms and Robinhood's unclear status.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "hospitality"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-064",
+    "name": "Talad Price Pulse",
+    "one_liner": "A crowdsourced daily ingredient price feed for Thai wholesale markets with menu-cost alerts for vendors.",
+    "problem": "Thai street-food and restaurant margins swing with fresh ingredient prices, such as Thai basil rising from 80 to 160 baht per kg after floods. Vendors cannot easily compare Talad Thai, Si Mum Mueang and Makro, and notice a cost spike only when cash runs short.",
+    "why_it_works": "Bangkok Post and The Star report 2026 surges in vegetable and dish prices squeezing eateries, and Thairath publishes Si Mum Mueang price lists that readers follow. Official lists are delayed and not tied to a vendor's recipes, and no one aggregates cross-market wholesale prices in real time.",
+    "agent_plan": [
+      "Reads item, unit and price from receipt and price-board photos sent through LINE.",
+      "Builds a cross-market price index and recalculates plate cost daily for each vendor's saved recipes.",
+      "Alerts vendors on LINE when a dish's margin drops below target and suggests the cheapest market today."
+    ],
+    "human_part": "You still need a Thai partner on the ground at the markets to seed the first price data, and you sell supplier listings yourself.",
+    "content_angle": "TikTok daily price-update videos on what changed at the wholesale markets this morning.",
+    "first_steps": [
+      "Visit one market with a Thai partner and collect a week of photographed prices.",
+      "Post a free daily price summary in market vendor LINE groups and track who reads it.",
+      "Ask ten vendors for their top recipe and test a manual plate-cost alert."
+    ],
+    "price_hint": "Free index; Pro ฿149/mo; suppliers ฿1,500/mo",
+    "watch_out": "Cold-start of the crowdsourced price feed is the main risk, and vendors pay little, so income leans on suppliers and data.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-065",
+    "name": "Allergen Menu QR",
+    "one_liner": "A tool where a street vendor snaps the menu once and tourists get it in 8 languages with allergen flags.",
+    "problem": "Tourist-area menus often have vague English names or none, and peanuts, shrimp paste, fish sauce and soy sauce are everywhere. Allergic tourists avoid street food or gamble, and vendors lose foreign customers who cannot read the menu.",
+    "why_it_works": "Travelfish notes most tourist menus lack transliteration, and travel insurers publish Thailand allergy guides warning about soy, peanuts and shellfish. Camera translation renders names but not hidden ingredients, and QR builders do not know Thai dish allergen profiles.",
+    "agent_plan": [
+      "Recognises dishes from a menu photo or voice note and maps each to typical ingredients.",
+      "Generates an 8-language QR menu with photos, spice level and allergen and halal, jay or vegan flags.",
+      "Creates a Thai-language request card from a tourist's selections, such as no peanuts or fish sauce."
+    ],
+    "human_part": "You still onboard vendors on the street, with Thai field partners, and win tourism-board or hotel sponsors who fund the free tier.",
+    "content_angle": "TikTok or Instagram videos of an allergic traveller ordering from a street stall with the QR menu.",
+    "first_steps": [
+      "Photograph ten street menus and build allergen mappings for their dishes, with vendor confirmation.",
+      "Make a sample 8-language menu and test it with a few tourists.",
+      "Contact one hotel or district tourism contact about sponsoring vendors in an area."
+    ],
+    "price_hint": "Free basic; Vendor Pro ฿99/mo; sponsors ฿20,000+/yr",
+    "watch_out": "Vendor willingness to pay is weak, so it depends on tourism-board or hotel sponsorship, and allergen info must carry a vendor-provided disclaimer.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "weeks",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-066",
+    "name": "Restaurant Review Replier",
+    "one_liner": "A tool that drafts replies to Wongnai, Google Maps and LINE MAN reviews in your voice and turns complaints into kitchen fixes.",
+    "problem": "Most small restaurant owners never reply to reviews because they are spread across Wongnai, Google Maps and delivery apps, and polite Thai takes time. Unanswered complaints sit on listings for months, and tourists' English reviews are ignored.",
+    "why_it_works": "Wongnai lists more than 300,000 restaurants and its own owner guides say replying brings customers back. No tool covers Wongnai, Google and LINE MAN together with Thai-register replies and root-cause reports.",
+    "agent_plan": [
+      "Monitors reviews across Wongnai, Google Maps and delivery-app ratings.",
+      "Drafts Thai or English replies in the owner's tone for one-tap approval in LINE.",
+      "Classifies complaints by cause and time of day and sends a weekly kitchen fix list."
+    ],
+    "human_part": "You still sell to owners and need access or a partnership with LINE MAN Wongnai, which is unverified.",
+    "content_angle": "Facebook restaurant-group posts showing one bad review, a drafted polite Thai reply and the root-cause fix.",
+    "first_steps": [
+      "Draft replies for ten real public reviews and ask two owners if they would send them.",
+      "Check what Wongnai and Google offer for API or reply access before building.",
+      "Offer a weekly manual complaint report to three restaurants and note what they change."
+    ],
+    "price_hint": "฿390/mo per outlet; ฿290 for 5+ outlets",
+    "watch_out": "Commoditization is high, since Google and Wongnai can add AI replies and general assistants already draft them, and Wongnai access is unverified.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "hospitality"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-067",
+    "name": "Cloud Kitchen Brand Lab",
+    "one_liner": "Profit analytics per brand and per app for Thai cloud kitchens running several virtual brands from one kitchen.",
+    "problem": "Cloud kitchens running several virtual brands on GrabFood, LINE MAN and ShopeeFood cannot see which brand is profitable, because ingredients and staff are shared. Owners keep marginal brands alive since they cannot isolate each one's contribution.",
+    "why_it_works": "Bangkok Post covered cloud-kitchen expansion by Siamese Asset, CRG and GrabKitchen. Order aggregators show sales by brand but not shared-cost contribution margin or cannibalisation. Recent verified market sizing was not found.",
+    "agent_plan": [
+      "Imports delivery-app reports and POS or purchase data for each kitchen.",
+      "Allocates shared costs to brands by recipe usage and prep time to produce contribution margin per brand per platform.",
+      "Detects cannibalisation between own brands and recommends which brand to pause or reprice."
+    ],
+    "human_part": "You still sell directly to operators and landlords with enterprise-style meetings, which favours a Thai co-founder.",
+    "content_angle": "LinkedIn or Facebook posts showing an anonymised kitchen's margin by brand, and which brand to pause.",
+    "first_steps": [
+      "Find three cloud-kitchen operators and ask for one month of anonymised app reports.",
+      "Compute brand contribution margin in a spreadsheet and present it to them.",
+      "Ask whether they would pay monthly, and if a premium tier of a delivery margin tool would do."
+    ],
+    "price_hint": "฿1,290/mo per kitchen, up to 5 brands",
+    "watch_out": "Market size is uncertain, and it could be a premium tier of a delivery-margin tool rather than a standalone product.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "food",
+        "money"
+      ],
+      "channels": [
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "hospitality"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-068",
+    "name": "Halal Supplier Verifier",
+    "one_liner": "A B2B sourcing directory of halal-certified suppliers with certificate checks for kitchens serving Muslim guests.",
+    "problem": "Restaurants and hotels that want to serve Muslim guests struggle to find suppliers with valid CICOT certification, and expired or copied certificates are hard to spot. Muslim visitors rely on word of mouth because a halal sign is not proof.",
+    "why_it_works": "TAT promoted Thailand as Muslim-friendly at Arabian Travel Market 2025, and TTG Asia reported stakeholders calling for a stronger halal tourism push. Official listings are not a sourcing tool and lack ingredient-level mapping to a kitchen's menu and expiry alerts.",
+    "agent_plan": [
+      "Reads certificate photos by OCR and tracks issuer details and expiry dates.",
+      "Maps a restaurant's ingredient list to certified suppliers and shows items lacking certified alternatives.",
+      "Sends renewal reminders to suppliers and exports an ingredient-certificate pack for buyers."
+    ],
+    "human_part": "You still need a Thai Muslim co-founder or a halal institute partner for credibility, and you must never claim to certify, since CICOT is the authority.",
+    "content_angle": "LINE and Facebook posts for hotel F&B managers on how to check that a halal certificate is valid.",
+    "first_steps": [
+      "Meet one halal institute or Muslim trade association about partnering on verification.",
+      "List thirty suppliers from public listings and check how their certificates appear.",
+      "Ask three restaurants or hotels what ingredients they struggle to source halal."
+    ],
+    "price_hint": "Supplier ฿990/mo; buyer ฿390/mo",
+    "watch_out": "It needs an institutional partner for credibility, and certificate verification must be accurate to avoid misleading consumers.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "food",
+        "travel_expat"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-069",
+    "name": "Jay Vegan Supply Hub",
+    "one_liner": "A LINE ordering hub for jay and vegan ingredients with strict-jay labels for festival vendors and plant-based cafes.",
+    "problem": "The nine-day Jay festival (10-18 October in 2026) turns thousands of ordinary restaurants and stalls into jay vendors overnight, and they scramble for ingredients free of animal products and the five pungent vegetables. Cafes buy from scattered importers with inconsistent labelling, and hidden fish sauce or egg in products costs trust.",
+    "why_it_works": "Vegan travel guides describe the annual festival and the plant-based scene in Sukhumvit and the islands. General wholesalers do not label strict-jay versus vegan or forecast festival demand, and Facebook sellers are fragmented.",
+    "agent_plan": [
+      "Tags each supplier product as vegan, strict-jay or vegetarian from OCR of labels and supplier declarations.",
+      "Forecasts festival pre-order demand from last year's sales for each vendor.",
+      "Takes LINE orders, produces jay menu templates and signage, and shows suppliers a demand dashboard."
+    ],
+    "human_part": "You still need a Thai operations partner for logistics and supplier onboarding, and must route payments through a licensed gateway.",
+    "content_angle": "LINE and Facebook posts for market vendors weeks before the festival listing which sauces are truly strict-jay.",
+    "first_steps": [
+      "Visit ten jay and vegan suppliers and ask which products they sell most at festival time.",
+      "Build a tagged catalogue sheet for twenty products and share it with vendor groups.",
+      "Take pre-orders for one festival stall group, with suppliers fulfilling directly."
+    ],
+    "price_hint": "Free for buyers; 8% supplier commission",
+    "watch_out": "Demand is highly seasonal, and year-round vegan cafe volume may be too small to sustain logistics.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "food"
+      ],
+      "channels": [
+        "community",
+        "marketplace"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-070",
+    "name": "Talking Daily Books",
+    "one_liner": "A LINE bot where vendors speak sales and costs in Thai and get daily profit and a bank-ready statement.",
+    "problem": "Thailand has about 3.28 million SMEs, mostly micro, and street-food vendors keep no books, so they cannot show income to banks and fall back on informal lenders. Cash sales and ingredient costs are never recorded, and accounting apps assume typing and accounting vocabulary.",
+    "why_it_works": "BOT's SME snapshot reports 3.28 million SMEs in 2025, mostly micro, and DBD reports restaurants among the fastest-growing new business types in 2026. Bank merchant apps record only QR credits, accounting apps need typing, and no one turns voice logs into lender-ready statements.",
+    "agent_plan": [
+      "Transcribes Thai voice notes and logs sales and costs, importing PromptPay credits automatically.",
+      "Replies each evening with sales, costs and profit and a weekly trend in simple Thai.",
+      "Generates an income statement and cash-flow summary after three months for sharing with a lender with consent."
+    ],
+    "human_part": "You still need lender partnerships, which realistically need a Thai entity and Thai co-founder, and you onboard vendors through associations and market operators.",
+    "content_angle": "TikTok how-to videos for vendors showing a voice note turning into an evening profit message.",
+    "first_steps": [
+      "Test Thai speech-to-text on ten real vendor-style voice notes about sales and costs.",
+      "Run a manual version with five vendors for two weeks and send nightly profit messages.",
+      "Talk to one microfinance lender about what statements they would accept."
+    ],
+    "price_hint": "Free for vendors; Pro ฿59/mo; lender referral fees",
+    "watch_out": "Monetisation depends on lender partnerships, vendor habit formation is unproven, and credit referral may touch BOT loan-brokering rules.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "food"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-071",
+    "name": "Slip Forensics Guard",
+    "one_liner": "A LINE bot that catches edited, recycled and wrong-account transfer slips before staff hand over goods.",
+    "problem": "Fake transfer slips are a daily risk for Thai shops: slip generator apps exist, and in 2025 bloggers showed a chatbot could edit a 23,000-baht slip into a 400,000-baht one. Busy staff skip the bank-app scan, and a genuine QR can be reused or point to someone else's account.",
+    "why_it_works": "Thaiger reported a chatbot update could fake Bangkok Bank slips, and Khaosod reported April 2026 arrests over doctored slips. Existing tools verify the QR reference but do not combine cross-merchant duplicate detection, receiving-account checks, image forensics and landed-funds confirmation.",
+    "agent_plan": [
+      "Looks up the QR reference and confirms the receiving account is the shop's own.",
+      "Checks each slip against every slip submitted across the network and scores image edits.",
+      "Waits for the matching credit in the shop's account feed and shows green only when money has landed."
+    ],
+    "human_part": "You still sell to merchants and negotiate verification API terms and bank relationships, ideally with a Thai partner.",
+    "content_angle": "Short videos in Thai seller groups showing a faked slip next to the real one and how the checker flags it.",
+    "first_steps": [
+      "Collect ten known edited-but-valid-QR slip examples and test whether existing bots catch them.",
+      "Prototype duplicate detection and receiving-account checks on top of a verification API.",
+      "Offer free checks to five sellers for two weeks and log what gets flagged."
+    ],
+    "price_hint": "Free 50 checks/mo; ฿199/mo for 1,000",
+    "watch_out": "It must prove forensics beats existing slip bots on edited-but-valid-QR cases, and sharing fraud flags across merchants needs a PDPA legitimate-interest assessment.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "ecommerce"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-072",
+    "name": "Tour Chargeback Shield",
+    "one_liner": "A tool that builds winning chargeback evidence for Thai hotels, tour operators and dive shops paid by foreign cards.",
+    "problem": "Tourism businesses in Phuket, Krabi and Samui take foreign card payments, and guests sometimes finish a trip and then dispute the charge at home. The merchant has days to respond with evidence they never gathered, so small operators lose by default and high dispute ratios threaten their merchant account.",
+    "why_it_works": "Mastercard reported fraud in travel agencies and tour bookings at more than four times the cross-industry average in Bangkok-region data, and Omise documents friendly fraud. Gateway portals receive evidence but do not collect it during the trip, and global tools target Shopify merchants.",
+    "agent_plan": [
+      "Captures signed terms, 3-D Secure results, waivers and trip manifests as each booking happens.",
+      "Assembles a reason-code-specific evidence pack in English when a dispute arrives and submits it through the gateway.",
+      "Flags risky bookings such as mismatched card country and prompts for 3-D Secure or a deposit."
+    ],
+    "human_part": "You still sell to tourism operators through associations and booking-software partners, and validate dispute rates with real operators first.",
+    "content_angle": "English posts in Phuket and Samui expat business groups on how a guest dispute was won with a trip photo and signed waiver.",
+    "first_steps": [
+      "Interview ten tour or dive operators about disputes they lost and how they responded.",
+      "Build an evidence-pack template for the most common reason code using sample data.",
+      "Offer to assemble packs by hand for two operators and measure outcomes."
+    ],
+    "price_hint": "฿990/mo plus 15% of recovered amount",
+    "watch_out": "Chargeback rates for Thai tourism SMEs were not verified directly, so validate with about 10 operators before building.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT",
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "travel_expat"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "hospitality"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-073",
+    "name": "Shop Account Lockdown",
+    "one_liner": "A security checkup for your Facebook Page and LINE OA that also hunts clone pages using your shop's name.",
+    "problem": "Thais lost nearly 9 billion baht to online scams in the first half of 2026, with Facebook the leading channel. Small sellers have their Page or LINE OA hijacked through phishing or an ex-employee admin, and scammers clone their pages to take deposits from customers.",
+    "why_it_works": "Six-month 2026 scam losses were near 9 billion baht with Facebook over 61% of cases, Thai PBS has documented fake orchard pages, and the Consumers Council sued Meta and LINE in June 2026. Consumer scam apps protect buyers, not merchants, and platform tools do not monitor impersonation across platforms.",
+    "agent_plan": [
+      "Lists every admin, role and login method and flags former staff and missing 2FA.",
+      "Searches Facebook, TikTok and LINE for pages and ads using the shop's name, logo or photos and scores risk.",
+      "Drafts platform reports with evidence and a pinned warning template when a clone is found."
+    ],
+    "human_part": "You still teach owners in person or through groups, since sales are education-heavy, and keep takedown reports accurate to avoid defamation.",
+    "content_angle": "Facebook seller-group posts showing a real clone page next to the original and how owners can check their admins.",
+    "first_steps": [
+      "Write a free Thai checklist for Page and LINE OA admin security and share it in seller groups.",
+      "Check which platform search and APIs allow monitoring, since access is limited.",
+      "Run a manual clone-page check for three shops and ask whether they would pay monthly."
+    ],
+    "price_hint": "Free checkup; ฿290/mo; Brand ฿990/mo",
+    "watch_out": "Platform API access for monitoring is limited, and owners tend to pay only after an incident.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-074",
+    "name": "Win Fleet Ledger",
+    "one_liner": "A LINE ledger for motorbike-taxi fleet owners and stand chiefs tracking rent, battery swaps and licence renewals.",
+    "problem": "Bangkok has over 5,000 motorcycle-taxi stands, and fleet owners track daily rent in notebooks and LINE chats, chase missed payments, and lose track of maintenance and riders' licence renewals. Battery-swap apps serve their own riders, not independent owners with mixed fleets.",
+    "why_it_works": "The BMA launched an EV for Win Riders initiative in February 2026 with rentals around 75-140 baht a day, and riders called for digital registration in late 2025. Swap operators' apps manage their own batteries and rentals, not independent owners' mixed fleets, rent collection or licence tracking.",
+    "agent_plan": [
+      "Requests daily rent by PromptPay QR into the owner's account and matches payments automatically.",
+      "Sends reminders for missed rent and for licence, insurance and registration expiries.",
+      "Logs maintenance and battery-swap costs and calculates profit per bike."
+    ],
+    "human_part": "You still need a Thai partner for stand relationships, and you build trust on the ground with stand chiefs who may resist formal tools.",
+    "content_angle": "LINE and Facebook posts in rider and stand groups showing a notebook rent log next to the ledger.",
+    "first_steps": [
+      "Spend a week at two stands with a Thai partner and watch how rent is tracked.",
+      "Set up a LINE rent-reminder sheet for one fleet owner with ten bikes.",
+      "Ask the owner after two weeks what they would pay per bike."
+    ],
+    "price_hint": "฿49/bike/mo (min ฿199); stand chief ฿390/mo",
+    "watch_out": "Fleet-owner count and willingness to pay are unverified, and win stand culture may resist formal tools.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-075",
+    "name": "Condo Charger Queue",
+    "one_liner": "Booking, metering and PromptPay billing for shared EV chargers in Bangkok condos, run through LINE.",
+    "problem": "Most Bangkokians live in condos, and where chargers exist residents fight over slots and cars stay plugged in overnight. Juristic-person offices manage chargers with paper sign-up sheets and manual billing, which causes disputes among co-owners.",
+    "why_it_works": "Thailand registered roughly 120,000-150,000 new battery EVs in 2025, and an ABeam study found only about 3% of condo projects had charging, though that figure dates from 2022. Charging networks focus on hardware and their own app, and none offer vendor-neutral resident queueing, idle fees and juristic billing reconciliation.",
+    "agent_plan": [
+      "Lets residents book slots and notifies them when the car is full, with idle fees for overstays.",
+      "Meters kWh per session through smart plugs or OCPP and bills residents by PromptPay QR at the building tariff.",
+      "Produces utilisation reports and revenue reconciliation to the common-fee account for the juristic office."
+    ],
+    "human_part": "You still win juristic offices and property managers, who need AGM approval, and rely on licensed Thai electricians for hardware.",
+    "content_angle": "LinkedIn and EV-owner Facebook group posts showing a condo's charger usage and a fair booking rota.",
+    "first_steps": [
+      "Talk to two juristic offices or property managers that already run chargers.",
+      "Prototype a LINE slot-booking flow for one building with manual metering.",
+      "Check with an advisor whether reselling electricity at a building tariff needs ERC review."
+    ],
+    "price_hint": "฿690/charger/mo; ฿3 per session",
+    "watch_out": "Reselling electricity may need ERC rules review, and condo decisions need juristic-person and AGM approval.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "mobility",
+        "property"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "sales_ops"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  }
+]

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find a startup idea AI agents can run | Yaru Labs</title>
+<meta name="description" content="Answer 10 quick questions and get 2 researched startup ideas matched to your skills, time and budget. Free, no email needed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <span class="brand"><i></i>YARU LABS</span>
+
+  <!-- Landing -->
+  <main id="landing">
+    <section class="hero">
+      <h1>Find a startup idea <em>AI agents can run</em> with you</h1>
+      <p class="sub">Answer 10 quick questions. Get 2 researched ideas matched to your skills, time and budget. No code or business experience needed.</p>
+      <button class="btn" data-start>Find my ideas</button>
+      <p class="micro">Takes about 2 minutes. Free. No email needed to see your 2 ideas.</p>
+    </section>
+
+    <section class="band">
+      <h2>If you want to build with AI, this is probably you</h2>
+      <ul class="arrows">
+        <li>You asked a chatbot for startup ideas and got the same ten everyone gets</li>
+        <li>You can't tell which ideas are real and which only sound good</li>
+        <li>You have a job, so you need something agents can mostly run</li>
+        <li>You don't want to spend six months building the wrong thing</li>
+      </ul>
+      <p class="bridge">There is a better starting point.</p>
+    </section>
+
+    <section class="band">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><b>Answer 10 questions</b>Multiple choice. Where you sell, what you know, how much time and money you have.</li>
+        <li><b>Get 2 ideas in full</b>The problem, why it works, what agents do, your first three steps, and what could go wrong.</li>
+        <li><b>Want more?</b>Join the Yaru community and we email you 20 more matched ideas, plus the full idea database.</li>
+      </ol>
+    </section>
+
+    <section class="band">
+      <h2>What you get with every idea</h2>
+      <ul class="arrows">
+        <li>The problem, and who already pays to solve it</li>
+        <li>Why it works now, with links to the sources</li>
+        <li>What AI agents handle, and the part that stays with you</li>
+        <li>How to find customers through content</li>
+        <li>Your first three steps, cheapest test first</li>
+        <li>The biggest risk, stated plainly</li>
+      </ul>
+    </section>
+
+    <section class="band">
+      <p class="cred">Built from the Yaru Labs idea library. We audited more than 1,000 startup ideas against what is true in 2026 and cut the ones a free AI assistant already does. About 250 made it in, for Thailand, the US and the UK.</p>
+      <p style="margin-top:22px"><button class="btn" data-start>Find my ideas</button></p>
+    </section>
+  </main>
+
+  <!-- Quiz -->
+  <main id="quiz" hidden>
+    <div class="progress" role="group" aria-label="Quiz progress">
+      <div class="count"><span id="count"></span><span id="left"></span></div>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" id="bar"><span></span></div>
+    </div>
+    <div class="q" id="q" aria-live="polite"></div>
+    <div class="nav">
+      <button class="btn ghost" id="back">← Back</button>
+      <button class="btn" id="next" hidden>Next</button>
+    </div>
+  </main>
+
+  <!-- Results -->
+  <main id="results" hidden>
+    <div class="results-head">
+      <h1>Your 2 startup ideas</h1>
+      <p>Matched to your answers from a library of <span id="libsize">250</span> researched ideas. They are starting points, not guarantees. Read the "watch out" note before you build.</p>
+    </div>
+    <div id="ideas"></div>
+
+    <section class="join" id="join">
+      <div id="join-form">
+        <h2>Get 20 more ideas matched to you</h2>
+        <p>Join the Yaru community. We email you 20 more ideas picked from your answers, and you get the full idea database.</p>
+        <ul class="teasers" id="teasers" aria-label="Some of your other matches"></ul>
+        <form id="form" novalidate>
+          <div class="row">
+            <input type="text" name="name" placeholder="First name" autocomplete="given-name" aria-label="First name" maxlength="80">
+            <input type="email" name="email" placeholder="Email address" autocomplete="email" aria-label="Email address" required>
+          </div>
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label class="check"><input type="checkbox" name="consent" required><span>Yes, add me to the Yaru community and email me my ideas. I can leave at any time.</span></label>
+          <button class="btn" type="submit" id="submit">Send my 20 ideas</button>
+          <p class="msg" id="msg" role="status"></p>
+        </form>
+      </div>
+      <div class="done" id="join-done" hidden>
+        <h2>Check your inbox</h2>
+        <p>Your 20 ideas are on their way, with your personal link to the database. You will also get a separate invite from Circle to set up your community login.</p>
+        <p id="devlink" hidden style="margin-top:14px"></p>
+      </div>
+    </section>
+    <p class="center" style="margin:-28px 0 48px"><button class="btn ghost" id="retake">Retake the quiz</button></p>
+  </main>
+
+  <footer>Yaru Labs. Ideas are researched starting points, not financial or legal advice.</footer>
+</div>
+<script src="/ui.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

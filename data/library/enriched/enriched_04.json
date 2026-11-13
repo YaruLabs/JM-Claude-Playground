@@ -1,0 +1,1285 @@
+[
+  {
+    "id": "TH-076",
+    "name": "Used EV Health Check",
+    "one_liner": "A battery health scan and fair-price report for used EVs in Thailand, for buyers, sellers and dealers.",
+    "problem": "Thailand now has a large pool of used electric cars, and buyers cannot judge battery health, charging history or warranty transfer. Existing inspections check bodywork and engines, so the biggest used-EV risk goes unchecked.",
+    "why_it_works": "Krungsri Research est. used passenger EVs lose about 22.9% of value after first sale, and big BYD discounts left owners unsure what cars are worth. Incumbent inspection services do not publish battery state of health. Your readings would build a database by model, age and climate that no marketplace publishes.",
+    "agent_plan": [
+      "Turns each OBD/BMS readout into a bilingual Thai/English report with a health grade and warranty-transfer checklist.",
+      "Scrapes One2car, Kaidee and Facebook Marketplace listings and adjusts a fair-price band for battery health and mileage.",
+      "Takes LINE inspection orders, schedules technicians and answers buyer questions about the report."
+    ],
+    "human_part": "You still need technicians or partner garages to do the physical inspection, and agreements to read battery data across brands.",
+    "content_angle": "Post short TikTok inspection clips and in EV owner Facebook groups, for example a BYD Atto 3 battery health reveal.",
+    "first_steps": [
+      "Test the OBD/BMS readout on a BYD Atto 3 and an MG4 with a friendly garage.",
+      "Draft a one-page bilingual sample report and price-only report to show used-car sellers.",
+      "Offer five paid checks through EV owner Facebook groups and LINE to test willingness to pay."
+    ],
+    "price_hint": "฿1,990 mobile check; dealer plan ฿4,900/month",
+    "watch_out": "Reading battery data across Chinese brands without manufacturer cooperation is the biggest risk, and report wording must avoid warranties of condition.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 55,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-077",
+    "name": "Charger Uptime Map",
+    "one_liner": "One map of Thai EV chargers across networks, scored by real uptime from driver check-ins.",
+    "problem": "EV drivers in Thailand are told to install several charging apps before a trip, and chargers fail to activate or decline foreign cards. They find out a charger is broken only when they arrive.",
+    "why_it_works": "EV registrations hit 24,891 in Sept 2025 alone (DLT via Nation), and drivers complain publicly about activation failures and declined foreign cards. No network or map holds cross-network Thai check-in data. Your edge is Thai multi-network coverage and Thai-language check-ins.",
+    "agent_plan": [
+      "Merges public charger data from each network into one map and flags mismatches against check-ins.",
+      "Scores each charger on uptime from check-ins, photos and session outcomes.",
+      "Builds trip plans with a backup charger in range and notes which sites accept foreign cards or PromptPay."
+    ],
+    "human_part": "You still need to build a driver community that checks in, and ask networks for permission to use their logos and data.",
+    "content_angle": "Post charger reliability round-ups in EV owner Facebook groups and Pantip, for example the most failed chargers on the Hua Hin route.",
+    "first_steps": [
+      "Build a map of one corridor, such as Bangkok to Hua Hin, from public sources.",
+      "Add a one-tap check-in form in a LINE OA bot and test it with ten drivers.",
+      "Post the first uptime ranking in two EV owner groups and note feedback."
+    ],
+    "price_hint": "Free map; Pro ฿79/month",
+    "watch_out": "Google Maps could add crowd reliability, and scraping network data or logos may need permission.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-078",
+    "name": "Condo Commute Scorer",
+    "one_liner": "Paste a Bangkok condo listing and see real door-to-door commute time and monthly fare cost.",
+    "problem": "People choosing a Bangkok condo see 30-45 minute trips even near a line, crowded interchanges and separate MRT cards. Listing sites show distance to a station, not the real commute cost.",
+    "why_it_works": "An r/Bangkok thread notes 30-45 minute trips near a line, and expat guides call separate MRT cards one of Bangkok's most annoying quirks. Crowdsourced trip logs could refine the model beyond timetables. Referral fees from agents or relocation firms are a possible revenue line.",
+    "agent_plan": [
+      "Parses pasted DDproperty, Hipflat or PropertyHub listings and extracts the address.",
+      "Computes rush-hour door-to-door time and monthly fares across BTS, MRT, bus and Grab fallback.",
+      "Builds shareable five-condo comparison cards and collects crowdsourced trip logs."
+    ],
+    "human_part": "You still need relationships with relocation firms, HR teams or agents if referral fees are your revenue.",
+    "content_angle": "Post commute comparison cards in r/Bangkok and expat Facebook groups, for example two Asoke condos compared for a Silom office.",
+    "first_steps": [
+      "Build a manual commute card for five real listings and an office address.",
+      "Share it in two expat groups and note which parts people ask about.",
+      "Test a ฿149 one-off Pro offer with relocation firms or HR contacts."
+    ],
+    "price_hint": "Free 3 comparisons; Pro ฿149 one-off",
+    "watch_out": "Google Maps and AI assistants can approximate commute comparisons, so it is only worth building as a lead source for a rental or relocation business.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "property",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-079",
+    "name": "Expat Car Ownership Navigator",
+    "one_liner": "A paperwork path and total-cost comparison for foreigners buying, leasing or renting a car in Thailand.",
+    "problem": "Foreigners in Thailand struggle to register or transfer a car in their own name, and it is unclear which documents each DLT office wants. They also cannot easily compare buying, financing, leasing and monthly rental.",
+    "why_it_works": "Several ASEAN NOW threads show recurring confusion about registering used vehicles under a foreign name and transferring documents. Existing guides from Roojai and Expatica are static. Office-level accepted-document data and vetted lessor terms are local and fresh.",
+    "agent_plan": [
+      "Builds a personalised paperwork path from visa type, province, budget and length of stay.",
+      "Calculates a 1-3 year total-cost comparison of buying, financing, leasing and renting.",
+      "Keeps a directory of foreigner-friendly dealers and lessors with verified terms and updates DLT office reports."
+    ],
+    "human_part": "You still need Thai staff or contractors to accompany customers to the DLT, and a licensed insurance broker partner for referral revenue.",
+    "content_angle": "Write SEO guides and expat group posts, for example how a foreigner transfers a used car in Chiang Mai.",
+    "first_steps": [
+      "Interview five expats about their DLT experience and write the paperwork path for one province.",
+      "Build a simple buy vs lease vs rent cost calculator in a spreadsheet.",
+      "Contact three monthly-rental companies to verify what foreigners need to rent."
+    ],
+    "price_hint": "Free calculator; DLT help ฿2,500-3,500",
+    "watch_out": "Rules differ by office and change, so it depends on fresh crowd reports and a licensed insurance broker for revenue.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "sales_ops"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-080",
+    "name": "Resident Price Finder",
+    "one_liner": "A crowdsourced database of which Thai parks and attractions give residents the Thai price.",
+    "problem": "Expats with a work permit or Thai licence often do not know whether a park, attraction or hotel will charge them the Thai or the foreign price. Prices and rules vary by venue and are rarely published.",
+    "why_it_works": "Khaosod English covered an expats' Facebook group tracking dual-pricing venues, and Thaiger forum threads on parks doubling foreigner fees run to multiple pages. The data exists only in residents' on-the-ground reports, which AI assistants cannot draw on.",
+    "agent_plan": [
+      "Extracts Thai, foreign and resident prices from receipt photos and submissions into the database.",
+      "Costs a full weekend itinerary for a resident family, including entry fees, parking and accommodation.",
+      "Sends alerts for hotel promotions that accept foreign residents and generates a Thai-language explanation card."
+    ],
+    "human_part": "You still need to build a community of reporters and keep the wording fair and non-defamatory towards venue staff.",
+    "content_angle": "Post resident price reports in expat Facebook groups and as SEO pages, for example which national parks give residents the Thai rate.",
+    "first_steps": [
+      "Collect resident prices for ten popular parks from your own visits and group members.",
+      "Publish them as a simple searchable table with dated receipts.",
+      "Share it in the dual-pricing group and ask members to submit corrections."
+    ],
+    "price_hint": "Free lookups; Resident+ ฿99/month",
+    "watch_out": "Policy could change, for example officials ending dual pricing for residents, which would shrink the core value.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 1,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 75,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-081",
+    "name": "Thai Festival Radar",
+    "one_liner": "A bilingual calendar of Thai festivals, temple fairs and concerts with LINE alerts and logistics.",
+    "problem": "Residents miss Thai-only local events because listings are scattered across Thai pages, and big festivals bring road closures and crowds they have to plan around.",
+    "why_it_works": "BK Magazine and TheBeat publish recurring festival and concert guides with high search interest. Thai-only local events with translated logistics are under-covered. Organisers could pay for featured listings and ticket-link clicks.",
+    "agent_plan": [
+      "Ingests Thai and English event sources daily, removes duplicates and translates each event.",
+      "Tags events by type, district, family-friendliness and price.",
+      "Sends LINE alerts when tickets drop and writes a logistics card with closures, extended BTS hours and parking."
+    ],
+    "human_part": "You still need to sell featured listings to organisers and check that rewritten descriptions respect copyright.",
+    "content_angle": "Post short TikTok and Instagram clips of upcoming events and SEO pages, for example Loy Krathong 2027 in Bangkok.",
+    "first_steps": [
+      "Build a calendar of one month of events from Thai sources in a spreadsheet.",
+      "Launch a LINE OA with interest alerts and try to reach 1,000 followers.",
+      "Offer three organisers a free featured listing to see if they would pay."
+    ],
+    "price_hint": "Free for users; listing ฿2,000-15,000/event",
+    "watch_out": "Event listings are a crowded media space, and the bet that Thai-source translation plus LINE alerts beats editorial lists still needs testing.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "local_services"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-082",
+    "name": "Bangkok Pickup Sports Finder",
+    "one_liner": "A finder for padel, football and pickleball games in Bangkok by level and district, with venue reviews.",
+    "problem": "Newcomers to Bangkok sports find games through unsearchable Facebook groups and club apps that cover only their own courts. Popular courts fill quickly and it is hard to find a game at your level.",
+    "why_it_works": "Issa Compass reports about 100 padel courts in Thailand by late 2024, mostly in Bangkok, and FIP reports about 20% growth in Asian courts and players in 2025. Playtomic covers only its partner clubs. LINE-native organiser tools are the local differentiator.",
+    "agent_plan": [
+      "Collects and verifies court and pitch prices, surface, lighting and parking into the directory.",
+      "Builds the open-game feed by sport, level and district from games posted via LINE.",
+      "Handles PromptPay slot payments through a licensed payment provider and summarises reviews on level honesty and facilities."
+    ],
+    "human_part": "You still need to recruit organisers and venues, and use a licensed payment provider for split payments.",
+    "content_angle": "Post short TikTok padel clips and Google Maps SEO pages, for example the best beginner-friendly padel games in Bangkok.",
+    "first_steps": [
+      "List 20 Bangkok courts with verified drop-in prices in a simple page.",
+      "Post open games from three organisers through a LINE group.",
+      "Test a ฿15-20 booking fee on paid slots with one organiser."
+    ],
+    "price_hint": "฿15-20 per slot; organiser Pro ฿390/month",
+    "watch_out": "Payment handling for organisers may need payment-facilitator compliance, and football league data was not verified.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "local_services",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-083",
+    "name": "Laptop Cafe Index",
+    "one_liner": "Bangkok and Chiang Mai cafes rated for wifi, outlets, laptop rules and time limits.",
+    "problem": "Remote workers and students spend time hunting for cafes that allow laptops, with working wifi and outlets. Most cafes do not post their laptop policies.",
+    "why_it_works": "Many 2025-2026 guides list laptop-friendly Bangkok cafes, and a barista blog notes most cafes do not post laptop policies. Cafes could pay to promote work-day bundles that fill weekday afternoons. A Thai-language version could reach freelancers and students.",
+    "agent_plan": [
+      "Collects wifi speed tests, outlet counts and laptop policies from user check-ins and photos.",
+      "Keeps cafe profiles current and flags outdated policies.",
+      "Writes nearby-search replies in a LINE bot and drafts promo offers for cafes."
+    ],
+    "human_part": "You still need to visit cafes and sell promotions to owners.",
+    "content_angle": "Post TikTok clips of cafe to work spots and Google Maps SEO pages, for example best work cafes near Asoke.",
+    "first_steps": [
+      "Test and record wifi, outlets and policies at 30 cafes near BTS stations.",
+      "Publish a map with filters and share it in nomad Facebook groups.",
+      "Offer five cafes a trial promotion to see if they pay."
+    ],
+    "price_hint": "Free; Nomad Pro ฿59/month",
+    "watch_out": "Google Maps already shows laptop-work attributes and AI assistants answer work-cafe questions, so it is likely weak on its own.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "local_services",
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-084",
+    "name": "Night Out Safety Layer",
+    "one_liner": "Venue safety ratings, bill price checks and a check-in buddy for nights out in Thai tourist cities.",
+    "problem": "Visitors and residents out in Bangkok, Pattaya and Phuket face spiking, assaults and overcharging, and venue reviews mix safety with vibe. Existing safety apps lack venue context.",
+    "why_it_works": "UK travel advice and TTG Media warn of spiking and assaults in Thai tourist areas, and one karaoke bar faced closure for overcharging. Location sharing is common, but venue-level safety and price data is not.",
+    "agent_plan": [
+      "Reads bill and menu photos and flags charges above posted or typical venue prices.",
+      "Moderates and anonymises incident reports before they are published.",
+      "Builds venue safety profiles and triggers check-in timers and one-tap SOS messages with a Thai address card."
+    ],
+    "human_part": "You still need a Thai legal partner and careful moderation, and relationships with venues and promoters.",
+    "content_angle": "Post safety tips on TikTok and Instagram and in women's and LGBTQ+ Facebook groups, for example five bill scams to watch for.",
+    "first_steps": [
+      "Collect menu prices from 20 venues in one district and publish a price check.",
+      "Get a Thai lawyer to review your moderation and right-of-reply policy.",
+      "Launch with positive-only venue badges before allowing incident reports."
+    ],
+    "price_hint": "Free core; Plus ฿49/month",
+    "watch_out": "Thai criminal defamation law is the biggest risk, so launch with positive-only badges and price checks before incident reports.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "local_services"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "hospitality"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-085",
+    "name": "Weekend Outdoors Crew",
+    "one_liner": "One feed of hiking and camping day trips from Bangkok, with honest difficulty and organiser ratings.",
+    "problem": "Hiking and camping trips from Bangkok are scattered across Meetup and Facebook groups with different inclusions and unclear difficulty. People cannot compare trips or tell which organisers are reliable.",
+    "why_it_works": "Bangkok Hiking Meetup has about 14,000 members and runs TAT-licensed paid trips at ฿1,700-4,400. An expat guide says Facebook is still the main channel. Small-group operators may prefer a neutral aggregator over Klook or KKday.",
+    "agent_plan": [
+      "Normalises trips by price, inclusions, pickup point, difficulty and minimum-group status.",
+      "Collects participant ratings on difficulty accuracy and organisation to build organiser trust scores.",
+      "Updates the will-it-run meter and sends LINE alerts for trips close to full."
+    ],
+    "human_part": "You still need to recruit licensed operators and stay a listing or referral platform, since selling tours needs a TAT licence.",
+    "content_angle": "Post trail videos on TikTok and SEO pages, for example the best day trip from Bangkok by train and van.",
+    "first_steps": [
+      "List the next month of trips from five operators in a spreadsheet.",
+      "Share the feed in two hiking Facebook groups and a LINE OA.",
+      "Ask three licensed operators if they would pay a referral fee."
+    ],
+    "price_hint": "Referral 8-10% per booking; organiser Pro ฿690/month",
+    "watch_out": "The open question is whether licensed operators will pay referral fees or only list for free, and tour licensing rules limit what a foreign founder can do.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "marketing_content",
+        "hospitality"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-086",
+    "name": "Resident Cooking Course Finder",
+    "one_liner": "A directory of multi-week Thai cooking courses for residents, with real prices and visa paperwork details.",
+    "problem": "People looking for long Thai cooking courses, some for visa paperwork, compare prices across scattered school sites and Q&A threads. Course length, price and what paperwork is issued are hard to compare.",
+    "why_it_works": "Q&A threads ask which is cheaper, a Muay Thai or cooking DTV, and what packages cost in Chiang Mai, which shows active comparison shopping. OTAs list short tourist classes, not resident courses.",
+    "agent_plan": [
+      "Collects course length, hours, language, class size and all-in price from school sites into one directory.",
+      "Calculates cost per hour and flags whether a school issues DTV soft-power paperwork.",
+      "Routes enquiries to schools through a LINE inbox and tracks verified student reviews."
+    ],
+    "human_part": "You still need to build school relationships, and give only factual course documentation, never visa advice.",
+    "content_angle": "Write SEO pages and DTV group posts, for example cooking DTV course Bangkok price compared.",
+    "first_steps": [
+      "Collect prices and paperwork details from 15 schools in Bangkok and Chiang Mai.",
+      "Publish a comparison table and share it in DTV Facebook groups.",
+      "Ask two schools whether they would pay a commission per enrolment."
+    ],
+    "price_hint": "10% commission on courses",
+    "watch_out": "DTV soft-power rules could tighten and shrink the visa segment, and hobby-course demand among Thai locals needs separate validation.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "travel_expat"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-087",
+    "name": "Long Weekend Planner",
+    "one_liner": "A Thai long-weekend calendar with train and bus ticket-drop alerts and crowd and price forecasts.",
+    "problem": "Thai long weekends sell out train and bus tickets quickly, and travellers do not know when sales open or which destinations will be crowded.",
+    "why_it_works": "The Thaiger reported SRT moving to a 90-day booking window, and Pattaya Mail reported Chiang Mai station tickets sold out ahead of Songkran. No one sends release-date alerts for SRT and BKS today. Hotel affiliate fees could carry revenue.",
+    "agent_plan": [
+      "Calculates the exact ticket sale date for each route and sends LINE alerts the morning tickets drop.",
+      "Builds crowd and price forecasts per destination from past holiday data.",
+      "Suggests lower-demand alternative destinations and tracks newly announced bridge days."
+    ],
+    "human_part": "You still need to build an audience before the holiday seasons and never resell tickets.",
+    "content_angle": "Post countdown clips on TikTok and Facebook when holidays are announced, for example when Songkran train tickets go on sale.",
+    "first_steps": [
+      "Build the next year's long-weekend calendar with ticket release dates in a spreadsheet.",
+      "Launch a LINE OA with one free alert and share it in Pantip travel threads.",
+      "Test a Pro tier before the next long holiday."
+    ],
+    "price_hint": "Free; Pro ฿49/month or ฿390/year",
+    "watch_out": "Thai consumers expect free tools, so the Pro tier may not convert and affiliate revenue must carry it.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "local_services"
+      ],
+      "channels": [
+        "content",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-088",
+    "name": "Grad Skills Bridge",
+    "one_liner": "Matches Thai graduates to skills employers want now, with short paid projects as proof.",
+    "problem": "Thai graduates struggle to show employers real skills, and SMEs struggle to find junior hires. Graduates have degrees but little proof of the skills that postings ask for.",
+    "why_it_works": "Nation Thailand and The Star report 174,000 unemployed young graduates amid skills mismatch (KResearch, Oct 2026), and a Bangkok Bank note shows vacancies outnumbering job seekers. Local SME project supply and outcomes are not offered by job boards.",
+    "agent_plan": [
+      "Reads live job postings to show which skills employers in each field ask for.",
+      "Reviews graduates' project work, coaches interviews in Thai and English and builds portfolio pages.",
+      "Matches graduates to partner SME micro-projects."
+    ],
+    "human_part": "You still need to recruit SME partners, sell to universities and work with a licensed partner for placement fees.",
+    "content_angle": "Post Thai career tips on TikTok and university pages, for example five skills Bangkok employers ask for in digital marketing.",
+    "first_steps": [
+      "Interview ten SMEs in one function, such as digital marketing, about small projects.",
+      "Run three paid micro-projects with graduates by hand.",
+      "Collect feedback from the SMEs on whether they would hire."
+    ],
+    "price_hint": "Free for graduates; ฿8,000-15,000 hire fee",
+    "watch_out": "The two-sided cold start is the main risk, and placement fees are regulated so a licensed partner is likely needed.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "work_careers",
+        "education"
+      ],
+      "channels": [
+        "outbound",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "sales_ops"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-089",
+    "name": "AI Skills Tax Saver",
+    "one_liner": "Certified AI-skills courses for Thai SMEs, packaged with the paperwork for tax deductions.",
+    "problem": "Thai SMEs want to train staff in AI but do not know which courses qualify for tax deductions. Free courses are everywhere, but the certification and paperwork are confusing.",
+    "why_it_works": "Nation Thailand reported 10,000 free slots for an AI course, and Deloitte and The Reporter describe a 250% deduction for certified digital training. Certification plus tax paperwork plus Thai role projects is a bundle free courses do not offer.",
+    "agent_plan": [
+      "Assesses each company's staff skills and assigns role-specific learning paths.",
+      "Builds Thai-language hands-on projects from a company's own documents.",
+      "Generates the completion dashboard and documentation pack for the deduction claim."
+    ],
+    "human_part": "You still need certification under the relevant schemes, accountant partners to resell, and to confirm deduction rules without promising tax outcomes.",
+    "content_angle": "Post LinkedIn and LINE content for HR managers, for example what a certified AI course must include to count for a deduction.",
+    "first_steps": [
+      "Confirm the current deduction rules and certification path with a Thai accountant.",
+      "Draft one role-specific course outline for finance staff.",
+      "Ask three accounting firms if they would resell it to SME clients."
+    ],
+    "price_hint": "฿2,900 per seat per year",
+    "watch_out": "Tax incentive rates and end dates were not fully verified because sources conflict, so confirm before marketing.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "education",
+        "work_careers"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "finance_legal"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-090",
+    "name": "Remote Work Ready TH",
+    "one_liner": "A Thai-language programme to help Thai professionals land and keep foreign remote jobs.",
+    "problem": "Thai professionals who want foreign remote jobs struggle with async English, contracts, receiving USD and how remote income is taxed. Thai tax guidance on remote income is unclear.",
+    "why_it_works": "Thai tax-advisory pages debate how remote income earned in Thailand is taxed, and HLB and AustCham note the Revenue Department has yet to issue clear guidance. AI tutors cover English practice, but the placement network and Thai tax and payment modules are local.",
+    "agent_plan": [
+      "Gives feedback on async English writing drills based on real Slack and email scenarios.",
+      "Runs mock interviews and reviews portfolios.",
+      "Matches graduates' profiles to vetted employers' roles on an intro board."
+    ],
+    "human_part": "You still need to build employer relationships and a licensed Thai accountant partner for tax modules.",
+    "content_angle": "Post success stories on TikTok and YouTube, for example how one Thai developer got paid in USD.",
+    "first_steps": [
+      "Partner with a licensed accountant on a one-page remote income tax guide.",
+      "Run a small paid pilot cohort with writing drills and mock interviews.",
+      "Contact three EOR providers about placement."
+    ],
+    "price_hint": "฿2,990 self-paced; ฿14,900 cohort",
+    "watch_out": "The placement network is the hardest part, and tax modules must be delivered by or with a licensed Thai accountant.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "work_careers",
+        "education"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "education",
+        "tech"
+      ],
+      "agent_share": 60,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-091",
+    "name": "English Speaking Tradespeople",
+    "one_liner": "A directory of English-speaking Bangkok plumbers, electricians and aircon cleaners with fixed prices.",
+    "problem": "Expats in Thailand struggle to find tradespeople who speak English and quote fair prices. Aircon cleaning prices vary from ฿400-800 to ฿2,000 and most tradespeople speak little English.",
+    "why_it_works": "ASEAN NOW threads debate aircon cleaning prices of ฿2,000 vs ฿400-800, and handyman guides note most tradespeople speak little English and Thailand lacks trade licensing. Verified English and price data per provider is slow to copy.",
+    "agent_plan": [
+      "Translates each photo-based problem description into Thai and sends quote requests through LINE.",
+      "Compares quotes with fixed-price menus and flags outside quotes above typical prices.",
+      "Collects post-job reviews tied to real bookings."
+    ],
+    "human_part": "You still need to call and test tradespeople for English level and build trust with them.",
+    "content_angle": "Post price guides in expat Facebook groups and r/Bangkok, for example a fair price for aircon cleaning per BTU.",
+    "first_steps": [
+      "Test-call 20 tradespeople and record English level and fixed prices.",
+      "Publish a price guide and share it in Bangkok expat groups.",
+      "Run ten jobs by hand to see if people pay a booking fee."
+    ],
+    "price_hint": "Booking fee ฿49 per job",
+    "watch_out": "Platform liability for tradesperson damage must be limited in terms, and electrical work standards apply to installs.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "local_services",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "sales_ops"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-092",
+    "name": "Muay Thai Gym Prices",
+    "one_liner": "Real Muay Thai gym prices across Thailand, including DTV course packages, with verified reviews.",
+    "problem": "People training Muay Thai in Thailand, many on DTV course visas, cannot compare gyms and fear being scammed. Prices and what paperwork is included are unclear.",
+    "why_it_works": "Dozens of Q&A threads ask for affordable gyms that won't scam them and what to do after being misled on lesson and visa costs. Real price tables need on-the-ground verification and gym relationships, which AI assistants lack.",
+    "agent_plan": [
+      "Collects and structures gym price tables for drop-in, passes, monthly and DTV courses.",
+      "Checks proof-of-training receipts before publishing reviews.",
+      "Ranks gyms by cost per session and routes enquiries to gym inboxes."
+    ],
+    "human_part": "You still need to visit gyms, build relationships and avoid giving visa advice.",
+    "content_angle": "Post gym price comparisons on Reddit and YouTube, for example Bangkok gyms under ฿30,000 for six months.",
+    "first_steps": [
+      "Visit or message 20 gyms in one city and record their price tables.",
+      "Publish a comparison page and post it in r/MuayThai and DTV groups.",
+      "Ask five gyms if they would pay for featured listings."
+    ],
+    "price_hint": "Gym listing ฿2,500/month; 8% commission",
+    "watch_out": "DTV rule changes are the main demand risk, and negative reviews need defamation care.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "health"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-093",
+    "name": "Race Bib Exchange",
+    "one_liner": "Organiser-approved transfers of sold-out Thai race entries, with escrow and a face-value price cap.",
+    "problem": "Thai races sell out fast and runners swap bibs informally on Facebook, with scams and uninsured substitutes. Organisers have no controlled way to approve name changes.",
+    "why_it_works": "Pattaya Mail reports the 2026 Pattaya Marathon sold out in about two hours with 21,727 runners, and UTMB Chiang Mai publishes a paid transfer process. A controlled transfer with escrow gives organisers a safe option.",
+    "agent_plan": [
+      "Verifies each listing against the organiser and matches sellers to waitlisted buyers.",
+      "Sends name-change requests to the organiser's registration system and tracks confirmations.",
+      "Releases PromptPay escrow once confirmed and answers runners' status questions on LINE."
+    ],
+    "human_part": "You still need organiser partnerships and contracts, and a licensed payment provider for escrow.",
+    "content_angle": "Post sold-out race alerts in running Facebook groups and Strava clubs, for example how to transfer a Pattaya Marathon bib safely.",
+    "first_steps": [
+      "Contact three race organisers about their transfer rules.",
+      "Run one manual escrow transfer through a licensed payment provider.",
+      "Open a LINE OA waitlist for one sold-out race."
+    ],
+    "price_hint": "Buyer fee ฿99-199 per transfer",
+    "watch_out": "Organiser adoption is the biggest risk, and without official name-change support it becomes another unofficial swap board.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "local_services",
+        "health"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "tech"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-094",
+    "name": "Visa Agent Verified",
+    "one_liner": "A directory of Thailand visa agents rated on verified outcomes, published fees and scam warning signs.",
+    "problem": "Expats in Thailand fear fake extensions, fake bank statements and unreliable visa agents, and fees vary widely. They cannot check an agent's registration or track record.",
+    "why_it_works": "The Thaiger reported a Bangkok agent arrested for fake extensions, and Khaosod reported an Aug 2026 raid over fake bank statements. Verified outcome data requires user uploads and vetting, and AI assistants cannot vouch for specific agents.",
+    "agent_plan": [
+      "Checks each agent's company registration in the DBD database and records published fees.",
+      "Redacts uploaded stamps and extensions and flags red-flag phrases in agent offers.",
+      "Sends three-quote requests to verified agents."
+    ],
+    "human_part": "You still need a Thai lawyer to review defamation risk, and cannot give legal advice yourself.",
+    "content_angle": "Post scam-warning explainers in retiree Facebook groups and ASEAN NOW, for example five red flags in a visa agent's offer.",
+    "first_steps": [
+      "Verify 15 agents' registration and publish their fee schedules.",
+      "Build a red-flag checklist from news stories and share it in expat groups.",
+      "Get a Thai lawyer to review wording before publishing reviews."
+    ],
+    "price_hint": "Verified badge ฿4,900/month; lead fee ฿300-800",
+    "watch_out": "Agents with bad outcomes may threaten defamation suits, so start with positive verification only and add negative reviews after legal review.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-095",
+    "name": "Driving School Compare",
+    "one_liner": "Compare DLT-certified driving schools by all-in price and next start date, in Thai and English.",
+    "problem": "People getting a Thai licence cannot compare driving schools, and new rules moved training to DLT-supervised private schools costing extra. Guides list price ranges but tell readers to ask schools directly.",
+    "why_it_works": "Sanook reported that new licence rules moved 15 hours of training to about 90 DLT-supervised private schools at up to ฿6,000, and PPTV reported complaints about the extra cost. Google Maps shows neither prices, pass rates nor bookings.",
+    "agent_plan": [
+      "Verifies school certification against DLT lists and itemises all-in course prices.",
+      "Answers learner questions on documents and routes in Thai and English.",
+      "Tracks next start dates and updates school slots and prices."
+    ],
+    "human_part": "You still need to persuade schools to list, and cannot claim DLT endorsement.",
+    "content_angle": "Post SEO pages and TikTok learner tips, for example the all-in price to get a car licence in Bangkok.",
+    "first_steps": [
+      "Collect itemised prices and certification status from 20 schools in Bangkok.",
+      "Publish a comparison page in Thai and English.",
+      "Ask five schools if they would pay a commission per booking."
+    ],
+    "price_hint": "8% school commission; featured ฿1,990/month",
+    "watch_out": "The main risk is schools refusing commission and listing only on Facebook.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-096",
+    "name": "Halal Verified Thailand",
+    "one_liner": "A halal directory in Bangkok showing each vendor's live certificate status and Muslim-owned tags.",
+    "problem": "Muslim residents and visitors in Bangkok struggle to tell certified halal vendors from Muslim-owned or no-pork places. Certificates expire and listings go stale.",
+    "why_it_works": "The Thaiger and TravelMole covered TAT launching a halal app, and Bangkok Post covered Halal Route helping Muslim tourists. Government-backed apps are free, so your edge is freshness and catering leads.",
+    "agent_plan": [
+      "Checks certificate numbers and expiry dates and updates each listing's status.",
+      "Reads uploaded certificate photos and flags lapses.",
+      "Routes caterer quote requests to verified vendors."
+    ],
+    "human_part": "You still need community trust and vendor relationships, and must never imply certification where none exists.",
+    "content_angle": "Post halal guides in mosque LINE groups and Instagram food pages, for example halal caterers for a Bangkok office lunch.",
+    "first_steps": [
+      "Verify 30 Bangkok vendors' certificates and tag each by status.",
+      "Share the list in Muslim community LINE and Facebook groups.",
+      "Ask five caterers whether they would pay for lead fees."
+    ],
+    "price_hint": "Verified vendor ฿990/month; catering lead ฿200-500",
+    "watch_out": "Competing with free government apps is the risk, so validate that vendors pay for catering leads first.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-097",
+    "name": "Durian Export Lot Ledger",
+    "one_liner": "A lot ledger linking each durian container to its GAP orchard and lab report before export to China.",
+    "problem": "Packing houses exporting durian to China must prove each lot's orchard registration and lab results. About 100 containers were reported returned for missing BY2 results, and cadmium alerts suspended packing houses.",
+    "why_it_works": "The Star (Jan 2026) reports orchards and packing houses must register for China exports, and 2025 export value fell to ฿125.868B despite higher volume. Free tools serve regulators and consumers, not packing-house workflow.",
+    "agent_plan": [
+      "Reads orchard GAP certificates and lab-report PDFs, and checks registration numbers and expiry dates.",
+      "Maps lots to containers and blocks a container from shipping if documents are missing.",
+      "Collects harvest photos and delivery notes from orchards through LINE and builds the export document pack."
+    ],
+    "human_part": "You still need to sell to packing houses in person and confirm which documents are actually checked, since rules have changed.",
+    "content_angle": "Present at exporter associations in Chanthaburi and Chumphon, and post in durian trade groups, for example how to avoid a container return.",
+    "first_steps": [
+      "Interview three packing houses about which documents they check before shipping.",
+      "Build a spreadsheet and LINE OA prototype for one packing house.",
+      "Run it on live lots for one week and note blocked cases."
+    ],
+    "price_hint": "฿2,990/month starter plan",
+    "watch_out": "Rules have changed repeatedly since 2024, so confirm with packing houses which documents China and the Department of Agriculture check today.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "food",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "scale",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "tech"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "required"
+    }
+  },
+  {
+    "id": "TH-098",
+    "name": "Thai Wedding Real Prices",
+    "one_liner": "What Thai weddings really cost, from real couples' invoices by vendor, province and season.",
+    "problem": "Thai couples planning a wedding cannot see what others actually paid for venues, photographers and attire, and quotes vary widely. Foreign partners also need to understand sinsod and customs.",
+    "why_it_works": "SabuyWedding data puts average cost at ฿600,000-800,000, and KTC publishes a 2026 wedding trend article. AI assistants can give generic ranges but not invoice-backed local price distributions.",
+    "agent_plan": [
+      "Reads uploaded invoices and anonymises personal data.",
+      "Builds price distributions by vendor type, province, guest count and season.",
+      "Estimates a full wedding budget in the planner."
+    ],
+    "human_part": "You still need to persuade couples to upload invoices and sell vendor profiles, and handle sinsod content with cultural care.",
+    "content_angle": "Post price breakdowns on TikTok and Instagram and in bridal Facebook groups, for example what a Bangkok hotel wedding really cost.",
+    "first_steps": [
+      "Collect 20 real invoices from couples in bridal groups.",
+      "Publish one price breakdown for a venue type and province.",
+      "Offer ten couples a free budget estimate in return for invoices."
+    ],
+    "price_hint": "Planner Pro ฿290; vendor profile ฿1,900/month",
+    "watch_out": "Getting couples to upload invoices is the key test, and invoices contain personal data needing consent and redaction.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "family_care",
+        "money"
+      ],
+      "channels": [
+        "content",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  },
+  {
+    "id": "TH-099",
+    "name": "Coworking Day Pass Thailand",
+    "one_liner": "Book coworking day passes across Thai nomad hubs with verified prices and local payment.",
+    "problem": "Remote workers and nomads cannot easily compare coworking day-pass prices across Thai cities, and guides give conflicting figures of ฿150-800. Paying with foreign cards or booking by LINE is clumsy.",
+    "why_it_works": "Digitalnomads.world, Thai Holiday Guide and Freaking Nomads publish day-pass price guides with conflicting figures, showing comparison demand and stale data. Global coworking marketplaces would need to localise Thai payment rails and independent supply.",
+    "agent_plan": [
+      "Verifies current prices, wifi tests and amenities for each coworking space.",
+      "Sends bookings to spaces through LINE and tracks weekly payouts.",
+      "Generates QR passes and answers booking questions."
+    ],
+    "human_part": "You still need to sign independent spaces, and use a licensed payment provider for split payouts.",
+    "content_angle": "Post SEO pages and nomad group guides, for example coworking day pass prices in Chiang Mai.",
+    "first_steps": [
+      "Verify day-pass prices at 20 spaces across Bangkok and Chiang Mai.",
+      "Publish a comparison page in nomad groups and Reddit.",
+      "Ask five independent spaces to take bookings by LINE."
+    ],
+    "price_hint": "15% commission per booking",
+    "watch_out": "It depends on independent spaces accepting a 15% commission, and it could merge with a cafe index.",
+    "tags": {
+      "markets": [
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "TH-100",
+    "name": "Government Queue Tracker",
+    "one_liner": "Live wait times and document checklists for Thai immigration, DLT and other government offices.",
+    "problem": "Expats waste hours at immigration and DLT offices, not knowing how long the wait will be or which documents are actually requested. Official systems do not publish live waits.",
+    "why_it_works": "Q&A threads repeatedly ask how long a 90-day report takes at Chaeng Watthana and what time to arrive. Google popular times is coarse, and official systems are unlikely to publish live waits per service.",
+    "agent_plan": [
+      "Turns queue check-ins into live and historical wait estimates by office, service and hour.",
+      "Maintains crowd document checklists with dated reports.",
+      "Sends LINE alerts when the queue is short and forecasts the best time to go."
+    ],
+    "human_part": "You still need to seed check-ins at key offices and build a user community, and avoid giving visa advice.",
+    "content_angle": "Post wait-time updates in ASEAN NOW and expat Facebook groups, for example the best time to go to Chaeng Watthana.",
+    "first_steps": [
+      "Collect queue times at one immigration office for a week yourself.",
+      "Post a first wait chart in two expat groups.",
+      "Open a LINE check-in form and recruit ten regular users."
+    ],
+    "price_hint": "Free waits; Checklist Pro ฿390/year",
+    "watch_out": "It needs enough check-ins per office to be live, so seed one or two busy offices first.",
+    "tags": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "legal_paperwork",
+        "travel_expat"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "helpful"
+    }
+  }
+]

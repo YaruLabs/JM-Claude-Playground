@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "GL-076",
+    "name": "AI Literacy Logbook",
+    "one_liner": "Role-based AI training and an audit-ready record for EU small businesses that use AI tools.",
+    "problem": "Any EU company deploying AI tools, even a 15-person agency using ChatGPT, must take measures to support staff AI literacy under Article 4. Owners don't know which tools count or how to prove anything if a regulator, client or works council asks.",
+    "why_it_works": "The duty still stands after the July 2026 Digital Omnibus, and 2026 trade explainers say so, which points to continuing buyer confusion. Generic courses cost EUR 30-100 per seat and aren't tied to the tools a firm uses. Nobody builds a per-tool, per-role record that updates itself.",
+    "agent_plan": [
+      "Reads a company's SaaS list and classifies each AI tool by AI Act role and risk tier.",
+      "Writes 5-minute micro-lessons and quizzes for each tool actually in use, by role, and sends them.",
+      "Logs completions and quiz results into a dated register and exports a one-page PDF evidence pack."
+    ],
+    "human_part": "You sell to agencies, MSPs and consultants, and review the generated lesson content before it goes out.",
+    "content_angle": "LinkedIn posts and German-language SEO pages on 'KI-Kompetenz Nachweis' explaining what an Article 4 record should contain.",
+    "first_steps": [
+      "Interview five EU agency owners about how they would prove AI literacy today.",
+      "Build the tool-inventory form and one sample lesson for Copilot in Outlook.",
+      "Offer the one-off evidence pack to three small firms and note what they ask for."
+    ],
+    "price_hint": "EUR 3/seat/month (min EUR 29); evidence pack EUR 149",
+    "watch_out": "The Omnibus softening may reduce urgency, and German-language content is needed early since DACH is the most compliance-driven market.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-077",
+    "name": "Shop Accessibility Fixer",
+    "one_liner": "Fixes accessibility problems in small online shops and writes the required statement for EU buyers.",
+    "problem": "The European Accessibility Act has applied to e-commerce sold to EU consumers since 28 June 2025, and Germany allows fines up to EUR 100,000. Shop owners are sold overlays that disability groups criticise, or audits costing EUR 2,000+.",
+    "why_it_works": "Vendor and trade content on EAA fines is plentiful, and one unverified report says first actions have begun in several countries. Overlays don't change source code and audit tools are priced for mid-market. Few offer exemption records, local-language statements and theme fixes for small shops.",
+    "agent_plan": [
+      "Crawls the storefront and checkout, combining axe-core results with a language-model review of screenshots and page code.",
+      "Generates alt text and pushes it back through the Shopify or WooCommerce API, plus theme patches as pull requests.",
+      "Writes the accessibility statement in German, French, Dutch or Spanish and re-scans the shop monthly."
+    ],
+    "human_part": "You handle Shopify app review, talk to agencies and shop owners, and do the design work the tool can only flag.",
+    "content_angle": "Short posts and German SEO pages on 'BFSG Onlineshop', showing one real shop's checkout before and after fixes.",
+    "first_steps": [
+      "Run axe-core on ten small Shopify stores and list the most common failures.",
+      "Build the three-question exemption test as a free page that creates a dated memo.",
+      "Pitch three German e-commerce agencies the agency plan and ask what fixes they'd pay for."
+    ],
+    "price_hint": "Free test; EUR 39/mo; EUR 299 fix pack",
+    "watch_out": "The overlay market is crowded, and some merchants simply declare themselves exempt; also never claim a shop is 'fully compliant', since automated checks catch only part of WCAG.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "marketplace",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-078",
+    "name": "NIS2 Supplier Answer Desk",
+    "one_liner": "Answers security questionnaires for small non-software suppliers of large EU companies.",
+    "problem": "Companies covered by NIS2 push 100-300 question security questionnaires onto every small supplier. A 20-person logistics firm has no security team, gets a different format from each customer, and each one takes 1-3 days.",
+    "why_it_works": "The Commission's January 2026 simplification proposal shows scope is still confusing for 6,200+ micro and small firms. Vanta and Conveyor advertise questionnaire automation, so spend is proven in larger companies. They assume a security team and SaaS budgets, which small suppliers don't have.",
+    "agent_plan": [
+      "Interviews the owner once in plain language and stores policies, certificates and screenshots in an evidence vault.",
+      "Maps each question in an incoming Excel or PDF questionnaire to the vault and drafts an answer citing the evidence.",
+      "Flags gaps instead of inventing controls and writes short incident-response and access-control policy documents."
+    ],
+    "human_part": "You earn trust with IT service providers and chambers of commerce, and the supplier must approve every answer as their own attestation.",
+    "content_angle": "LinkedIn posts for purchasing and supplier managers, such as 'what to do when a customer sends a 200-question NIS2 form'.",
+    "first_steps": [
+      "Collect three real supplier questionnaires from logistics or parts firms and time how long they take.",
+      "Build the vault plus question-mapping flow and test it on one questionnaire.",
+      "Offer a managed-service pilot to two IT service providers for their small clients."
+    ],
+    "price_hint": "EUR 79/mo (3 questionnaires); EUR 149 per extra",
+    "watch_out": "Answers are the supplier's own attestations, so the tool must never invent controls; Vanta-style vendors could also move down-market.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "work_careers"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-079",
+    "name": "Small Firm DSAR Desk",
+    "one_liner": "Handles employee data access requests for UK small firms and charities, with a defensible search record.",
+    "problem": "UK employers increasingly get subject access requests from staff in grievances or tribunal claims, and must search email, chats and HR files and redact third-party data within one month. A 40-person firm can spend 20-60 staff hours or GBP 2,000-10,000 in solicitor fees on one request (est.).",
+    "why_it_works": "The Data (Use and Access) Act 2025 adds rules on DSAR time limits and searches, which only helps if a firm can show how it searched. Enterprise vendors like Transcend sell DSR automation, so willingness to pay exists further up-market. Purview needs E5 licences and solicitors are slow.",
+    "agent_plan": [
+      "Logs each request and computes the statutory deadline, including clarification pauses.",
+      "Searches Microsoft 365 or Google Workspace through read-only access and records the search parameters as a proportionality log.",
+      "Classifies each hit (requester data, third-party, privileged, irrelevant) and proposes redactions for a human to approve."
+    ],
+    "human_part": "You build trust and security credentials, sell through HR consultancies and employment-law firms, and flag exemption questions for a lawyer.",
+    "content_angle": "SEO guides such as 'how to respond to a subject access request from an employee' aimed at HR managers.",
+    "first_steps": [
+      "Interview five HR consultants about the last DSAR they handled and what it cost.",
+      "Mock up the request log and deadline calculator and test it with two firms.",
+      "Check what security certification (such as Cyber Essentials Plus) buyers will ask for."
+    ],
+    "price_hint": "GBP 249 per request; GBP 99/mo subscription",
+    "watch_out": "Trust and security certification gate the business, and a single data leak would end it.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "work_careers"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 3,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-080",
+    "name": "EU E-Invoice Bridge",
+    "one_liner": "Converts UK suppliers' PDF invoices into the structured e-invoices EU customers now require.",
+    "problem": "EU countries are moving to mandatory structured e-invoicing, including Belgium, France, Poland and Germany. UK freelancers and manufacturers sending PDFs from Xero or QuickBooks get invoices rejected by EU accounts-payable teams or paid late.",
+    "why_it_works": "Trade press confirms France's reform went live on 1 September 2026 and Poland's KSeF phases began in 2026, so EU buyers now push structured formats onto foreign suppliers. Access-point providers are API-first or enterprise-led, and none target UK exporters with PDF-in handling and plain-English rejections.",
+    "agent_plan": [
+      "Extracts invoice data from PDFs or accounting software and checks it against the destination country's rules.",
+      "Converts invoices to Peppol BIS, XRechnung or Factur-X and sends them through a certified access-point partner.",
+      "Explains rejection messages in plain English, suggests the fix, and remembers each buyer's requirements."
+    ],
+    "human_part": "You sign the certified access-point partnership and verify per-country foreign-supplier obligations before launch.",
+    "content_angle": "Posts for UK exporters on export forums, such as 'why your French customer rejected your PDF invoice'.",
+    "first_steps": [
+      "Interview five UK exporters about EU invoice rejections they've had in 2026.",
+      "Confirm with an access-point partner how foreign suppliers are onboarded.",
+      "Prototype PDF-to-Factur-X conversion for one France-bound invoice and test with a bookkeeper."
+    ],
+    "price_hint": "GBP 12/mo (20 invoices); GBP 39/mo (150)",
+    "watch_out": "Foreign-supplier obligations vary by country and the Belgian details were not confirmed, so verify them before launch; Xero and QuickBooks may add Peppol send.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-081",
+    "name": "Plateforme Agréée Migrator",
+    "one_liner": "Audits each client's invoicing set-up in bulk for French accounting firms facing e-invoicing deadlines.",
+    "problem": "Every VAT-registered French business must be able to receive e-invoices since 1 September 2026, and small firms must issue them by 1 September 2027. A cabinet with 200-800 small clients must audit each one and recommend a platform, costing an estimated 1-2 hours per client.",
+    "why_it_works": "Multiple vendors have published SME readiness guides, so migration questions are now widespread. Platform and accounting vendors onboard clients onto their own product, and none offer a neutral batch audit of actual invoicing flows. The window is time-boxed, so you would plan to extend into ongoing e-reporting checks.",
+    "agent_plan": [
+      "Sends each client a French questionnaire and reads three sample invoices plus their FEC export.",
+      "Classifies invoicing flows, detects missing mandatory mentions and scores each client's readiness.",
+      "Drafts a personalised mission-letter addendum and client email, and reminds on deadlines through a firm dashboard."
+    ],
+    "human_part": "You need fluent French, accounting credibility and direct outreach to cabinets, and the expert-comptable remains responsible for advice.",
+    "content_angle": "French LinkedIn posts for cabinet partners, such as a checklist of mandatory invoice mentions clients forget.",
+    "first_steps": [
+      "Interview five French cabinets about how they audit clients for the 2027 deadline today.",
+      "Build the French questionnaire and invoice-reading step, and test it on ten sample invoices.",
+      "Offer the season flat price to two cabinets as a paid pilot."
+    ],
+    "price_hint": "EUR 4/client audited; EUR 1,500 flat season",
+    "watch_out": "The window closes after September 2027 unless the product extends into ongoing e-reporting checks.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-082",
+    "name": "CBAM Threshold Guard",
+    "one_liner": "Tracks tonnage against the 50-tonne CBAM limit for small EU importers and their customs brokers.",
+    "problem": "CBAM has applied since 1 January 2026 with a 50-tonne annual threshold per importer. Small importers of fasteners or aluminium track tonnage across many declarations in Excel, and crossing the line makes the whole year's imports subject to CBAM.",
+    "why_it_works": "National customs authorities warn small importers that imports can be blocked in 2026, which is a clear early-warning need. CBAM software targets heavy industry and emissions data, not threshold watching. The niche looks too small for big vendors and needs broker data integration.",
+    "agent_plan": [
+      "Reads customs declaration exports and flags CBAM-relevant lines, including downstream goods like screws and bolts.",
+      "Sums net mass per legal entity for the calendar year and forecasts when the threshold will be crossed.",
+      "Alerts importer and broker at 60%, 80% and 95%, and writes supplier emissions-data requests in the supplier's language."
+    ],
+    "human_part": "You need customs knowledge or a broker design partner, and you sell through brokers and trade associations.",
+    "content_angle": "LinkedIn and German or Dutch SEO on 'CBAM Schwellenwert 50 Tonnen', with a worked example for a fastener importer.",
+    "first_steps": [
+      "Talk to three customs brokers about how they track importers' tonnage today.",
+      "Build a spreadsheet-import prototype that sums flagged mass and forecasts the threshold date.",
+      "Test it with one broker's real export and ask whether they'd pay the broker plan."
+    ],
+    "price_hint": "EUR 49/mo per importer; broker EUR 399/mo",
+    "watch_out": "Rules and penalties vary by national authority, so verify how each treats near-threshold importers before marketing exemption evidence.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-083",
+    "name": "EUDR Small Operator Kit",
+    "one_liner": "Tells small EU importers which deforestation-rule dates apply and collects supplier plot data.",
+    "problem": "The EUDR applies from 30 December 2026 for large and medium operators and from 30 June 2027 for micro and small ones, with a simplified declaration for some. Coffee roasters and furniture importers can't tell whether they count as operators or traders, or how to collect plot polygons from cooperatives.",
+    "why_it_works": "The Commission lists separate dates for micro and small operators, and law-firm and vendor commentary shows repeated confusion. Enterprise traceability platforms cost EUR 10k+ a year. None offer a cheap small-operator classifier with WhatsApp-friendly geodata collection.",
+    "agent_plan": [
+      "Classifies a company as operator, downstream operator or trader and gives the date that applies.",
+      "Sends suppliers and cooperatives a multilingual WhatsApp or web form to collect plot coordinates.",
+      "Cleans geodata, checks it against public deforestation layers, and assembles the risk-assessment file and declaration."
+    ],
+    "human_part": "You need GIS skills and personal relationships with a few roasters or importers as design partners.",
+    "content_angle": "Posts in specialty coffee and craft chocolate communities, such as a plain explainer of which EUDR date applies to a small roaster.",
+    "first_steps": [
+      "Recruit three roasters or importers as design partners and map their supply chains.",
+      "Build the role-and-date classifier as a free web form.",
+      "Test the WhatsApp plot-collection flow with one cooperative and note where suppliers get stuck."
+    ],
+    "price_hint": "EUR 590/year (20 suppliers); EUR 15 per extra",
+    "watch_out": "A third postponement or further simplification would weaken willingness to pay, and supplier forms need Spanish, Portuguese and French.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "outbound"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-084",
+    "name": "ACSP Client ID Tracker",
+    "one_liner": "Tracks and chases every director's and PSC's identity verification for UK accountancy practices.",
+    "problem": "Companies House identity verification became mandatory on 18 November 2025, with the transition ending 18 November 2026. A practice with 400 company clients must work out each person's due date and chase personal codes, usually in spreadsheets.",
+    "why_it_works": "Accountancy press reported only about 55% of directors and 42% of PSCs had verified by August 2026, with 6-7 million people in scope. Company-secretarial tools track filings but not per-person due dates, and ID vendors don't manage the client-list workflow. New appointments keep the work going after the deadline.",
+    "agent_plan": [
+      "Imports the practice's clients from the Companies House API and works out each director's and PSC's due date.",
+      "Sends branded chase emails and SMS with a plain-English guide and records verification status.",
+      "Answers client questions from official guidance with citations and monitors new appointments and PSC changes."
+    ],
+    "human_part": "You sell directly to practices and run any ID checks through a certified identity-service partner, with AML obligations if you act as a provider.",
+    "content_angle": "Posts in AccountingWEB and at ICAEW or ACCA events, such as a due-date cheat sheet for multi-company directors.",
+    "first_steps": [
+      "Interview five practice managers about how they track verification today.",
+      "Build the Companies House import and due-date engine and test on one real client list.",
+      "Email practices from the public ACSP list offering a free status report."
+    ],
+    "price_hint": "GBP 49/mo (100 companies); GBP 149/mo (500)",
+    "watch_out": "Peak demand is the November 2026 deadline itself, so it must quickly pivot to ongoing monitoring of new directors to keep revenue.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "money"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-085",
+    "name": "Letting Statement MTD Bridge",
+    "one_liner": "Turns letting-agent PDF statements into HMRC Making Tax Digital quarterly updates for landlords.",
+    "problem": "Making Tax Digital for Income Tax applies to landlords with qualifying income over GBP 50,000 from April 2026, falling to GBP 30,000 in April 2027. Their data sits in agent PDF statements with netted-off fees and repairs, so they re-key it or pay accountants GBP 300-600 a year extra.",
+    "why_it_works": "GOV.UK confirms the thresholds and many vendors are publishing landlord guides, so awareness is high. Most tools are bank-feed-first and struggle with netted agent statements. Review notes warn the market is crowded and the wedge may be copied quickly.",
+    "agent_plan": [
+      "Reads emailed or uploaded agent statements and extracts rent, commission, repairs and deposit lines per property.",
+      "Maps lines to HMRC property-income categories and reconciles net payouts against bank deposits.",
+      "Flags capital versus revenue repairs for review and submits quarterly updates or exports to the accountant."
+    ],
+    "human_part": "You complete HMRC software recognition and sandbox testing, and build accountant partnerships because the wedge is easy to copy.",
+    "content_angle": "Posts in landlord forums like Property Tribes, such as a walkthrough of putting an agent statement into MTD.",
+    "first_steps": [
+      "Collect ten anonymised agent statements from different agencies and list the layout differences.",
+      "Prototype line extraction and category mapping for two agencies' formats.",
+      "Apply for the HMRC developer hub and sandbox, and ask two accountants about a client plan."
+    ],
+    "price_hint": "GBP 9/mo per landlord; accountant GBP 4/client",
+    "watch_out": "Commoditization risk is high, because Xero, Hammock and others are adding AI document capture and free software keeps prices low.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-086",
+    "name": "Late Payment Interest Claimer",
+    "one_liner": "Calculates and claims statutory late-payment interest for UK small businesses and freelancers.",
+    "problem": "UK small firms are owed billions in late invoices, which the Small Business Commissioner puts at GBP 11 billion a year in cost. They are entitled to 8% over base rate plus fixed compensation per invoice, but few claim because it's fiddly and they fear harming the relationship.",
+    "why_it_works": "The Commissioner offers a free interest calculator and is promoting a Late Payments Bill, so awareness is rising. Reminder tools nudge but rarely quantify or claim statutory amounts. Solicitors won't touch a GBP 3,000 debt.",
+    "agent_plan": [
+      "Finds overdue invoices from Xero, QuickBooks, FreeAgent or Sage and calculates daily statutory interest and compensation.",
+      "Checks the contract or terms for an agreed rate or payment period that overrides the Act.",
+      "Drafts an escalating letter sequence in the user's tone, up to a pre-action letter and a Money Claim Online pack."
+    ],
+    "human_part": "You get templates reviewed by a solicitor and stay within debt-collection limits by never taking assignments or acting in court.",
+    "content_angle": "Posts in freelancer and FSB communities, such as 'the interest you're owed on that 60-day-late invoice'.",
+    "first_steps": [
+      "Build a calculator that takes an invoice amount and due date and shows interest owed.",
+      "Check the compensation bands on GOV.UK, which weren't confirmed in review.",
+      "Test the letter sequence with five freelancers who have overdue invoices and ask who would send it."
+    ],
+    "price_hint": "GBP 19/mo plus 10% of amounts recovered",
+    "watch_out": "Letters must not misstate the legal position, so templates need solicitor review, and Xero or Chaser could add an interest calculator.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "marketplace",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-087",
+    "name": "ERA Policy Updater",
+    "one_liner": "Redlines small employers' contracts and handbooks against the Employment Rights Act 2025 timeline.",
+    "problem": "The Employment Rights Act 2025 is landing in phases through 2027. A 15-person café or care agency has a 2019 template handbook and no idea which clauses are now unlawful, while retainer services charge GBP 100-300+ a month on multi-year contracts.",
+    "why_it_works": "Law firms and HR vendors published revised ERA timelines in 2026, and Peninsula markets it as the biggest change in a generation. Template libraries don't read the employer's own documents against phased dates. General AI can redline but doesn't maintain a phased rulebook.",
+    "agent_plan": [
+      "Reads uploaded contracts and handbooks clause by clause against a maintained rulebook of Act measures and dates.",
+      "Produces tracked-change redlines, a clean copy, plain-English staff notices and a dated change log.",
+      "Re-checks every customer's documents when a new commencement regulation is published and flags zero-hours staff."
+    ],
+    "human_part": "You keep an employment solicitor on retainer, maintain the rulebook weekly, and sell through payroll bureaux and bookkeepers.",
+    "content_angle": "SEO and posts for café and care owners, such as 'Employment Rights Act: what you must change in your contracts'.",
+    "first_steps": [
+      "Build a dated rulebook of Act measures from public timelines and note where sources disagree.",
+      "Test redlining on three real small-firm handbooks, reviewed by an employment solicitor.",
+      "Pitch two payroll bureaux the bureau plan and ask what their clients keep asking."
+    ],
+    "price_hint": "GBP 29/mo (25 staff); GBP 249 refresh",
+    "watch_out": "Legal-advice risk is high and commencement dates keep moving, so the rulebook needs weekly maintenance and solicitor-reviewed templates.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork",
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "hospitality"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-088",
+    "name": "EU Parcel Duty Repricer",
+    "one_liner": "Models true landed cost and reprices EU orders for UK online shops hit by the new parcel duty.",
+    "problem": "From 1 July 2026 the EU ended its EUR 150 customs-duty exemption and introduced a flat EUR 3 duty per item category. UK merchants selling EUR 20-80 items now see margins wiped out or customers hit with surprise charges and refused parcels.",
+    "why_it_works": "Deloitte, Bird & Bird and UK fulfilment providers explained the new duty and pending handling fees. Landed-cost engines like Zonos are built for larger brands. None give small merchants catalogue-level repricing and bundling advice for the per-category rule.",
+    "agent_plan": [
+      "Reads the catalogue and 90 days of EU orders and assigns tariff categories to items.",
+      "Models landed cost per EU country including VAT, duty, handling fees and carrier surcharges, then recommends prices and bundles.",
+      "Pushes EU prices through Shopify Markets and alerts the merchant when a country adds a handling fee."
+    ],
+    "human_part": "You get the merchant's approval on pricing and handle Shopify app review and carrier or 3PL partnerships.",
+    "content_angle": "Posts in eCommerceFuel and r/shopify, such as a worked example of bundling items to cut the EUR 3 duty.",
+    "first_steps": [
+      "Collect order data from three UK Shopify sellers to EU buyers and measure the duty impact.",
+      "Build the landed-cost spreadsheet model per country and test it against their real orders.",
+      "Check the current EU handling-fee status before quoting any country-specific numbers."
+    ],
+    "price_hint": "GBP 29/mo (300 orders); GBP 79/mo (2,000)",
+    "watch_out": "The EUR 3 duty is described as transitional until a new EU data hub around 2028, so the product must evolve with the reform.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "ecommerce",
+        "money"
+      ],
+      "channels": [
+        "marketplace",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "marketing_content"
+      ],
+      "agent_share": 85,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-089",
+    "name": "Data Act Readiness Kit",
+    "one_liner": "Gives small connected-product makers a data inventory, access portal and model contract terms for the EU Data Act.",
+    "problem": "Connected products placed on the EU market after 12 September 2026 must let users access their data, and makers must give pre-contractual data information. Hardware firms with 10-50 staff have no counsel, and law firms charge EUR 5-20k for an assessment.",
+    "why_it_works": "The Commission updated its Data Act FAQ in 2026 and the design obligation now applies. Privacy platforms centre on personal data and law firms are expensive. The review notes demand from small makers is weak today and should be checked first.",
+    "agent_plan": [
+      "Reads a product's data sheet, app permissions and API docs and builds a data inventory mapped to Data Act duties.",
+      "Generates the pre-contractual notice, a user data-access request portal and a third-party sharing workflow.",
+      "Drafts B2B data-sharing terms from the Commission's model terms and sends alerts when guidance changes."
+    ],
+    "human_part": "You need an IoT background, a law-firm partner for review add-ons, and patient awareness-building with hardware founders.",
+    "content_angle": "LinkedIn posts for hardware product managers, such as a plain-language checklist of Data Act duties for smart devices.",
+    "first_steps": [
+      "Interview ten hardware founders to test whether they feel any Data Act pressure today.",
+      "Build the data-inventory generator from one real product's data sheet.",
+      "Ask a law firm whether they would review contract drafts as a paid add-on."
+    ],
+    "price_hint": "EUR 990 setup per product line; EUR 99/mo",
+    "watch_out": "The demand signal from small makers is weak, so validate with ten hardware founders before building.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "content"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "tech",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-090",
+    "name": "KSeF Rejection Fixer",
+    "one_liner": "Explains and repairs rejected Polish e-invoices for foreign-owned firms and small accounting offices.",
+    "problem": "Poland's KSeF made structured e-invoices mandatory for large taxpayers from February 2026 and other VAT payers from April 2026. Foreign-owned subsidiaries see invoices rejected with technical Polish error messages, and each failed invoice delays payment.",
+    "why_it_works": "Advisory firms tracked KSeF's 2026 phases and sources conflict on small-business dates, which drives support questions. Local tools are Polish-only and enterprise vendors are expensive. Review notes warn that Polish incumbents are adding validation quickly.",
+    "agent_plan": [
+      "Reads each rejected invoice's XML and error message and explains the cause in English, German or Ukrainian.",
+      "Proposes a corrected set of invoice fields and resubmits or hands off to the accounting tool.",
+      "Tracks outstanding failures and recurring root causes by invoicing system, and checks small clients' readiness for January 2027."
+    ],
+    "human_part": "You need Polish language skills or a local accounting partner, and relationships through foreign chambers of commerce.",
+    "content_angle": "LinkedIn posts for shared-service finance teams, such as the five most common KSeF rejections and their fixes.",
+    "first_steps": [
+      "Collect real rejection messages from three foreign-owned Polish subsidiaries.",
+      "Prototype the explain-and-correct step on those messages and have a Polish accountant check it.",
+      "Contact one foreign chamber of commerce in Poland about presenting to members."
+    ],
+    "price_hint": "PLN 99/mo (200 invoices); PLN 349/mo (2,000)",
+    "watch_out": "Commoditization risk is high because Polish incumbents already integrate KSeF, and the tool handles sensitive access tokens.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-091",
+    "name": "Nebenkosten Check Instant",
+    "one_liner": "Checks a German utility-costs statement in minutes and drafts the objection letter for tenants.",
+    "problem": "Roughly 20 million German rental households get a Nebenkostenabrechnung each year, and the Tenants' Association is widely quoted as saying about half are faulty. Tenants have 12 months to object, but statements are dense, and many expats simply pay.",
+    "why_it_works": "One paid checker reports 93% of statements checked were faulty (a self-selected sample), and consumer outlets publish annual check guides. Existing paid checks take about 48 hours from EUR 49. Mineko already offers a free AI pre-check, so your edge is instant English reports and city benchmarks.",
+    "agent_plan": [
+      "Reads a photographed statement and lease and extracts every cost line, apportionment key and period.",
+      "Checks lines against BetrKV rules, lease terms, billing deadlines and arithmetic, and compares per-square-metre costs with benchmarks.",
+      "Writes a German or English report and a Widerspruch or Belegeinsicht letter, with a reminder before the deadline."
+    ],
+    "human_part": "You need a German entity and a registered legal-services partner for any case handling, and you refer complex cases to them.",
+    "content_angle": "German SEO and expat Facebook posts, such as a 'what to check on your Nebenkostenabrechnung' walkthrough in English.",
+    "first_steps": [
+      "Collect ten anonymised statements and list the most common errors against BetrKV.",
+      "Build the upload and extraction step with a free quick scan.",
+      "Ask a registered legal-services provider whether they would take referrals under RDG rules."
+    ],
+    "price_hint": "Free scan; EUR 19 report + letter; EUR 39 follow-up",
+    "watch_out": "German legal-services rules (RDG) are the main risk, and Mineko is a strong incumbent.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-092",
+    "name": "Deposit Penalty Claim",
+    "one_liner": "Checks whether a landlord protected your deposit and prepares your penalty claim or ADR evidence.",
+    "problem": "Landlords in England and Wales must protect deposits within 30 days and serve prescribed information, or tenants can claim 1-3 times the deposit. Tenants don't know how to check all three schemes, and no-win-no-fee firms take 30-50% of the award.",
+    "why_it_works": "GOV.UK confirms the 30-day rule and the May 2026 change to assured periodic tenancies, and DPS news shows continuing confusion. Claims firms take large percentages and free advisers don't produce court-ready documents. Tenants keep 100% with a flat fee.",
+    "agent_plan": [
+      "Reads the tenancy agreement and deposit receipt and builds a dated timeline of protection and information.",
+      "Guides the tenant through the three scheme lookups and checks prescribed information against the statutory list.",
+      "Generates an evidence-backed ADR submission or a letter before claim and a small-claims pack."
+    ],
+    "human_part": "You add disclaimers, a solicitor referral route, and verify the penalty rules after the Renters' Rights Act changes.",
+    "content_angle": "SEO pages and short renter-rights videos, such as 'is your deposit protected? check in three minutes'.",
+    "first_steps": [
+      "Build the free protection-check checklist as a simple web form.",
+      "Verify the post-May 2026 penalty rules with a housing adviser or solicitor.",
+      "Test the timeline step with five former tenants who have a deposit dispute."
+    ],
+    "price_hint": "Free check; GBP 29 ADR pack; GBP 79 court pack",
+    "watch_out": "Penalty rules after the Renters' Rights Act must be verified, and you must avoid conducting litigation for users.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-093",
+    "name": "Foreign Driving Fine Checker",
+    "one_liner": "Translates and checks fines from Italy, France or Spain and drafts your appeal or exemption request.",
+    "problem": "Tourists often get fines 3-12 months after driving into an Italian ZTL or French low-emission zone, at EUR 80-300 each plus rental admin fees. Letters arrive in Italian and drivers can't tell whether a notice is genuine, in time or worth appealing.",
+    "why_it_works": "Travel forum threads describe fines arriving up to a year later and debate whether to pay, and a motoring club warns of the charges. Collectors work for municipalities and lawyers are uneconomic for EUR 100 fines. Nobody offers instant multilingual validity and scam checks.",
+    "agent_plan": [
+      "Reads a photographed notice, translates it and extracts the municipality, offence code, dates and payment details.",
+      "Checks the issuer and payment account against genuine bodies to spot scams, and calculates service deadlines and discount windows.",
+      "Groups fines from one trip and drafts an appeal or hotel-exemption request in Italian, French or Spanish."
+    ],
+    "human_part": "You get Italian legal templates reviewed once by an Italian lawyer and keep advice clear of encouraging non-payment.",
+    "content_angle": "SEO and travel forum answers, such as 'Italy ZTL fine letter: is it real and should you pay?'.",
+    "first_steps": [
+      "Collect twenty real notices from forums and list the issuers and deadline rules involved.",
+      "Build the photo-to-translation and scam-check step.",
+      "Ask an Italian lawyer to review one appeal template and quote a price."
+    ],
+    "price_hint": "Free check; EUR 9 analysis; EUR 29 appeal pack",
+    "watch_out": "Italian and French deadline rules must be accurate, and weaker post-Brexit cross-border enforcement for UK drivers affects the advice.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-094",
+    "name": "Private Parking Charge Fighter",
+    "one_liner": "Checks a private parking charge for weaknesses and drafts your appeal or court defence.",
+    "problem": "DVLA data shows at least 16.9 million private parking tickets were issued in 2025/26, up 17%, usually GBP 60-100 rising to GBP 170. Many are contestable, but drivers don't know the rules and either pay out of fear or spend hours on forums.",
+    "why_it_works": "MoneySavingExpert reported the ticket figures and a new statutory Private Parking Code was laid on 20 October 2026, so the rules are changing again. Forum help is free but slow and generic bots ignore notice timing and operator evidence. Per-car-park outcome data is hard to copy.",
+    "agent_plan": [
+      "Reads a photographed notice and extracts the operator, trade association, dates and alleged contravention.",
+      "Checks notice timing, grace periods and the code applying on the event date, and analyses signage photos.",
+      "Drafts operator, POPLA or IAS appeals and a court defence with witness statement, tracking deadlines."
+    ],
+    "human_part": "You add clear disclaimers, keep to self-help document preparation, and update the rulebook as the new code takes effect.",
+    "content_angle": "TikTok and YouTube explainers and SEO, such as 'three timing mistakes that void a parking charge'.",
+    "first_steps": [
+      "Build the free validity check that tests notice timing against the 2012 Act rules.",
+      "Collect twenty real notices and check which appeal grounds applied.",
+      "Verify when the new code takes effect and how rules switch by event date."
+    ],
+    "price_hint": "Free check; GBP 9 appeal; GBP 29 court pack",
+    "watch_out": "The new code's start will change the rules, so the rulebook must switch by event date.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "content"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-095",
+    "name": "Council PCN Challenger",
+    "one_liner": "Builds your challenge to a council or London penalty charge notice, with every deadline tracked.",
+    "problem": "Council PCNs and low-emission zone penalties cost GBP 70-180 each and rise by 50% after 28 days if unpaid. The challenge process is procedural, and drivers lose their discount by appealing badly or missing stages.",
+    "why_it_works": "GOV.UK sets out the payment, discount and escalation rules, and London Tribunals runs separate streams, which shows the regimes are complex. Free guidance explains the process but doesn't build grounds. Fleet tools pay PCNs rather than contest them, and the review notes say fleets are likely the better revenue source.",
+    "agent_plan": [
+      "Reads a PCN photo or PDF and identifies the authority, contravention code and regime.",
+      "Computes every deadline and discount window and checks procedural grounds such as signage, notice timing and exemptions.",
+      "Drafts the informal challenge, formal representations and tribunal appeal with evidence bundles, logging outcomes by location."
+    ],
+    "human_part": "You keep it clearly separate from private parking in positioning, and sell to fleets directly.",
+    "content_angle": "SEO and trade-driver community posts, such as 'how to challenge a bus lane PCN before the discount ends'.",
+    "first_steps": [
+      "Build the free deadline calculator for the 28-day and 14-day windows.",
+      "Interview three van fleet managers about how they handle PCNs today.",
+      "Test challenge drafting on ten real notices and compare with free guidance."
+    ],
+    "price_hint": "Free check; GBP 7 challenge pack; fleet GBP 49/mo",
+    "watch_out": "It must stay clearly separate from private parking in the product, and Scotland and Wales have different bodies and timings.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "mobility",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "scale"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 85,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-096",
+    "name": "Car Hire Damage Disputer",
+    "one_liner": "Records your car's condition at pickup and builds your dispute if a damage charge appears later.",
+    "problem": "Travellers renting in southern Europe often find damage charges of EUR 200-1,500 on their card weeks later, sometimes for old scratches, plus admin fees. Insurers and card chargebacks need specific evidence and have time limits, so many people give up.",
+    "why_it_works": "Excess insurers report over 1 million policies sold, which shows people already pay to manage this risk, and travel forums document surprise charges. Insurers reimburse after the fact but don't fight the charge. Rental company apps are controlled by the counterparty.",
+    "agent_plan": [
+      "Guides a timestamped walkaround at pickup and return, highlighting existing damage against the check-out sheet.",
+      "Matches a claimed damage charge to the traveller's evidence and checks it against the contract terms.",
+      "Drafts the dispute letter, excess-insurance claim pack, chargeback request and consumer complaint."
+    ],
+    "human_part": "You maintain dispute letters in Spanish, Portuguese and Italian, and sign up insurer and comparison-site affiliates.",
+    "content_angle": "Travel forum answers and SEO, such as 'what to do when your Spanish car hire company charges for damage'.",
+    "first_steps": [
+      "Interview ten travellers about charges they received and what evidence they had.",
+      "Prototype the guided walkaround in a simple web page.",
+      "Check whether a flat-fee pack stays outside UK claims-management rules."
+    ],
+    "price_hint": "Free recording; EUR 19 dispute pack; 15% success fee",
+    "watch_out": "Success fees may count as regulated claims management in the UK, and demand is seasonal.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "travel_expat",
+        "mobility"
+      ],
+      "channels": [
+        "seo",
+        "marketplace"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-097",
+    "name": "Service Charge Challenger",
+    "one_liner": "Audits a leaseholder's service charge and drafts the information requests and tribunal papers.",
+    "problem": "Leaseholders pay service charges that often rise faster than inflation, with unexplained insurance commissions, management fees and major-works bills. Using their rights means reading 40-page accounts and the lease, and solicitors charge GBP 2,000+ to start.",
+    "why_it_works": "Campaign groups report padded insurance admin costs and class actions over insurance commissions, and GOV.UK sets out statutory information rights. Free advice explains rights but doesn't audit accounts. The review notes rate commoditization low because it needs lease-specific analysis and tribunal workflows.",
+    "agent_plan": [
+      "Reads the lease, budgets and accounts and extracts what the lease allows for each cost head.",
+      "Compares costs with prior years and other blocks' benchmarks, and flags items that may be unreasonable or lack consultation.",
+      "Drafts statutory information requests, consultation challenge letters and a tribunal application with a Scott Schedule."
+    ],
+    "human_part": "You refer complex cases to solicitors and recruit residents' associations and campaign groups as your first users.",
+    "content_angle": "Posts in leasehold Facebook groups and SEO, such as 'how to challenge your service charge at tribunal'.",
+    "first_steps": [
+      "Collect three sets of leaseholder accounts and list the red flags a reader would catch.",
+      "Build the lease and accounts extraction with a free year-on-year comparison.",
+      "Offer a free audit to one residents' association in exchange for feedback."
+    ],
+    "price_hint": "GBP 49 flat audit; GBP 199/yr per block",
+    "watch_out": "Leasehold reform commencement could change rights mid-build, so the rulebook must stay modular.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-098",
+    "name": "Dutch Rent Points Checker",
+    "one_liner": "Works out the legal maximum rent for a Dutch rental from photos and public registers, in English.",
+    "problem": "Dutch social and middle-rent rents are capped by the WWS points system, but many tenants, especially internationals, pay above the maximum without knowing. Points need floor areas, energy labels, WOZ value and fittings, and the rules change again on 1 January 2027.",
+    "why_it_works": "The Huurcommissie promotes its rent check and announces the 2027 points changes, and Woonbond runs a 2026 rent-increase check. Official tools are Dutch-only and Huurteams have capacity limits. No one combines photo and register automation with case filing in English.",
+    "agent_plan": [
+      "Pulls the energy label and WOZ value from public registers and estimates fittings points from kitchen and bathroom photos.",
+      "Calculates the points score under current and 2027 rules and explains the maximum legal rent in English.",
+      "Drafts the landlord letter and prepares the Huurcommissie application with evidence attached."
+    ],
+    "human_part": "You verify the 2027 changes and middle-rent scope with the Huurcommissie and use Dutch speakers to check filings.",
+    "content_angle": "Expat Facebook and r/Netherlands posts, such as 'is your Amsterdam rent above the legal maximum?'.",
+    "first_steps": [
+      "Check the Huurcommissie rules for current and 2027 points and the middle-rent scope.",
+      "Build a points calculator for one city using register data.",
+      "Test it with five international tenants and compare against the official check."
+    ],
+    "price_hint": "Free estimate; EUR 29 report; EUR 59 case pack",
+    "watch_out": "The 2027 points changes and middle-rent scope must be verified before launch, and photo-based estimates must be labelled as estimates.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "travel_expat",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-099",
+    "name": "Grundsteuer Einspruch Helper",
+    "one_liner": "Checks a German property-tax notice for errors and drafts a correctly formed objection.",
+    "problem": "Many German owners saw large Grundsteuer increases, taxpayers' associations argue the federal model is unconstitutional, and cases are pending. Owners who receive a new or changed notice have one month to object, and many miss it or file a letter that fails to cite the right notice or request suspension.",
+    "why_it_works": "The Bund der Steuerzahler reports test cases and pending complaints and publishes model objections, which shows owner demand. Free templates are generic and tax software focuses on declarations. A court ruling could spike or kill demand overnight.",
+    "agent_plan": [
+      "Reads a photographed notice and extracts the type, date, file number, land value, area and building data.",
+      "Checks the data against the owner's declaration and the public land value for the plot, and computes the deadline.",
+      "Drafts an objection citing pending cases with requests to pause the proceeding, and alerts users when a court decision lands."
+    ],
+    "human_part": "You need a German entity and a licensed tax adviser partner, since tax advice is restricted to licensed advisers.",
+    "content_angle": "German SEO and owner forum posts, such as 'Grundsteuerbescheid: how to object before the one-month deadline'.",
+    "first_steps": [
+      "Check with a tax adviser exactly what a non-licensed tool may say or generate.",
+      "Build the notice-reading step and deadline calculator as a free page.",
+      "Test with ten owners' real notices and ask which data errors appeared most."
+    ],
+    "price_hint": "Free check; EUR 19 objection; EUR 29/yr monitoring",
+    "watch_out": "Tax-adviser law restricts what you can offer and a court ruling could change demand overnight; the claim that the BFH suspended enforcement was not confirmed.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "property",
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "GL-100",
+    "name": "Energy Back-Bill Fighter",
+    "one_liner": "Rebuilds your energy billing history and drafts your complaint against catch-up bills.",
+    "problem": "UK households and microbusinesses regularly get catch-up bills of hundreds or thousands of pounds after estimated readings, faulty smart meters or supplier changes. Back-billing rules generally limit charges to 12 months when the supplier is at fault, but customers rarely know how to invoke them.",
+    "why_it_works": "The Energy Ombudsman requires an 8-week wait or deadlock letter and a coherent evidence file, and Ofgem and Citizens Advice both run back-bill guidance pages. Free services explain the rules but don't reconstruct billing timelines. Claims firms only target large broker-commission cases.",
+    "agent_plan": [
+      "Reads bills, statements and meter photos and reconstructs a timeline marking estimated versus actual readings.",
+      "Finds charges outside the back-billing window and checks tariffs against contract or price-cap periods.",
+      "Drafts the formal complaint, tracks the 8-week clock and builds the Energy Ombudsman evidence pack."
+    ],
+    "human_part": "You explain exceptions such as customer obstruction and keep business success fees out of scope unless authorised.",
+    "content_angle": "Posts in r/UKPersonalFinance and MSE-style communities, such as 'got a huge catch-up energy bill? check the 12-month rule'.",
+    "first_steps": [
+      "Read the Ofgem back-billing rules directly, since the rule text wasn't opened in review.",
+      "Build a bill-timeline tool using ten sample bills from volunteers.",
+      "Offer five households a free check and track which complaints the supplier concedes."
+    ],
+    "price_hint": "Free check; GBP 19 household pack; GBP 99 business",
+    "watch_out": "Success fees on business claims may fall under claims-management regulation, and the exact 12-month rule text still needs confirming.",
+    "tags": {
+      "markets": [
+        "UK"
+      ],
+      "portable": false,
+      "customer": "consumer",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any"
+      ],
+      "agent_share": 80,
+      "speed": "weeks",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "where", "type": "single",
+      "title": "Who do you want to sell to?",
+      "help": "Pick the customers you can actually reach.",
+      "options": [
+        {"id": "th_local", "label": "Thai customers", "note": "I can work in Thai"},
+        {"id": "th_expat", "label": "Foreigners living in Thailand", "note": "Expats, retirees, remote workers"},
+        {"id": "th_both", "label": "Both, in Thailand"},
+        {"id": "us", "label": "Customers in the US"},
+        {"id": "uk", "label": "Customers in the UK or Europe"},
+        {"id": "anywhere", "label": "Anyone, online"}
+      ]
+    },
+    {
+      "id": "background", "type": "single",
+      "title": "What do you know best?",
+      "help": "Your day job counts. Inside knowledge is an edge.",
+      "options": [
+        {"id": "tech", "label": "Tech or product"},
+        {"id": "marketing_content", "label": "Marketing or content"},
+        {"id": "sales_ops", "label": "Sales, operations or admin"},
+        {"id": "finance_legal", "label": "Finance, accounting or legal"},
+        {"id": "health", "label": "Health or wellness"},
+        {"id": "property", "label": "Property or construction"},
+        {"id": "hospitality", "label": "Food, travel or hospitality"},
+        {"id": "education", "label": "Teaching or training"},
+        {"id": "any", "label": "Something else, or still figuring it out"}
+      ]
+    },
+    {
+      "id": "interests", "type": "multi", "max": 3,
+      "title": "Which problems would you enjoy solving?",
+      "help": "Choose up to 3.",
+      "options": [
+        {"id": "money", "label": "Money, tax and bills"},
+        {"id": "health", "label": "Health and medical costs"},
+        {"id": "property", "label": "Housing and property"},
+        {"id": "food", "label": "Food and restaurants"},
+        {"id": "education", "label": "Learning and schools"},
+        {"id": "travel_expat", "label": "Travel, visas and life abroad"},
+        {"id": "ecommerce", "label": "Online selling"},
+        {"id": "legal_paperwork", "label": "Paperwork, rules and disputes"},
+        {"id": "local_services", "label": "Local services and trades"},
+        {"id": "work_careers", "label": "Jobs and careers"},
+        {"id": "family_care", "label": "Family and elder care"},
+        {"id": "pets", "label": "Pets"},
+        {"id": "mobility", "label": "Cars, EVs and transport"},
+        {"id": "creator", "label": "Creators and media"}
+      ]
+    },
+    {
+      "id": "customer", "type": "single",
+      "title": "Who would you rather sell to?",
+      "options": [
+        {"id": "consumer", "label": "Everyday people"},
+        {"id": "small_business", "label": "Small businesses", "note": "Shops, restaurants, sellers, landlords"},
+        {"id": "professional", "label": "Professional firms and companies", "note": "Clinics, agencies, accountants"},
+        {"id": "any", "label": "No preference"}
+      ]
+    },
+    {
+      "id": "channel", "type": "single",
+      "title": "How would you most like to find customers?",
+      "help": "Pick the one you would keep doing for six months.",
+      "options": [
+        {"id": "content", "label": "Posting content", "note": "Short videos, posts, a newsletter"},
+        {"id": "seo", "label": "Being found on Google", "note": "Useful pages people search for"},
+        {"id": "community", "label": "Groups and communities", "note": "Facebook, LINE, Reddit, forums"},
+        {"id": "outbound", "label": "Reaching out directly", "note": "Messages, calls, partnerships"},
+        {"id": "any", "label": "Not sure yet"}
+      ]
+    },
+    {
+      "id": "tech", "type": "single",
+      "title": "How comfortable are you building with AI tools?",
+      "help": "No code is required for many of these ideas.",
+      "options": [
+        {"id": "none", "label": "I use ChatGPT or Claude, nothing more"},
+        {"id": "some", "label": "I have built automations or simple apps with AI"},
+        {"id": "builder", "label": "I can ship real software, with or without AI"}
+      ]
+    },
+    {
+      "id": "hours", "type": "single",
+      "title": "How much time can you give it each week?",
+      "options": [
+        {"id": "1", "label": "Under 5 hours"},
+        {"id": "2", "label": "5 to 15 hours"},
+        {"id": "3", "label": "15 to 30 hours"},
+        {"id": "4", "label": "Full time"}
+      ]
+    },
+    {
+      "id": "budget", "type": "single",
+      "title": "How much can you spend before the first sale?",
+      "options": [
+        {"id": "1", "label": "Under $100", "note": "About ฿3,500"},
+        {"id": "2", "label": "Up to $1,000", "note": "About ฿35,000"},
+        {"id": "3", "label": "Up to $5,000", "note": "About ฿175,000"},
+        {"id": "4", "label": "More than that"}
+      ]
+    },
+    {
+      "id": "goal", "type": "single",
+      "title": "What do you want this to become?",
+      "options": [
+        {"id": "side_income", "label": "A side income next to my job"},
+        {"id": "replace_salary", "label": "Enough to replace my salary"},
+        {"id": "scale", "label": "A company that can grow big"},
+        {"id": "sellable_asset", "label": "Something I can build and sell"}
+      ]
+    },
+    {
+      "id": "automation", "type": "single",
+      "title": "How hands-on do you want to be once it runs?",
+      "options": [
+        {"id": "agents", "label": "Agents run most of it", "note": "I check in a few hours a week"},
+        {"id": "balanced", "label": "A mix", "note": "Agents do the routine, I handle people"},
+        {"id": "hands_on", "label": "I am happy to be hands-on", "note": "Sales calls, meetings, site visits"}
+      ]
+    }
+  ]
+}

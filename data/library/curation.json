@@ -1,0 +1,73 @@
+{
+  "_note": "Ideas held back from the public library, with reasons, and tag corrections. Edited by hand after agent review; applied by library.py build.",
+  "drop": {
+    "TH-024": "weak case: free or bundled alternatives already cover it",
+    "TH-033": "weak case: free or bundled alternatives already cover it",
+    "TH-045": "weak case: free or bundled alternatives already cover it",
+    "TH-066": "weak case: free or bundled alternatives already cover it",
+    "TH-078": "weak case: free or bundled alternatives already cover it",
+    "TH-083": "weak case: free or bundled alternatives already cover it",
+    "GL-014": "weak case: free or bundled alternatives already cover it",
+    "GL-036": "weak case: free or bundled alternatives already cover it",
+    "GL-045": "weak case: free or bundled alternatives already cover it",
+    "DIR-027": "weak case: free or bundled alternatives already cover it",
+    "DIR-123": "weak case: free or bundled alternatives already cover it",
+    "DIR-149": "weak case: free or bundled alternatives already cover it",
+    "CLAUDE-094": "weak case: free or bundled alternatives already cover it",
+    "GL-020": "people unlikely to pay, or needs grant funding",
+    "GL-089": "people unlikely to pay, or needs grant funding",
+    "CLAUDE-211": "people unlikely to pay, or needs grant funding",
+    "CLAUDE-227": "people unlikely to pay, or needs grant funding",
+    "GL-023": "time-boxed or expiring rule",
+    "GL-084": "time-boxed or expiring rule",
+    "GL-090": "narrow niche needing a local-language partner",
+    "GL-063": "harm or licensing risk too high for a public recommendation",
+    "GL-067": "harm or licensing risk too high for a public recommendation",
+    "CLAUDE-075": "harm or licensing risk too high for a public recommendation",
+    "DIR-102": "harm or licensing risk too high for a public recommendation",
+    "DIR-260": "demand evidence unverified or source row corrupted",
+    "DIR-273": "demand evidence unverified or source row corrupted",
+    "DIR-287": "demand evidence unverified or source row corrupted",
+    "CLAUDE-133": "demand evidence unverified or source row corrupted",
+    "CLAUDE-144": "demand evidence unverified or source row corrupted",
+    "CLAUDE-159": "demand evidence unverified or source row corrupted",
+    "CLAUDE-161": "demand evidence unverified or source row corrupted",
+    "CLAUDE-221": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "CLAUDE-222": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "CLAUDE-223": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "CLAUDE-229": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "CLAUDE-233": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "CLAUDE-241": "serves only the Philippines or Indonesia (no matching quiz market)",
+    "DIR-002": "duplicate of another library idea",
+    "CLAUDE-038": "duplicate of another library idea",
+    "DIR-034": "duplicate of another library idea",
+    "DIR-006": "duplicate of another library idea",
+    "GL-081": "needs French, German or Dutch and a local market, which the quiz cannot match on",
+    "GL-091": "needs French, German or Dutch and a local market, which the quiz cannot match on",
+    "GL-098": "needs French, German or Dutch and a local market, which the quiz cannot match on",
+    "GL-099": "needs French, German or Dutch and a local market, which the quiz cannot match on"
+  },
+  "tag_overrides": {
+    "CLAUDE-202": {
+      "markets": [
+        "TH_LOCAL"
+      ]
+    },
+    "CLAUDE-204": {
+      "markets": [
+        "TH_LOCAL"
+      ]
+    },
+    "CLAUDE-209": {
+      "markets": [
+        "TH_LOCAL"
+      ]
+    },
+    "CLAUDE-224": {
+      "markets": [
+        "TH_LOCAL",
+        "TH_EXPAT"
+      ]
+    }
+  }
+}

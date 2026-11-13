@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "DIR-042",
+    "name": "ADU Builder Directory",
+    "one_liner": "A directory of ADU builders ranked by finished projects from city permit data, for homeowners and the builders who want their leads.",
+    "problem": "Homeowners building a backyard home spend an est. $100K or more and must pick between very different kinds of builder. Most directories do not show whether a builder has finished an ADU in that city.",
+    "why_it_works": "No neutral directory shows permit-verified ADU completions or real timelines by builder. Competitors like Angi list general contractors, and ADU-specific firms are builders rather than neutral directories. Builders already have a reason to pay because each project is high value.",
+    "agent_plan": [
+      "Matches each city's completed ADU permits to contractor licences and counts projects, unit type and size.",
+      "Calculates days from permit to final inspection per builder and publishes cost and timeline ranges by city.",
+      "Summarises each city's local ADU rules into plain-English page copy for homeowners."
+    ],
+    "human_part": "You still sell profiles to builders, check licences and review pages for accuracy before they go live.",
+    "content_angle": "Short videos and city pages comparing real permit-to-final timelines, such as how long ADUs take in one California city.",
+    "first_steps": [
+      "Pick two or three California cities that publish permit data and pull their ADU permits into a sheet.",
+      "Match permits to licensed builders and build a simple ranked page for one city.",
+      "Email the top builders a free profile and ask which leads they want."
+    ],
+    "price_hint": "Free to search; builders $149/mo",
+    "watch_out": "Permitting data can be inconsistent outside California, and state ADU incentives may slow.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-047",
+    "name": "Homeschool Curriculum Matcher",
+    "one_liner": "A curriculum directory that matches homeschool families by teaching style, learning differences and state funding eligibility.",
+    "problem": "Homeschooling parents pick from hundreds of curricula, and many children have learning differences such as dyslexia or ADHD. Reviews are scattered across Facebook groups and blogs, and a wrong choice wastes money and months.",
+    "why_it_works": "No competitor offers structured matching by learning difference or by state education savings account eligibility. Existing options are review sites and Facebook groups. Affiliate commissions give you income without charging parents.",
+    "agent_plan": [
+      "Collects curriculum details and sorts them by subject, grade, teaching style and learning-difference tags.",
+      "Runs a short quiz and matches each family to a shortlist of curricula.",
+      "Checks each listing against state education savings account vendor rules and flags eligibility."
+    ],
+    "human_part": "You still read reviews with care, claim listings by speaking to publishers and keep state funding rules current.",
+    "content_angle": "Short videos and posts such as 'best homeschool curriculum for a child with ADHD' aimed at parent groups.",
+    "first_steps": [
+      "List 30 curricula with filters for style and learning differences in a spreadsheet.",
+      "Post the shortlist in two homeschool groups and note which questions parents ask most.",
+      "Join affiliate programmes for the top curricula and publish three search-targeted pages."
+    ],
+    "price_hint": "Free to browse; affiliate commissions",
+    "watch_out": "Cathy Duffy Reviews, Rainbow Resource and Facebook groups already cover this, and growth depends on state funding programmes expanding.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "consumer",
+      "interests": [
+        "education",
+        "family_care"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "education",
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-087",
+    "name": "Co-Packer Finder",
+    "one_liner": "A searchable directory of food co-packers by process, certification and minimum run, for food and drink founders.",
+    "problem": "Food and beverage founders need a co-packer with the right process, certifications and an affordable minimum run, but co-packers rarely publish this. Founders make dozens of calls and often sign with a poor fit.",
+    "why_it_works": "Matchmaking exists, but transparent minimums and reviews are rare. Co-packers already pay for qualified leads, so there is a proven way to earn. Your edge is the detail incumbents do not show.",
+    "agent_plan": [
+      "Collects co-packer capabilities, certifications and minimum run sizes from websites into structured profiles.",
+      "Sends a founder's single request to several matching co-packers and compiles their quotes side by side.",
+      "Chases verified reviews from founders who have worked with each co-packer and flags thin profiles."
+    ],
+    "human_part": "You still phone co-packers to verify details, sell listings and need enough food-industry knowledge to judge claims.",
+    "content_angle": "Posts and short videos on what minimum runs really look like for sauces or baked goods, aimed at new food founders.",
+    "first_steps": [
+      "List 30 co-packers in one category with process, minimum run and certifications from public pages.",
+      "Post the list in two food-founder communities and ask what is missing.",
+      "Email five co-packers offering a free claimed profile in exchange for confirming minimums."
+    ],
+    "price_hint": "Free to browse; co-packers $99/mo",
+    "watch_out": "PartnerSlate already does matchmaking, so transparent minimums and reviews have to be the edge, and food-safety rules apply.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "any",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-101",
+    "name": "Immigration Attorney Finder",
+    "one_liner": "A directory of immigration lawyers searchable by exact visa type, for applicants and the attorneys who want their cases.",
+    "problem": "Immigration law is highly specialised, yet most directories show it as one category, so an H-1B specialist may know little about asylum. People pay high hourly rates to lawyers who learn their visa type on the job.",
+    "why_it_works": "No directory filters by exact visa category, posts flat-fee ranges or verifies removal-defence experience. Avvo and AILA's lawyer search exist but do not filter well by sub-type or show fees. The idea shows strong demand and willingness to pay.",
+    "agent_plan": [
+      "Structures attorney profiles by visa category, language and AILA membership from public sources.",
+      "Writes plain-language visa explainers that help applicants choose which visa fits before they search.",
+      "Collects reviews that name the visa type and outcome, and flags stale fee data for update."
+    ],
+    "human_part": "You still manage lawyer-advertising compliance, sell profiles and make sure nothing reads as legal advice.",
+    "content_angle": "Explainer posts and short videos on one visa category at a time, such as who an EB-2 NIW suits.",
+    "first_steps": [
+      "Launch one metro with five visa categories and list matching attorneys from public sources.",
+      "Write explainer pages for each visa category and check how they rank in search.",
+      "Offer ten attorneys a flat-fee profile and confirm they accept flat fees under advertising rules."
+    ],
+    "price_hint": "Free to search; attorneys $149/mo",
+    "watch_out": "Lawyer-advertising rules matter: flat profile fees are fine but per-referral fees are not, and fee data goes stale.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-102",
+    "name": "Fertility Clinic Compare",
+    "one_liner": "A fertility clinic directory that pairs public outcome data with real price quotes, for patients choosing an IVF clinic.",
+    "problem": "Fertility treatment is costly, clinics market aggressively, and public outcome data is hard to read for your own age and diagnosis. Patients often pick on marketing instead.",
+    "why_it_works": "Combining SART data with real price quotes is still rare. SART publishes outcomes by age for free and FertilityIQ owns detailed reviews, so price transparency is the remaining gap. Clinics already pay for profiles in this sector.",
+    "agent_plan": [
+      "Pulls published clinic outcome data and organises it by age group and treatment type.",
+      "Collects patient-submitted cost breakdowns and totals medications, monitoring and add-ons per clinic.",
+      "Drafts consultation question lists for each clinic profile for a human to review."
+    ],
+    "human_part": "You still need a medical reviewer for accuracy, careful privacy handling and sales calls to clinics.",
+    "content_angle": "Posts comparing what a full IVF cycle really costs at different clinics, aimed at fertility communities.",
+    "first_steps": [
+      "Collect public outcome data for clinics in one state and put it in one comparison sheet.",
+      "Ask a fertility patient community to share anonymous total-cost breakdowns for a small pilot.",
+      "Find a clinician to review your wording and agree what you can say without giving medical advice."
+    ],
+    "price_hint": "Free to search; clinics $199/mo",
+    "watch_out": "SART warns its data should not be used to rank clinics, and health privacy and medical-advice rules apply.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "health",
+        "money"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "health",
+        "marketing_content"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-106",
+    "name": "Home Inspector Compare",
+    "one_liner": "A home inspector directory with downloadable sample reports so buyers can judge quality before booking.",
+    "problem": "Buyers do not know how thorough a home inspector is until they have paid and received the report. Agents recommend inspectors, but may favour fast ones who do not kill deals.",
+    "why_it_works": "Nobody compares actual report quality, which is what buyers pay for. InterNACHI and ASHI list inspectors but not report quality. Sample reports are public PDFs inspectors already share, so the data costs little to collect.",
+    "agent_plan": [
+      "Collects sample inspection reports and tags each by length, photo use and systems covered.",
+      "Summarises buyer reviews into thoroughness and report-clarity notes per inspector.",
+      "Keeps certifications, specialties and add-on services current on every profile."
+    ],
+    "human_part": "You still persuade inspectors to list, and agents may steer buyers elsewhere, so you build trust with buyers directly.",
+    "content_angle": "Short videos comparing a thorough sample report with a generic checklist report, aimed at first-time buyers.",
+    "first_steps": [
+      "Collect sample reports from inspectors in one metro and compare them on a simple scorecard.",
+      "Publish a 'how to read an inspection report' page and track search visits.",
+      "Offer ten inspectors a free profile with their sample report and ask for feedback."
+    ],
+    "price_hint": "Free to search; inspectors $59/mo",
+    "watch_out": "Buyers' agents may steer clients to their preferred inspector, and state licensing means you must avoid implying a quality guarantee.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-108",
+    "name": "Expert Witness Finder",
+    "one_liner": "An expert witness directory built around verified testimony history and Daubert challenge records, for litigators.",
+    "problem": "Attorneys spend a lot of time finding expert witnesses, and existing directories are outdated and rarely verify testimony experience. The wrong expert can sink a case.",
+    "why_it_works": "Daubert exclusion history is rarely surfaced by SEAK, Expert Institute, JurisPro or Round Table Group. Attorneys have very high willingness to pay in this market. A data-first directory can offer something brokers do not.",
+    "agent_plan": [
+      "Compiles testimony and publication history from public court records into structured expert profiles.",
+      "Sorts experts into narrow specialty categories and flags documented Daubert or Frye challenges.",
+      "Handles attorney conflict-check requests and routes them to the experts."
+    ],
+    "human_part": "You still sell to law firms, handle confidentiality rules and check record accuracy before publishing.",
+    "content_angle": "Posts for litigators on how to check an expert's testimony history, with an example from one specialty.",
+    "first_steps": [
+      "Pick one specialty and compile ten experts' public testimony history into a sample profile set.",
+      "Show the sample to five litigators and ask what they would pay for.",
+      "Check fee-splitting and confidentiality rules before you contact experts about premium profiles."
+    ],
+    "price_hint": "Attorneys $199/mo; experts $299/mo",
+    "watch_out": "Large brokers dominate and are entrenched, so the Daubert-history data has to be the whole angle.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-123",
+    "name": "Background Check Compare",
+    "one_liner": "A comparison directory of background check providers by price, speed and compliance features, for HR teams.",
+    "problem": "HR teams spend hours comparing background check providers with opaque pricing and confusing compliance rules. Using a non-compliant service creates legal liability.",
+    "why_it_works": "Real turnaround and accuracy data is rare on G2 and Capterra. Providers pay for listings and affiliate economics are good. Your edge would have to be verified HR reviews and clear pricing.",
+    "agent_plan": [
+      "Collects provider prices, check types and ATS integrations from public pages into comparison tables.",
+      "Flags FCRA and state compliance features on each profile.",
+      "Summarises HR reviews on accuracy, turnaround and dispute handling."
+    ],
+    "human_part": "You still sell listings to providers and keep compliance claims accurate, as sales to listed businesses are the main time cost.",
+    "content_angle": "Posts on comparing background check costs for small businesses, aimed at HR and founder groups.",
+    "first_steps": [
+      "List ten providers with pricing, turnaround and compliance features in one sheet.",
+      "Publish a 'background check for small business' comparison page and track search traffic.",
+      "Apply to provider affiliate programmes and email three for premium-listing interest."
+    ],
+    "price_hint": "Free to compare; providers $99/mo",
+    "watch_out": "G2, Capterra and affiliate review sites already cover this, so differentiation is hard.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "work_careers"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "marketing_content"
+      ],
+      "agent_share": 80,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-124",
+    "name": "Environmental Consultant Finder",
+    "one_liner": "A directory of environmental consultants by service type and industry experience, for property buyers and businesses.",
+    "problem": "Businesses meet environmental consultants only occasionally, and buyers do not know how to judge consultant quality for a Phase I or remediation job. A wrong choice means missed contamination or unnecessary costs.",
+    "why_it_works": "No dominant neutral directory exists and no buyer-facing comparison shows consultants' track record, turnaround and price. High willingness to pay and public filings data are in your favour. The commoditization risk is rated low.",
+    "agent_plan": [
+      "Structures consultants by service type, industry experience and verified licence from public records.",
+      "Summarises public filings into track-record notes on each profile.",
+      "Routes rush-service requests to consultants who list transaction-deadline availability."
+    ],
+    "human_part": "You still need real estate or environmental knowledge, and you sell profiles by phone and email.",
+    "content_angle": "Explainer posts on what a Phase I assessment covers and how to compare quotes, aimed at commercial property buyers.",
+    "first_steps": [
+      "Pick one state and list consultants with services and licences from public sources.",
+      "Write a Phase I explainer page and check search demand for related phrases.",
+      "Offer five consultants a free profile and ask what lead details they want."
+    ],
+    "price_hint": "Free to search; consultants $149/mo",
+    "watch_out": "Lenders control consultant choice through approved-vendor panels, so buyers may have little say.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "property",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-126",
+    "name": "Classic Car Mechanic Finder",
+    "one_liner": "A directory of mechanics who work on classic and vintage cars, sorted by era, make and service, for owners.",
+    "problem": "Classic car owners struggle to find mechanics who understand carburetors and pre-computer diagnostics, and modern shops often refuse older vehicles. Owners rely on word of mouth at shows and forums, and one wrong repair can damage a valuable car.",
+    "why_it_works": "Owners spend heavily on their cars, and competitors are mainly content from Hagerty, marque clubs and forums. Mechanics already pay for lead-based listings in other trades. A focused directory fills a gap those sources leave.",
+    "agent_plan": [
+      "Collects mechanic specialties, club affiliations and photo galleries from public pages into profiles.",
+      "Sorts mechanics by era, make and service type for search.",
+      "Summarises owner reviews on estimate accuracy and respect for originality."
+    ],
+    "human_part": "You still persuade small workshops to claim listings, and Hagerty could add a similar feature.",
+    "content_angle": "Short videos and forum posts on how to find a mechanic for carbureted engines, aimed at club members.",
+    "first_steps": [
+      "List 30 classic car specialists in one region with era and make expertise.",
+      "Post the list in two marque club forums and note which makes people ask for.",
+      "Email ten shops offering a free claimed profile with photos of past work."
+    ],
+    "price_hint": "Free to search; mechanics $79/mo",
+    "watch_out": "Hagerty could add this, and mechanics must see enough leads to pay.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "mobility",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "any",
+        "marketing_content"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-133",
+    "name": "Specialty Caterer Finder",
+    "one_liner": "A caterer directory filtered by dietary specialty such as kosher, halal, vegan or allergen-free, for event planners.",
+    "problem": "Event planners need caterers who truly specialise in kosher, halal, vegan, allergen-free or medical diets, but many only claim they can accommodate. Cross-contamination risk and unclear pricing mean hours of calls.",
+    "why_it_works": "ezCater and general platforms dominate corporate catering but do not focus on verified dietary specialisation. Caterers already buy leads. Certification documents and diet-specific reviews are what planners cannot find elsewhere.",
+    "agent_plan": [
+      "Collects caterers' certifications and sample menus and files them on structured profiles.",
+      "Sorts caterers by dietary specialty, event type and capacity for search.",
+      "Summarises client reviews on whether dietary promises were actually delivered."
+    ],
+    "human_part": "You still verify certifications with agencies, sign up caterers by phone and take responsibility for accuracy.",
+    "content_angle": "Posts for event planners on how to check a halal or kosher caterer's certification, with an example.",
+    "first_steps": [
+      "List caterers in one city for two dietary specialties with certification details.",
+      "Share the list with local event planners and ask which filters they use.",
+      "Offer five caterers a free verified profile in exchange for sample menus."
+    ],
+    "price_hint": "Free to search; $149/mo or per lead",
+    "watch_out": "ezCater and general catering platforms dominate, and certification accuracy is your responsibility.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "food",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "hospitality",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-146",
+    "name": "Patent Pro Finder",
+    "one_liner": "A directory of patent agents and attorneys by technology specialty, for inventors and startups.",
+    "problem": "Inventors need patent professionals who understand their specific technology, but the USPTO register gives no specialty or quality information. They waste money on practitioners who do not know their field.",
+    "why_it_works": "The USPTO practitioner search is free but shows no specialty, and Juristat and LexisNexis PatentAdvisor sell analytics to firms rather than inventors. Public data makes it cheap to start. Practitioners already pay for profiles in other legal directories.",
+    "agent_plan": [
+      "Pulls USPTO registration data and sorts practitioners by technology specialty.",
+      "Builds profiles showing credentials, service types and fee options.",
+      "Writes first-time-inventor guides to the patent process."
+    ],
+    "human_part": "You still sell profiles to practitioners and follow lawyer-advertising and USPTO rules.",
+    "content_angle": "Posts for first-time inventors on what a patent agent costs and how to pick one for software or biotech.",
+    "first_steps": [
+      "Pull registered practitioners for one technology field and build a sample directory page.",
+      "Publish a guide on finding a patent professional for a startup.",
+      "Email ten practitioners offering a free claimed profile."
+    ],
+    "price_hint": "Free to search; professionals $149/mo",
+    "watch_out": "Inventor demand is low-volume, and lawyer-advertising rules apply.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "tech"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-149",
+    "name": "Verified Locksmith Directory",
+    "one_liner": "A directory of vetted locksmiths with fair-price guidance, for people locked out of home or car.",
+    "problem": "Fake locksmiths advertise local numbers, quote a low price and then charge far more. People who are locked out are desperate and cannot easily tell scammers from legitimate firms.",
+    "why_it_works": "The scam problem is real and legitimate locksmiths suffer from it. Competitors include Google Local Services Ads, Angi and Yelp. Pricing guidance and a scam-reporting page could help, but emergency searches mostly go straight to Google.",
+    "agent_plan": [
+      "Checks each locksmith's licence, insurance and address against public records.",
+      "Compiles fair-price ranges for common jobs from reviews and quotes.",
+      "Sorts and flags scam reports for human review."
+    ],
+    "human_part": "You still vet each business, sell profiles and handle disputes.",
+    "content_angle": "Short videos on how to spot a fake locksmith and what a fair lockout price looks like.",
+    "first_steps": [
+      "Verify ten local locksmiths in one city and publish a short guide to spotting scams.",
+      "Check how the guide ranks for 'locksmith near me not a scam' searches.",
+      "Ask five verified locksmiths if they would pay for a badge."
+    ],
+    "price_hint": "Free to search; locksmiths $69/mo",
+    "watch_out": "Google Local Services Ads now background-checks locksmiths, and emergency searches go straight to Google.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income"
+      ],
+      "backgrounds": [
+        "any",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": true,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-187",
+    "name": "Art Appraiser Directory",
+    "one_liner": "A directory of certified art appraisers by specialty and credential, for insurance, estates and donations.",
+    "problem": "Finding a qualified art appraiser is hard because the field has minimal regulation and the public does not understand credentials such as AAA or ASA. Estate executors face tight timelines.",
+    "why_it_works": "The associations' own locators are free, so you would win only by combining them across associations with specialty filters and acceptance reviews. Each association runs its own tool and none covers all credentials. Appraisers already pay for lead listings elsewhere.",
+    "agent_plan": [
+      "Collects appraiser credentials and specialties from certifying bodies into one searchable index.",
+      "Writes guides on when an appraisal is needed and what credentials mean.",
+      "Summarises client reviews on whether insurers or the IRS accepted the appraisal."
+    ],
+    "human_part": "You still sign up appraisers one by one, since supply-side sales is the bottleneck.",
+    "content_angle": "Search-focused guides such as how to find an appraiser for an IRS art donation.",
+    "first_steps": [
+      "Compile appraisers from the association directories for one region into a single sheet.",
+      "Publish a guide on art appraisal for estates and check search interest.",
+      "Email ten appraisers offering a free profile and ask which leads they want."
+    ],
+    "price_hint": "Free to browse; appraisers $99/mo",
+    "watch_out": "The associations' own locators are free, so the cross-association aggregation has to justify itself.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "legal_paperwork",
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "none",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "marketing_content"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-226",
+    "name": "Surety Bond Agent Finder",
+    "one_liner": "A directory of surety bond producers by bond type, contract size and SBA programme use, for small contractors.",
+    "problem": "Small contractors who win public jobs often have days to produce bonds and do not know which agents write their size and trade. Many do not know the SBA Surety Bond Guarantee Program exists.",
+    "why_it_works": "NASBP's locator and the SBA programme show a real matching need, and online bond shops focus on simple licence bonds. Producers can pay for routed leads. Your edge is neutral matching by size and trade.",
+    "agent_plan": [
+      "Structures producer profiles by bond class, appointed sureties and contract size band.",
+      "Reads uploaded work-in-progress schedules and statements and flags obvious underwriting gaps before submission.",
+      "Routes each contractor to two or three suitable producers from a short intake."
+    ],
+    "human_part": "You still recruit producers, may need a producer licence for per-referral pay, and get outcome data by building trust.",
+    "content_angle": "Search guides and posts for contractors on getting bonded fast, such as how the SBA guarantee works.",
+    "first_steps": [
+      "List producers in one state with bond classes and contract sizes from public pages.",
+      "Publish a guide on performance bonds for small contractors.",
+      "Ask contractor associations to share your intake form with a few members."
+    ],
+    "price_hint": "Free for contractors; producers $149/mo",
+    "watch_out": "Referral fees to unlicensed parties are restricted in many states, and the moat depends on producers reporting outcomes.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-227",
+    "name": "Hard Money Lender Compare",
+    "one_liner": "A lender comparison built from borrower-submitted term sheets, showing total cost rather than headline rates, for real estate investors.",
+    "problem": "Fix-and-flip and bridge borrowers face hundreds of private lenders whose headline rates hide points and fees, and slow draws cost carrying interest each week. Broker lists are pay-to-play and comparison sites show teaser rates.",
+    "why_it_works": "Borrower documents are not held by any AI assistant or incumbent lender, so the commoditization risk is rated low. BiggerPockets forums show high-traffic discussion of lending. Lenders already pay for lead flow.",
+    "agent_plan": [
+      "Reads uploaded term sheets and closing statements and extracts rate, points, draw fees and terms.",
+      "Publishes anonymised medians by lender, state and deal type.",
+      "Matches borrowers to lenders by experience tier, property type and loan size."
+    ],
+    "human_part": "You still persuade borrowers to share documents, sell to lenders and stay an advertiser to avoid broker licensing.",
+    "content_angle": "Posts for investors on what lenders really charge, using anonymised medians, in forums and local investor meetups.",
+    "first_steps": [
+      "Offer free deal analysis to ten investors in exchange for an uploaded term sheet.",
+      "Build a simple sheet of extracted terms and publish one anonymised comparison.",
+      "Confirm state licensing rules before you charge lenders for loan requests."
+    ],
+    "price_hint": "Free for borrowers; lenders $299/mo",
+    "watch_out": "Cold start: borrowers need an incentive such as free deal analysis to upload documents.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "property"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 2,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-228",
+    "name": "Factoring Contract Checker",
+    "one_liner": "A tool and directory that reads factoring contracts and compares true cost, for truckers and small B2B firms.",
+    "problem": "Owner-operator truckers and B2B businesses sign factoring contracts with long minimums, hidden fees and lengthy termination notices. Comparison articles show teaser rates, not contract terms.",
+    "why_it_works": "A general AI assistant can read one contract but not benchmark it against many others. Trucker communities regularly discuss factoring contracts. Factors already pay per funded referral in this sector.",
+    "agent_plan": [
+      "Reads uploaded factoring agreements and extracts advance rate, fees, recourse and termination terms.",
+      "Calculates an effective annual cost against the user's invoice profile.",
+      "Flags contract red flags and keeps factor listings current."
+    ],
+    "human_part": "You still recruit factors, check state financing-disclosure rules and build trust in trucker communities.",
+    "content_angle": "Posts and short videos in trucker groups showing red flags in a factoring contract.",
+    "first_steps": [
+      "Build a contract red-flag checklist and test it on five real quotes from friendly truckers.",
+      "Post a free red-flag check offer in one trucker community.",
+      "Check commercial-financing disclosure and broker licensing rules for your target states."
+    ],
+    "price_hint": "Free check; $29 report; factors $249/mo",
+    "watch_out": "Factors with bad terms will not list, so revenue depends on good actors wanting to be compared.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-229",
+    "name": "1031 Exchange Intermediary Finder",
+    "one_liner": "A directory comparing 1031 qualified intermediaries on fees, fund security and bonding, with a deadline calculator, for investors.",
+    "problem": "Investors must choose a qualified intermediary within days of closing, and that firm holds the sale proceeds. Fees and protections like segregated accounts and bonds are hard to compare, and a missed deadline can disqualify the exchange.",
+    "why_it_works": "AI assistants explain 1031 rules well but cannot verify a QI's bonding, so verified profiles add something. IRS guidance and Form 8824 show a steady, compliance-driven flow of exchanges. Existing options are association and title-company lists.",
+    "agent_plan": [
+      "Records fee schedules, bond limits and account types from QI materials into comparable profiles.",
+      "Generates 45-day and 180-day deadline dates from the closing date.",
+      "Sends quote requests to up to three intermediaries."
+    ],
+    "human_part": "You still verify bonding and registrations by hand, work with CPAs and agents, and cannot give tax advice.",
+    "content_angle": "Posts and search pages for investors, such as questions to ask a qualified intermediary before closing.",
+    "first_steps": [
+      "Build the deadline calculator and checklist as a free page and test it with investors.",
+      "List ten intermediaries with fees and bond information from their own pages.",
+      "Ask two CPAs whether they would share a vetted shortlist with clients."
+    ],
+    "price_hint": "Free for investors; QIs $199/mo",
+    "watch_out": "Volume per intermediary is low, so listing fees may need to stay modest, and deadline tools need disclaimers.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "property"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-230",
+    "name": "Cost Segregation Firm Compare",
+    "one_liner": "A directory and quote tool that compares cost segregation providers by method, price and audit support, for property owners.",
+    "problem": "Owners of rental and commercial property get quotes from a few thousand dollars to five figures with very different methods. Most cannot tell if a study is worth it or which firms are legitimate without a sales call.",
+    "why_it_works": "Methodology disclosure and audit-defence terms are not compared side by side by the firms you would list. BiggerPockets investors ask the same questions repeatedly, and the ASCSP exists because study quality is uneven. Firms already pay for study requests.",
+    "agent_plan": [
+      "Records each firm's method, credentials, audit-defence terms and price ranges into comparable profiles.",
+      "Projects first-year reclassification ranges from property type, price and date placed in service.",
+      "Sends one owner request to several firms and normalises the quotes."
+    ],
+    "human_part": "You still keep estimator assumptions current with tax law, sell listings to firms and cannot give tax advice.",
+    "content_angle": "Posts in investor forums on how a cost segregation study works and what it costs.",
+    "first_steps": [
+      "Build a basic estimator and test it with five investors.",
+      "List firms with their stated methods and credentials from their own sites.",
+      "Ask a CPA to review your estimator wording and assumptions."
+    ],
+    "price_hint": "Free estimator; firms $199/mo",
+    "watch_out": "Estimator assumptions must track current depreciation law, which changed in 2025, and modelled-study software could commoditise low-end studies.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "property",
+        "money"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "property"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-231",
+    "name": "Surplus Lines Broker Finder",
+    "one_liner": "An appetite search for wholesale and surplus lines brokers by class, state and limit, for retail insurance agents.",
+    "problem": "Retail agents with hard-to-place risks lose days emailing wholesalers who decline because the class is outside their appetite. Appetite lives in PDFs, emails and relationships, and it changes over time.",
+    "why_it_works": "Large wholesalers could build their own search but not a neutral cross-wholesaler one. WSIA exists to serve this channel and stamping offices publish large data sets. Wholesalers already pay to reach agents.",
+    "agent_plan": [
+      "Reads appetite guides and bulletins into a structured index of classes, states, limits and carriers.",
+      "Ranks wholesalers for an agent's risk description with the date appetite was last confirmed.",
+      "Tracks logged outcomes to learn which wholesalers actually write which risks."
+    ],
+    "human_part": "You still sell to wholesalers, which needs insurance knowledge, and they may be reluctant to share appetite with a neutral index.",
+    "content_angle": "LinkedIn posts for agents on finding markets for tough classes, with a worked example.",
+    "first_steps": [
+      "Index appetite guides from ten wholesalers for one risk class in a sheet.",
+      "Test with five retail agents on live risks and see if the matches save time.",
+      "Contact the wholesalers and offer free claimed profiles to keep appetite current."
+    ],
+    "price_hint": "Agents free then $49/mo; wholesalers $499/mo",
+    "watch_out": "Large wholesalers may not share appetite with a neutral index, and placement rules mean you route submissions only.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "money",
+        "work_careers"
+      ],
+      "channels": [
+        "outbound",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 65,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-232",
+    "name": "Commercial Public Adjuster Finder",
+    "one_liner": "A directory of licensed public adjusters for business property and business-interruption claims.",
+    "problem": "After a fire, flood or storm, business owners face the insurer's adjuster alone and most do not know public adjusters exist. Unlicensed solicitors flood affected areas.",
+    "why_it_works": "The NAPIA directory is filtered only by state licensing, so licence verification and outcome data add something. The value is verification and outcome data that AI assistants cannot supply. Adjusters already pay for claim leads.",
+    "agent_plan": [
+      "Verifies adjuster state licences and lists loss types, claim sizes and fee structures.",
+      "Summarises an uploaded policy declarations page and highlights coverages for the owner to discuss.",
+      "Matches each claim to two or three suitable adjusters."
+    ],
+    "human_part": "You still follow state solicitation rules, sell profiles to adjusters and check licences yourself.",
+    "content_angle": "Search guides and association posts on documenting business-interruption losses after a storm.",
+    "first_steps": [
+      "Verify licences for adjusters in one state and note which handle commercial claims.",
+      "Write a guide on what a public adjuster does for a business.",
+      "Ask two business associations to share the guide with members."
+    ],
+    "price_hint": "Free for businesses; adjusters $299/mo",
+    "watch_out": "Lead quality may suffer during catastrophe surges, and state rules restrict solicitation after disasters.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "legal_paperwork"
+      ],
+      "channels": [
+        "seo",
+        "community"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "sales_ops"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-233",
+    "name": "Remediation Contractor Finder",
+    "one_liner": "A directory of licensed environmental remediation contractors, with comparable bids, for owners and consultants.",
+    "problem": "Owners and developers who find contamination or asbestos need licensed contractors fast, and licences, training and insurance are scattered across agency sites.",
+    "why_it_works": "General directories lack licence verification and bid data. EPA estimates about 542,000 underground storage tanks and its Brownfields programme keeps funding cleanup. Reviews from overseeing consultants are a more expert signal than homeowner stars.",
+    "agent_plan": [
+      "Collects state licences, certifications and insurance limits into verified contractor profiles.",
+      "Normalises bid line items from different contractors so prices are comparable.",
+      "Tracks licence expiry and flags profiles that need rechecking."
+    ],
+    "human_part": "You still keep licence data current, build consultant relationships and do not certify compliance.",
+    "content_angle": "Posts for environmental consultants on comparing remediation bids, with an example scope.",
+    "first_steps": [
+      "List remediation contractors in one state with licences and work types.",
+      "Ask three environmental consultants how they choose contractors today.",
+      "Offer five contractors a free profile and a trial bid invite."
+    ],
+    "price_hint": "Free for owners; contractors $249/mo",
+    "watch_out": "License data upkeep is ongoing work, and you should confirm this stays separate from the consultant directory.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "property",
+        "local_services"
+      ],
+      "channels": [
+        "outbound",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "property",
+        "finance_legal"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-235",
+    "name": "Calibration Lab Matcher",
+    "one_liner": "A calibration lab directory that matches your instruments to accredited labs whose scope covers them, for quality managers.",
+    "problem": "Quality managers must use labs whose accreditation scope covers the exact parameter and range, or the calibration fails an audit. Scopes are long PDFs, so checking by hand takes hours per instrument type.",
+    "why_it_works": "Three accreditation bodies publish separate directories with PDF scopes, so lookup is fragmented. A maintained structured scope database is hard for a general AI assistant to replace. Labs already pay for featured profiles and RFQs.",
+    "agent_plan": [
+      "Reads accreditation scope documents into structured parameter, range and uncertainty rows.",
+      "Matches an uploaded instrument list to accredited labs that cover each item.",
+      "Alerts customers when a lab's accreditation lapses or scope changes."
+    ],
+    "human_part": "You still need metrology knowledge, sell to labs and keep dated provenance for scope data.",
+    "content_angle": "LinkedIn posts for quality managers on checking whether a lab's scope covers an instrument.",
+    "first_steps": [
+      "Parse scopes for one parameter type from one accreditation body and check accuracy by hand.",
+      "Test the match on five real instrument lists from quality managers.",
+      "Ask three labs to confirm their scope data and try an RFQ."
+    ],
+    "price_hint": "Customers $79/mo; labs $299/mo",
+    "watch_out": "Scope parsing accuracy is the make-or-break technical risk, and you must not claim to certify compliance.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "professional",
+      "interests": [
+        "work_careers",
+        "local_services"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "builder",
+      "budget": 2,
+      "hours": 3,
+      "goals": [
+        "sellable_asset",
+        "scale"
+      ],
+      "backgrounds": [
+        "tech",
+        "sales_ops"
+      ],
+      "agent_share": 75,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-238",
+    "name": "Crane Rental Finder",
+    "one_liner": "A crane rental directory and quote tool by crane type, tonnage and certified operators, for contractors.",
+    "problem": "Contractors and plant managers call several rental yards to check capacity, availability and operator certification, often on short notice. Pricing is rarely published and quotes are hard to compare.",
+    "why_it_works": "Competitors such as Maxim Crane Works and Crane Network exist, but quotes in a normalised format are not common. Crane companies already pay for requests. Certification matters on every job because of OSHA rules.",
+    "agent_plan": [
+      "Turns a lift request into a standard request for quote for several crane companies.",
+      "Normalises returned quotes into hourly rate, minimum hours, mobilisation and crew.",
+      "Keeps fleet, certification and insurance details current on profiles."
+    ],
+    "human_part": "You still sign up crane companies, and large firms may refuse to quote through a third party.",
+    "content_angle": "Search pages and posts for contractors on what drives crane rental cost and what to ask yard managers.",
+    "first_steps": [
+      "List crane companies in one region with fleet types and operator certifications.",
+      "Draft a lift-request form and test it with two contractors.",
+      "Ask five crane companies if they would take quote requests through you."
+    ],
+    "price_hint": "Free for requesters; yards $299/mo",
+    "watch_out": "Large crane firms may refuse to quote through a third party, and you do not do lift planning.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "local_services"
+      ],
+      "channels": [
+        "seo",
+        "outbound"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "sellable_asset",
+        "side_income"
+      ],
+      "backgrounds": [
+        "sales_ops",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  },
+  {
+    "id": "DIR-239",
+    "name": "Aviation Insurance Broker Compare",
+    "one_liner": "A directory matching aircraft owners to aviation insurance brokers by aircraft type, pilot hours and underwriter access.",
+    "problem": "Aircraft owners face a small hard market where premiums depend on pilot time and training, and low-time pilots are often declined. Few brokers explain which underwriters they access.",
+    "why_it_works": "A niche data set no AI assistant has, built from anonymous premium submissions. AOPA and NBAA serve owners for whom insurance is a recurring pain point. Brokers already pay for visibility with pilots.",
+    "agent_plan": [
+      "Records each broker's underwriter access and aircraft specialties into searchable profiles.",
+      "Matches owners to brokers from aircraft make, model and pilot hours.",
+      "Builds premium benchmarks from anonymous submissions."
+    ],
+    "human_part": "You still sign up brokers, handle flat-fee advertising rules and need aviation credibility.",
+    "content_angle": "Posts in pilot communities on how training affects premiums, such as a thread on insuring a low-time pilot.",
+    "first_steps": [
+      "Interview five aircraft owners about how they found their broker and what they paid.",
+      "List brokers with specialties and underwriter access from their own sites.",
+      "Collect anonymous premium data from a small pilot community."
+    ],
+    "price_hint": "Free for owners; brokers $249/mo",
+    "watch_out": "With few brokers, subscription revenue is capped, so the benchmark report may need to carry the business.",
+    "tags": {
+      "markets": [
+        "US"
+      ],
+      "portable": true,
+      "customer": "small_business",
+      "interests": [
+        "money",
+        "mobility"
+      ],
+      "channels": [
+        "community",
+        "seo"
+      ],
+      "tech": "some",
+      "budget": 1,
+      "hours": 2,
+      "goals": [
+        "side_income",
+        "sellable_asset"
+      ],
+      "backgrounds": [
+        "finance_legal",
+        "any"
+      ],
+      "agent_share": 70,
+      "speed": "months",
+      "local_presence": false,
+      "thai_language": "no"
+    }
+  }
+]

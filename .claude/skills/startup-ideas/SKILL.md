@@ -1,6 +1,6 @@
 ---
 name: startup-ideas
-description: Find and validate startup opportunities that can be ~80-90% run by AI agents, for Thailand/Bangkok (Thai locals and expats) and US/UK markets. Mines real complaints (HN, Pantip, ASEAN NOW, Reddit, reviews), counts sufferers, attaches money signals (CPC, paid incumbents), applies a code-enforced kill gate, ranks by an evidence ladder (no averaged scores), runs a blind expert-panel review, and builds deposit-based reality tests plus an ops ledger. Use when the user asks for startup ideas, opportunity scanning, "what should I build", idea validation, or the weekly opportunity review. Modes are scan, review, test <id>, ledger, and status.
+description: Find, validate and match startup ideas that AI agents can mostly run (about 80-90%). Works for any founder and market; ships with a researched library for Thailand, the US and the UK. Use when someone asks for startup ideas, "what should I build", an idea quiz or interview, opportunity scanning, idea validation, or a weekly opportunity review. Modes are quiz (10 multiple-choice questions, then matched ideas from the library, no research cost), library (rebuild the public idea library and site data), scan (mine real complaints for new opportunities), review, test <id>, ledger and status.
 ---
 
 # Startup Ideas: opportunity scanner (ideation system v3)
@@ -18,6 +18,25 @@ Before acting, read `references/rubrics.md` for the ladder, gate and agent-ops r
 ## Modes
 
 The user may give a mode: `/startup-ideas scan`, `review`, `test <card_id>`, `ledger <card_id>`, or `status`. With no mode, run `status` and recommend the next step.
+
+### `quiz`: interview a person and match them to researched ideas (no research cost)
+
+Use this for anyone who wants ideas for themselves. It is the same quiz the website runs (`web/`).
+1. Read `web/lib/quiz.json`. Ask its questions **one at a time** as multiple choice (use AskUserQuestion when available), and say which question they are on ("Question 3 of 10").
+2. Run `node web/lib/match.js '<answers as JSON>'`. Answers use the option ids, and `interests` is an array of up to 3.
+3. Present the **top 2** ideas in full: the problem, why it works, what agents do, what stays with the person, how to find customers with content, the first three steps, pricing, the "watch out" note and the sources. Include the "why this fits you" lines.
+4. Offer the next 20 as a short list (name and one line each), and expand any they ask about.
+
+Never invent an idea in this mode. If the match came back thin (`relax` above 0), say so and offer a `scan` for their niche.
+
+### `library`: rebuild the idea library the quiz and site use
+
+- `python3 .claude/skills/startup-ideas/scripts/library.py select` picks candidates from the v2 CSVs into `data/library/in/`.
+- Launch one enrichment agent per chunk (spec: `references/library-spec.md`). Each writes `data/library/enriched/enriched_NN.json` and runs `library.py check` on it.
+- Review what the agents flag, record anything held back in `data/library/curation.json` with a reason, then run `library.py build`. It writes `web/data/ideas.json`.
+- Run `cd web && npm test`. It checks 3,000 random quiz runs still return 2 + 20 ideas within each person's limits.
+
+To add a market or topic, add ideas through `scan`, then rerun this mode. The site logs a `coverage_gap` line whenever a visitor's answers needed a wider search; those are the niches to scan next.
 
 ### `scan`: the full automated pass (stages 0–5)
 

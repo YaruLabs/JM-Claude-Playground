@@ -1,0 +1,12 @@
+{
+  "name": "yaru-idea-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Quiz that matches people to researched, agent-runnable startup ideas",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node test/match.test.js",
+    "check:circle": "node scripts/check-circle.js"
+  }
+}
